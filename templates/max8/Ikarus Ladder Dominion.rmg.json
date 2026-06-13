@@ -1,0 +1,2739 @@
+{
+  "name": "Ikarus Ladder Dominion",
+  "gameMode": "Classic",
+  "description": "templates_description_ikarus",
+  "displayWinCondition": "win_condition_5",
+  "sizeX": 240,
+  "sizeZ": 240,
+  "gameRules": {
+    "heroCountMin": 5,
+    "heroCountMax": 10,
+    "heroCountIncrement": 1,
+    "heroHireBan": false,
+    "encounterHoles": false,
+    "winConditions": {
+      "classic": true,
+      "desertion": true,
+      "desertionDay": 3,
+      "desertionValue": 3000,
+      "heroLighting": true,
+      "heroLightingDay": 1,
+      "lostStartHero": false,
+      "lostStartCity": false,
+      "lostStartCityDay": 3,
+      "cityHold": true,
+      "cityHoldDays": 6
+    }
+  },
+  "valueOverrides": [
+    {
+      "sid": "boreal_call",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "jousting_range",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "petrified_memorial",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "point_of_balance",
+      "variant": -1,
+      "guardValue": 7500
+    },
+    {
+      "sid": "the_gorge",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "unforgotten_grave",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "ritual_pyre",
+      "variant": -1,
+      "guardValue": 6000
+    }
+  ],
+  "variants": [
+    {
+      "orientation": {
+        "mode": "MinimalBoundingSquare",
+        "zeroAngleZone": "Spawn-A"
+      },
+      "border": {
+        "cornerRadius": 0.0,
+        "obstaclesWidth": 3,
+        "obstaclesNoise": [
+          {
+            "amp": 1,
+            "freq": 12
+          }
+        ],
+        "waterWidth": 0,
+        "waterNoise": [
+          {
+            "amp": 1,
+            "freq": 12
+          }
+        ],
+        "waterType": "water grass"
+      },
+      "zones": [
+        {
+          "name": "Spawn-A",
+          "size": 1.25,
+          "layout": "zone_layout_spawns",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardReactionDistribution": [
+            3,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "mainObjects": [
+            {
+              "type": "Spawn",
+              "spawn": "Player1",
+              "placement": "Uniform"
+            }
+          ],
+          "zoneBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "crossroadsPosition": 0,
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-A-Buffer-P1-E1"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_start_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_start_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_start_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_spawn"
+          ],
+          "contentCountLimits": [
+            "content_limits_spawn"
+          ],
+          "guardedContentValue": 150000,
+          "guardedContentValuePerArea": 11250,
+          "unguardedContentValue": 15000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 15000,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Buffer-P1-E1",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-A-Buffer-P1-E1"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-P1-E1-Spawn-C"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_8"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Spawn-C",
+          "size": 1.25,
+          "layout": "zone_layout_spawns",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardReactionDistribution": [
+            3,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "mainObjects": [
+            {
+              "type": "Spawn",
+              "spawn": "Player3",
+              "placement": "Uniform"
+            }
+          ],
+          "zoneBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "crossroadsPosition": 0,
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-P1-E1-Spawn-C"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-C-Buffer-E1-E2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-1-Spawn-C"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_start_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_start_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_start_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_spawn"
+          ],
+          "contentCountLimits": [
+            "content_limits_spawn"
+          ],
+          "guardedContentValue": 150000,
+          "guardedContentValuePerArea": 11250,
+          "unguardedContentValue": 15000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 15000,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Buffer-E1-E2",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-C-Buffer-E1-E2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E1-E2-Spawn-D"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_1"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Spawn-D",
+          "size": 1.25,
+          "layout": "zone_layout_spawns",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardReactionDistribution": [
+            3,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "mainObjects": [
+            {
+              "type": "Spawn",
+              "spawn": "Player4",
+              "placement": "Uniform"
+            }
+          ],
+          "zoneBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "crossroadsPosition": 0,
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E1-E2-Spawn-D"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-D-Buffer-E2-E3"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-2-Spawn-D"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_start_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_start_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_start_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_spawn"
+          ],
+          "contentCountLimits": [
+            "content_limits_spawn"
+          ],
+          "guardedContentValue": 150000,
+          "guardedContentValuePerArea": 11250,
+          "unguardedContentValue": 15000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 15000,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Buffer-E2-E3",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-D-Buffer-E2-E3"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E2-E3-Spawn-E"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_2"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Spawn-E",
+          "size": 1.25,
+          "layout": "zone_layout_spawns",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardReactionDistribution": [
+            3,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "mainObjects": [
+            {
+              "type": "Spawn",
+              "spawn": "Player5",
+              "placement": "Uniform"
+            }
+          ],
+          "zoneBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "crossroadsPosition": 0,
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E2-E3-Spawn-E"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-E-Buffer-E3-H"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-3-Spawn-E"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_start_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_start_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_start_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_spawn"
+          ],
+          "contentCountLimits": [
+            "content_limits_spawn"
+          ],
+          "guardedContentValue": 150000,
+          "guardedContentValuePerArea": 11250,
+          "unguardedContentValue": 15000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 15000,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Buffer-E3-H",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-E-Buffer-E3-H"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E3-H-Center"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_3"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Center",
+          "size": 1.5,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.6,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [
+            {
+              "type": "City",
+              "guardChance": 1.0,
+              "guardValue": 20000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
+              "placement": "Center",
+              "holdCityWinCon": true
+            }
+          ],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Sand"
+            ]
+          },
+          "contentBiome": {
+            "type": "FromList",
+            "args": [
+              "Grass",
+              "Lava",
+              "Snow",
+              "Dirt",
+              "Deathland"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "FromList",
+            "args": [
+              "Grass",
+              "Lava",
+              "Snow",
+              "Dirt",
+              "Deathland"
+            ]
+          },
+          "crossroadsPosition": 0,
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E3-H-Center"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Center-Buffer-H-E4"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_supertreasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_supertreasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_zero"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_center"
+          ],
+          "contentCountLimits": [
+            "content_limits_center"
+          ],
+          "guardedContentValue": 3000000,
+          "guardedContentValuePerArea": 22500,
+          "unguardedContentValue": 0,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Buffer-H-E4",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Center-Buffer-H-E4"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-H-E4-Spawn-F"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_7"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Spawn-F",
+          "size": 1.25,
+          "layout": "zone_layout_spawns",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardReactionDistribution": [
+            3,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "mainObjects": [
+            {
+              "type": "Spawn",
+              "spawn": "Player6",
+              "placement": "Uniform"
+            }
+          ],
+          "zoneBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "crossroadsPosition": 0,
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-H-E4-Spawn-F"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-F-Buffer-E4-E5"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-1-Spawn-F"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_start_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_start_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_start_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_spawn"
+          ],
+          "contentCountLimits": [
+            "content_limits_spawn"
+          ],
+          "guardedContentValue": 150000,
+          "guardedContentValuePerArea": 11250,
+          "unguardedContentValue": 15000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 15000,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Buffer-E4-E5",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-F-Buffer-E4-E5"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E4-E5-Spawn-G"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_4"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Spawn-G",
+          "size": 1.25,
+          "layout": "zone_layout_spawns",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardReactionDistribution": [
+            3,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "mainObjects": [
+            {
+              "type": "Spawn",
+              "spawn": "Player7",
+              "placement": "Uniform"
+            }
+          ],
+          "zoneBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "crossroadsPosition": 0,
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E4-E5-Spawn-G"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-G-Buffer-E5-E6"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-2-Spawn-G"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_start_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_start_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_start_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_spawn"
+          ],
+          "contentCountLimits": [
+            "content_limits_spawn"
+          ],
+          "guardedContentValue": 150000,
+          "guardedContentValuePerArea": 11250,
+          "unguardedContentValue": 15000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 15000,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Buffer-E5-E6",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-G-Buffer-E5-E6"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E5-E6-Spawn-H"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_5"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Spawn-H",
+          "size": 1.25,
+          "layout": "zone_layout_spawns",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardReactionDistribution": [
+            3,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "mainObjects": [
+            {
+              "type": "Spawn",
+              "spawn": "Player8",
+              "placement": "Uniform"
+            }
+          ],
+          "zoneBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "crossroadsPosition": 0,
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E5-E6-Spawn-H"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-H-Buffer-E6-P2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-3-Spawn-H"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_start_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_start_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_start_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_spawn"
+          ],
+          "contentCountLimits": [
+            "content_limits_spawn"
+          ],
+          "guardedContentValue": 150000,
+          "guardedContentValuePerArea": 11250,
+          "unguardedContentValue": 15000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 15000,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Buffer-E6-P2",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Spawn-H-Buffer-E6-P2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E6-P2-Spawn-B"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_6"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Spawn-B",
+          "size": 1.25,
+          "layout": "zone_layout_spawns",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardReactionDistribution": [
+            3,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "mainObjects": [
+            {
+              "type": "Spawn",
+              "spawn": "Player2",
+              "placement": "Uniform"
+            }
+          ],
+          "zoneBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "crossroadsPosition": 0,
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spine-Buffer-E6-P2-Spawn-B"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_start_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_start_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_start_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_spawn"
+          ],
+          "contentCountLimits": [
+            "content_limits_spawn"
+          ],
+          "guardedContentValue": 150000,
+          "guardedContentValuePerArea": 11250,
+          "unguardedContentValue": 15000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 15000,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Cross-Buffer-1",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-1-Spawn-C"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-1-Spawn-F"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_1"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Cross-Buffer-2",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-2-Spawn-D"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-2-Spawn-G"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_2"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        },
+        {
+          "name": "Cross-Buffer-3",
+          "size": 0.7,
+          "layout": "zone_layout_center",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardMultiplier": 1.4,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "diplomacyModifier": -0.5,
+          "mainObjects": [],
+          "zoneBiome": {
+            "type": "FromList",
+            "args": [
+              "Autumn"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchZone",
+            "args": [
+              "Spawn-A"
+            ]
+          },
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-3-Spawn-E"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Cross-Buffer-3-Spawn-H"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_ikarus_guarded_treasure_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_ikarus_unguarded_treasure_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_treasure_zone_poor"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_treasure_3"
+          ],
+          "contentCountLimits": [
+            "content_limits_treasure"
+          ],
+          "guardedContentValue": 1184516,
+          "guardedContentValuePerArea": 12383,
+          "unguardedContentValue": 24765,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 0,
+          "resourcesValuePerArea": 0
+        }
+      ],
+      "connections": [
+        {
+          "name": "Spine-Spawn-A-Buffer-P1-E1",
+          "from": "Spawn-A",
+          "to": "Buffer-P1-E1",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Buffer-P1-E1-Spawn-C",
+          "from": "Buffer-P1-E1",
+          "to": "Spawn-C",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Spawn-C-Buffer-E1-E2",
+          "from": "Spawn-C",
+          "to": "Buffer-E1-E2",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Buffer-E1-E2-Spawn-D",
+          "from": "Buffer-E1-E2",
+          "to": "Spawn-D",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Spawn-D-Buffer-E2-E3",
+          "from": "Spawn-D",
+          "to": "Buffer-E2-E3",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Buffer-E2-E3-Spawn-E",
+          "from": "Buffer-E2-E3",
+          "to": "Spawn-E",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Spawn-E-Buffer-E3-H",
+          "from": "Spawn-E",
+          "to": "Buffer-E3-H",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Buffer-E3-H-Center",
+          "from": "Buffer-E3-H",
+          "to": "Center",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 70000,
+          "guardWeeklyIncrement": 0.2,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Spine-Center-Buffer-H-E4",
+          "from": "Center",
+          "to": "Buffer-H-E4",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 70000,
+          "guardWeeklyIncrement": 0.2,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Spine-Buffer-H-E4-Spawn-F",
+          "from": "Buffer-H-E4",
+          "to": "Spawn-F",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Spawn-F-Buffer-E4-E5",
+          "from": "Spawn-F",
+          "to": "Buffer-E4-E5",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Buffer-E4-E5-Spawn-G",
+          "from": "Buffer-E4-E5",
+          "to": "Spawn-G",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Spawn-G-Buffer-E5-E6",
+          "from": "Spawn-G",
+          "to": "Buffer-E5-E6",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Buffer-E5-E6-Spawn-H",
+          "from": "Buffer-E5-E6",
+          "to": "Spawn-H",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Spawn-H-Buffer-E6-P2",
+          "from": "Spawn-H",
+          "to": "Buffer-E6-P2",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Spine-Buffer-E6-P2-Spawn-B",
+          "from": "Buffer-E6-P2",
+          "to": "Spawn-B",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Cross-Buffer-1-Spawn-C",
+          "from": "Spawn-C",
+          "to": "Cross-Buffer-1",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 12000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Cross-Buffer-1-Spawn-F",
+          "from": "Cross-Buffer-1",
+          "to": "Spawn-F",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 12000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Cross-Buffer-2-Spawn-D",
+          "from": "Spawn-D",
+          "to": "Cross-Buffer-2",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 12000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Cross-Buffer-2-Spawn-G",
+          "from": "Cross-Buffer-2",
+          "to": "Spawn-G",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 12000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Cross-Buffer-3-Spawn-E",
+          "from": "Spawn-E",
+          "to": "Cross-Buffer-3",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 12000,
+          "guardWeeklyIncrement": 0.2
+        },
+        {
+          "name": "Cross-Buffer-3-Spawn-H",
+          "from": "Cross-Buffer-3",
+          "to": "Spawn-H",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 12000,
+          "guardWeeklyIncrement": 0.2
+        }
+      ]
+    }
+  ],
+  "zoneLayouts": [
+    {
+      "name": "zone_layout_center",
+      "obstaclesFill": 0.5,
+      "obstaclesFillVoid": 0.5,
+      "lakesFill": 0.2,
+      "elevationClusterScale": 0.16,
+      "elevationModes": [
+        {
+          "weight": 2,
+          "minElevatedFraction": 0.2,
+          "maxElevatedFraction": 0.4
+        },
+        {
+          "weight": 1,
+          "minElevatedFraction": 0.6,
+          "maxElevatedFraction": 0.8
+        }
+      ],
+      "roadClusterArea": 160,
+      "guardedEncounterResourceFractions": {
+        "countBounds": [],
+        "fractions": [
+          0.5
+        ]
+      },
+      "ambientPickupDistribution": {
+        "repulsion": 1.0,
+        "noise": 0.3,
+        "roadAttraction": 0.5,
+        "obstacleAttraction": 0.0,
+        "groupSizeWeights": [
+          4,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "zone_layout_spawns",
+      "obstaclesFill": 0.48,
+      "obstaclesFillVoid": 0.6,
+      "lakesFill": 0.2,
+      "elevationClusterScale": 0.16,
+      "elevationModes": [
+        {
+          "weight": 2,
+          "minElevatedFraction": 0.2,
+          "maxElevatedFraction": 0.4
+        },
+        {
+          "weight": 1,
+          "minElevatedFraction": 0.6,
+          "maxElevatedFraction": 0.8
+        }
+      ],
+      "roadClusterArea": 160,
+      "guardedEncounterResourceFractions": {
+        "countBounds": [],
+        "fractions": [
+          0.66
+        ]
+      },
+      "ambientPickupDistribution": {
+        "repulsion": 1.0,
+        "noise": 0.3,
+        "roadAttraction": 0.5,
+        "obstacleAttraction": 0.0,
+        "groupSizeWeights": [
+          4,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  "mandatoryContent": [
+    {
+      "name": "mandatory_content_spawn",
+      "content": [
+        {
+          "sid": "watchtower",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "0"
+              ],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_wood",
+          "isMine": true,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_ore",
+          "isMine": true,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_high_tier"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_center",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": 0
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": 1
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": 2
+        },
+        {
+          "sid": "watchtower",
+          "isMine": false,
+          "isGuarded": false,
+          "road": false
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true
+        },
+        {
+          "sid": "alchemy_lab",
+          "isMine": true
+        },
+        {
+          "sid": "mine_crystals",
+          "isMine": true
+        },
+        {
+          "sid": "wind_rose"
+        },
+        {
+          "sid": "stables",
+          "isGuarded": false
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_1",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary",
+          "designatedEncounter": false
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        },
+        {
+          "sid": "alchemy_lab",
+          "isMine": true
+        },
+        {
+          "sid": "mine_gemstones",
+          "isMine": true
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_2",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary",
+          "designatedEncounter": false
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        },
+        {
+          "sid": "mine_mercury",
+          "isMine": true
+        },
+        {
+          "sid": "mine_gemstones",
+          "isMine": true
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_3",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary",
+          "designatedEncounter": false
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        },
+        {
+          "sid": "mine_mercury",
+          "isMine": true
+        },
+        {
+          "sid": "mine_crystals",
+          "isMine": true
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_4",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary",
+          "designatedEncounter": false
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        },
+        {
+          "sid": "alchemy_lab",
+          "isMine": true
+        },
+        {
+          "sid": "mine_crystals",
+          "isMine": true
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_5",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary",
+          "designatedEncounter": false
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        },
+        {
+          "sid": "alchemy_lab",
+          "isMine": true
+        },
+        {
+          "sid": "mine_mercury",
+          "isMine": true
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_6",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary",
+          "designatedEncounter": false
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        },
+        {
+          "sid": "mine_crystals",
+          "isMine": true
+        },
+        {
+          "sid": "mine_gemstones",
+          "isMine": true
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_7",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary",
+          "designatedEncounter": false
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 11,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        },
+        {
+          "sid": "alchemy_lab",
+          "isMine": true
+        },
+        {
+          "sid": "mine_gemstones",
+          "isMine": true
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_8",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary",
+          "designatedEncounter": false
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 13,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        },
+        {
+          "sid": "mine_mercury",
+          "isMine": true
+        },
+        {
+          "sid": "mine_crystals",
+          "isMine": true
+        }
+      ]
+    }
+  ],
+  "contentCountLimits": [
+    {
+      "name": "content_limits_spawn",
+      "limits": [
+        {
+          "sid": "stables",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "watchtower",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "crystal_trail",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "tear_of_truth",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "celestial_sphere",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "pile_of_books",
+          "variant": -1,
+          "maxCount": 4
+        }
+      ]
+    },
+    {
+      "name": "content_limits_treasure",
+      "limits": [
+        {
+          "sid": "stables",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "watchtower",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "crystal_trail",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "tear_of_truth",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "celestial_sphere",
+          "variant": -1,
+          "maxCount": 2
+        }
+      ]
+    },
+    {
+      "name": "content_limits_center",
+      "limits": [
+        {
+          "sid": "watchtower",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "crystal_trail",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "tear_of_truth",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "celestial_sphere",
+          "variant": -1,
+          "maxCount": 2
+        }
+      ]
+    }
+  ],
+  "contentPools": [],
+  "contentLists": []
+}
