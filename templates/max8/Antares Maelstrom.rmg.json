@@ -1493,7 +1493,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 996937,
+          "guardedContentValue": 996527,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1606,7 +1606,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 996937,
+          "guardedContentValue": 993903,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1719,7 +1719,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 996500,
+          "guardedContentValue": 993781,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1832,7 +1832,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 997375,
+          "guardedContentValue": 997023,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1890,7 +1890,7 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 2005625,
+          "guardedContentValue": 2022571,
           "guardedContentValuePerArea": 69444,
           "unguardedContentValue": 0,
           "unguardedContentValuePerArea": 0,
@@ -1948,7 +1948,7 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 2005625,
+          "guardedContentValue": 2022571,
           "guardedContentValuePerArea": 69444,
           "unguardedContentValue": 0,
           "unguardedContentValuePerArea": 0,
@@ -2006,7 +2006,7 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 2005625,
+          "guardedContentValue": 2022571,
           "guardedContentValuePerArea": 69444,
           "unguardedContentValue": 0,
           "unguardedContentValuePerArea": 0,
@@ -2064,7 +2064,7 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 2005625,
+          "guardedContentValue": 2015821,
           "guardedContentValuePerArea": 69444,
           "unguardedContentValue": 0,
           "unguardedContentValuePerArea": 0,
@@ -2122,7 +2122,7 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 1997750,
+          "guardedContentValue": 2013641,
           "guardedContentValuePerArea": 69444,
           "unguardedContentValue": 0,
           "unguardedContentValuePerArea": 0,
@@ -2180,7 +2180,7 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 2013500,
+          "guardedContentValue": 2031500,
           "guardedContentValuePerArea": 69444,
           "unguardedContentValue": 0,
           "unguardedContentValuePerArea": 0,
@@ -2238,7 +2238,7 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 2013500,
+          "guardedContentValue": 2031500,
           "guardedContentValuePerArea": 69444,
           "unguardedContentValue": 0,
           "unguardedContentValuePerArea": 0,
@@ -2296,7 +2296,7 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 2005625,
+          "guardedContentValue": 2022571,
           "guardedContentValuePerArea": 69444,
           "unguardedContentValue": 0,
           "unguardedContentValuePerArea": 0,
@@ -2918,6 +2918,10 @@
       "name": "mandatory_content_treasure_1",
       "content": [
         {
+          "sid": "dragon_utopia",
+          "variant": 0
+        },
+        {
           "sid": "mine_crystals",
           "isMine": true
         }
@@ -2927,6 +2931,10 @@
       "name": "mandatory_content_treasure_2",
       "content": [
         {
+          "sid": "dragon_utopia",
+          "variant": 1
+        },
+        {
           "sid": "mine_gemstones",
           "isMine": true
         }
@@ -2935,6 +2943,10 @@
     {
       "name": "mandatory_content_treasure_3",
       "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": 2
+        },
         {
           "sid": "mine_mercury",
           "isMine": true
@@ -2953,6 +2965,10 @@
     {
       "name": "mandatory_content_treasure_5",
       "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": 3
+        },
         {
           "sid": "mine_crystals",
           "isMine": true
@@ -2976,11 +2992,15 @@
       "name": "mandatory_content_treasure_6",
       "content": [
         {
+          "sid": "dragon_utopia",
+          "variant": 0
+        },
+        {
           "sid": "mine_gemstones",
           "isMine": true
         },
         {
-          "sid": "mana_well",
+          "sid": "twilight_bloom",
           "isGuarded": false,
           "rules": [
             {
@@ -2998,11 +3018,15 @@
       "name": "mandatory_content_treasure_7",
       "content": [
         {
+          "sid": "dragon_utopia",
+          "variant": 1
+        },
+        {
           "sid": "mine_mercury",
           "isMine": true
         },
         {
-          "sid": "market",
+          "sid": "troglodyte_throne",
           "isGuarded": false,
           "rules": [
             {
@@ -3081,8 +3105,8 @@
           "sid": "random_item_legendary"
         },
         {
-          "sid": "mine_mercury",
-          "isMine": true
+          "sid": "mythic_scroll_box",
+          "variant": -1
         }
       ]
     },

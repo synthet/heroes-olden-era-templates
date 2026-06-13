@@ -1238,7 +1238,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1670042,
+          "guardedContentValue": 1674542,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1395,7 +1395,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1670042,
+          "guardedContentValue": 1674542,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1552,7 +1552,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1670042,
+          "guardedContentValue": 1674542,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1709,7 +1709,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1670042,
+          "guardedContentValue": 1674542,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1866,7 +1866,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1669981,
+          "guardedContentValue": 1674542,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -2023,7 +2023,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1670042,
+          "guardedContentValue": 1674542,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -2180,7 +2180,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1670042,
+          "guardedContentValue": 1674542,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -2337,7 +2337,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1670042,
+          "guardedContentValue": 1674542,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -3062,6 +3062,16 @@
           "sid": "celestial_sphere",
           "variant": -1,
           "maxCount": 3
+        },
+        {
+          "sid": "troglodyte_throne",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "twilight_bloom",
+          "variant": -1,
+          "maxCount": 2
         }
       ]
     },

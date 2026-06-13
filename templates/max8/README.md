@@ -37,10 +37,12 @@ corridor (linear + direct cross), co-op ladder (linear + buffered cross).
 
 **Neutral content:** each mid-map neutral zone (Treasure, Buffer, Connector, SuperTreasure leg) gets a
 unique mandatory-content pack from [`../../lib/max8_neutral_packs.json`](../../lib/max8_neutral_packs.json),
-with peer zones value-balanced via `tools/diversify_max8_neutrals.py`. Center/hub zones get a light
-themed refresh (same total prize value). Co-op and flavor rebuilds embed this automatically
-(`build_coop_corridor.py`, `rework_max8_variants.py`); standalone refresh:
-`python tools/diversify_max8_neutrals.py`.
+with peer zones value-balanced via `tools/diversify_max8_neutrals.py`. Packs rotate premium objects
+(troglodyte throne, twilight bloom, unstable ruins, tree of abundance, sacrificial shrine, forge,
+mythic scroll, plus existing dragon utopia / wind rose / mirage / items). Center/hub zones get a themed
+refresh; **Octo Anarchy** uses the full official OctoJebus center grid via `centerOverrides`. Co-op and
+flavor rebuilds embed this automatically (`build_coop_corridor.py`, `rework_max8_variants.py`); standalone
+refresh: `python tools/diversify_max8_neutrals.py`.
 
 **Co-op fairness:** see [`../../docs/oe/coop-fairness-review.md`](../../docs/oe/coop-fairness-review.md).
 

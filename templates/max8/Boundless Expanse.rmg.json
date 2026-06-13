@@ -960,7 +960,7 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 168659,
+          "guardedContentValue": 168926,
           "guardedContentValuePerArea": 2792,
           "unguardedContentValue": 22344,
           "unguardedContentValuePerArea": 279,
@@ -1078,7 +1078,7 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 168659,
+          "guardedContentValue": 168926,
           "guardedContentValuePerArea": 2792,
           "unguardedContentValue": 22344,
           "unguardedContentValuePerArea": 279,
@@ -1196,7 +1196,7 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 168659,
+          "guardedContentValue": 170347,
           "guardedContentValuePerArea": 2792,
           "unguardedContentValue": 22344,
           "unguardedContentValuePerArea": 279,
@@ -1314,7 +1314,7 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 168659,
+          "guardedContentValue": 170347,
           "guardedContentValuePerArea": 2792,
           "unguardedContentValue": 22344,
           "unguardedContentValuePerArea": 279,
@@ -1383,7 +1383,7 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 224127,
+          "guardedContentValue": 225426,
           "guardedContentValuePerArea": 2780,
           "unguardedContentValue": 22249,
           "unguardedContentValuePerArea": 278,
@@ -2339,7 +2339,7 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 1250000,
+          "guardedContentValue": 1243250,
           "guardedContentValuePerArea": 31250,
           "unguardedContentValue": 0,
           "unguardedContentValuePerArea": 0,
@@ -3002,8 +3002,8 @@
       "name": "mandatory_content_treasure_4",
       "content": [
         {
-          "sid": "dragon_utopia",
-          "variant": -1
+          "sid": "unstable_ruins",
+          "variant": 0
         },
         {
           "sid": "alchemy_lab",
@@ -3106,8 +3106,8 @@
           "sid": "random_item_legendary"
         },
         {
-          "sid": "mine_mercury",
-          "isMine": true
+          "sid": "mythic_scroll_box",
+          "variant": -1
         }
       ]
     },
@@ -3132,7 +3132,7 @@
           "isMine": true
         },
         {
-          "sid": "mine_mercury",
+          "sid": "alchemy_lab",
           "isMine": true
         },
         {
@@ -3140,7 +3140,7 @@
           "isMine": true
         },
         {
-          "sid": "mana_well",
+          "sid": "troglodyte_throne",
           "isGuarded": false,
           "rules": [
             {
@@ -3171,7 +3171,7 @@
           ]
         },
         {
-          "sid": "mine_crystals",
+          "sid": "alchemy_lab",
           "isMine": true
         },
         {
@@ -3183,7 +3183,7 @@
           "isMine": true
         },
         {
-          "sid": "stables",
+          "sid": "twilight_bloom",
           "isGuarded": false,
           "rules": [
             {
@@ -3312,7 +3312,7 @@
           "isMine": true
         },
         {
-          "sid": "watchtower",
+          "sid": "forge",
           "isGuarded": false,
           "rules": [
             {
