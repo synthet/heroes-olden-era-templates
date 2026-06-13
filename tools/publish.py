@@ -85,24 +85,26 @@ def apply_manifest(worktree: Path, manifest: dict) -> None:
 
 
 def prune_unlisted_paths(worktree: Path, manifest: dict) -> None:
-    allowed = {Path("LICENSE"), Path("README.md"), Path("docs/install.md")}
-    for rel in manifest.get("include", []):
-        allowed.add(Path(rel))
-    for dst_rel in manifest.get("map", {}).values():
-        allowed.add(Path(dst_rel))
-
-    for path in sorted(worktree.rglob("*"), reverse=True):
-        if path == worktree:
+    keep_top = {"templates", "docs", "LICENSE", "README.md"}
+    for entry in worktree.iterdir():
+        if entry.name == ".git":
             continue
-        rel = path.relative_to(worktree)
-        if rel.parts[0] == ".git":
+        if entry.name in keep_top:
             continue
-        if any(rel == item or item in rel.parents for item in allowed):
-            continue
-        if path.is_dir():
-            path.rmdir()
+        if entry.is_dir():
+            shutil.rmtree(entry)
         else:
-            path.unlink()
+            entry.unlink()
+
+    docs_dir = worktree / "docs"
+    if docs_dir.is_dir():
+        for entry in docs_dir.iterdir():
+            if entry.name == "install.md":
+                continue
+            if entry.is_dir():
+                shutil.rmtree(entry)
+            else:
+                entry.unlink()
 
 
 def commit_if_dirty(worktree: Path, message: str) -> bool:
