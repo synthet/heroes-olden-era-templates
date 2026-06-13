@@ -188,7 +188,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6888005,
+          "guardedContentValue": 6937117,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -415,7 +415,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6887639,
+          "guardedContentValue": 6936262,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -642,7 +642,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6887639,
+          "guardedContentValue": 6936262,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -869,7 +869,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6887273,
+          "guardedContentValue": 6940778,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1121,7 +1121,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6889468,
+          "guardedContentValue": 6940194,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1348,7 +1348,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6888005,
+          "guardedContentValue": 6938098,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1575,7 +1575,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6889833,
+          "guardedContentValue": 6939477,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1802,7 +1802,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6889833,
+          "guardedContentValue": 6939111,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -2465,7 +2465,7 @@
           ]
         },
         {
-          "sid": "stables",
+          "sid": "wind_rose",
           "isGuarded": false,
           "rules": [
             {
@@ -2537,7 +2537,8 @@
           ]
         },
         {
-          "sid": "mana_well",
+          "sid": "mirage",
+          "soloEncounter": true,
           "isGuarded": false,
           "rules": [
             {
@@ -2609,8 +2610,8 @@
           ]
         },
         {
-          "sid": "market",
-          "isGuarded": false,
+          "sid": "dragon_utopia",
+          "variant": 2,
           "rules": [
             {
               "type": "Road",
@@ -2753,7 +2754,7 @@
           ]
         },
         {
-          "sid": "stables",
+          "sid": "sacrificial_shrine",
           "isGuarded": false,
           "rules": [
             {
@@ -2825,7 +2826,8 @@
           ]
         },
         {
-          "sid": "mana_well",
+          "sid": "mirage",
+          "soloEncounter": true,
           "isGuarded": false,
           "rules": [
             {
@@ -2897,7 +2899,7 @@
           ]
         },
         {
-          "sid": "market",
+          "sid": "twilight_bloom",
           "isGuarded": false,
           "rules": [
             {
@@ -2969,8 +2971,8 @@
           ]
         },
         {
-          "sid": "watchtower",
-          "isGuarded": true,
+          "sid": "tree_of_abundance",
+          "isGuarded": false,
           "rules": [
             {
               "type": "Road",

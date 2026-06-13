@@ -2254,22 +2254,392 @@
       "name": "mandatory_content_center",
       "content": [
         {
-          "sid": "dragon_utopia",
-          "variant": 0
+          "sid": "unstable_ruins",
+          "variant": 0,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "unstable_ruins"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": 1,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "unstable_ruins"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": 2,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "unstable_ruins"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": 3,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "unstable_ruins"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
         },
         {
           "sid": "dragon_utopia",
-          "variant": 1
+          "variant": 0,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "dragon_utopia"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
         },
         {
           "sid": "dragon_utopia",
-          "variant": 2
+          "variant": 1,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "dragon_utopia"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": 2,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "dragon_utopia"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": 3,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "dragon_utopia"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": 0,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "dragon_utopia"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": 1,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "dragon_utopia"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": 2,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "dragon_utopia"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": 3,
+          "rules": [
+            {
+              "type": "Sid",
+              "args": [
+                "dragon_utopia"
+              ],
+              "targetMin": 0.5,
+              "targetMax": 0.5,
+              "weight": 1
+            }
+          ]
         },
         {
           "sid": "watchtower",
           "isMine": false,
           "isGuarded": false,
-          "road": false
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "1"
+              ],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 3
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "watchtower",
+          "isMine": false,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "2"
+              ],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 3
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "watchtower",
+          "isMine": false,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "3"
+              ],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 3
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "watchtower",
+          "isMine": false,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "4"
+              ],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 3
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "watchtower",
+          "isMine": false,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "1"
+              ],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 3
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "watchtower",
+          "isMine": false,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "2"
+              ],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 3
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "watchtower",
+          "isMine": false,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "3"
+              ],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 3
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "watchtower",
+          "isMine": false,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "4"
+              ],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 3
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true
         },
         {
           "sid": "mine_gold",
@@ -2280,15 +2650,24 @@
           "isMine": true
         },
         {
-          "sid": "mine_crystals",
+          "sid": "alchemy_lab",
           "isMine": true
         },
         {
-          "sid": "wind_rose"
+          "sid": "alchemy_lab",
+          "isMine": true
         },
         {
-          "sid": "stables",
-          "isGuarded": false
+          "sid": "alchemy_lab",
+          "isMine": true
+        },
+        {
+          "sid": "alchemy_lab",
+          "isMine": true
+        },
+        {
+          "sid": "mirage",
+          "soloEncounter": true
         }
       ]
     },
