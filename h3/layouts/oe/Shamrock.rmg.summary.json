@@ -1,0 +1,190 @@
+{
+  "file": "Shamrock.rmg.json",
+  "name": "Shamrock",
+  "description_key": "templates_description_shamrock",
+  "size": "176x176",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 16,
+      "zones": [
+        "Center",
+        "Center-A",
+        "Center-B",
+        "Center-C",
+        "Spawn-A",
+        "Side-A",
+        "Side-A-Back-1",
+        "Side-A-Back-2",
+        "Spawn-B",
+        "Side-B",
+        "Side-B-Back-1",
+        "Side-B-Back-2",
+        "Spawn-C",
+        "Side-C",
+        "Side-C-Back-1",
+        "Side-C-Back-2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-C",
+          "player": "Player3"
+        }
+      ],
+      "city_zones": [
+        "Center",
+        "Center-A",
+        "Center-B",
+        "Center-C",
+        "Side-A",
+        "Side-A-Back-1",
+        "Side-A-Back-2",
+        "Side-B",
+        "Side-B-Back-1",
+        "Side-B-Back-2",
+        "Side-C",
+        "Side-C-Back-1",
+        "Side-C-Back-2"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-A",
+          "type": "Direct",
+          "guard": 8000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 8000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B",
+          "type": "Direct",
+          "guard": 8000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 16000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Side-C",
+          "type": "Direct",
+          "guard": 16000,
+          "road": true
+        },
+        {
+          "from": "Side-C",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 16000,
+          "road": true
+        },
+        {
+          "from": "Center",
+          "to": "Center-A",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Center",
+          "to": "Center-B",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Center",
+          "to": "Center-C",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Side-A-Back-1",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Side-A-Back-1",
+          "to": "Side-A-Back-2",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Side-A-Back-2",
+          "to": "Side-B",
+          "type": "Direct",
+          "guard": 39500,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B-Back-1",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Side-B-Back-1",
+          "to": "Side-B-Back-2",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Side-B-Back-2",
+          "to": "Side-C",
+          "type": "Direct",
+          "guard": 39500,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Side-C-Back-1",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Side-C-Back-1",
+          "to": "Side-C-Back-2",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Side-C-Back-2",
+          "to": "Side-A",
+          "type": "Direct",
+          "guard": 39500,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

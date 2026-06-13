@@ -1,0 +1,482 @@
+[
+  {
+    "sid": "alchemy_lab",
+    "name": "Alchemy Lab"
+  },
+  {
+    "sid": "arena",
+    "name": "Arena"
+  },
+  {
+    "sid": "beer_fountain",
+    "name": "Beer Fountain"
+  },
+  {
+    "sid": "boreal_call",
+    "name": "Boreal Call"
+  },
+  {
+    "sid": "celestial_sphere",
+    "name": "Celestial Sphere"
+  },
+  {
+    "sid": "altar_of_magic_1",
+    "name": "Nightshade Shrine"
+  },
+  {
+    "sid": "altar_of_magic_2",
+    "name": "Daylight Shrine"
+  },
+  {
+    "sid": "altar_of_magic_3",
+    "name": "Arcane Shrine"
+  },
+  {
+    "sid": "altar_of_magic_4",
+    "name": "Primal Shrine"
+  },
+  {
+    "sid": "magic_amplifier_1",
+    "name": "Nightshade Amplifier"
+  },
+  {
+    "sid": "magic_amplifier_2",
+    "name": "Daylight Amplifier"
+  },
+  {
+    "sid": "magic_amplifier_3",
+    "name": "Arcane Amplifier"
+  },
+  {
+    "sid": "magic_amplifier_4",
+    "name": "Primal Amplifier"
+  },
+  {
+    "sid": "chimerologist",
+    "name": "Chimerologist"
+  },
+  {
+    "sid": "circus",
+    "name": "Circus"
+  },
+  {
+    "sid": "college_of_wonder",
+    "name": "College Of Wonder"
+  },
+  {
+    "sid": "crystal_trail",
+    "name": "Crystal Trail"
+  },
+  {
+    "sid": "dragon_utopia",
+    "name": "Dragon Utopia"
+  },
+  {
+    "sid": "eternal_dragon",
+    "name": "Eternal Dragon"
+  },
+  {
+    "sid": "fickle_shrine",
+    "name": "Fickle Shrine"
+  },
+  {
+    "sid": "flattering_mirror",
+    "name": "Flattering Mirror"
+  },
+  {
+    "sid": "forge",
+    "name": "Forge"
+  },
+  {
+    "sid": "fort",
+    "name": "Fort"
+  },
+  {
+    "sid": "fountain",
+    "name": "Fountain"
+  },
+  {
+    "sid": "fountain_2",
+    "name": "Fountain 2"
+  },
+  {
+    "sid": "huntsmans_camp",
+    "name": "Huntsman's Camp"
+  },
+  {
+    "sid": "infernal_cirque",
+    "name": "Infernal Cirque"
+  },
+  {
+    "sid": "insaras_eye",
+    "name": "Insara's Eye"
+  },
+  {
+    "sid": "jousting_range",
+    "name": "Jousting Range"
+  },
+  {
+    "sid": "mana_well",
+    "name": "Mana Well"
+  },
+  {
+    "sid": "market",
+    "name": "Market"
+  },
+  {
+    "sid": "mine_crystals",
+    "name": "Crystal Vein"
+  },
+  {
+    "sid": "mine_gemstones",
+    "name": "Gem Mound"
+  },
+  {
+    "sid": "mine_gold",
+    "name": "Gold Mine"
+  },
+  {
+    "sid": "mine_mercury",
+    "name": "Mercury Fissure"
+  },
+  {
+    "sid": "mine_ore",
+    "name": "Ore Mine"
+  },
+  {
+    "sid": "mine_wood",
+    "name": "Sawmill"
+  },
+  {
+    "sid": "mirage",
+    "name": "Mirage"
+  },
+  {
+    "sid": "mysterious_stone",
+    "name": "Mysterious Stone"
+  },
+  {
+    "sid": "mystical_tower",
+    "name": "Mystical Tower"
+  },
+  {
+    "sid": "scroll_box",
+    "name": "Magic Scroll"
+  },
+  {
+    "sid": "enchanted_scroll_box",
+    "name": "Enchanted Scroll"
+  },
+  {
+    "sid": "mythic_scroll_box",
+    "name": "Mythic Scroll"
+  },
+  {
+    "sid": "orb_observatory",
+    "name": "Orb Observatory"
+  },
+  {
+    "sid": "pandora_box",
+    "name": "Pandora Box"
+  },
+  {
+    "sid": "petrified_memorial",
+    "name": "Petrified Memorial"
+  },
+  {
+    "sid": "pile_of_books",
+    "name": "Pile Of Books"
+  },
+  {
+    "sid": "point_of_balance",
+    "name": "Point Of Balance"
+  },
+  {
+    "sid": "prison",
+    "name": "Prison"
+  },
+  {
+    "sid": "quixs_path",
+    "name": "Quix's Path"
+  },
+  {
+    "sid": "random_hire_1",
+    "name": "Random Hire Tier 1"
+  },
+  {
+    "sid": "random_hire_2",
+    "name": "Random Hire Tier 2"
+  },
+  {
+    "sid": "random_hire_3",
+    "name": "Random Hire Tier 3"
+  },
+  {
+    "sid": "random_hire_4",
+    "name": "Random Hire Tier 4"
+  },
+  {
+    "sid": "random_hire_5",
+    "name": "Random Hire Tier 5"
+  },
+  {
+    "sid": "random_hire_6",
+    "name": "Random Hire Tier 6"
+  },
+  {
+    "sid": "random_hire_7",
+    "name": "Random Hire Tier 7"
+  },
+  {
+    "sid": "random_item_common",
+    "name": "Random Item Common"
+  },
+  {
+    "sid": "random_item_epic",
+    "name": "Random Item Epic"
+  },
+  {
+    "sid": "random_item_legendary",
+    "name": "Random Item Legendary"
+  },
+  {
+    "sid": "random_item_rare",
+    "name": "Random Item Rare"
+  },
+  {
+    "sid": "remote_foothold",
+    "name": "Remote Foothold"
+  },
+  {
+    "sid": "research_laboratory",
+    "name": "Research Laboratory"
+  },
+  {
+    "sid": "ritual_pyre",
+    "name": "Ritual Pyre"
+  },
+  {
+    "sid": "sacrificial_shrine",
+    "name": "Sacrificial Shrine"
+  },
+  {
+    "sid": "shady_den",
+    "name": "Shady Den"
+  },
+  {
+    "sid": "stables",
+    "name": "Stables"
+  },
+  {
+    "sid": "tavern",
+    "name": "Tavern"
+  },
+  {
+    "sid": "tear_of_truth",
+    "name": "Tear Of Truth"
+  },
+  {
+    "sid": "the_gorge",
+    "name": "Carrion Pile"
+  },
+  {
+    "sid": "town_gate",
+    "name": "Town Gate"
+  },
+  {
+    "sid": "tree_of_abundance",
+    "name": "Tree Of Abundance"
+  },
+  {
+    "sid": "troglodyte_throne",
+    "name": "Troglodyte Throne"
+  },
+  {
+    "sid": "twilight_bloom",
+    "name": "Twilight Bloom"
+  },
+  {
+    "sid": "unforgotten_grave",
+    "name": "Unforgotten Grave"
+  },
+  {
+    "sid": "university",
+    "name": "University"
+  },
+  {
+    "sid": "unstable_ruins",
+    "name": "Unstable Ruins"
+  },
+  {
+    "sid": "watchtower",
+    "name": "Watchtower"
+  },
+  {
+    "sid": "wind_rose",
+    "name": "Wind Rose"
+  },
+  {
+    "sid": "wise_owl",
+    "name": "Wise Owl"
+  },
+  {
+    "sid": "storage_wood",
+    "name": "Wood Storage"
+  },
+  {
+    "sid": "storage_ore",
+    "name": "Ore Storage"
+  },
+  {
+    "sid": "storage_gold",
+    "name": "Gold Storage"
+  },
+  {
+    "sid": "storage_mercury",
+    "name": "Mercury Storage"
+  },
+  {
+    "sid": "storage_crystals",
+    "name": "Crystals Storage"
+  },
+  {
+    "sid": "storage_gemstones",
+    "name": "Gemstones Storage"
+  },
+  {
+    "sid": "storage_dust",
+    "name": "Dust Storage"
+  },
+  {
+    "sid": "gardener",
+    "name": "Gardener"
+  },
+  {
+    "sid": "windmill",
+    "name": "Windmill"
+  },
+  {
+    "sid": "village",
+    "name": "Village"
+  },
+  {
+    "sid": "gingerbread_house",
+    "name": "Gingerbread House"
+  },
+  {
+    "sid": "peasant_cart",
+    "name": "Peasant Cart"
+  },
+  {
+    "sid": "abandoned_corpse",
+    "name": "Abandoned Corpse"
+  },
+  {
+    "sid": "abandoned_mansion",
+    "name": "Abandoned Mansion"
+  },
+  {
+    "sid": "abnormal_structure",
+    "name": "Abnormal Structure"
+  },
+  {
+    "sid": "alvars_eye",
+    "name": "Alvar's Eye"
+  },
+  {
+    "sid": "black_tower",
+    "name": "Black Tower"
+  },
+  {
+    "sid": "circle_of_life",
+    "name": "Circle Of Life"
+  },
+  {
+    "sid": "cursed_old_house",
+    "name": "Cursed Old House"
+  },
+  {
+    "sid": "crow_nest",
+    "name": "Crow Nest"
+  },
+  {
+    "sid": "goblin_cache",
+    "name": "Goblin Cache"
+  },
+  {
+    "sid": "iridescent_abbey",
+    "name": "Iridescent Abbey"
+  },
+  {
+    "sid": "legions_memorial",
+    "name": "Legions Memorial"
+  },
+  {
+    "sid": "mereas_shrine",
+    "name": "Merea's Shrine"
+  },
+  {
+    "sid": "monty_hall",
+    "name": "Monty Hall"
+  },
+  {
+    "sid": "overgrown_grave",
+    "name": "Overgrown Grave"
+  },
+  {
+    "sid": "prismatic_lair",
+    "name": "Prismatic Lair"
+  },
+  {
+    "sid": "raiders_camp",
+    "name": "Raiders Camp"
+  },
+  {
+    "sid": "heros_crypt",
+    "name": "Hero's Crypt"
+  },
+  {
+    "sid": "uncanny_rite",
+    "name": "Uncanny Rite"
+  },
+  {
+    "sid": "learning_stone",
+    "name": "Learning Stone"
+  },
+  {
+    "sid": "lost_library",
+    "name": "Lost Library"
+  },
+  {
+    "sid": "tree_of_knowledge",
+    "name": "Tree Of Knowledge"
+  },
+  {
+    "sid": "stinging_sword",
+    "name": "Stinging Sword"
+  },
+  {
+    "sid": "armory_automaton",
+    "name": "Armory Automaton"
+  },
+  {
+    "sid": "magic_wheel",
+    "name": "Magic Wheel"
+  },
+  {
+    "sid": "knowledge_garden",
+    "name": "Knowledge Garden"
+  },
+  {
+    "sid": "maze",
+    "name": "Maze"
+  },
+  {
+    "sid": "trial_scales",
+    "name": "Trial Scales"
+  },
+  {
+    "sid": "mercenary_guild",
+    "name": "Mercenary Guild"
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "file": "Sprint.rmg.json",
+  "name": "Sprint",
+  "description_key": "templates_description_sprint",
+  "size": "112x112",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 14,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Red-A",
+        "Red-B",
+        "Orange-A",
+        "Orange-B",
+        "Yellow-A",
+        "Yellow-B",
+        "Green-A",
+        "Green-B",
+        "Blue-A",
+        "Blue-B",
+        "Violet-A",
+        "Violet-B"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Red-A",
+          "type": "Direct",
+          "guard": 4000,
+          "road": true
+        },
+        {
+          "from": "Red-A",
+          "to": "Orange-A",
+          "type": "Direct",
+          "guard": 10000,
+          "road": true
+        },
+        {
+          "from": "Orange-A",
+          "to": "Yellow-A",
+          "type": "Direct",
+          "guard": 18000,
+          "road": true
+        },
+        {
+          "from": "Yellow-A",
+          "to": "Green-A",
+          "type": "Direct",
+          "guard": 27000,
+          "road": true
+        },
+        {
+          "from": "Green-A",
+          "to": "Blue-A",
+          "type": "Direct",
+          "guard": 50000,
+          "road": true
+        },
+        {
+          "from": "Blue-A",
+          "to": "Violet-A",
+          "type": "Direct",
+          "guard": 72000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Red-B",
+          "type": "Direct",
+          "guard": 4000,
+          "road": true
+        },
+        {
+          "from": "Red-B",
+          "to": "Orange-B",
+          "type": "Direct",
+          "guard": 10000,
+          "road": true
+        },
+        {
+          "from": "Orange-B",
+          "to": "Yellow-B",
+          "type": "Direct",
+          "guard": 18000,
+          "road": true
+        },
+        {
+          "from": "Yellow-B",
+          "to": "Green-B",
+          "type": "Direct",
+          "guard": 27000,
+          "road": true
+        },
+        {
+          "from": "Green-B",
+          "to": "Blue-B",
+          "type": "Direct",
+          "guard": 50000,
+          "road": true
+        },
+        {
+          "from": "Blue-B",
+          "to": "Violet-B",
+          "type": "Direct",
+          "guard": 72000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

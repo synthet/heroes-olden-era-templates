@@ -1,0 +1,418 @@
+{
+  "file": "Flashback.rmg.json",
+  "name": "Flashback",
+  "description_key": "templates_description_memory_lane",
+  "size": "192x192",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 25,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-F",
+        "Spawn-G",
+        "Spawn-H",
+        "Connector-1",
+        "Connector-2",
+        "Connector-3",
+        "Connector-4",
+        "Treasure-1",
+        "Treasure-2",
+        "Treasure-3",
+        "Treasure-4",
+        "Treasure-5",
+        "Treasure-6",
+        "Treasure-7",
+        "Treasure-8",
+        "SuperTreasure-1",
+        "SuperTreasure-2",
+        "SuperTreasure-3",
+        "SuperTreasure-4",
+        "SuperTreasure-Center"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-F",
+        "Treasure-1",
+        "Treasure-2",
+        "Treasure-3",
+        "Treasure-4",
+        "Treasure-5",
+        "Treasure-6",
+        "Treasure-7",
+        "Treasure-8"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Connector-3",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Connector-3",
+          "type": "Default",
+          "guard": 3000,
+          "road": false
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-5",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Connector-2",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Connector-2",
+          "type": "Default",
+          "guard": 3000,
+          "road": false
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-4",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Connector-1",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Connector-3",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "SuperTreasure-Center",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Spawn-C",
+          "to": "SuperTreasure-Center",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Spawn-G",
+          "to": "Connector-1",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-G",
+          "to": "Connector-3",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Connector-2",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Connector-4",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "SuperTreasure-Center",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Spawn-D",
+          "to": "SuperTreasure-Center",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Spawn-H",
+          "to": "Connector-2",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-H",
+          "to": "Connector-4",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Connector-1",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Connector-4",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Treasure-3",
+          "type": "Default",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Treasure-6",
+          "type": "Default",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-1",
+          "to": "Connector-1",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Treasure-1",
+          "to": "Treasure-7",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Treasure-2",
+          "to": "Connector-2",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Treasure-2",
+          "to": "Treasure-8",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Treasure-7",
+          "to": "Connector-3",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Treasure-8",
+          "to": "Connector-4",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Treasure-3",
+          "to": "Treasure-4",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Treasure-4",
+          "to": "Connector-2",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Treasure-5",
+          "to": "Connector-3",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Treasure-5",
+          "to": "Treasure-6",
+          "type": "Default",
+          "guard": 6000,
+          "road": false
+        },
+        {
+          "from": "Treasure-3",
+          "to": "SuperTreasure-Center",
+          "type": "Default",
+          "guard": 6000,
+          "road": false
+        },
+        {
+          "from": "Treasure-3",
+          "to": "SuperTreasure-Center",
+          "type": "Default",
+          "guard": 6000,
+          "road": false
+        },
+        {
+          "from": "Treasure-6",
+          "to": "SuperTreasure-Center",
+          "type": "Default",
+          "guard": 6000,
+          "road": false
+        },
+        {
+          "from": "Treasure-6",
+          "to": "SuperTreasure-Center",
+          "type": "Default",
+          "guard": 6000,
+          "road": false
+        },
+        {
+          "from": "Connector-1",
+          "to": "SuperTreasure-1",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Connector-1",
+          "to": "SuperTreasure-1",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Connector-1",
+          "to": "SuperTreasure-1",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Connector-2",
+          "to": "SuperTreasure-2",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Connector-2",
+          "to": "SuperTreasure-2",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Connector-2",
+          "to": "SuperTreasure-2",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Connector-3",
+          "to": "SuperTreasure-3",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Connector-3",
+          "to": "SuperTreasure-3",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Connector-3",
+          "to": "SuperTreasure-3",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Connector-4",
+          "to": "SuperTreasure-4",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Connector-4",
+          "to": "SuperTreasure-4",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "Connector-4",
+          "to": "SuperTreasure-4",
+          "type": "Direct",
+          "guard": 24000,
+          "road": false
+        },
+        {
+          "from": "SuperTreasure-1",
+          "to": "SuperTreasure-3",
+          "type": "Portal",
+          "guard": 45000,
+          "road": false
+        },
+        {
+          "from": "SuperTreasure-2",
+          "to": "SuperTreasure-4",
+          "type": "Portal",
+          "guard": 45000,
+          "road": false
+        }
+      ]
+    }
+  ]
+}

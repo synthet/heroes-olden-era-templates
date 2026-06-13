@@ -1,30 +1,32 @@
 # Heroes Olden Era Map Templates
 
-Random Map Generator (RMG) template files for **Heroes of Might and Magic: Olden Era**.
+Random Map Generator (RMG) template files for **Heroes of Might and Magic Olden Era**, plus research and ports for [HotA tournament templates](https://h3hota.com/en/rules#template-rules).
 
-## Install
+**Start here:** [`docs/README.md`](docs/README.md)
 
-Copy template files into the game's `StreamingAssets\map_templates` folder. Full paths and copy tips: [`docs/install.md`](docs/install.md).
+## Quick links
+
+| Task | Doc |
+|------|-----|
+| Author a new OE template | [`docs/oe/cookbook.md`](docs/oe/cookbook.md) |
+| Field reference | [`docs/oe/rmg-format.md`](docs/oe/rmg-format.md) |
+| Install / deploy | [`docs/install.md`](docs/install.md) |
+| Publish to GitHub | [`docs/publish.md`](docs/publish.md) |
+| H3 ↔ OE matrix | [`docs/h3/matrix.md`](docs/h3/matrix.md) |
+| H3 gap analysis | [`docs/h3/tier1-audit.md`](docs/h3/tier1-audit.md) |
+| Tools | [`tools/README.md`](tools/README.md) |
+
+## Repo layout
 
 ```
-<Steam library>\steamapps\common\Heroes of Might and Magic Olden Era\HeroesOldenEra_Data\StreamingAssets\map_templates
+templates/   → ship to game (official, max8, h3-port)
+data/        → engine content pools & encounters
+lib/         → SID/value lookup JSON
+h3/          → H3 sources & parsed topology
+docs/        → authoring & porting docs
+tools/       → parsers, validators, publish script
 ```
 
-Subfolders here (`official/`, `max8/`, `h3-port/`) are organizational only — flatten when copying, or copy only the subset you need.
+Copy contents of `templates/` into the game's `StreamingAssets\map_templates\` folder — see [`docs/install.md`](docs/install.md).
 
-## Contents
-
-| Folder | Contents |
-|--------|----------|
-| [`templates/official/`](templates/official/) | 57 native OE templates |
-| [`templates/max8/`](templates/max8/) | 12 experimental 240×240 eight-player variants |
-| [`templates/h3-port/`](templates/h3-port/) | 20 scaffolded H3 HotA tournament ports |
-
-Each template is a `.rmg.json` file; optional same-name `.png` previews show in the in-game picker when present.
-
-## License
-
-This project is not affiliated with or endorsed by the developers of Heroes of Might and Magic: Olden Era.  
-Use generated templates at your own risk.
-
-Official OE templates in `templates/official/` were sourced from the community [Olden Era — Template Generator](https://github.com/KhanDevelopsGames/Olden-Era---Template-Generator) project. See [`LICENSE`](LICENSE) for the full text.
+Public template-only release: [`docs/publish.md`](docs/publish.md) (`main` branch on GitHub).

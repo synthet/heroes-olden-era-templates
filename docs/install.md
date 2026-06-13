@@ -20,6 +20,18 @@ Each shippable template is two files sharing a basename: `Name.rmg.json` and `Na
 
 Subfolders in this repo (`official/`, `max8/`, `h3-port/`) are organizational only — flatten when copying to the game, or copy only the subset you need.
 
+## HotA tournament source (H3 porting)
+
+Official tournament `.h3t` packs install with GOG HotA:
+
+```
+C:\Program Files (x86)\GOG Galaxy\Games\Heroes of Might and Magic III - Horn of the Abyss\HotA_RMGTemplates\
+```
+
+Copies used in this repo live under [`h3/sources/official/`](../h3/sources/official/). Re-copy from GOG after HotA updates, then run `python tools/parse_official_h3.py`.
+
+Template editor: `h3hota_tmpled.exe` in the HotA install root.
+
 ## User override folder (optional)
 
-The game may also read user templates from a `my_map_templates` folder under the user's app data. Prefer StreamingAssets for copies that match this repo layout.
+The game may also read user templates from a `my_map_templates` folder under the user's app data. Prefer StreamingAssets for development copies that match this repo layout.

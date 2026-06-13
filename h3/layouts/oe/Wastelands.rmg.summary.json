@@ -1,0 +1,151 @@
+{
+  "file": "Wastelands.rmg.json",
+  "name": "Wastelands",
+  "description_key": "templates_description_wastelands",
+  "size": "128x128",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 9,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Treasure-1",
+        "Treasure-2",
+        "Center",
+        "Connector-1",
+        "Connector-2",
+        "Connector-3",
+        "Connector-4"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Connector-1",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Connector-3",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Connector-2",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Connector-4",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Connector-1",
+          "to": "Connector-2",
+          "type": "Portal",
+          "guard": 80000,
+          "road": true
+        },
+        {
+          "from": "Connector-2",
+          "to": "Connector-4",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Connector-1",
+          "to": "Connector-3",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Connector-3",
+          "to": "Connector-4",
+          "type": "Portal",
+          "guard": 80000,
+          "road": true
+        },
+        {
+          "from": "Connector-1",
+          "to": "Treasure-1",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Connector-2",
+          "to": "Treasure-1",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Connector-3",
+          "to": "Treasure-2",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Connector-4",
+          "to": "Treasure-2",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Connector-1",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Connector-2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Connector-3",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Connector-4",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        }
+      ]
+    }
+  ]
+}

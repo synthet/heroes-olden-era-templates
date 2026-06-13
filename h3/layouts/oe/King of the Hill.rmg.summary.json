@@ -1,0 +1,204 @@
+{
+  "file": "King of the Hill.rmg.json",
+  "name": "King of the Hill",
+  "description_key": "templates_description_king_of_the_hill",
+  "size": "144x144",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 13,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-F",
+        "Treasure-1",
+        "Treasure-2",
+        "Treasure-3",
+        "Treasure-4",
+        "Treasure-5",
+        "Treasure-6",
+        "Spawn-Player"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-C",
+          "player": "Player4"
+        },
+        {
+          "zone": "Spawn-D",
+          "player": "Player5"
+        },
+        {
+          "zone": "Spawn-E",
+          "player": "Player6"
+        },
+        {
+          "zone": "Spawn-F",
+          "player": "Player7"
+        },
+        {
+          "zone": "Spawn-Player",
+          "player": "Player1"
+        }
+      ],
+      "city_zones": [
+        "Treasure-1",
+        "Treasure-1",
+        "Treasure-2",
+        "Treasure-2",
+        "Treasure-3",
+        "Treasure-3",
+        "Treasure-4",
+        "Treasure-4",
+        "Treasure-5",
+        "Treasure-5",
+        "Treasure-6",
+        "Treasure-6",
+        "Spawn-Player",
+        "Spawn-Player"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-1",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-2",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-3",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-4",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-1",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-5",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Treasure-5",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Treasure-3",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Treasure-2",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Treasure-6",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Treasure-6",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Treasure-4",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Treasure-1",
+          "to": "Spawn-Player",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-2",
+          "to": "Spawn-Player",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-3",
+          "to": "Spawn-Player",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-4",
+          "to": "Spawn-Player",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-5",
+          "to": "Spawn-Player",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-6",
+          "to": "Spawn-Player",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

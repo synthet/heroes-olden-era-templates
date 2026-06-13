@@ -1,0 +1,762 @@
+[
+  {
+    "id": "pole_star_artifact",
+    "name": "Pole Star",
+    "category": "Movement"
+  },
+  {
+    "id": "seven_league_boots_artifact",
+    "name": "Seven League Boots",
+    "category": "Movement"
+  },
+  {
+    "id": "swamp_boots_artifact",
+    "name": "Swamp Boots",
+    "category": "Movement"
+  },
+  {
+    "id": "warlord_boots_artifact",
+    "name": "Warlord Boots",
+    "category": "Movement"
+  },
+  {
+    "id": "magic_key_ring_artifact",
+    "name": "Magic Key Ring",
+    "category": "Movement"
+  },
+  {
+    "id": "legions_step_artifact",
+    "name": "Legion's Step",
+    "category": "Movement"
+  },
+  {
+    "id": "fallen_angel_wings_artifact",
+    "name": "Fallen Angel Wings",
+    "category": "Movement"
+  },
+  {
+    "id": "banner_of_four_winds_artifact",
+    "name": "Banner of Four Winds",
+    "category": "Movement"
+  },
+  {
+    "id": "spyglass_artifact",
+    "name": "Spyglass",
+    "category": "Movement"
+  },
+  {
+    "id": "voodoosh_doll_artifact",
+    "name": "Voodoosh Doll",
+    "category": "Diplomacy"
+  },
+  {
+    "id": "flag_of_truce_artifact",
+    "name": "Flag of Truce",
+    "category": "Diplomacy"
+  },
+  {
+    "id": "ring_of_neutrality_artifact",
+    "name": "Ring of Neutrality",
+    "category": "Diplomacy"
+  },
+  {
+    "id": "shackles_of_war_artifact",
+    "name": "Shackles of War",
+    "category": "Combat"
+  },
+  {
+    "id": "ogres_club_of_havoc_artifact",
+    "name": "Ogre's Club of Havoc",
+    "category": "Combat"
+  },
+  {
+    "id": "tarq_of_the_rampaging_ogre_artifact",
+    "name": "Tarq of the Rampaging Ogre",
+    "category": "Combat"
+  },
+  {
+    "id": "tunic_of_the_cyclops_king_artifact",
+    "name": "Tunic of the Cyclops King",
+    "category": "Combat"
+  },
+  {
+    "id": "garotte_artifact",
+    "name": "Garotte",
+    "category": "Combat"
+  },
+  {
+    "id": "hourglass_of_protection_artifact",
+    "name": "Hourglass of Protection",
+    "category": "Combat"
+  },
+  {
+    "id": "shoddy_shield_artifact",
+    "name": "Shoddy Shield",
+    "category": "Combat"
+  },
+  {
+    "id": "eagle_armor_artifact",
+    "name": "Eagle Armor",
+    "category": "Combat"
+  },
+  {
+    "id": "chain_mail_artifact",
+    "name": "Chain Mail",
+    "category": "Combat"
+  },
+  {
+    "id": "head_torch_artifact",
+    "name": "Head Torch",
+    "category": "Combat"
+  },
+  {
+    "id": "fine_wand_artifact",
+    "name": "Fine Wand",
+    "category": "Combat"
+  },
+  {
+    "id": "lords_ring_artifact",
+    "name": "Lord's Ring",
+    "category": "Combat"
+  },
+  {
+    "id": "catechism_of_night_magic_artifact",
+    "name": "Catechism of Night Magic",
+    "category": "Magic"
+  },
+  {
+    "id": "catechism_of_daylight_magic_artifact",
+    "name": "Catechism of Daylight Magic",
+    "category": "Magic"
+  },
+  {
+    "id": "catechism_of_spacetime_magic_artifact",
+    "name": "Catechism of Spacetime Magic",
+    "category": "Magic"
+  },
+  {
+    "id": "catechism_of_primal_magic_artifact",
+    "name": "Catechism of Primal Magic",
+    "category": "Magic"
+  },
+  {
+    "id": "spellbinders_hat_artifact",
+    "name": "Spellbinder's Hat",
+    "category": "Magic"
+  },
+  {
+    "id": "spells_in_a_bottle_artifact",
+    "name": "Spells in a Bottle",
+    "category": "Magic"
+  },
+  {
+    "id": "orb_of_inhibition_artifact",
+    "name": "Orb of Inhibition",
+    "category": "Magic"
+  },
+  {
+    "id": "orb_of_destruction_artifact",
+    "name": "Orb of Destruction",
+    "category": "Magic"
+  },
+  {
+    "id": "seal_of_silence_artifact",
+    "name": "Seal of Silence",
+    "category": "Magic"
+  },
+  {
+    "id": "crown_of_the_supreme_magi_artifact",
+    "name": "Crown of the Supreme Magi",
+    "category": "Magic"
+  },
+  {
+    "id": "clothes_of_enlightenment_artifact",
+    "name": "Clothes of Enlightenment",
+    "category": "Magic"
+  },
+  {
+    "id": "cards_deck_artifact",
+    "name": "Cards Deck",
+    "category": "Magic"
+  },
+  {
+    "id": "runestone_shards_artifact",
+    "name": "Runestone Shards",
+    "category": "Magic"
+  },
+  {
+    "id": "golden_goose_egg_artifact",
+    "name": "Golden Goose Egg",
+    "category": "Misc"
+  },
+  {
+    "id": "tactical_guide_artifact",
+    "name": "Tactical Guide",
+    "category": "Misc"
+  },
+  {
+    "id": "endless_bag_artifact",
+    "name": "Endless Bag",
+    "category": "Misc"
+  },
+  {
+    "id": "soulless_sash_artifact",
+    "name": "Soulless Sash",
+    "category": "Misc"
+  },
+  {
+    "id": "monster_head_artifact",
+    "name": "Monster Head",
+    "category": "Misc"
+  },
+  {
+    "id": "omencaller_artifact",
+    "name": "Omencaller",
+    "category": "Misc"
+  },
+  {
+    "id": "sixth_finger_artifact",
+    "name": "Sixth Finger",
+    "category": "Misc"
+  },
+  {
+    "id": "soulscaller_ring_artifact",
+    "name": "Soulscaller Ring",
+    "category": "Misc"
+  },
+  {
+    "id": "chain_link_artifact",
+    "name": "Chain Link",
+    "category": "Misc"
+  },
+  {
+    "id": "demonic_heart_artifact",
+    "name": "Demonic Heart",
+    "category": "Misc"
+  },
+  {
+    "id": "two_faced_mask_artifact",
+    "name": "Two-Faced Mask",
+    "category": "Misc"
+  },
+  {
+    "id": "ancient_idol_artifact",
+    "name": "Ancient Idol",
+    "category": "Misc"
+  },
+  {
+    "id": "excalibur_artifact",
+    "name": "Excalibur",
+    "category": "Misc"
+  },
+  {
+    "id": "caduceus_artifact",
+    "name": "Caduceus",
+    "category": "Misc"
+  },
+  {
+    "id": "resonant_sphere_orb_of_twilight_artifact",
+    "name": "Resonant Sphere: Orb of Twilight",
+    "category": "Set"
+  },
+  {
+    "id": "resonant_sphere_orb_of_daylight_artifact",
+    "name": "Resonant Sphere: Orb of Daylight",
+    "category": "Set"
+  },
+  {
+    "id": "resonant_sphere_orb_of_eternity_artifact",
+    "name": "Resonant Sphere: Orb of Eternity",
+    "category": "Set"
+  },
+  {
+    "id": "resonant_sphere_primal_orb_artifact",
+    "name": "Resonant Sphere: Primal Orb",
+    "category": "Set"
+  },
+  {
+    "id": "tranquility_brightmind_tiara_artifact",
+    "name": "Tranquility: Brightmind Tiara",
+    "category": "Set"
+  },
+  {
+    "id": "tranquility_magic_mirror_artifact",
+    "name": "Tranquility: Magic Mirror",
+    "category": "Set"
+  },
+  {
+    "id": "tranquility_ring_of_serenity_artifact",
+    "name": "Tranquility: Ring of Serenity",
+    "category": "Set"
+  },
+  {
+    "id": "shamaniac_soul_shaman_staff_artifact",
+    "name": "Shamaniac Soul: Shaman Staff",
+    "category": "Set"
+  },
+  {
+    "id": "shamaniac_soul_iridescent_cloak_artifact",
+    "name": "Shamaniac Soul: Iridescent Cloak",
+    "category": "Set"
+  },
+  {
+    "id": "shamaniac_soul_gemwood_mask_artifact",
+    "name": "Shamaniac Soul: Gemwood Mask",
+    "category": "Set"
+  },
+  {
+    "id": "shamaniac_soul_clutching_ring_artifact",
+    "name": "Shamaniac Soul: Clutching Ring",
+    "category": "Set"
+  },
+  {
+    "id": "knights_honor_drums_of_war_artifact",
+    "name": "Knight's Honor: Drums of War",
+    "category": "Set"
+  },
+  {
+    "id": "knights_honor_lance_artifact",
+    "name": "Knight's Honor: Lance",
+    "category": "Set"
+  },
+  {
+    "id": "knights_honor_misericorde_artifact",
+    "name": "Knight's Honor: Misericorde",
+    "category": "Set"
+  },
+  {
+    "id": "knights_honor_plate_armor_artifact",
+    "name": "Knight's Honor: Plate Armor",
+    "category": "Set"
+  },
+  {
+    "id": "knights_honor_armet_artifact",
+    "name": "Knight's Honor: Armet",
+    "category": "Set"
+  },
+  {
+    "id": "ukhtabar_seal_ukh_seal_artifact",
+    "name": "Ukhtabar Seal: Ukh Seal",
+    "category": "Set"
+  },
+  {
+    "id": "ukhtabar_seal_tabar_seal_artifact",
+    "name": "Ukhtabar Seal: Tabar Seal",
+    "category": "Set"
+  },
+  {
+    "id": "milos_curse_golden_pig_artifact",
+    "name": "Milo's Curse: Golden Pig",
+    "category": "Set"
+  },
+  {
+    "id": "milos_curse_golden_moth_artifact",
+    "name": "Milo's Curse: Golden Moth",
+    "category": "Set"
+  },
+  {
+    "id": "milos_curse_skull_of_milos_artifact",
+    "name": "Milo's Curse: Skull of Milos",
+    "category": "Set"
+  },
+  {
+    "id": "paupers_glory_wooden_ring_artifact",
+    "name": "Pauper's Glory: Wooden Ring",
+    "category": "Set"
+  },
+  {
+    "id": "paupers_glory_straw_hat_artifact",
+    "name": "Pauper's Glory: Straw Hat",
+    "category": "Set"
+  },
+  {
+    "id": "paupers_glory_rope_belt_artifact",
+    "name": "Pauper's Glory: Rope Belt",
+    "category": "Set"
+  },
+  {
+    "id": "paupers_glory_rags_artifact",
+    "name": "Pauper's Glory: Rags",
+    "category": "Set"
+  },
+  {
+    "id": "paupers_glory_dumb_club_artifact",
+    "name": "Pauper's Glory: Dumb Club",
+    "category": "Set"
+  },
+  {
+    "id": "paupers_glory_last_coin_artifact",
+    "name": "Pauper's Glory: Last Coin",
+    "category": "Set"
+  },
+  {
+    "id": "angelic_alliance_sword_of_judgement_artifact",
+    "name": "Angelic Alliance: Sword of Judgement",
+    "category": "Set"
+  },
+  {
+    "id": "angelic_alliance_celestial_sash_of_bliss_artifact",
+    "name": "Angelic Alliance: Celestial Sash of Bliss",
+    "category": "Set"
+  },
+  {
+    "id": "angelic_alliance_lions_shield_of_courage_artifact",
+    "name": "Angelic Alliance: Lion's Shield of Courage",
+    "category": "Set"
+  },
+  {
+    "id": "angelic_alliance_armor_of_wonder_artifact",
+    "name": "Angelic Alliance: Armor of Wonder",
+    "category": "Set"
+  },
+  {
+    "id": "angelic_alliance_helm_of_heavenly_enlightenment_artifact",
+    "name": "Angelic Alliance: Helm of Heavenly Enlightenment",
+    "category": "Set"
+  },
+  {
+    "id": "angelic_alliance_sandals_of_the_saint_artifact",
+    "name": "Angelic Alliance: Sandals of the Saint",
+    "category": "Set"
+  },
+  {
+    "id": "gifts_of_dwarven_lords_automated_antimagic_shield_artifact",
+    "name": "Dwarven Gifts: Automated Antimagic Shield",
+    "category": "Set"
+  },
+  {
+    "id": "gifts_of_dwarven_lords_automated_antimagic_shield_artifact_alt",
+    "name": "Dwarven Gifts: Automated Antimagic Shield (Alt)",
+    "category": "Set"
+  },
+  {
+    "id": "gifts_of_dwarven_lords_protective_belt_artifact",
+    "name": "Dwarven Gifts: Protective Belt",
+    "category": "Set"
+  },
+  {
+    "id": "gifts_of_dwarven_lords_protective_belt_artifact_alt",
+    "name": "Dwarven Gifts: Protective Belt (Alt)",
+    "category": "Set"
+  },
+  {
+    "id": "gifts_of_dwarven_lords_crimson_resonance_controller_artifact",
+    "name": "Dwarven Gifts: Crimson Resonance Controller",
+    "category": "Set"
+  },
+  {
+    "id": "gifts_of_dwarven_lords_crimson_resonance_controller_artifact_alt",
+    "name": "Dwarven Gifts: Crimson Resonance Controller (Alt)",
+    "category": "Set"
+  },
+  {
+    "id": "gifts_of_dwarven_lords_emerald_resonance_controller_artifact",
+    "name": "Dwarven Gifts: Emerald Resonance Controller",
+    "category": "Set"
+  },
+  {
+    "id": "gifts_of_dwarven_lords_emerald_resonance_controller_artifact_alt",
+    "name": "Dwarven Gifts: Emerald Resonance Controller (Alt)",
+    "category": "Set"
+  },
+  {
+    "id": "elixir_of_life_flask_of_oblivion_artifact",
+    "name": "Elixir of Life: Flask of Oblivion",
+    "category": "Set"
+  },
+  {
+    "id": "elixir_of_life_lifeblood_fairy_artifact",
+    "name": "Elixir of Life: Lifeblood Fairy",
+    "category": "Set"
+  },
+  {
+    "id": "elixir_of_life_ring_of_life_artifact",
+    "name": "Elixir of Life: Ring of Life",
+    "category": "Set"
+  },
+  {
+    "id": "shadow_of_death_cursed_armor_artifact",
+    "name": "Shadow of Death: Cursed Armor",
+    "category": "Set"
+  },
+  {
+    "id": "shadow_of_death_bone_boots_artifact",
+    "name": "Shadow of Death: Bone Boots",
+    "category": "Set"
+  },
+  {
+    "id": "shadow_of_death_second_shade_artifact",
+    "name": "Shadow of Death: Second Shade",
+    "category": "Set"
+  },
+  {
+    "id": "shadow_of_death_dark_hatchet_artifact",
+    "name": "Shadow of Death: Dark Hatchet",
+    "category": "Set"
+  },
+  {
+    "id": "wanderers_way_boots_of_travel_artifact",
+    "name": "Wanderer's Way: Boots of Travel",
+    "category": "Set"
+  },
+  {
+    "id": "wanderers_way_backpack_artifact",
+    "name": "Wanderer's Way: Backpack",
+    "category": "Set"
+  },
+  {
+    "id": "living_arrows_shroomwood_bow_artifact",
+    "name": "Living Arrows: Shroomwood Bow",
+    "category": "Set"
+  },
+  {
+    "id": "living_arrows_light_and_shade_cloak_artifact",
+    "name": "Living Arrows: Light and Shade Cloak",
+    "category": "Set"
+  },
+  {
+    "id": "living_arrows_quivering_quiver_artifact",
+    "name": "Living Arrows: Quivering Quiver",
+    "category": "Set"
+  },
+  {
+    "id": "duelists_pride_rapier_artifact",
+    "name": "Duelist's Pride: Rapier",
+    "category": "Set"
+  },
+  {
+    "id": "duelists_pride_buckler_artifact",
+    "name": "Duelist's Pride: Buckler",
+    "category": "Set"
+  },
+  {
+    "id": "duelists_pride_brass_knuckles_artifact",
+    "name": "Duelist's Pride: Brass Knuckles",
+    "category": "Set"
+  },
+  {
+    "id": "ethereal_knowledge_glass_dagger_artifact",
+    "name": "Ethereal Knowledge: Glass Dagger",
+    "category": "Set"
+  },
+  {
+    "id": "ethereal_knowledge_mirror_shoes_artifact",
+    "name": "Ethereal Knowledge: Mirror Shoes",
+    "category": "Set"
+  },
+  {
+    "id": "ethereal_knowledge_vortex_dress_artifact",
+    "name": "Ethereal Knowledge: Vortex Dress",
+    "category": "Set"
+  },
+  {
+    "id": "ethereal_knowledge_third_eye_artifact",
+    "name": "Ethereal Knowledge: Third Eye",
+    "category": "Set"
+  },
+  {
+    "id": "inner_song_music_sheet_artifact",
+    "name": "Inner Song: Music Sheet",
+    "category": "Set"
+  },
+  {
+    "id": "inner_song_singing_pan_pipe_artifact",
+    "name": "Inner Song: Singing Pan Pipe",
+    "category": "Set"
+  },
+  {
+    "id": "inner_song_fancy_mask_artifact",
+    "name": "Inner Song: Fancy Mask",
+    "category": "Set"
+  },
+  {
+    "id": "power_of_the_dragon_father_red_dragon_flame_tongue_artifact",
+    "name": "Dragon Father: Red Dragon Flame Tongue",
+    "category": "Set"
+  },
+  {
+    "id": "power_of_the_dragon_father_dragon_scale_shield_artifact",
+    "name": "Dragon Father: Dragon Scale Shield",
+    "category": "Set"
+  },
+  {
+    "id": "power_of_the_dragon_father_dragon_scale_armor_artifact",
+    "name": "Dragon Father: Dragon Scale Armor",
+    "category": "Set"
+  },
+  {
+    "id": "power_of_the_dragon_father_dragon_crest_artifact",
+    "name": "Dragon Father: Dragon Crest",
+    "category": "Set"
+  },
+  {
+    "id": "power_of_the_dragon_father_dragonbone_greaves_artifact",
+    "name": "Dragon Father: Dragonbone Greaves",
+    "category": "Set"
+  },
+  {
+    "id": "power_of_the_dragon_father_slithering_sash_artifact",
+    "name": "Dragon Father: Slithering Sash",
+    "category": "Set"
+  },
+  {
+    "id": "power_of_the_dragon_father_dragon_wing_artifact",
+    "name": "Dragon Father: Dragon Wing",
+    "category": "Set"
+  },
+  {
+    "id": "power_of_the_dragon_father_piercing_eye_of_a_dragon_artifact",
+    "name": "Dragon Father: Piercing Eye of a Dragon",
+    "category": "Set"
+  },
+  {
+    "id": "beelzebubs_blessing_demon_claw_artifact",
+    "name": "Beelzebub's Blessing: Demon Claw",
+    "category": "Set"
+  },
+  {
+    "id": "beelzebubs_blessing_chitinous_shield_artifact",
+    "name": "Beelzebub's Blessing: Chitinous Shield",
+    "category": "Set"
+  },
+  {
+    "id": "beelzebubs_blessing_heartbeat_artifact",
+    "name": "Beelzebub's Blessing: Heartbeat",
+    "category": "Set"
+  },
+  {
+    "id": "beelzebubs_blessing_demon_crest_artifact",
+    "name": "Beelzebub's Blessing: Demon Crest",
+    "category": "Set"
+  },
+  {
+    "id": "boreolos_hand_artifact",
+    "name": "Boreolos: Hand",
+    "category": "Set"
+  },
+  {
+    "id": "boreolos_foot_artifact",
+    "name": "Boreolos: Foot",
+    "category": "Set"
+  },
+  {
+    "id": "boreolos_heart_artifact",
+    "name": "Boreolos: Heart",
+    "category": "Set"
+  },
+  {
+    "id": "boreolos_head_artifact",
+    "name": "Boreolos: Head",
+    "category": "Set"
+  },
+  {
+    "id": "holy_sigil_of_roph_artifact",
+    "name": "Holy Sigil of Roph",
+    "category": "Set"
+  },
+  {
+    "id": "holy_sigil_of_eridore_artifact",
+    "name": "Holy Sigil of Eridore",
+    "category": "Set"
+  },
+  {
+    "id": "holy_sigil_of_mearea_artifact",
+    "name": "Holy Sigil of Mearea",
+    "category": "Set"
+  },
+  {
+    "id": "holy_sigil_of_insara_artifact",
+    "name": "Holy Sigil of Insara",
+    "category": "Set"
+  },
+  {
+    "id": "holy_sigil_of_quix_artifact",
+    "name": "Holy Sigil of Quix",
+    "category": "Set"
+  },
+  {
+    "id": "holy_sigil_of_the_seven_magi_artifact",
+    "name": "Holy Sigil of the Seven Magi",
+    "category": "Set"
+  },
+  {
+    "id": "holy_sigil_of_the_second_man_artifact",
+    "name": "Holy Sigil of the Second Man",
+    "category": "Set"
+  },
+  {
+    "id": "holy_sigil_of_uurdt_artifact",
+    "name": "Holy Sigil of Uurdt",
+    "category": "Set"
+  },
+  {
+    "id": "rule_of_shadow_liquid_silence_artifact",
+    "name": "Rule of Shadow: Liquid Silence",
+    "category": "Set"
+  },
+  {
+    "id": "rule_of_shadow_the_truthmaker_artifact",
+    "name": "Rule of Shadow: The Truthmaker",
+    "category": "Set"
+  },
+  {
+    "id": "rule_of_shadow_the_truthseeker_artifact",
+    "name": "Rule of Shadow: The Truthseeker",
+    "category": "Set"
+  },
+  {
+    "id": "rule_of_shadow_nostrias_gaze_artifact",
+    "name": "Rule of Shadow: Nostria's Gaze",
+    "category": "Set"
+  },
+  {
+    "id": "ambassadors_word_diplomatic_gifts_artifact",
+    "name": "Ambassador's Word: Diplomatic Gifts",
+    "category": "Set"
+  },
+  {
+    "id": "ambassadors_word_ambassadors_sash_artifact",
+    "name": "Ambassador's Word: Ambassador's Sash",
+    "category": "Set"
+  },
+  {
+    "id": "warriors_strength_warriors_belt_artifact",
+    "name": "Warrior's Strength: Warrior's Belt",
+    "category": "Set"
+  },
+  {
+    "id": "warriors_strength_warriors_oberegus_artifact",
+    "name": "Warrior's Strength: Warrior's Oberegus",
+    "category": "Set"
+  },
+  {
+    "id": "keepers_fortitude_keepers_ring_artifact",
+    "name": "Keeper's Fortitude: Keeper's Ring",
+    "category": "Set"
+  },
+  {
+    "id": "keepers_fortitude_keepers_oberegus_artifact",
+    "name": "Keeper's Fortitude: Keeper's Oberegus",
+    "category": "Set"
+  },
+  {
+    "id": "wizards_might_wizards_cloak_artifact",
+    "name": "Wizard's Might: Wizard's Cloak",
+    "category": "Set"
+  },
+  {
+    "id": "wizards_might_wizards_oberegus_artifact",
+    "name": "Wizard's Might: Wizard's Oberegus",
+    "category": "Set"
+  },
+  {
+    "id": "scholars_wisdom_scholars_tiara_artifact",
+    "name": "Scholar's Wisdom: Scholar's Tiara",
+    "category": "Set"
+  },
+  {
+    "id": "scholars_wisdom_scholars_oberegus_artifact",
+    "name": "Scholar's Wisdom: Scholar's Oberegus",
+    "category": "Set"
+  }
+]

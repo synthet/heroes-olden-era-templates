@@ -1,0 +1,236 @@
+{
+  "file": "Sand Clover.rmg.json",
+  "name": "Sand Clover",
+  "description_key": "templates_description_mlyn",
+  "size": "128x128",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 13,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Side-A",
+        "Side-B",
+        "Connector-A",
+        "Connector-B",
+        "Connector-AB",
+        "Connector-BA",
+        "Leaf-1",
+        "Leaf-2",
+        "Leaf-3",
+        "Leaf-4",
+        "Center"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Spawn-A",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-B",
+        "Side-A",
+        "Side-B",
+        "Connector-A",
+        "Connector-B",
+        "Connector-AB",
+        "Connector-BA"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-A",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Connector-A",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Connector-AB",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B",
+          "type": "Portal",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Connector-B",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Connector-BA",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Connector-A",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Connector-BA",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Connector-B",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Connector-AB",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Connector-A",
+          "to": "Leaf-1",
+          "type": "Direct",
+          "guard": 4000,
+          "road": true
+        },
+        {
+          "from": "Connector-A",
+          "to": "Leaf-3",
+          "type": "Direct",
+          "guard": 4000,
+          "road": true
+        },
+        {
+          "from": "Connector-AB",
+          "to": "Leaf-1",
+          "type": "Direct",
+          "guard": 4000,
+          "road": true
+        },
+        {
+          "from": "Connector-AB",
+          "to": "Leaf-2",
+          "type": "Direct",
+          "guard": 4000,
+          "road": true
+        },
+        {
+          "from": "Connector-B",
+          "to": "Leaf-2",
+          "type": "Direct",
+          "guard": 4000,
+          "road": true
+        },
+        {
+          "from": "Connector-B",
+          "to": "Leaf-4",
+          "type": "Direct",
+          "guard": 4000,
+          "road": true
+        },
+        {
+          "from": "Connector-BA",
+          "to": "Leaf-3",
+          "type": "Direct",
+          "guard": 4000,
+          "road": true
+        },
+        {
+          "from": "Connector-BA",
+          "to": "Leaf-4",
+          "type": "Direct",
+          "guard": 4000,
+          "road": true
+        },
+        {
+          "from": "Leaf-1",
+          "to": "Center",
+          "type": "Direct",
+          "guard": -10000,
+          "road": false
+        },
+        {
+          "from": "Leaf-1",
+          "to": "Center",
+          "type": "Direct",
+          "guard": -10000,
+          "road": false
+        },
+        {
+          "from": "Leaf-2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": -10000,
+          "road": false
+        },
+        {
+          "from": "Leaf-2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": -10000,
+          "road": false
+        },
+        {
+          "from": "Leaf-3",
+          "to": "Center",
+          "type": "Direct",
+          "guard": -10000,
+          "road": false
+        },
+        {
+          "from": "Leaf-3",
+          "to": "Center",
+          "type": "Direct",
+          "guard": -10000,
+          "road": false
+        },
+        {
+          "from": "Leaf-4",
+          "to": "Center",
+          "type": "Direct",
+          "guard": -10000,
+          "road": false
+        },
+        {
+          "from": "Leaf-4",
+          "to": "Center",
+          "type": "Direct",
+          "guard": -10000,
+          "road": false
+        }
+      ]
+    }
+  ]
+}

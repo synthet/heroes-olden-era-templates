@@ -1,0 +1,248 @@
+{
+  "file": "Ikarus.rmg.json",
+  "name": "Ikarus",
+  "description_key": "templates_description_ikarus",
+  "size": "160x160",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 17,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-F",
+        "Spawn-G",
+        "Spawn-H",
+        "Treasure-1",
+        "Treasure-2",
+        "Treasure-3",
+        "Treasure-4",
+        "Treasure-5",
+        "Treasure-6",
+        "Treasure-7",
+        "Treasure-8",
+        "Center"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-C",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-D",
+          "player": "Player4"
+        },
+        {
+          "zone": "Spawn-E",
+          "player": "Player5"
+        },
+        {
+          "zone": "Spawn-F",
+          "player": "Player6"
+        },
+        {
+          "zone": "Spawn-G",
+          "player": "Player7"
+        },
+        {
+          "zone": "Spawn-H",
+          "player": "Player8"
+        }
+      ],
+      "city_zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-F",
+        "Spawn-G",
+        "Spawn-H"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-1",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-5",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-7",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Treasure-3",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Treasure-8",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Treasure-4",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-G",
+          "to": "Treasure-2",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-H",
+          "to": "Treasure-6",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Treasure-1",
+          "to": "Treasure-8",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-1",
+          "to": "Treasure-2",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-2",
+          "to": "Treasure-3",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-3",
+          "to": "Treasure-4",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-4",
+          "to": "Treasure-5",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-5",
+          "to": "Treasure-6",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-6",
+          "to": "Treasure-7",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-7",
+          "to": "Treasure-8",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-1",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-3",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-4",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-5",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-6",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-7",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-8",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

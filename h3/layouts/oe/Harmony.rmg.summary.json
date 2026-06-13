@@ -1,0 +1,103 @@
+{
+  "file": "Harmony.rmg.json",
+  "name": "Harmony",
+  "description_key": "templates_description_harmony",
+  "size": "112x112",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 8,
+      "zones": [
+        "Center-A",
+        "Center-B",
+        "Spawn-A",
+        "Spawn-B",
+        "Back-A",
+        "Back-B",
+        "Side-A",
+        "Side-B"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Center-A",
+        "Center-A",
+        "Center-B",
+        "Center-B",
+        "Spawn-A",
+        "Spawn-B",
+        "Side-A",
+        "Side-B"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-A",
+          "type": "Direct",
+          "guard": 10000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Center-A",
+          "type": "Direct",
+          "guard": 32500,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B",
+          "type": "Direct",
+          "guard": 10000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Center-B",
+          "type": "Direct",
+          "guard": 32500,
+          "road": true
+        },
+        {
+          "from": "Center-A",
+          "to": "Center-B",
+          "type": "Direct",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Back-A",
+          "type": "Direct",
+          "guard": -10000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Back-B",
+          "type": "Direct",
+          "guard": -10000,
+          "road": true
+        },
+        {
+          "from": "Back-A",
+          "to": "Back-B",
+          "type": "Direct",
+          "guard": 240000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

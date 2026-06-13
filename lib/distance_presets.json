@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Next To",
+    "min": 0.05,
+    "max": 0.1
+  },
+  {
+    "name": "Near",
+    "min": 0.1,
+    "max": 0.25
+  },
+  {
+    "name": "Medium",
+    "min": 0.25,
+    "max": 0.5
+  },
+  {
+    "name": "Far",
+    "min": 0.5,
+    "max": 0.75
+  },
+  {
+    "name": "Very Far",
+    "min": 0.75,
+    "max": 0.9
+  }
+]

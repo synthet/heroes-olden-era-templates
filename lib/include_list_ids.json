@@ -1,0 +1,146 @@
+[
+  {
+    "sid": "content_list_building_random_hires_low_tier",
+    "name": "Random Hires Low Tier"
+  },
+  {
+    "sid": "content_list_building_random_hires_high_tier",
+    "name": "Random Hires High Tier"
+  },
+  {
+    "sid": "basic_content_list_building_random_hires",
+    "name": "Random Hires Any Tier"
+  },
+  {
+    "sid": "content_list_building_random_hires",
+    "name": "Random Hires Any Tier (Weighted)"
+  },
+  {
+    "sid": "basic_content_list_building_guarded_resource_banks_tier_1",
+    "name": "Resource Banks T1"
+  },
+  {
+    "sid": "basic_content_list_building_guarded_resource_banks_tier_2",
+    "name": "Resource Banks T2"
+  },
+  {
+    "sid": "basic_content_list_building_guarded_resource_banks_tier_1",
+    "name": "Guarded Banks T1"
+  },
+  {
+    "sid": "basic_content_list_building_guarded_resource_banks_tier_2",
+    "name": "Guarded Banks T2"
+  },
+  {
+    "sid": "basic_content_list_building_guarded_resource_banks_tier_3",
+    "name": "Guarded Banks T3"
+  },
+  {
+    "sid": "basic_content_list_basic_storage",
+    "name": "Random Basic Storage"
+  },
+  {
+    "sid": "basic_content_list_rare_mines",
+    "name": "Random Rare Mine"
+  },
+  {
+    "sid": "basic_content_list_rare_mines_by_biome",
+    "name": "Random Rare Mine (Biome Restricted)"
+  },
+  {
+    "sid": "basic_content_list_building_guarded_units_banks",
+    "name": "Random Guarded Unit Bank"
+  },
+  {
+    "sid": "basic_content_list_building_hero_buff_tier_1",
+    "name": "Random Hero Buff Tier 1"
+  },
+  {
+    "sid": "basic_content_list_building_hero_exp_tier_2",
+    "name": "Random Hero Exp Tier 2"
+  },
+  {
+    "sid": "basic_content_list_building_hero_stats_and_skills_tier_1",
+    "name": "Random Hero Stat/Skill Tier 1"
+  },
+  {
+    "sid": "basic_content_list_building_hero_stats_and_skills_tier_2",
+    "name": "Random Hero Stat/Skill Tier 2"
+  },
+  {
+    "sid": "basic_content_list_building_hero_stats_and_skills_tier_3",
+    "name": "Random Hero Stat/Skill Tier 3"
+  },
+  {
+    "sid": "basic_content_list_building_magic_tier_1",
+    "name": "Random Magic Building Tier 1"
+  },
+  {
+    "sid": "basic_content_list_building_magic_tier_2",
+    "name": "Random Magic Building Tier 2"
+  },
+  {
+    "sid": "content_list_building_uncommon_hero_banks",
+    "name": "Uncommon Hero Improvement"
+  },
+  {
+    "sid": "basic_content_list_vision_buildings_tier_1",
+    "name": "Random Vision Building Tier 1"
+  },
+  {
+    "sid": "basic_content_list_pickup_random_items",
+    "name": "Random Pickup Items"
+  },
+  {
+    "sid": "content_list_building_utopia",
+    "name": "Utopia (Dragon/Unstable/Lab)"
+  },
+  {
+    "sid": "content_list_building_epic_guarded_resource_banks",
+    "name": "Epic Guarded Resource Banks"
+  },
+  {
+    "sid": "basic_content_list_building_guarded_units_banks_only_biome_restriction",
+    "name": "Guarded Unit Bank (Biome Restricted)"
+  },
+  {
+    "sid": "basic_content_list_building_guarded_units_banks_no_biome_restriction",
+    "name": "Guarded Unit Bank (No Biome Restriction)"
+  },
+  {
+    "sid": "basic_content_list_pickup_mythic_scroll_box",
+    "name": "Random Mythic Scroll Box"
+  },
+  {
+    "sid": "content_list_pickup_pandora_box_army_low_tier",
+    "name": "Pandora Box Army (Low Tier)"
+  },
+  {
+    "sid": "content_list_pickup_pandora_box_army_high_tier",
+    "name": "Pandora Box Army (High Tier)"
+  },
+  {
+    "sid": "basic_content_list_pickup_pandora_box_gold",
+    "name": "Pandora Box Gold (Weighted)"
+  },
+  {
+    "sid": "basic_content_list_pickup_pandora_box_exp",
+    "name": "Pandora Box Experience (Weighted)"
+  },
+  {
+    "sid": "basic_content_list_pickup_pandora_box_units",
+    "name": "Pandora Box Army (Weighted)"
+  },
+  {
+    "sid": "basic_content_list_pickup_pandora_box_all_stats",
+    "name": "Pandora Box Hero Stats (Weighted)"
+  },
+  {
+    "sid": "basic_content_list_pickup_pandora_box_magic_school",
+    "name": "Pandora Box Magic School (Weighted)"
+  },
+  {
+    "sid": "basic_content_list_pickup_pandora_box_magic_tier",
+    "name": "Pandora Box Magic Tier (Weighted)"
+  }
+]

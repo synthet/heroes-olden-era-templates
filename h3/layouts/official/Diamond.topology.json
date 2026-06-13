@@ -1,0 +1,507 @@
+{
+  "source": "D:\\Projects\\heroes-templates\\h3\\sources\\official\\Diamond.h3t",
+  "pack_name": "Diamond",
+  "maps": [],
+  "zones": [
+    {
+      "id": 1,
+      "map_name": "Diamond",
+      "player": "x",
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 2,
+      "map_name": null,
+      "player": "x",
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 3,
+      "map_name": null,
+      "player": "x",
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 4,
+      "map_name": null,
+      "player": "x",
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 5,
+      "map_name": null,
+      "player": "x",
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 6,
+      "map_name": null,
+      "player": "x",
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 7,
+      "map_name": null,
+      "player": "x",
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 8,
+      "map_name": null,
+      "player": "x",
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 9,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 10,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 11,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 12,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 13,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 14,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 15,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 16,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    }
+  ],
+  "connections": [
+    {
+      "from": 1,
+      "to": 9,
+      "guard_value": 3000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 1,
+      "to": 10,
+      "guard_value": 3000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 1,
+      "to": 11,
+      "guard_value": 3000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 1,
+      "to": 15,
+      "guard_value": 3000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 2,
+      "to": 12,
+      "guard_value": 3000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 2,
+      "to": 13,
+      "guard_value": 3000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 2,
+      "to": 14,
+      "guard_value": 3000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 2,
+      "to": 16,
+      "guard_value": 3000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 3,
+      "to": 9,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 3,
+      "to": 10,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 3,
+      "to": 12,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 3,
+      "to": 16,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 4,
+      "to": 9,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 4,
+      "to": 11,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 4,
+      "to": 12,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 4,
+      "to": 13,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 5,
+      "to": 10,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 5,
+      "to": 11,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 5,
+      "to": 12,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 5,
+      "to": 14,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 6,
+      "to": 11,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 6,
+      "to": 13,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 6,
+      "to": 14,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 6,
+      "to": 15,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 7,
+      "to": 10,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 7,
+      "to": 14,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 7,
+      "to": 15,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 7,
+      "to": 16,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 8,
+      "to": 13,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 8,
+      "to": 15,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 8,
+      "to": 16,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    }
+  ],
+  "zone_count": 16,
+  "connection_count": 32
+}

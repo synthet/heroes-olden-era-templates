@@ -1,0 +1,107 @@
+{
+  "source": "D:\\Projects\\heroes-templates\\h3\\sources\\official\\mt_TeamJebus.h3t",
+  "pack_name": "mt_TeamJebus",
+  "maps": [],
+  "zones": [
+    {
+      "id": 1,
+      "map_name": "mt_TeamJebus",
+      "player": "x",
+      "ai": null,
+      "base_size": "40",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "weak"
+    },
+    {
+      "id": 2,
+      "map_name": null,
+      "player": "x",
+      "ai": null,
+      "base_size": "40",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "weak"
+    },
+    {
+      "id": 3,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "30",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "strong"
+    },
+    {
+      "id": 1,
+      "map_name": "mt_TeamJebus",
+      "player": "x",
+      "ai": null,
+      "base_size": "40",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "weak"
+    },
+    {
+      "id": 2,
+      "map_name": null,
+      "player": "x",
+      "ai": null,
+      "base_size": "40",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "weak"
+    },
+    {
+      "id": 3,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "30",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "strong"
+    }
+  ],
+  "connections": [
+    {
+      "from": 1,
+      "to": 2,
+      "guard_value": 6000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": true
+    },
+    {
+      "from": 1,
+      "to": 3,
+      "guard_value": 45000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "guard_value": 45000,
+      "wide": false,
+      "border_guard": false,
+      "road": "",
+      "type": "",
+      "fictive": false
+    }
+  ],
+  "zone_count": 6,
+  "connection_count": 3
+}

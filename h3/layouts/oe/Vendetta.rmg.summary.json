@@ -1,0 +1,168 @@
+{
+  "file": "Vendetta.rmg.json",
+  "name": "Vendetta",
+  "description_key": "templates_description_vendetta",
+  "size": "160x160",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 5,
+      "zones": [
+        "Center",
+        "Spawn-A",
+        "Spawn-B",
+        "Side-C",
+        "Side-D"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Center",
+        "Center",
+        "Center",
+        "Center",
+        "Center",
+        "Spawn-A",
+        "Spawn-A",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-B",
+        "Spawn-B",
+        "Side-C",
+        "Side-D"
+      ],
+      "connections": [
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-C",
+          "type": "Portal",
+          "guard": 80000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-C",
+          "type": "Direct",
+          "guard": 80000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-C",
+          "type": "Direct",
+          "guard": 80000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-C",
+          "type": "Direct",
+          "guard": 80000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-D",
+          "type": "Portal",
+          "guard": 80000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-D",
+          "type": "Direct",
+          "guard": 80000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-D",
+          "type": "Direct",
+          "guard": 80000,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

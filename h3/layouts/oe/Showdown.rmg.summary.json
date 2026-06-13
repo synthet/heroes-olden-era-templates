@@ -1,0 +1,175 @@
+{
+  "file": "Showdown.rmg.json",
+  "name": "Showdown",
+  "description_key": "templates_description_showdown",
+  "size": "96x96",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 9,
+      "zones": [
+        "Center",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-F",
+        "Spawn-G",
+        "Spawn-H"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-C",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-D",
+          "player": "Player4"
+        },
+        {
+          "zone": "Spawn-E",
+          "player": "Player5"
+        },
+        {
+          "zone": "Spawn-F",
+          "player": "Player6"
+        },
+        {
+          "zone": "Spawn-G",
+          "player": "Player7"
+        },
+        {
+          "zone": "Spawn-H",
+          "player": "Player8"
+        }
+      ],
+      "city_zones": [],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-G",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-H",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Spawn-C",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Spawn-D",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Spawn-E",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Spawn-F",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Spawn-G",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-G",
+          "to": "Spawn-H",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-H",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

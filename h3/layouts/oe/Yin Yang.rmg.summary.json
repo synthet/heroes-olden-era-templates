@@ -1,0 +1,127 @@
+{
+  "file": "Yin Yang.rmg.json",
+  "name": "Yin Yang",
+  "description_key": "templates_description_pve_yin_yang",
+  "size": "112x112",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 11,
+      "zones": [
+        "Spawn-Player",
+        "Spawn-Player-Treasure-1",
+        "Spawn-Player-Treasure-2",
+        "Spawn-1",
+        "Spawn-1-Side-1",
+        "Spawn-1-Side-2",
+        "Spawn-1-Side-3",
+        "Spawn-2",
+        "Spawn-2-Side-1",
+        "Spawn-2-Side-2",
+        "Spawn-2-Side-3"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-Player",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-1",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-2",
+          "player": "Player3"
+        }
+      ],
+      "city_zones": [
+        "Spawn-Player-Treasure-1",
+        "Spawn-Player-Treasure-2",
+        "Spawn-1-Side-1",
+        "Spawn-2-Side-1"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Treasure-1",
+          "type": "Direct",
+          "guard": 15000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Treasure-2",
+          "type": "Direct",
+          "guard": 15000,
+          "road": null
+        },
+        {
+          "from": "Spawn-1",
+          "to": "Spawn-1-Side-1",
+          "type": "Direct",
+          "guard": 15000,
+          "road": null
+        },
+        {
+          "from": "Spawn-1-Side-1",
+          "to": "Spawn-1-Side-2",
+          "type": "Direct",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-1-Side-2",
+          "to": "Spawn-1-Side-3",
+          "type": "Direct",
+          "guard": 60000,
+          "road": null
+        },
+        {
+          "from": "Spawn-1-Side-2",
+          "to": "Spawn-Player-Treasure-1",
+          "type": "Direct",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-2",
+          "to": "Spawn-2-Side-1",
+          "type": "Direct",
+          "guard": 15000,
+          "road": null
+        },
+        {
+          "from": "Spawn-2-Side-1",
+          "to": "Spawn-2-Side-2",
+          "type": "Direct",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-2-Side-2",
+          "to": "Spawn-2-Side-3",
+          "type": "Direct",
+          "guard": 60000,
+          "road": null
+        },
+        {
+          "from": "Spawn-2-Side-2",
+          "to": "Spawn-Player-Treasure-2",
+          "type": "Direct",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-1-Side-3",
+          "to": "Spawn-2-Side-3",
+          "type": "Portal",
+          "guard": 200000,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

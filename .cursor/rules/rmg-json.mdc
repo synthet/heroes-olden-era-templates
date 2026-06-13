@@ -1,0 +1,15 @@
+---
+description: Rules when editing Olden Era RMG template JSON files
+globs: "**/*.rmg.json"
+alwaysApply: false
+---
+
+# RMG template JSON
+
+- Hard cap: **32 total zones** per variant.
+- **Isolation** — no `Direct` connection between zones hosting different players (same-player alt-spawns may link).
+- Content pools, lists, and zone layouts are **external SIDs** in `data/` — spell them exactly.
+- Inline refs (`mandatoryContent`, `contentCountLimits`) must match top-level blocks in the same file.
+- Do not reorder `mainObjects` — roads and rules reference them by index.
+- After edits, run `python tools/validate_rmg.py <file>`.
+- Recipes and pitfalls: `docs/oe/cookbook.md`.

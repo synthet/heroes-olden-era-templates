@@ -1,0 +1,325 @@
+[
+  {
+    "h3_name": "2sm2c(2)",
+    "h3_zones": 6,
+    "h3_connections": 10,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      20000,
+      12500
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "2sm4d(3)",
+    "h3_zones": 10,
+    "h3_connections": 15,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      45000
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "6lm10a",
+    "h3_zones": 125,
+    "h3_connections": 38,
+    "h3_mirror": false,
+    "h3_pg_guards": [],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "8mm6a",
+    "h3_zones": 26,
+    "h3_connections": 30,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      12500
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "8xm12a",
+    "h3_zones": 33,
+    "h3_connections": 46,
+    "h3_mirror": false,
+    "h3_pg_guards": [],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "Anarchy",
+    "h3_zones": 185,
+    "h3_connections": 197,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      45000,
+      12500
+    ],
+    "oe_file": "Anarchy.rmg.json",
+    "oe_zones": 15,
+    "oe_connections": 18
+  },
+  {
+    "h3_name": "Apocalypse",
+    "h3_zones": 14,
+    "h3_connections": 24,
+    "h3_mirror": false,
+    "h3_pg_guards": [],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "Black'n'Blue",
+    "h3_zones": 11,
+    "h3_connections": 21,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      45000
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "Boomerang",
+    "h3_zones": 17,
+    "h3_connections": 30,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      12500
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "Clash of Dragons",
+    "h3_zones": 18,
+    "h3_connections": 20,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      180000,
+      150000,
+      50000,
+      30000,
+      20000
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "Diamond",
+    "h3_zones": 16,
+    "h3_connections": 32,
+    "h3_mirror": false,
+    "h3_pg_guards": [],
+    "oe_file": "Diamond.rmg.json",
+    "oe_zones": 16,
+    "oe_connections": 32
+  },
+  {
+    "h3_name": "Firewalk",
+    "h3_zones": 7,
+    "h3_connections": 11,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      45000,
+      15000
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "h3dm1",
+    "h3_zones": 10,
+    "h3_connections": 9,
+    "h3_mirror": false,
+    "h3_pg_guards": [],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "Jebus Cross",
+    "h3_zones": 5,
+    "h3_connections": 4,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      45000
+    ],
+    "oe_file": "Jebus Cross.rmg.json",
+    "oe_zones": 5,
+    "oe_connections": 20
+  },
+  {
+    "h3_name": "Jebus Outcast",
+    "h3_zones": 962,
+    "h3_connections": 47,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      60000,
+      45000,
+      30000
+    ],
+    "oe_file": "Jebus Outcast.rmg.json",
+    "oe_zones": 5,
+    "oe_connections": 20
+  },
+  {
+    "h3_name": "Kerberos",
+    "h3_zones": 33,
+    "h3_connections": 39,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      25000,
+      17500,
+      15000,
+      12000
+    ],
+    "oe_file": "Kerberos.rmg.json",
+    "oe_zones": 13,
+    "oe_connections": 21
+  },
+  {
+    "h3_name": "Mini-Nostalgia",
+    "h3_zones": 15,
+    "h3_connections": 14,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      45000
+    ],
+    "oe_file": "Mini-Nostalgia.rmg.json",
+    "oe_zones": 15,
+    "oe_connections": 14
+  },
+  {
+    "h3_name": "mt_Andromeda",
+    "h3_zones": 13,
+    "h3_connections": 15,
+    "h3_mirror": false,
+    "h3_pg_guards": [],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "mt_Antares",
+    "h3_zones": 10,
+    "h3_connections": 12,
+    "h3_mirror": false,
+    "h3_pg_guards": [],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "mt_Diamond",
+    "h3_zones": 8,
+    "h3_connections": 12,
+    "h3_mirror": false,
+    "h3_pg_guards": [],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "mt_Firewalk",
+    "h3_zones": 9,
+    "h3_connections": 11,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      45000,
+      15000
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "mt_Jebus",
+    "h3_zones": 2,
+    "h3_connections": 1,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      45000
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "mt_TeamJebus",
+    "h3_zones": 6,
+    "h3_connections": 3,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      45000
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "Nine-day Wonder",
+    "h3_zones": 7,
+    "h3_connections": 9,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      12500
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "Nostalgia",
+    "h3_zones": 24,
+    "h3_connections": 32,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      45000,
+      12500
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "Skirmish(M)",
+    "h3_zones": 7,
+    "h3_connections": 11,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      16000,
+      11000
+    ],
+    "oe_file": null,
+    "oe_zones": null,
+    "oe_connections": null
+  },
+  {
+    "h3_name": "Spider",
+    "h3_zones": 24,
+    "h3_connections": 32,
+    "h3_mirror": false,
+    "h3_pg_guards": [
+      12500
+    ],
+    "oe_file": "Spider.rmg.json",
+    "oe_zones": 24,
+    "oe_connections": 40
+  }
+]

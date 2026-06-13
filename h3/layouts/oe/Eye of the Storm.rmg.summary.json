@@ -1,0 +1,149 @@
+{
+  "file": "Eye of the Storm.rmg.json",
+  "name": "Eye of the Storm",
+  "description_key": "templates_description_eye_of_the_storm",
+  "size": "144x144",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 7,
+      "zones": [
+        "Center",
+        "Spawn-A",
+        "Spawn-B",
+        "Side-A1",
+        "Side-B1",
+        "Side-A2",
+        "Side-B2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-A1",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Side-A2",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Side-A1",
+          "to": "Side-B1",
+          "type": "Portal",
+          "guard": 90000,
+          "road": true
+        },
+        {
+          "from": "Side-A2",
+          "to": "Side-B2",
+          "type": "Portal",
+          "guard": 90000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B1",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B2",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Side-A1",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Side-A2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Side-A1",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Side-A2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Side-B1",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Side-B2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Side-B1",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Side-B2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        }
+      ]
+    }
+  ]
+}

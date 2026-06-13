@@ -1,0 +1,65 @@
+{
+  "file": "Universe.rmg.json",
+  "name": "Universe",
+  "description_key": "templates_description_universe",
+  "size": "96x96",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 5,
+      "zones": [
+        "Center",
+        "Spawn-A",
+        "Side-A",
+        "Spawn-B",
+        "Side-B"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Center"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-A",
+          "type": "Direct",
+          "guard": 15000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B",
+          "type": "Direct",
+          "guard": 15000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 32500,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 32500,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

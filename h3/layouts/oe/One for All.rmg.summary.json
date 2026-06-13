@@ -1,0 +1,253 @@
+{
+  "file": "One for All.rmg.json",
+  "name": "One for All",
+  "description_key": "templates_description_pve_one_for_all",
+  "size": "176x176",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 16,
+      "zones": [
+        "Spawn-Player",
+        "Spawn-Player-Side-1",
+        "Spawn-Player-Side-2",
+        "Spawn-Player-Side-3",
+        "Spawn-Player-Treasure-1",
+        "Spawn-Player-Treasure-2",
+        "Spawn-Player-Treasure-3",
+        "Spawn-1",
+        "Spawn-1-Treasure-1",
+        "Spawn-1-Treasure-2",
+        "Spawn-2",
+        "Spawn-2-Treasure-1",
+        "Spawn-2-Treasure-2",
+        "Spawn-3",
+        "Spawn-3-Treasure-1",
+        "Spawn-3-Treasure-2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-Player",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-1",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-2",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-3",
+          "player": "Player4"
+        }
+      ],
+      "city_zones": [
+        "Spawn-Player-Treasure-1",
+        "Spawn-Player-Treasure-2",
+        "Spawn-Player-Treasure-3",
+        "Spawn-1-Treasure-1",
+        "Spawn-1-Treasure-2",
+        "Spawn-2-Treasure-1",
+        "Spawn-2-Treasure-2",
+        "Spawn-3-Treasure-1",
+        "Spawn-3-Treasure-2"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Side-1",
+          "type": "Default",
+          "guard": 12500,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Side-2",
+          "type": "Default",
+          "guard": 12500,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Side-3",
+          "type": "Default",
+          "guard": 12500,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Treasure-1",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Treasure-2",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Treasure-3",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-1",
+          "to": "Spawn-Player-Treasure-1",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-1",
+          "to": "Spawn-Player-Treasure-3",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-1",
+          "to": "Spawn-1",
+          "type": "Default",
+          "guard": 60000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-2",
+          "to": "Spawn-Player-Treasure-1",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-2",
+          "to": "Spawn-Player-Treasure-2",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-2",
+          "to": "Spawn-2",
+          "type": "Default",
+          "guard": 60000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-3",
+          "to": "Spawn-Player-Treasure-2",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-3",
+          "to": "Spawn-Player-Treasure-3",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-3",
+          "to": "Spawn-3",
+          "type": "Default",
+          "guard": 60000,
+          "road": null
+        },
+        {
+          "from": "Spawn-1",
+          "to": "Spawn-1-Treasure-1",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-1",
+          "to": "Spawn-1-Treasure-2",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-2",
+          "to": "Spawn-2-Treasure-1",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-2",
+          "to": "Spawn-2-Treasure-2",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-3",
+          "to": "Spawn-3-Treasure-1",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-3",
+          "to": "Spawn-3-Treasure-2",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Treasure-1",
+          "to": "Spawn-1-Treasure-2",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Treasure-1",
+          "to": "Spawn-2-Treasure-1",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Treasure-2",
+          "to": "Spawn-2-Treasure-2",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Treasure-2",
+          "to": "Spawn-3-Treasure-1",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Treasure-3",
+          "to": "Spawn-3-Treasure-2",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Treasure-3",
+          "to": "Spawn-1-Treasure-1",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "sid": "fountain",
+    "maxCount": 2
+  },
+  {
+    "sid": "fountain_2",
+    "maxCount": 2
+  },
+  {
+    "sid": "mana_well",
+    "maxCount": 2
+  },
+  {
+    "sid": "beer_fountain",
+    "maxCount": 2
+  },
+  {
+    "sid": "market",
+    "maxCount": 1
+  },
+  {
+    "sid": "forge",
+    "maxCount": 2
+  },
+  {
+    "sid": "stables",
+    "maxCount": 1
+  },
+  {
+    "sid": "watchtower",
+    "maxCount": 1
+  },
+  {
+    "sid": "wind_rose",
+    "maxCount": 1
+  },
+  {
+    "sid": "quixs_path",
+    "maxCount": 2
+  },
+  {
+    "sid": "crystal_trail",
+    "maxCount": 3
+  },
+  {
+    "sid": "mysterious_stone",
+    "maxCount": 2
+  },
+  {
+    "sid": "university",
+    "maxCount": 2
+  },
+  {
+    "sid": "wise_owl",
+    "maxCount": 4
+  },
+  {
+    "sid": "celestial_sphere",
+    "maxCount": 2
+  },
+  {
+    "sid": "pile_of_books",
+    "maxCount": 2
+  },
+  {
+    "sid": "insaras_eye",
+    "maxCount": 2
+  },
+  {
+    "sid": "tear_of_truth",
+    "maxCount": 3
+  },
+  {
+    "sid": "tree_of_abundance",
+    "maxCount": 2
+  },
+  {
+    "sid": "learning_stone",
+    "maxCount": 5
+  },
+  {
+    "sid": "huntsmans_camp",
+    "maxCount": 2
+  },
+  {
+    "sid": "shady_den",
+    "maxCount": 2
+  },
+  {
+    "sid": "random_hire_1",
+    "maxCount": 6
+  },
+  {
+    "sid": "random_hire_2",
+    "maxCount": 6
+  },
+  {
+    "sid": "random_hire_3",
+    "maxCount": 6
+  },
+  {
+    "sid": "random_hire_4",
+    "maxCount": 6
+  },
+  {
+    "sid": "random_hire_5",
+    "maxCount": 6
+  },
+  {
+    "sid": "random_hire_6",
+    "maxCount": 6
+  },
+  {
+    "sid": "random_hire_7",
+    "maxCount": 6
+  },
+  {
+    "sid": "arena",
+    "maxCount": 2
+  },
+  {
+    "sid": "sacrificial_shrine",
+    "maxCount": 2
+  },
+  {
+    "sid": "chimerologist",
+    "maxCount": 2
+  },
+  {
+    "sid": "circus",
+    "maxCount": 2
+  },
+  {
+    "sid": "infernal_cirque",
+    "maxCount": 2
+  },
+  {
+    "sid": "flattering_mirror",
+    "maxCount": 2
+  },
+  {
+    "sid": "fickle_shrine",
+    "maxCount": 1
+  },
+  {
+    "sid": "point_of_balance",
+    "maxCount": 3
+  },
+  {
+    "sid": "pandora_box",
+    "maxCount": 4
+  },
+  {
+    "sid": "ritual_pyre",
+    "maxCount": 3
+  },
+  {
+    "sid": "boreal_call",
+    "maxCount": 3
+  },
+  {
+    "sid": "jousting_range",
+    "maxCount": 1
+  },
+  {
+    "sid": "unforgotten_grave",
+    "maxCount": 1
+  },
+  {
+    "sid": "petrified_memorial",
+    "maxCount": 1
+  },
+  {
+    "sid": "the_gorge",
+    "maxCount": 1
+  },
+  {
+    "sid": "black_tower",
+    "maxCount": 0
+  }
+]

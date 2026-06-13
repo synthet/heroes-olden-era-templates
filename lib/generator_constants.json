@@ -1,0 +1,82 @@
+{
+  "connectionsPerZone": 1,
+  "defaultGuardRandomization": 0.05,
+  "guardRandomizationClamp": [
+    0.0,
+    0.5
+  ],
+  "zoneSizeClamp": [
+    0.1,
+    2.0
+  ],
+  "expModifierClamp": [
+    0.25,
+    2.0
+  ],
+  "contentScale": {
+    "referenceArea": 6400,
+    "formula": "clamp(sqrt(mapSize^2/totalZones / 6400), 0.5, 2.5)"
+  },
+  "densityMultipliers": {
+    "resource": "ResourceDensityPercent/200",
+    "structure": "StructureDensityPercent/100",
+    "neutralStack": "NeutralStackStrengthPercent/100",
+    "borderGuard": "BorderGuardStrengthPercent/100"
+  },
+  "maxTotalZones": 32,
+  "maxZonesSimpleMode": 10,
+  "playerCount": [
+    2,
+    8
+  ],
+  "directConnectionGuardWeeklyIncrement": 0.15,
+  "borderGuardBases": {
+    "playerPlayer": 30000,
+    "playerNeutralLow": 15000,
+    "playerNeutralMedium": 20000,
+    "playerNeutralHigh": 25000,
+    "portal": 25000
+  },
+  "balancedRingRadii": [
+    0.42,
+    0.35,
+    0.28,
+    0.21,
+    0.14,
+    0.08,
+    0.03
+  ],
+  "tierRanks": {
+    "player": 0,
+    "lowNoCastle": 1,
+    "lowCastle": 2,
+    "medNoCastle": 3,
+    "medCastle": 4,
+    "highNoCastle": 5,
+    "highCastle": 6
+  },
+  "layoutNames": {
+    "spawn": "zone_layout_spawns",
+    "low": "zone_layout_sides",
+    "medHigh": "zone_layout_treasure_zone",
+    "hub": "zone_layout_center"
+  },
+  "neutralProfiles": {
+    "low": {
+      "guardMult": 1.1,
+      "pool": "t2",
+      "primaryCityGuard": 4000
+    },
+    "medium": {
+      "guardMult": 1.4,
+      "pool": "t3",
+      "primaryCityGuard": 8000
+    },
+    "high": {
+      "guardMult": 1.8,
+      "pool": "t4_t5",
+      "primaryCityGuard": 16000
+    }
+  },
+  "balanceScore": "qualityWeight(Low=1,Medium=2,High=3) + min(castleCount,4)*0.15"
+}

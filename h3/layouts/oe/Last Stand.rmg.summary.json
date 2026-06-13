@@ -1,0 +1,240 @@
+{
+  "file": "Last Stand.rmg.json",
+  "name": "Last Stand",
+  "description_key": "templates_description_pve_last_stand",
+  "size": "160x160",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 21,
+      "zones": [
+        "Spawn-Player",
+        "Spawn-Player-Side-1",
+        "Spawn-Player-Side-2",
+        "Spawn-Player-Side-3",
+        "Spawn-Player-Side-4",
+        "Spawn-Player-Treasure-1",
+        "Spawn-Player-Treasure-2",
+        "Spawn-Player-Treasure-3",
+        "Spawn-Player-Treasure-4",
+        "Spawn-1",
+        "Spawn-1-Side-1",
+        "Spawn-1-Side-2",
+        "Spawn-2",
+        "Spawn-2-Side-1",
+        "Spawn-2-Side-2",
+        "Spawn-3",
+        "Spawn-3-Side-1",
+        "Spawn-3-Side-2",
+        "Spawn-4",
+        "Spawn-4-Side-1",
+        "Spawn-4-Side-2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-Player",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-1",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-2",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-3",
+          "player": "Player4"
+        },
+        {
+          "zone": "Spawn-4",
+          "player": "Player5"
+        }
+      ],
+      "city_zones": [
+        "Spawn-Player-Side-1",
+        "Spawn-Player-Side-2",
+        "Spawn-Player-Side-3",
+        "Spawn-Player-Side-4",
+        "Spawn-1",
+        "Spawn-2",
+        "Spawn-3",
+        "Spawn-4"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Side-1",
+          "type": "Default",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Side-2",
+          "type": "Default",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Side-3",
+          "type": "Default",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Side-4",
+          "type": "Default",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Treasure-1",
+          "type": "Default",
+          "guard": 60000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Treasure-2",
+          "type": "Default",
+          "guard": 60000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Treasure-3",
+          "type": "Default",
+          "guard": 60000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-Player-Treasure-4",
+          "type": "Default",
+          "guard": 60000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-1",
+          "to": "Spawn-1-Side-1",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-1",
+          "to": "Spawn-1-Side-2",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-2",
+          "to": "Spawn-2-Side-1",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-2",
+          "to": "Spawn-2-Side-2",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-3",
+          "to": "Spawn-3-Side-1",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-3",
+          "to": "Spawn-3-Side-2",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-4",
+          "to": "Spawn-4-Side-1",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player-Side-4",
+          "to": "Spawn-4-Side-2",
+          "type": "Default",
+          "guard": 40000,
+          "road": null
+        },
+        {
+          "from": "Spawn-1",
+          "to": "Spawn-1-Side-1",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-1",
+          "to": "Spawn-1-Side-2",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-2",
+          "to": "Spawn-2-Side-1",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-2",
+          "to": "Spawn-2-Side-2",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-3",
+          "to": "Spawn-3-Side-1",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-3",
+          "to": "Spawn-3-Side-2",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-4",
+          "to": "Spawn-4-Side-1",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-4",
+          "to": "Spawn-4-Side-2",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

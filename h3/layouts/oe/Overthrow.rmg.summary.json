@@ -1,0 +1,268 @@
+{
+  "file": "Overthrow.rmg.json",
+  "name": "Overthrow",
+  "description_key": "templates_description_conquest",
+  "size": "192x192",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 21,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-F",
+        "Spawn-G",
+        "Spawn-H",
+        "SmallTreasure-1",
+        "SmallTreasure-2",
+        "SmallTreasure-3",
+        "SmallTreasure-4",
+        "CornerTreasure-1",
+        "CornerTreasure-2",
+        "Connector-1",
+        "Connector-2",
+        "Treasure-1",
+        "Treasure-2",
+        "BigTreasure-1",
+        "BigTreasure-2",
+        "Center"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-F",
+        "Spawn-G",
+        "Spawn-H",
+        "SmallTreasure-1",
+        "SmallTreasure-2",
+        "SmallTreasure-3",
+        "SmallTreasure-4",
+        "CornerTreasure-1",
+        "CornerTreasure-2",
+        "Connector-1",
+        "Connector-2",
+        "Treasure-1",
+        "Treasure-2",
+        "BigTreasure-1",
+        "BigTreasure-2"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "SmallTreasure-1",
+          "type": "Default",
+          "guard": 4500,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "SmallTreasure-2",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "CornerTreasure-1",
+          "type": "Direct",
+          "guard": 20000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "CornerTreasure-1",
+          "type": "Direct",
+          "guard": 20000,
+          "road": false
+        },
+        {
+          "from": "Spawn-A",
+          "to": "CornerTreasure-1",
+          "type": "Direct",
+          "guard": 20000,
+          "road": false
+        },
+        {
+          "from": "Spawn-B",
+          "to": "SmallTreasure-3",
+          "type": "Default",
+          "guard": 4500,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "SmallTreasure-4",
+          "type": "Default",
+          "guard": 4500,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "CornerTreasure-2",
+          "type": "Direct",
+          "guard": 20000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "CornerTreasure-2",
+          "type": "Direct",
+          "guard": 20000,
+          "road": false
+        },
+        {
+          "from": "Spawn-B",
+          "to": "CornerTreasure-2",
+          "type": "Direct",
+          "guard": 20000,
+          "road": false
+        },
+        {
+          "from": "SmallTreasure-1",
+          "to": "Connector-1",
+          "type": "Default",
+          "guard": 4500,
+          "road": true
+        },
+        {
+          "from": "SmallTreasure-2",
+          "to": "Connector-1",
+          "type": "Default",
+          "guard": 4500,
+          "road": true
+        },
+        {
+          "from": "SmallTreasure-3",
+          "to": "Connector-2",
+          "type": "Default",
+          "guard": 4500,
+          "road": true
+        },
+        {
+          "from": "SmallTreasure-4",
+          "to": "Connector-2",
+          "type": "Default",
+          "guard": 4500,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Connector-1",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-1",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Connector-2",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Treasure-2",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "SmallTreasure-1",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "BigTreasure-1",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Center",
+          "type": "Default",
+          "guard": 20000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Center",
+          "type": "Default",
+          "guard": 20000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "SmallTreasure-4",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "BigTreasure-2",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-G",
+          "to": "SmallTreasure-2",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-G",
+          "to": "BigTreasure-2",
+          "type": "Default",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Spawn-H",
+          "to": "SmallTreasure-3",
+          "type": "Default",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-H",
+          "to": "BigTreasure-1",
+          "type": "Default",
+          "guard": 12000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

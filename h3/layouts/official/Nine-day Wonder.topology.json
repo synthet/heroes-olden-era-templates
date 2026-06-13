@@ -1,0 +1,178 @@
+{
+  "source": "D:\\Projects\\heroes-templates\\h3\\sources\\official\\Nine-day Wonder.h3t",
+  "pack_name": "Nine-day Wonder",
+  "maps": [],
+  "zones": [
+    {
+      "id": 1,
+      "map_name": "Nine-day Wonder",
+      "player": "x",
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "weak"
+    },
+    {
+      "id": 2,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "30",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 3,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "17",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 4,
+      "map_name": null,
+      "player": "x",
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "weak"
+    },
+    {
+      "id": 5,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 6,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "20",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    },
+    {
+      "id": 7,
+      "map_name": null,
+      "player": null,
+      "ai": null,
+      "base_size": "17",
+      "junction": false,
+      "treasure": [],
+      "placement": "",
+      "monsters": "avg"
+    }
+  ],
+  "connections": [
+    {
+      "from": 1,
+      "to": 6,
+      "guard_value": 2000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 1,
+      "to": 7,
+      "guard_value": 4000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "guard_value": 12500,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 2,
+      "to": 5,
+      "guard_value": 12500,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 2,
+      "to": 6,
+      "guard_value": 12500,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 2,
+      "to": 7,
+      "guard_value": 12500,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "guard_value": 4000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 3,
+      "to": 7,
+      "guard_value": 12500,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "guard_value": 2000,
+      "wide": false,
+      "border_guard": false,
+      "road": "+",
+      "type": "",
+      "fictive": false
+    }
+  ],
+  "zone_count": 7,
+  "connection_count": 9
+}

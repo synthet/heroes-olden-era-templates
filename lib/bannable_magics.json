@@ -1,0 +1,22 @@
+[
+  {
+    "id": "neutral_magic_pocket_dimension",
+    "name": "Pocket Dimension"
+  },
+  {
+    "id": "neutral_magic_light_gate",
+    "name": "Light Gate"
+  },
+  {
+    "id": "neutral_magic_town_portal",
+    "name": "Town Portal"
+  },
+  {
+    "id": "neutral_magic_dimension_door",
+    "name": "Dimension Door"
+  },
+  {
+    "id": "neutral_magic_shadow_form",
+    "name": "Shadow Form"
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "file": "Junction.rmg.json",
+  "name": "Junction",
+  "description_key": "templates_description_pve_junction",
+  "size": "144x144",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 10,
+      "zones": [
+        "Spawn-A",
+        "Spawn-A-Side-1",
+        "Spawn-B",
+        "Spawn-B-Side-1",
+        "Spawn-C",
+        "Spawn-C-Side-1",
+        "Spawn-D",
+        "Spawn-D-Side-1",
+        "Spawn-B-Side-2",
+        "Spawn-D-Side-2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-C",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-D",
+          "player": "Player4"
+        }
+      ],
+      "city_zones": [
+        "Spawn-A",
+        "Spawn-A-Side-1",
+        "Spawn-A-Side-1",
+        "Spawn-B",
+        "Spawn-B-Side-1",
+        "Spawn-B-Side-1",
+        "Spawn-C",
+        "Spawn-C-Side-1",
+        "Spawn-C-Side-1",
+        "Spawn-D",
+        "Spawn-D-Side-1",
+        "Spawn-D-Side-1"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Spawn-A-Side-1",
+          "type": "Default",
+          "guard": 12500,
+          "road": null
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Spawn-B-Side-1",
+          "type": "Default",
+          "guard": 12500,
+          "road": null
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Spawn-C-Side-1",
+          "type": "Default",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Spawn-D-Side-1",
+          "type": "Default",
+          "guard": 12500,
+          "road": null
+        },
+        {
+          "from": "Spawn-A-Side-1",
+          "to": "Spawn-B-Side-1",
+          "type": "Default",
+          "guard": 35000,
+          "road": null
+        },
+        {
+          "from": "Spawn-A-Side-1",
+          "to": "Spawn-C-Side-1",
+          "type": "Default",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Spawn-A-Side-1",
+          "to": "Spawn-D-Side-1",
+          "type": "Default",
+          "guard": 35000,
+          "road": null
+        },
+        {
+          "from": "Spawn-B-Side-1",
+          "to": "Spawn-B-Side-2",
+          "type": "Default",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-D-Side-1",
+          "to": "Spawn-D-Side-2",
+          "type": "Default",
+          "guard": 50000,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

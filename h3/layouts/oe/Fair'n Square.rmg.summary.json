@@ -1,0 +1,179 @@
+{
+  "file": "Fair'n Square.rmg.json",
+  "name": "Fair'n Square",
+  "description_key": "templates_description_fairn_square",
+  "size": "128x128",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 12,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Treasure-1",
+        "Treasure-2",
+        "Treasure-3",
+        "Treasure-4",
+        "Treasure-5",
+        "Treasure-6",
+        "Treasure-7",
+        "Treasure-8"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-C",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-D",
+          "player": "Player4"
+        }
+      ],
+      "city_zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Treasure-1",
+        "Treasure-1",
+        "Treasure-2",
+        "Treasure-2",
+        "Treasure-3",
+        "Treasure-3",
+        "Treasure-4",
+        "Treasure-4",
+        "Treasure-5",
+        "Treasure-6",
+        "Treasure-7",
+        "Treasure-8"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-1",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-2",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-3",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-4",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-2",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-3",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Treasure-1",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Treasure-4",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-5",
+          "type": "Portal",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-8",
+          "type": "Portal",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-7",
+          "type": "Portal",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Treasure-6",
+          "type": "Portal",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Treasure-5",
+          "to": "Treasure-6",
+          "type": "Portal",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-5",
+          "to": "Treasure-7",
+          "type": "Portal",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-6",
+          "to": "Treasure-8",
+          "type": "Portal",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-7",
+          "to": "Treasure-8",
+          "type": "Portal",
+          "guard": 45000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}
