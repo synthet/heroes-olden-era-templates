@@ -1,0 +1,245 @@
+{
+  "file": "Massacre.rmg.json",
+  "name": "Massacre",
+  "description_key": "templates_description_hellmonth",
+  "size": "176x176",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 24,
+      "zones": [
+        "Spawn-A",
+        "Side-1-A",
+        "Side-2-A",
+        "Side-Spawn-1-A",
+        "Side-Spawn-2-A",
+        "Side-Spawn-3-A",
+        "Side-Spawn-4-A",
+        "Side-3-A",
+        "Side-4-A",
+        "Treasure-1-A",
+        "Treasure-2-A",
+        "Treasure-3-A",
+        "Spawn-B",
+        "Side-1-B",
+        "Side-2-B",
+        "Side-Spawn-1-B",
+        "Side-Spawn-2-B",
+        "Side-Spawn-3-B",
+        "Side-Spawn-4-B",
+        "Side-3-B",
+        "Side-4-B",
+        "Treasure-1-B",
+        "Treasure-2-B",
+        "Treasure-3-B"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Side-Spawn-1-A",
+        "Side-Spawn-2-A",
+        "Side-Spawn-3-A",
+        "Side-Spawn-4-A",
+        "Side-Spawn-1-B",
+        "Side-Spawn-2-B",
+        "Side-Spawn-3-B",
+        "Side-Spawn-4-B"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-1-A",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Side-2-A",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Side-1-A",
+          "to": "Side-Spawn-1-A",
+          "type": "Direct",
+          "guard": 8000,
+          "road": true
+        },
+        {
+          "from": "Side-Spawn-1-A",
+          "to": "Treasure-1-A",
+          "type": "Portal",
+          "guard": 30000,
+          "road": null
+        },
+        {
+          "from": "Side-Spawn-1-A",
+          "to": "Treasure-2-A",
+          "type": "Portal",
+          "guard": 18000,
+          "road": null
+        },
+        {
+          "from": "Side-2-A",
+          "to": "Side-Spawn-2-A",
+          "type": "Direct",
+          "guard": 15000,
+          "road": true
+        },
+        {
+          "from": "Side-2-A",
+          "to": "Side-Spawn-3-A",
+          "type": "Direct",
+          "guard": 8000,
+          "road": true
+        },
+        {
+          "from": "Side-Spawn-3-A",
+          "to": "Treasure-2-A",
+          "type": "Portal",
+          "guard": 18000,
+          "road": null
+        },
+        {
+          "from": "Side-Spawn-4-A",
+          "to": "Treasure-2-A",
+          "type": "Portal",
+          "guard": 32500,
+          "road": null
+        },
+        {
+          "from": "Side-Spawn-3-A",
+          "to": "Side-3-A",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Side-Spawn-3-A",
+          "to": "Side-4-A",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Treasure-3-A",
+          "to": "Side-3-A",
+          "type": "Portal",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Treasure-3-A",
+          "to": "Side-4-A",
+          "type": "Portal",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-1-B",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-2-B",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Side-1-B",
+          "to": "Side-Spawn-1-B",
+          "type": "Direct",
+          "guard": 8000,
+          "road": true
+        },
+        {
+          "from": "Side-Spawn-1-B",
+          "to": "Treasure-1-B",
+          "type": "Portal",
+          "guard": 30000,
+          "road": null
+        },
+        {
+          "from": "Side-Spawn-1-B",
+          "to": "Treasure-2-B",
+          "type": "Portal",
+          "guard": 18000,
+          "road": null
+        },
+        {
+          "from": "Side-2-B",
+          "to": "Side-Spawn-2-B",
+          "type": "Direct",
+          "guard": 15000,
+          "road": true
+        },
+        {
+          "from": "Side-2-B",
+          "to": "Side-Spawn-3-B",
+          "type": "Direct",
+          "guard": 8000,
+          "road": true
+        },
+        {
+          "from": "Side-Spawn-3-B",
+          "to": "Treasure-2-B",
+          "type": "Portal",
+          "guard": 18000,
+          "road": null
+        },
+        {
+          "from": "Side-Spawn-4-B",
+          "to": "Treasure-2-B",
+          "type": "Portal",
+          "guard": 32500,
+          "road": null
+        },
+        {
+          "from": "Side-Spawn-3-B",
+          "to": "Side-3-B",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Side-Spawn-3-B",
+          "to": "Side-4-B",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Treasure-3-B",
+          "to": "Side-3-B",
+          "type": "Portal",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Treasure-3-B",
+          "to": "Side-4-B",
+          "type": "Portal",
+          "guard": 50000,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

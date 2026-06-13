@@ -1,0 +1,183 @@
+{
+  "file": "Hallway.rmg.json",
+  "name": "Hallway",
+  "description_key": "templates_description_hallway",
+  "size": "144x144",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 14,
+      "zones": [
+        "Spawn-A",
+        "Side-A",
+        "Spawn-B",
+        "Side-B",
+        "Spawn-C",
+        "Side-C",
+        "Spawn-D",
+        "Side-D",
+        "Hallway-1",
+        "Hallway-2",
+        "Hallway-3",
+        "Hallway-4",
+        "Treasure-A",
+        "Treasure-B"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-C",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-D",
+          "player": "Player4"
+        }
+      ],
+      "city_zones": [
+        "Side-A",
+        "Side-B",
+        "Side-C",
+        "Side-D"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Hallway-1",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Hallway-1",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Hallway-4",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Hallway-4",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Hallway-2",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Side-C",
+          "to": "Hallway-2",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Hallway-3",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Side-D",
+          "to": "Hallway-3",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Hallway-1",
+          "to": "Hallway-2",
+          "type": "Direct",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Hallway-2",
+          "to": "Hallway-3",
+          "type": "Direct",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Hallway-3",
+          "to": "Hallway-4",
+          "type": "Direct",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Hallway-1",
+          "to": "Treasure-A",
+          "type": "Direct",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Hallway-4",
+          "to": "Treasure-B",
+          "type": "Direct",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Hallway-2",
+          "to": "Treasure-A",
+          "type": "Portal",
+          "guard": 60000,
+          "road": false
+        },
+        {
+          "from": "Hallway-3",
+          "to": "Treasure-A",
+          "type": "Portal",
+          "guard": 60000,
+          "road": false
+        },
+        {
+          "from": "Hallway-2",
+          "to": "Treasure-B",
+          "type": "Portal",
+          "guard": 60000,
+          "road": false
+        },
+        {
+          "from": "Hallway-3",
+          "to": "Treasure-B",
+          "type": "Portal",
+          "guard": 60000,
+          "road": false
+        },
+        {
+          "from": "Treasure-A",
+          "to": "Treasure-B",
+          "type": "Portal",
+          "guard": 60000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

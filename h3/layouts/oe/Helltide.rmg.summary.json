@@ -1,0 +1,135 @@
+{
+  "file": "Helltide.rmg.json",
+  "name": "Helltide",
+  "description_key": "templates_description_helltide",
+  "size": "128x128",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 8,
+      "zones": [
+        "Center-Win-A",
+        "Center-Win-B",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-A-Treasure-1",
+        "Spawn-A-Treasure-2",
+        "Spawn-B-Treasure-1",
+        "Spawn-B-Treasure-2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Center-Win-A",
+        "Center-Win-B",
+        "Spawn-A",
+        "Spawn-A",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-B",
+        "Spawn-B",
+        "Spawn-A-Treasure-1",
+        "Spawn-A-Treasure-2",
+        "Spawn-B-Treasure-1",
+        "Spawn-B-Treasure-2"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Spawn-A-Treasure-1",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Spawn-A-Treasure-1",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Spawn-A-Treasure-2",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Spawn-A-Treasure-2",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A-Treasure-1",
+          "to": "Center-Win-A",
+          "type": "Direct",
+          "guard": 50000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A-Treasure-2",
+          "to": "Center-Win-A",
+          "type": "Direct",
+          "guard": 50000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Spawn-B-Treasure-1",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Spawn-B-Treasure-1",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Spawn-B-Treasure-2",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Spawn-B-Treasure-2",
+          "type": "Direct",
+          "guard": 25000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B-Treasure-1",
+          "to": "Center-Win-B",
+          "type": "Direct",
+          "guard": 50000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B-Treasure-2",
+          "to": "Center-Win-B",
+          "type": "Direct",
+          "guard": 50000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

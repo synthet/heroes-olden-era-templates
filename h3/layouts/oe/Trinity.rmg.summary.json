@@ -1,0 +1,129 @@
+{
+  "file": "Trinity.rmg.json",
+  "name": "Trinity",
+  "description_key": "templates_description_trinity_one",
+  "size": "112x112",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 11,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Green-1",
+        "Green-2",
+        "Green-3",
+        "Green-4",
+        "Yellow-1",
+        "Yellow-2",
+        "Yellow-3",
+        "Red-1",
+        "Red-2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Green-2",
+        "Green-3",
+        "Yellow-2"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Green-1",
+          "type": "Portal",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Yellow-1",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Red-1",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Green-4",
+          "type": "Portal",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Yellow-3",
+          "type": "Direct",
+          "guard": 18000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Red-2",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Green-1",
+          "to": "Green-2",
+          "type": "Direct",
+          "guard": 9000,
+          "road": true
+        },
+        {
+          "from": "Green-2",
+          "to": "Green-3",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Green-3",
+          "to": "Green-4",
+          "type": "Direct",
+          "guard": 9000,
+          "road": true
+        },
+        {
+          "from": "Yellow-1",
+          "to": "Yellow-2",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Yellow-2",
+          "to": "Yellow-3",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Red-1",
+          "to": "Red-2",
+          "type": "Direct",
+          "guard": 70000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "valueScores": {
+    "random_item_legendary": 28000,
+    "random_item_epic": 14000,
+    "mythic_scroll_box": 14000,
+    "pandora_box": 28000,
+    "dragon_utopia": 0,
+    "alchemy_lab": 5000,
+    "mine_crystals": 5000,
+    "mine_gemstones": 5000,
+    "mine_mercury": 5000,
+    "mine_gold": 8000,
+    "mine_wood": 4000,
+    "mine_ore": 4000,
+    "market": 4000,
+    "mana_well": 3500,
+    "stables": 3500,
+    "watchtower": 3000,
+    "wind_rose": 5000,
+    "mirage": 5000,
+    "random_hire_list": 4000
+  },
+  "tiers": {
+    "full_treasure": {
+      "mandatoryPrefix": "mandatory_content_treasure",
+      "baselineValueScore": 98000,
+      "limitsRef": "content_limits_treasure",
+      "packs": [
+        {
+          "id": 1,
+          "content": [
+            {"sid": "dragon_utopia", "variant": -1},
+            {"sid": "random_item_legendary", "designatedEncounter": false},
+            {"sid": "pandora_box", "variant": 12, "designatedEncounter": false},
+            {"sid": "mythic_scroll_box", "variant": -1},
+            {"sid": "alchemy_lab", "isMine": true},
+            {"sid": "mine_gemstones", "isMine": true}
+          ]
+        },
+        {
+          "id": 2,
+          "content": [
+            {"sid": "dragon_utopia", "variant": -1},
+            {"sid": "random_item_legendary", "designatedEncounter": false},
+            {"sid": "pandora_box", "variant": 12, "designatedEncounter": false},
+            {"sid": "mythic_scroll_box", "variant": -1},
+            {"sid": "mine_mercury", "isMine": true},
+            {"sid": "mine_gemstones", "isMine": true}
+          ]
+        },
+        {
+          "id": 3,
+          "content": [
+            {"sid": "dragon_utopia", "variant": -1},
+            {"sid": "random_item_legendary", "designatedEncounter": false},
+            {"sid": "pandora_box", "variant": 12},
+            {"sid": "mythic_scroll_box", "variant": -1},
+            {"sid": "mine_mercury", "isMine": true},
+            {"sid": "mine_crystals", "isMine": true}
+          ]
+        },
+        {
+          "id": 4,
+          "content": [
+            {"sid": "dragon_utopia", "variant": -1},
+            {"sid": "random_item_legendary", "designatedEncounter": false},
+            {"sid": "pandora_box", "variant": 12, "designatedEncounter": false},
+            {"sid": "mythic_scroll_box", "variant": -1},
+            {"sid": "alchemy_lab", "isMine": true},
+            {"sid": "mine_crystals", "isMine": true}
+          ]
+        },
+        {
+          "id": 5,
+          "content": [
+            {"sid": "dragon_utopia", "variant": -1},
+            {"sid": "random_item_legendary", "designatedEncounter": false},
+            {"sid": "pandora_box", "variant": 12, "designatedEncounter": false},
+            {"sid": "mythic_scroll_box", "variant": -1},
+            {"sid": "alchemy_lab", "isMine": true},
+            {"sid": "mine_mercury", "isMine": true}
+          ]
+        },
+        {
+          "id": 6,
+          "content": [
+            {"sid": "dragon_utopia", "variant": -1},
+            {"sid": "random_item_legendary", "designatedEncounter": false},
+            {"sid": "pandora_box", "variant": 12, "designatedEncounter": false},
+            {"sid": "mythic_scroll_box", "variant": -1},
+            {"sid": "mine_crystals", "isMine": true},
+            {"sid": "mine_gemstones", "isMine": true}
+          ]
+        },
+        {
+          "id": 7,
+          "content": [
+            {"sid": "dragon_utopia", "variant": -1},
+            {"sid": "random_item_legendary", "designatedEncounter": false},
+            {"sid": "pandora_box", "variant": 11, "designatedEncounter": false},
+            {"sid": "mythic_scroll_box", "variant": -1},
+            {"sid": "alchemy_lab", "isMine": true},
+            {"sid": "mine_gemstones", "isMine": true}
+          ]
+        },
+        {
+          "id": 8,
+          "content": [
+            {"sid": "dragon_utopia", "variant": -1},
+            {"sid": "random_item_legendary", "designatedEncounter": false},
+            {"sid": "pandora_box", "variant": 13, "designatedEncounter": false},
+            {"sid": "mythic_scroll_box", "variant": -1},
+            {"sid": "mine_mercury", "isMine": true},
+            {"sid": "mine_crystals", "isMine": true}
+          ]
+        }
+      ]
+    },
+    "lean_treasure": {
+      "mandatoryPrefix": "mandatory_content_treasure",
+      "baselineValueScore": 5000,
+      "limitsRef": "content_limits_treasure",
+      "packs": [
+        {"id": 1, "content": [{"sid": "dragon_utopia", "variant": -1}, {"sid": "mine_crystals", "isMine": true}]},
+        {"id": 2, "content": [{"sid": "dragon_utopia", "variant": -1}, {"sid": "mine_gemstones", "isMine": true}]},
+        {"id": 3, "content": [{"sid": "dragon_utopia", "variant": -1}, {"sid": "mine_mercury", "isMine": true}]},
+        {"id": 4, "content": [{"sid": "dragon_utopia", "variant": -1}, {"sid": "alchemy_lab", "isMine": true}]},
+        {"id": 5, "content": [{"sid": "dragon_utopia", "variant": 0}, {"sid": "mine_crystals", "isMine": true}]},
+        {"id": 6, "content": [{"sid": "dragon_utopia", "variant": 1}, {"sid": "mine_gemstones", "isMine": true}]},
+        {"id": 7, "content": [{"sid": "dragon_utopia", "variant": 2}, {"sid": "mine_mercury", "isMine": true}]},
+        {"id": 8, "content": [{"sid": "dragon_utopia", "variant": 3}, {"sid": "alchemy_lab", "isMine": true}]}
+      ]
+    },
+    "spider_minimal": {
+      "mandatoryPrefix": "mandatory_content_treasure",
+      "baselineValueScore": 5000,
+      "limitsRef": "content_limits_treasure",
+      "packs": [
+        {"id": 1, "content": [{"sid": "mine_crystals", "isMine": true}]},
+        {"id": 2, "content": [{"sid": "mine_gemstones", "isMine": true}]},
+        {"id": 3, "content": [{"sid": "mine_mercury", "isMine": true}]},
+        {"id": 4, "content": [{"sid": "alchemy_lab", "isMine": true}]},
+        {"id": 5, "content": [{"sid": "mine_crystals", "isMine": true}, {"sid": "stables", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.3, "weight": 1}]}]},
+        {"id": 6, "content": [{"sid": "mine_gemstones", "isMine": true}, {"sid": "mana_well", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.3, "weight": 1}]}]},
+        {"id": 7, "content": [{"sid": "mine_mercury", "isMine": true}, {"sid": "market", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.15, "weight": 1}]}]},
+        {"id": 8, "content": [{"sid": "alchemy_lab", "isMine": true}, {"sid": "watchtower", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.2, "targetMax": 0.3, "weight": 1}]}]}
+      ]
+    },
+    "connector": {
+      "mandatoryPrefix": "mandatory_content_connector",
+      "baselineValueScore": 23500,
+      "limitsRef": "content_limits_connector",
+      "packs": [
+        {
+          "id": 1,
+          "content": [
+            {"sid": "market", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.15, "weight": 1}]},
+            {"sid": "mine_crystals", "isMine": true},
+            {"sid": "mine_mercury", "isMine": true},
+            {"sid": "mine_gemstones", "isMine": true},
+            {"sid": "mana_well", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.3, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 2,
+          "content": [
+            {"sid": "market", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.15, "weight": 1}]},
+            {"sid": "mine_crystals", "isMine": true},
+            {"sid": "mine_mercury", "isMine": true},
+            {"sid": "mine_gemstones", "isMine": true},
+            {"sid": "stables", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.3, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 3,
+          "content": [
+            {"sid": "market", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.15, "weight": 1}]},
+            {"sid": "mine_crystals", "isMine": true},
+            {"sid": "alchemy_lab", "isMine": true},
+            {"sid": "mine_gemstones", "isMine": true},
+            {"sid": "mana_well", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.3, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 4,
+          "content": [
+            {"sid": "market", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.15, "weight": 1}]},
+            {"sid": "mine_mercury", "isMine": true},
+            {"sid": "alchemy_lab", "isMine": true},
+            {"sid": "mine_crystals", "isMine": true},
+            {"sid": "stables", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.3, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 5,
+          "content": [
+            {"sid": "market", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.15, "weight": 1}]},
+            {"sid": "mine_gemstones", "isMine": true},
+            {"sid": "mine_mercury", "isMine": true},
+            {"sid": "alchemy_lab", "isMine": true},
+            {"sid": "watchtower", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.2, "targetMax": 0.3, "weight": 1}]}
+          ]
+        }
+      ]
+    },
+    "buffer_side": {
+      "mandatoryPrefix": "mandatory_content_buffer",
+      "baselineValueScore": 45500,
+      "limitsRef": "content_limits_side",
+      "packs": [
+        {
+          "id": 1,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_gold", "isMine": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_crystals", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "stables", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.25, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 2,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_gold", "isMine": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_mercury", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "mana_well", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.25, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 3,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_gold", "isMine": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_gemstones", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "market", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 4,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_gold", "isMine": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "alchemy_lab", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.25, "weight": 1}]},
+            {"sid": "watchtower", "isGuarded": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.2, "targetMax": 0.3, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 5,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_crystals", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "mine_mercury", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "stables", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.25, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 6,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_gemstones", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "mine_mercury", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "mana_well", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.25, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 7,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_crystals", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "mine_gemstones", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "market", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 8,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_gold", "isMine": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "alchemy_lab", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.25, "weight": 1}]},
+            {"sid": "watchtower", "isGuarded": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.2, "targetMax": 0.3, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 9,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_mercury", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "mine_gemstones", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "stables", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.25, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 10,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_crystals", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "alchemy_lab", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.25, "weight": 1}]},
+            {"sid": "mana_well", "isGuarded": false, "rules": [{"type": "Road", "args": [], "targetMin": 0.15, "targetMax": 0.25, "weight": 1}]}
+          ]
+        },
+        {
+          "id": 11,
+          "content": [
+            {"sid": "mine_wood", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_ore", "isMine": true, "isGuarded": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_gold", "isMine": true, "rules": [{"type": "Crossroads", "args": [], "targetMin": 0.1, "targetMax": 0.2, "weight": 1}]},
+            {"sid": "mine_mercury", "isMine": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.05, "targetMax": 0.1, "weight": 1}]},
+            {"sid": "watchtower", "isGuarded": true, "rules": [{"type": "Road", "args": [], "targetMin": 0.2, "targetMax": 0.3, "weight": 1}]}
+          ]
+        }
+      ]
+    },
+    "supertreasure": {
+      "mandatoryPrefix": "mandatory_content_supertreasure",
+      "baselineValueScore": 33000,
+      "limitsRef": "content_limits_supertreasure",
+      "packs": [
+        {"id": 1, "content": [{"sid": "random_item_legendary"}, {"sid": "alchemy_lab", "isMine": true}]},
+        {"id": 2, "content": [{"sid": "random_item_legendary"}, {"sid": "mine_crystals", "isMine": true}]},
+        {"id": 3, "content": [{"sid": "random_item_legendary"}, {"sid": "mine_gemstones", "isMine": true}]},
+        {"id": 4, "content": [{"sid": "random_item_legendary"}, {"sid": "mine_mercury", "isMine": true}]},
+        {"id": 5, "content": [{"sid": "random_item_legendary"}, {"sid": "mythic_scroll_box", "variant": -1}]},
+        {"id": 6, "content": [{"sid": "random_item_epic"}, {"sid": "alchemy_lab", "isMine": true}, {"sid": "mine_crystals", "isMine": true}]},
+        {"id": 7, "content": [{"sid": "random_item_epic"}, {"sid": "alchemy_lab", "isMine": true}, {"sid": "mine_gemstones", "isMine": true}]},
+        {"id": 8, "content": [{"sid": "random_item_epic"}, {"sid": "mythic_scroll_box", "variant": -1}, {"sid": "mine_mercury", "isMine": true}]}
+      ]
+    }
+  },
+  "centerRefresh": [
+    {
+      "id": 1,
+      "valueScore": 15000,
+      "content": [
+        {"sid": "dragon_utopia", "variant": 0},
+        {"sid": "dragon_utopia", "variant": 0},
+        {"sid": "dragon_utopia", "variant": 1},
+        {"sid": "watchtower", "isMine": false, "isGuarded": false, "road": false},
+        {"sid": "mine_gold", "isMine": true},
+        {"sid": "mine_gold", "isMine": true},
+        {"sid": "alchemy_lab", "isMine": true},
+        {"sid": "wind_rose"},
+        {"sid": "mirage", "soloEncounter": true}
+      ]
+    },
+    {
+      "id": 2,
+      "valueScore": 15000,
+      "content": [
+        {"sid": "dragon_utopia", "variant": 0},
+        {"sid": "dragon_utopia", "variant": 1},
+        {"sid": "dragon_utopia", "variant": 2},
+        {"sid": "watchtower", "isMine": false, "isGuarded": false, "road": false},
+        {"sid": "mine_gold", "isMine": true},
+        {"sid": "alchemy_lab", "isMine": true},
+        {"sid": "mine_crystals", "isMine": true},
+        {"sid": "wind_rose"},
+        {"sid": "stables", "isGuarded": false}
+      ]
+    },
+    {
+      "id": 3,
+      "valueScore": 15000,
+      "content": [
+        {"sid": "dragon_utopia", "variant": 1},
+        {"sid": "dragon_utopia", "variant": 1},
+        {"sid": "dragon_utopia", "variant": 3},
+        {"sid": "watchtower", "isMine": false, "isGuarded": false, "road": false},
+        {"sid": "mine_gold", "isMine": true},
+        {"sid": "mine_gold", "isMine": true},
+        {"sid": "mine_mercury", "isMine": true},
+        {"sid": "mirage", "soloEncounter": true},
+        {"sid": "mana_well", "isGuarded": false}
+      ]
+    }
+  ],
+  "mainObjectBuildings": [
+    "poor_buildings_construction",
+    "medium_buildings_construction",
+    "siege_buildings_construction"
+  ]
+}

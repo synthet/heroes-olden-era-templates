@@ -1,0 +1,139 @@
+{
+  "file": "Last Fortress.rmg.json",
+  "name": "Last Fortress",
+  "description_key": "templates_description_last_fortress",
+  "size": "128x128",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 11,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Side-Center-1",
+        "Side-Center-2",
+        "Side-Center-3",
+        "Left-Center-1",
+        "Left-Center-2",
+        "Left-Center-3",
+        "Right-Center-1",
+        "Right-Center-2",
+        "Right-Center-3"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-Center-1",
+          "type": "Direct",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-Center-3",
+          "type": "Direct",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Side-Center-1",
+          "to": "Side-Center-2",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Side-Center-2",
+          "to": "Side-Center-3",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Side-Center-1",
+          "to": "Left-Center-1",
+          "type": "Direct",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Side-Center-2",
+          "to": "Left-Center-2",
+          "type": "Direct",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Side-Center-3",
+          "to": "Left-Center-3",
+          "type": "Direct",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Left-Center-2",
+          "to": "Left-Center-1",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Left-Center-2",
+          "to": "Left-Center-3",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Side-Center-1",
+          "to": "Right-Center-1",
+          "type": "Direct",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Side-Center-2",
+          "to": "Right-Center-2",
+          "type": "Direct",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Side-Center-3",
+          "to": "Right-Center-3",
+          "type": "Direct",
+          "guard": 25000,
+          "road": null
+        },
+        {
+          "from": "Right-Center-2",
+          "to": "Right-Center-1",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Right-Center-2",
+          "to": "Right-Center-3",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

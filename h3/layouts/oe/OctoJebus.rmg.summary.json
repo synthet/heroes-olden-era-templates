@@ -1,0 +1,369 @@
+{
+  "file": "OctoJebus.rmg.json",
+  "name": "OctoJebus",
+  "description_key": "templates_description_octojebus",
+  "size": "240x240",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 9,
+      "zones": [
+        "Center",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-F",
+        "Spawn-G",
+        "Spawn-H"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-C",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-D",
+          "player": "Player4"
+        },
+        {
+          "zone": "Spawn-E",
+          "player": "Player5"
+        },
+        {
+          "zone": "Spawn-F",
+          "player": "Player6"
+        },
+        {
+          "zone": "Spawn-G",
+          "player": "Player7"
+        },
+        {
+          "zone": "Spawn-H",
+          "player": "Player8"
+        }
+      ],
+      "city_zones": [
+        "Center",
+        "Center",
+        "Center",
+        "Center",
+        "Center",
+        "Center",
+        "Center",
+        "Center",
+        "Center",
+        "Spawn-A",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-E",
+        "Spawn-F",
+        "Spawn-F",
+        "Spawn-G",
+        "Spawn-G",
+        "Spawn-H",
+        "Spawn-H"
+      ],
+      "connections": [
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-C",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-C",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-C",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-C",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-C",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-D",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-D",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-D",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-D",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-D",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-E",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-E",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-E",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-E",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-E",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-F",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-F",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-F",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-F",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-F",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-G",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-G",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-G",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-G",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-G",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-H",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-H",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-H",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-H",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-H",
+          "type": "Direct",
+          "guard": 70000,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

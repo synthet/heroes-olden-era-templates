@@ -1,0 +1,134 @@
+{
+  "file": "Maneuvers.rmg.json",
+  "name": "Maneuvers",
+  "description_key": "templates_description_trinity",
+  "size": "128x128",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 11,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Green-1",
+        "Green-2",
+        "Green-3",
+        "Green-B",
+        "Yellow-1",
+        "Yellow-2",
+        "Yellow-B",
+        "Red-1",
+        "Red-B"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Green-2",
+        "Green-3",
+        "Green-B",
+        "Yellow-2",
+        "Yellow-B",
+        "Red-B"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Green-1",
+          "type": "Portal",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Yellow-1",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Red-1",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Green-B",
+          "type": "Portal",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Yellow-B",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Red-B",
+          "type": "Direct",
+          "guard": -2000,
+          "road": true
+        },
+        {
+          "from": "Green-1",
+          "to": "Green-2",
+          "type": "Direct",
+          "guard": 9000,
+          "road": true
+        },
+        {
+          "from": "Green-2",
+          "to": "Green-3",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Green-3",
+          "to": "Green-B",
+          "type": "Direct",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Yellow-1",
+          "to": "Yellow-2",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Yellow-2",
+          "to": "Yellow-B",
+          "type": "Direct",
+          "guard": 80000,
+          "road": true
+        },
+        {
+          "from": "Red-1",
+          "to": "Red-B",
+          "type": "Direct",
+          "guard": 100000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

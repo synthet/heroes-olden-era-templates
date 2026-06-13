@@ -1,0 +1,191 @@
+{
+  "file": "Jebus Cross.rmg.json",
+  "name": "Jebus Cross",
+  "description_key": "templates_description_jebus_cross",
+  "size": "160x160",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 5,
+      "zones": [
+        "Center",
+        "Spawn-A",
+        "Spawn-B",
+        "Side-C",
+        "Side-D"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Center",
+        "Center",
+        "Center",
+        "Center",
+        "Center",
+        "Spawn-A",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-B",
+        "Side-C",
+        "Side-C",
+        "Side-C",
+        "Side-D",
+        "Side-D",
+        "Side-D"
+      ],
+      "connections": [
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 66666,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 66666,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 66666,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 66666,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-A",
+          "type": "Direct",
+          "guard": 66666,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 66666,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 66666,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 66666,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 66666,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 66666,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-C",
+          "type": "Direct",
+          "guard": 55555,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-C",
+          "type": "Direct",
+          "guard": 55555,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-C",
+          "type": "Direct",
+          "guard": 55555,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-C",
+          "type": "Direct",
+          "guard": 55555,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-C",
+          "type": "Direct",
+          "guard": 55555,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-D",
+          "type": "Direct",
+          "guard": 55555,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-D",
+          "type": "Direct",
+          "guard": 55555,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-D",
+          "type": "Direct",
+          "guard": 55555,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-D",
+          "type": "Direct",
+          "guard": 55555,
+          "road": null
+        },
+        {
+          "from": "Center",
+          "to": "Side-D",
+          "type": "Direct",
+          "guard": 55555,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

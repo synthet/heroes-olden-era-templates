@@ -1,0 +1,367 @@
+{
+  "file": "Spider.rmg.json",
+  "name": "Spider",
+  "description_key": "templates_description_spider",
+  "size": "208x208",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 24,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-D",
+        "Spawn-E",
+        "Spawn-F",
+        "Spawn-G",
+        "Spawn-H",
+        "Treasure-1",
+        "Treasure-2",
+        "Treasure-3",
+        "Treasure-4",
+        "Treasure-5",
+        "Treasure-6",
+        "Treasure-7",
+        "Treasure-8",
+        "SuperTreasure-1",
+        "SuperTreasure-2",
+        "SuperTreasure-3",
+        "SuperTreasure-4",
+        "SuperTreasure-5",
+        "SuperTreasure-6",
+        "SuperTreasure-7",
+        "SuperTreasure-8"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-C",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-D",
+          "player": "Player4"
+        },
+        {
+          "zone": "Spawn-E",
+          "player": "Player5"
+        },
+        {
+          "zone": "Spawn-F",
+          "player": "Player6"
+        },
+        {
+          "zone": "Spawn-G",
+          "player": "Player7"
+        },
+        {
+          "zone": "Spawn-H",
+          "player": "Player8"
+        }
+      ],
+      "city_zones": [
+        "Treasure-1",
+        "Treasure-2",
+        "Treasure-3",
+        "Treasure-4",
+        "Treasure-5",
+        "Treasure-6",
+        "Treasure-7",
+        "Treasure-8"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-1",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-4",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-7",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-2",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-5",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-8",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-1",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-2",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-3",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Treasure-6",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Treasure-7",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-D",
+          "to": "Treasure-8",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Treasure-1",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Treasure-3",
+          "type": "Default",
+          "guard": 3000,
+          "road": false
+        },
+        {
+          "from": "Spawn-E",
+          "to": "Treasure-4",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Treasure-4",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Treasure-6",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-F",
+          "to": "Treasure-7",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-G",
+          "to": "Treasure-2",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-G",
+          "to": "Treasure-3",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-G",
+          "to": "Treasure-5",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-H",
+          "to": "Treasure-5",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-H",
+          "to": "Treasure-6",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-H",
+          "to": "Treasure-8",
+          "type": "Default",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Treasure-1",
+          "to": "SuperTreasure-1",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-1",
+          "to": "SuperTreasure-1",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-2",
+          "to": "SuperTreasure-2",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-2",
+          "to": "SuperTreasure-2",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-3",
+          "to": "SuperTreasure-1",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-3",
+          "to": "SuperTreasure-1",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-4",
+          "to": "SuperTreasure-1",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-4",
+          "to": "SuperTreasure-1",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-5",
+          "to": "SuperTreasure-5",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-5",
+          "to": "SuperTreasure-5",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-6",
+          "to": "SuperTreasure-6",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-6",
+          "to": "SuperTreasure-6",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-7",
+          "to": "SuperTreasure-7",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-7",
+          "to": "SuperTreasure-7",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-8",
+          "to": "SuperTreasure-8",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        },
+        {
+          "from": "Treasure-8",
+          "to": "SuperTreasure-8",
+          "type": "Default",
+          "guard": 9000,
+          "road": false
+        }
+      ]
+    }
+  ]
+}

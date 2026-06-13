@@ -1,0 +1,112 @@
+{
+  "file": "Pyramid.rmg.json",
+  "name": "Pyramid",
+  "description_key": "templates_description_pyramid",
+  "size": "112x112",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 6,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-C",
+        "Treasure-A",
+        "Treasure-B",
+        "SuperTreasure"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-C",
+          "player": "Player3"
+        }
+      ],
+      "city_zones": [
+        "Spawn-A",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-B",
+        "Spawn-C",
+        "Spawn-C",
+        "Treasure-A",
+        "Treasure-A",
+        "Treasure-A",
+        "Treasure-B",
+        "Treasure-B",
+        "Treasure-B",
+        "SuperTreasure",
+        "SuperTreasure",
+        "SuperTreasure"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-A",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-B",
+          "type": "Portal",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-A",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-B",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-A",
+          "type": "Portal",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-C",
+          "to": "Treasure-B",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Treasure-A",
+          "to": "SuperTreasure",
+          "type": "Direct",
+          "guard": 70000,
+          "road": true
+        },
+        {
+          "from": "Treasure-B",
+          "to": "SuperTreasure",
+          "type": "Direct",
+          "guard": 70000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

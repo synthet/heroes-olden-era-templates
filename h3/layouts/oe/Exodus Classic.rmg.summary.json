@@ -1,0 +1,149 @@
+{
+  "file": "Exodus Classic.rmg.json",
+  "name": "Exodus Classic",
+  "description_key": "templates_description_hellway",
+  "size": "128x128",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 10,
+      "zones": [
+        "Center-Treasure-A",
+        "Center-SuperTreasure-A",
+        "Center-Treasure-B",
+        "Center-SuperTreasure-B",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-A-Treasure-1",
+        "Spawn-A-Treasure-2",
+        "Spawn-B-Treasure-1",
+        "Spawn-B-Treasure-2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Center-Treasure-A",
+        "Center-Treasure-B",
+        "Spawn-A",
+        "Spawn-A",
+        "Spawn-B",
+        "Spawn-B",
+        "Spawn-A-Treasure-1",
+        "Spawn-A-Treasure-2",
+        "Spawn-B-Treasure-1",
+        "Spawn-B-Treasure-2"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Spawn-A-Treasure-1",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Spawn-A-Treasure-1",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Spawn-A-Treasure-2",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Spawn-A-Treasure-2",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Spawn-A-Treasure-1",
+          "to": "Center-Treasure-A",
+          "type": "Direct",
+          "guard": 35000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A-Treasure-2",
+          "to": "Center-Treasure-A",
+          "type": "Direct",
+          "guard": 35000,
+          "road": true
+        },
+        {
+          "from": "Center-Treasure-A",
+          "to": "Center-SuperTreasure-A",
+          "type": "Portal",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Spawn-B-Treasure-1",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Spawn-B-Treasure-1",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Spawn-B-Treasure-2",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Spawn-B-Treasure-2",
+          "type": "Direct",
+          "guard": 17500,
+          "road": true
+        },
+        {
+          "from": "Spawn-B-Treasure-1",
+          "to": "Center-Treasure-B",
+          "type": "Direct",
+          "guard": 35000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B-Treasure-2",
+          "to": "Center-Treasure-B",
+          "type": "Direct",
+          "guard": 35000,
+          "road": true
+        },
+        {
+          "from": "Center-Treasure-B",
+          "to": "Center-SuperTreasure-B",
+          "type": "Portal",
+          "guard": 60000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

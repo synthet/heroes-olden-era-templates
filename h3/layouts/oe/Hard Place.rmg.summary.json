@@ -1,0 +1,171 @@
+{
+  "file": "Hard Place.rmg.json",
+  "name": "Hard Place",
+  "description_key": "templates_description_pve_hard_place",
+  "size": "144x144",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 8,
+      "zones": [
+        "Spawn-Player",
+        "Spawn-1",
+        "Spawn-2",
+        "Spawn-3",
+        "Spawn-4",
+        "Spawn-5",
+        "Spawn-6",
+        "Spawn-7"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-Player",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-1",
+          "player": "Player2"
+        },
+        {
+          "zone": "Spawn-2",
+          "player": "Player3"
+        },
+        {
+          "zone": "Spawn-3",
+          "player": "Player4"
+        },
+        {
+          "zone": "Spawn-4",
+          "player": "Player5"
+        },
+        {
+          "zone": "Spawn-5",
+          "player": "Player6"
+        },
+        {
+          "zone": "Spawn-6",
+          "player": "Player7"
+        },
+        {
+          "zone": "Spawn-7",
+          "player": "Player8"
+        }
+      ],
+      "city_zones": [
+        "Spawn-Player",
+        "Spawn-Player",
+        "Spawn-Player",
+        "Spawn-1",
+        "Spawn-2",
+        "Spawn-3",
+        "Spawn-4",
+        "Spawn-5",
+        "Spawn-6",
+        "Spawn-7"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-1",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-1",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-2",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-2",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-3",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-3",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-4",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-4",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-5",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-5",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-6",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-6",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-7",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        },
+        {
+          "from": "Spawn-Player",
+          "to": "Spawn-7",
+          "type": "Direct",
+          "guard": 50000,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

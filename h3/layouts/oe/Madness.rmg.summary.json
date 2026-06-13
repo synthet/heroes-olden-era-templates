@@ -1,0 +1,162 @@
+{
+  "file": "Madness.rmg.json",
+  "name": "Madness",
+  "description_key": "templates_description_madness",
+  "size": "80x80",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 8,
+      "zones": [
+        "Center-1",
+        "Center-2",
+        "Spawn-A",
+        "Spawn-B",
+        "Side-A",
+        "Side-A2",
+        "Side-B",
+        "Side-B2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Center-1",
+        "Center-1",
+        "Center-2",
+        "Center-2"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-A",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Side-A2",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B2",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Side-A2",
+          "type": "Direct",
+          "guard": -5000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Side-A2",
+          "type": "Portal",
+          "guard": -5000,
+          "road": false
+        },
+        {
+          "from": "Side-A",
+          "to": "Center-1",
+          "type": "Direct",
+          "guard": 7000,
+          "road": true
+        },
+        {
+          "from": "Side-A2",
+          "to": "Center-1",
+          "type": "Direct",
+          "guard": 7000,
+          "road": true
+        },
+        {
+          "from": "Side-A2",
+          "to": "Center-2",
+          "type": "Direct",
+          "guard": 15000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Side-B2",
+          "type": "Direct",
+          "guard": -5000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Side-B2",
+          "type": "Portal",
+          "guard": -5000,
+          "road": false
+        },
+        {
+          "from": "Side-B",
+          "to": "Center-1",
+          "type": "Direct",
+          "guard": 15000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Center-2",
+          "type": "Direct",
+          "guard": 7000,
+          "road": true
+        },
+        {
+          "from": "Side-B2",
+          "to": "Center-2",
+          "type": "Direct",
+          "guard": 15000,
+          "road": true
+        },
+        {
+          "from": "Center-1",
+          "to": "Center-2",
+          "type": "Portal",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Center-1",
+          "to": "Center-2",
+          "type": "Direct",
+          "guard": 12000,
+          "road": false
+        },
+        {
+          "from": "Center-1",
+          "to": "Center-2",
+          "type": "Direct",
+          "guard": 12000,
+          "road": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "file": "Miracle.rmg.json",
+  "name": "Miracle",
+  "description_key": "templates_description_miracle",
+  "size": "80x80",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 7,
+      "zones": [
+        "Center",
+        "Spawn-A",
+        "Spawn-B",
+        "Side-A",
+        "Side-B",
+        "Treasure-A",
+        "Treasure-B"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Center",
+        "Side-A",
+        "Side-B",
+        "Treasure-A",
+        "Treasure-B"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-A",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Treasure-A",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Treasure-B",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Treasure-A",
+          "to": "Treasure-B",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Treasure-A",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Treasure-B",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}

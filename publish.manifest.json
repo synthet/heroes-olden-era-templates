@@ -1,0 +1,10 @@
+{
+  "include": [
+    "templates"
+  ],
+  "map": {
+    "LICENSE": "LICENSE",
+    "README.publish.md": "README.md",
+    "docs/install.publish.md": "docs/install.md"
+  }
+}

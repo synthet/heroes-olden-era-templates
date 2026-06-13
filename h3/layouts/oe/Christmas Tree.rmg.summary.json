@@ -1,0 +1,162 @@
+{
+  "file": "Christmas Tree.rmg.json",
+  "name": "Christmas Tree",
+  "description_key": "templates_description_christmas_tree",
+  "size": "128x128",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 11,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Trunk-1",
+        "Trunk-2",
+        "Trunk-3",
+        "Branch-1",
+        "Branch-2",
+        "Branch-3",
+        "Branch-4",
+        "Branch-5",
+        "Branch-6"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Spawn-B",
+        "Spawn-B",
+        "Branch-1",
+        "Branch-2",
+        "Branch-3",
+        "Branch-4",
+        "Branch-5",
+        "Branch-6"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Trunk-1",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Trunk-1",
+          "to": "Trunk-2",
+          "type": "Direct",
+          "guard": 20000,
+          "road": true
+        },
+        {
+          "from": "Trunk-1",
+          "to": "Branch-1",
+          "type": "Direct",
+          "guard": 10000,
+          "road": true
+        },
+        {
+          "from": "Trunk-1",
+          "to": "Branch-2",
+          "type": "Direct",
+          "guard": 10000,
+          "road": true
+        },
+        {
+          "from": "Branch-1",
+          "to": "Branch-3",
+          "type": "Direct",
+          "guard": 10000,
+          "road": false
+        },
+        {
+          "from": "Branch-2",
+          "to": "Branch-4",
+          "type": "Direct",
+          "guard": 10000,
+          "road": false
+        },
+        {
+          "from": "Trunk-2",
+          "to": "Branch-3",
+          "type": "Direct",
+          "guard": 20000,
+          "road": true
+        },
+        {
+          "from": "Trunk-2",
+          "to": "Branch-4",
+          "type": "Direct",
+          "guard": 20000,
+          "road": true
+        },
+        {
+          "from": "Trunk-2",
+          "to": "Trunk-3",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Branch-3",
+          "to": "Branch-5",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Branch-4",
+          "to": "Branch-6",
+          "type": "Direct",
+          "guard": 30000,
+          "road": false
+        },
+        {
+          "from": "Trunk-3",
+          "to": "Branch-5",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Trunk-3",
+          "to": "Branch-6",
+          "type": "Direct",
+          "guard": 30000,
+          "road": true
+        },
+        {
+          "from": "Trunk-3",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 45000,
+          "road": true
+        },
+        {
+          "from": "Branch-5",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 45000,
+          "road": false
+        },
+        {
+          "from": "Branch-6",
+          "to": "Spawn-B",
+          "type": "Direct",
+          "guard": 45000,
+          "road": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+---
+description: Project layout, golden rules, and doc entry points for heroes-templates
+alwaysApply: true
+---
+
+# heroes-templates
+
+RMG template repo for **Heroes of Might and Magic Olden Era**, with H3 HotA tournament porting reference.
+
+## Folder map
+
+| Path | Role |
+|------|------|
+| `templates/` | Deployable `.rmg.json` (+ `.png` previews) — `official/`, `max8/`, `h3-port/` |
+| `data/` | Engine content pools, encounters, generator config (referenced by SID) |
+| `lib/` | OE lookup JSON (SIDs, bans, variants, constants) |
+| `h3/` | H3 `.h3t` sources and parsed topology JSON |
+| `docs/` | Human docs — start at `docs/README.md` |
+| `tools/` | Python parsers, validators, regen scripts (`paths.py` = path map) |
+
+## Golden rules
+
+- **Clone-and-mutate** — never start from a blank `.rmg.json`; clone nearest template in `templates/official/`.
+- **Validators** — structural: `python tools/validate_rmg.py`; Anarchy 8P/240 only: `python tools/validate_template.py`.
+- **Do not hand-edit generated files** — `h3/layouts/official/README.md`, `templates/h3-port/README.md`, `docs/h3/matrix.md`.
+- **Deploy** — copy `templates/` contents to game `StreamingAssets\map_templates\` (see `docs/install.md`).
+
+## Doc entry points
+
+- Author OE: `docs/oe/cookbook.md` → `docs/oe/rmg-format.md`
+- Port H3: `docs/h3/matrix.md` → `docs/h3/tier1-audit.md`
+- Lookups: `lib/README.md`, `data/README.md`

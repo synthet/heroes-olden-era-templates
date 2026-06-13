@@ -1,0 +1,134 @@
+{
+  "file": "Infinity.rmg.json",
+  "name": "Infinity",
+  "description_key": "templates_description_Infinity",
+  "size": "112x112",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 7,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Side-A-1",
+        "Side-A-2",
+        "Side-B-1",
+        "Side-B-2",
+        "Center"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Side-A-1",
+        "Side-A-1",
+        "Side-A-1",
+        "Side-A-2",
+        "Side-A-2",
+        "Side-B-1",
+        "Side-B-1",
+        "Side-B-1",
+        "Side-B-2",
+        "Side-B-2"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-A-1",
+          "type": "Direct",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Side-A-1",
+          "to": "Side-A-2",
+          "type": "Direct",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": null
+        },
+        {
+          "from": "Side-A-2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": null
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": null
+        },
+        {
+          "from": "Side-A-2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": null
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B-1",
+          "type": "Direct",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Side-B-1",
+          "to": "Side-B-2",
+          "type": "Direct",
+          "guard": 10000,
+          "road": null
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": null
+        },
+        {
+          "from": "Side-B-2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": null
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": null
+        },
+        {
+          "from": "Side-B-2",
+          "to": "Center",
+          "type": "Direct",
+          "guard": 30000,
+          "road": null
+        }
+      ]
+    }
+  ]
+}

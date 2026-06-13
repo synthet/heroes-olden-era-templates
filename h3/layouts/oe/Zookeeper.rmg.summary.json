@@ -1,0 +1,111 @@
+{
+  "file": "Zookeeper.rmg.json",
+  "name": "Zookeeper",
+  "description_key": "templates_description_zookeeper",
+  "size": "80x80",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 8,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Green-Center",
+        "Side-A",
+        "Side-AB",
+        "Side-B",
+        "Country-1",
+        "Country-2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Green-Center",
+        "Side-AB"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Green-Center",
+          "type": "Portal",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Green-Center",
+          "type": "Portal",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Side-A",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Side-AB",
+          "type": "Direct",
+          "guard": 40000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Side-AB",
+          "type": "Direct",
+          "guard": 40000,
+          "road": true
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Country-1",
+          "type": "Portal",
+          "guard": -5000,
+          "road": false
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Country-2",
+          "type": "Portal",
+          "guard": -5000,
+          "road": false
+        },
+        {
+          "from": "Spawn-A",
+          "to": "Country-1",
+          "type": "Portal",
+          "guard": -5000,
+          "road": false
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Country-2",
+          "type": "Portal",
+          "guard": -5000,
+          "road": false
+        }
+      ]
+    }
+  ]
+}

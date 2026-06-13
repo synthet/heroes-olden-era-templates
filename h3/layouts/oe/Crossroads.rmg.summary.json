@@ -1,0 +1,114 @@
+{
+  "file": "Crossroads.rmg.json",
+  "name": "Crossroads",
+  "description_key": "templates_description_crossroads",
+  "size": "96x96",
+  "game_mode": "Classic",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 9,
+      "zones": [
+        "SuperTreasure",
+        "Treasure",
+        "Spawn-A",
+        "Spawn-B",
+        "Side-A",
+        "Side-B",
+        "Connector-A",
+        "Connector-B",
+        "Connector-SuperTreasure"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "SuperTreasure",
+        "Treasure",
+        "Side-A",
+        "Side-B"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-A",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Connector-SuperTreasure",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Side-A",
+          "to": "Connector-A",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B",
+          "type": "Direct",
+          "guard": 6000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Connector-SuperTreasure",
+          "type": "Direct",
+          "guard": 24000,
+          "road": true
+        },
+        {
+          "from": "Side-B",
+          "to": "Connector-B",
+          "type": "Direct",
+          "guard": 12000,
+          "road": true
+        },
+        {
+          "from": "Connector-SuperTreasure",
+          "to": "SuperTreasure",
+          "type": "Direct",
+          "guard": 60000,
+          "road": true
+        },
+        {
+          "from": "Connector-A",
+          "to": "Treasure",
+          "type": "Direct",
+          "guard": 40000,
+          "road": true
+        },
+        {
+          "from": "Connector-B",
+          "to": "Treasure",
+          "type": "Direct",
+          "guard": 40000,
+          "road": true
+        },
+        {
+          "from": "SuperTreasure",
+          "to": "Treasure",
+          "type": "Portal",
+          "guard": 60000,
+          "road": false
+        }
+      ]
+    }
+  ]
+}

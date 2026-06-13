@@ -1,0 +1,69 @@
+{
+  "file": "Symmetry.rmg.json",
+  "name": "Symmetry",
+  "description_key": "templates_description_symmetry",
+  "size": "80x80",
+  "game_mode": "SingleHero",
+  "encounter_holes": false,
+  "variant_count": 1,
+  "variants": [
+    {
+      "index": 0,
+      "zone_count": 6,
+      "zones": [
+        "Spawn-A",
+        "Spawn-B",
+        "Side-A1",
+        "Side-B1",
+        "Side-A2",
+        "Side-B2"
+      ],
+      "spawn_zones": [
+        {
+          "zone": "Spawn-A",
+          "player": "Player1"
+        },
+        {
+          "zone": "Spawn-B",
+          "player": "Player2"
+        }
+      ],
+      "city_zones": [
+        "Side-A1",
+        "Side-B1",
+        "Side-A2",
+        "Side-B2"
+      ],
+      "connections": [
+        {
+          "from": "Spawn-A",
+          "to": "Side-A1",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Side-A1",
+          "to": "Side-A2",
+          "type": "Portal",
+          "guard": 9000,
+          "road": true
+        },
+        {
+          "from": "Spawn-B",
+          "to": "Side-B1",
+          "type": "Direct",
+          "guard": 3000,
+          "road": true
+        },
+        {
+          "from": "Side-B1",
+          "to": "Side-B2",
+          "type": "Portal",
+          "guard": 9000,
+          "road": true
+        }
+      ]
+    }
+  ]
+}
