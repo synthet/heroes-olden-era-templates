@@ -20,7 +20,7 @@ python tools/publish.py -m "Update max8 templates."
 python tools/publish.py --push -m "Update max8 templates."
 ```
 
-`tools/publish.py` copies the manifest into a linked worktree at [`.git-publish-worktree/`](../.git-publish-worktree/) on `main`, commits if needed, and optionally pushes.
+`tools/publish.py` copies the manifest into a linked worktree at [`../.heroes-templates-main-worktree/`](../.heroes-templates-main-worktree/) (sibling of this repo) on `main`, commits if needed, and optionally pushes.
 
 ## What gets published
 
@@ -46,6 +46,6 @@ git push -u origin dev
 
 ## Notes
 
-- `.git-publish-worktree/` is gitignored; it is a `git worktree` checkout of `main`.
-- Do not hand-edit files inside `.git-publish-worktree/` — changes will be overwritten on the next publish.
+- The publish worktree lives at `../.heroes-templates-main-worktree/` (outside this repo root).
+- Do not hand-edit files inside the publish worktree — changes will be overwritten on the next publish.
 - `main` at the repo root tracks the last published commit after `git merge` or when checking out `main`; the worktree is the supported publish target.

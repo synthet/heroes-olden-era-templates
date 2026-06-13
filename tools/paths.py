@@ -29,7 +29,7 @@ DOCS_PUBLISH = DOCS / "publish.md"
 DOCS_INSTALL_PUBLISH = DOCS / "install.publish.md"
 
 PUBLISH_MANIFEST = ROOT / "publish.manifest.json"
-PUBLISH_WORKTREE = ROOT / ".git-publish-worktree"
+PUBLISH_WORKTREE = ROOT.parent / ".heroes-templates-main-worktree"
 README_PUBLISH = ROOT / "README.publish.md"
 
 TOOLS = ROOT / "tools"
