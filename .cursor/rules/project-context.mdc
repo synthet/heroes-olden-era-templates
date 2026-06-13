@@ -18,6 +18,11 @@ RMG template repo for **Heroes of Might and Magic Olden Era**, with H3 HotA tour
 | `docs/` | Human docs — start at `docs/README.md` |
 | `tools/` | Python parsers, validators, regen scripts (`paths.py` = path map) |
 
+## Git branches
+
+- **`dev`** — local default; full workspace (author here)
+- **`main`** — public template distro on GitHub; update via `python tools/publish.py --push` (see `docs/publish.md`)
+
 ## Golden rules
 
 - **Clone-and-mutate** — never start from a blank `.rmg.json`; clone nearest template in `templates/official/`.
