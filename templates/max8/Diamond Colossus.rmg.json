@@ -20,7 +20,8 @@
       "heroLightingDay": 1,
       "lostStartCity": false,
       "lostStartHero": false,
-      "lostStartCityDay": 3
+      "lostStartCityDay": 3,
+      "cityHold": false
     }
   },
   "valueOverrides": [
@@ -184,12 +185,14 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 333333,
-          "guardedContentValuePerArea": 2778,
-          "unguardedContentValue": 58333,
-          "unguardedContentValuePerArea": 2778,
-          "resourcesValue": 5000,
-          "resourcesValuePerArea": 278
+          "guardedContentValue": 366666,
+          "guardedContentValuePerArea": 3056,
+          "unguardedContentValue": 64166,
+          "unguardedContentValuePerArea": 3056,
+          "resourcesValue": 5500,
+          "resourcesValuePerArea": 306,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-B",
@@ -309,12 +312,14 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 333333,
-          "guardedContentValuePerArea": 2778,
-          "unguardedContentValue": 58333,
-          "unguardedContentValuePerArea": 2778,
-          "resourcesValue": 5000,
-          "resourcesValuePerArea": 278
+          "guardedContentValue": 366666,
+          "guardedContentValuePerArea": 3056,
+          "unguardedContentValue": 64166,
+          "unguardedContentValuePerArea": 3056,
+          "resourcesValue": 5500,
+          "resourcesValuePerArea": 306,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-C",
@@ -438,12 +443,14 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 333333,
-          "guardedContentValuePerArea": 2778,
-          "unguardedContentValue": 58333,
-          "unguardedContentValuePerArea": 2778,
-          "resourcesValue": 5000,
-          "resourcesValuePerArea": 278
+          "guardedContentValue": 366666,
+          "guardedContentValuePerArea": 3056,
+          "unguardedContentValue": 64166,
+          "unguardedContentValuePerArea": 3056,
+          "resourcesValue": 5500,
+          "resourcesValuePerArea": 306,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-D",
@@ -567,12 +574,14 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 333333,
-          "guardedContentValuePerArea": 2778,
-          "unguardedContentValue": 58333,
-          "unguardedContentValuePerArea": 2778,
-          "resourcesValue": 5000,
-          "resourcesValuePerArea": 278
+          "guardedContentValue": 366666,
+          "guardedContentValuePerArea": 3056,
+          "unguardedContentValue": 64166,
+          "unguardedContentValuePerArea": 3056,
+          "resourcesValue": 5500,
+          "resourcesValuePerArea": 306,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-E",
@@ -696,12 +705,14 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 333333,
-          "guardedContentValuePerArea": 2778,
-          "unguardedContentValue": 58333,
-          "unguardedContentValuePerArea": 2778,
-          "resourcesValue": 5000,
-          "resourcesValuePerArea": 278
+          "guardedContentValue": 366666,
+          "guardedContentValuePerArea": 3056,
+          "unguardedContentValue": 64166,
+          "unguardedContentValuePerArea": 3056,
+          "resourcesValue": 5500,
+          "resourcesValuePerArea": 306,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-F",
@@ -825,12 +836,14 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 333333,
-          "guardedContentValuePerArea": 2778,
-          "unguardedContentValue": 58333,
-          "unguardedContentValuePerArea": 2778,
-          "resourcesValue": 5000,
-          "resourcesValuePerArea": 278
+          "guardedContentValue": 366666,
+          "guardedContentValuePerArea": 3056,
+          "unguardedContentValue": 64166,
+          "unguardedContentValuePerArea": 3056,
+          "resourcesValue": 5500,
+          "resourcesValuePerArea": 306,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-G",
@@ -952,12 +965,14 @@
             "mandatory_content_spawn"
           ],
           "contentCountLimits": "content_limits_spawn",
-          "guardedContentValue": 333333,
-          "guardedContentValuePerArea": 2778,
-          "unguardedContentValue": 58333,
-          "unguardedContentValuePerArea": 2778,
-          "resourcesValue": 5000,
-          "resourcesValuePerArea": 278
+          "guardedContentValue": 366666,
+          "guardedContentValuePerArea": 3056,
+          "unguardedContentValue": 64166,
+          "unguardedContentValuePerArea": 3056,
+          "resourcesValue": 5500,
+          "resourcesValuePerArea": 306,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-H",
@@ -1081,12 +1096,14 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 333333,
-          "guardedContentValuePerArea": 2778,
-          "unguardedContentValue": 58333,
-          "unguardedContentValuePerArea": 2778,
-          "resourcesValue": 5000,
-          "resourcesValuePerArea": 278
+          "guardedContentValue": 366666,
+          "guardedContentValuePerArea": 3056,
+          "unguardedContentValue": 64166,
+          "unguardedContentValuePerArea": 3056,
+          "resourcesValue": 5500,
+          "resourcesValuePerArea": 306,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Treasure-1",
@@ -1094,7 +1111,7 @@
           "layout": "zone_layout_center",
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
-          "guardMultiplier": 1.6,
+          "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.1,
           "guardReactionDistribution": [
             3,
@@ -1243,7 +1260,8 @@
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Treasure-2",
@@ -1251,7 +1269,7 @@
           "layout": "zone_layout_center",
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
-          "guardMultiplier": 1.6,
+          "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.1,
           "guardReactionDistribution": [
             3,
@@ -1400,7 +1418,8 @@
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Treasure-3",
@@ -1408,7 +1427,7 @@
           "layout": "zone_layout_center",
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
-          "guardMultiplier": 1.6,
+          "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.1,
           "guardReactionDistribution": [
             3,
@@ -1557,7 +1576,8 @@
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Treasure-4",
@@ -1565,7 +1585,7 @@
           "layout": "zone_layout_center",
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
-          "guardMultiplier": 1.6,
+          "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.1,
           "guardReactionDistribution": [
             3,
@@ -1714,7 +1734,8 @@
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Treasure-5",
@@ -1722,7 +1743,7 @@
           "layout": "zone_layout_center",
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
-          "guardMultiplier": 1.6,
+          "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.1,
           "guardReactionDistribution": [
             3,
@@ -1871,7 +1892,8 @@
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Treasure-6",
@@ -1879,7 +1901,7 @@
           "layout": "zone_layout_center",
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
-          "guardMultiplier": 1.6,
+          "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.1,
           "guardReactionDistribution": [
             3,
@@ -2028,7 +2050,8 @@
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Treasure-7",
@@ -2036,7 +2059,7 @@
           "layout": "zone_layout_center",
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
-          "guardMultiplier": 1.6,
+          "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.1,
           "guardReactionDistribution": [
             3,
@@ -2185,7 +2208,8 @@
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Treasure-8",
@@ -2193,7 +2217,7 @@
           "layout": "zone_layout_center",
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
-          "guardMultiplier": 1.6,
+          "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.1,
           "guardReactionDistribution": [
             3,
@@ -2342,7 +2366,8 @@
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "diplomacyModifier": -0.5
         }
       ],
       "connections": [
@@ -2352,7 +2377,7 @@
           "to": "Treasure-1",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 13888,
+          "guardValue": 38578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2361,7 +2386,7 @@
           "to": "Treasure-2",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 13888,
+          "guardValue": 38578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2370,7 +2395,7 @@
           "to": "Treasure-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 13888,
+          "guardValue": 38578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2379,7 +2404,7 @@
           "to": "Treasure-4",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 13888,
+          "guardValue": 38578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2388,7 +2413,7 @@
           "to": "Treasure-5",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 13888,
+          "guardValue": 38578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2397,7 +2422,7 @@
           "to": "Treasure-6",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 13888,
+          "guardValue": 38578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2406,7 +2431,7 @@
           "to": "Treasure-7",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 13888,
+          "guardValue": 38578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2415,7 +2440,7 @@
           "to": "Treasure-8",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 13888,
+          "guardValue": 38578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2425,7 +2450,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2435,7 +2460,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2445,7 +2470,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2455,7 +2480,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2465,7 +2490,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2475,7 +2500,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2485,7 +2510,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2495,7 +2520,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2505,7 +2530,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2515,7 +2540,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2525,7 +2550,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2535,7 +2560,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2545,7 +2570,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2555,7 +2580,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2565,7 +2590,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2574,7 +2599,7 @@
           "to": "Treasure-7",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2584,7 +2609,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2594,7 +2619,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2604,7 +2629,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2614,7 +2639,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2624,7 +2649,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2634,7 +2659,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2644,7 +2669,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2654,7 +2679,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 27778,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         }
       ]
@@ -3246,6 +3271,106 @@
           "maxCount": 1
         },
         {
+          "sid": "random_hire_1",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_2",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_3",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_4",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_5",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_6",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_7",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_wood",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_ore",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gold",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gemstones",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_crystals",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_mercury",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_dust",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mana_well",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "fountain",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "sacrificial_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "chimerologist",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "troglodyte_throne",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "twilight_bloom",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
           "sid": "abandoned_corpse",
           "variant": -1,
           "maxCount": 1
@@ -3427,106 +3552,6 @@
         },
         {
           "sid": "wise_owl",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_1",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_2",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_3",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_4",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_5",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_6",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_7",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_wood",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_ore",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_gold",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_gemstones",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_crystals",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_mercury",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_dust",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "mana_well",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "fountain",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "sacrificial_shrine",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "chimerologist",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "troglodyte_throne",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "twilight_bloom",
           "variant": -1,
           "maxCount": 1
         }
