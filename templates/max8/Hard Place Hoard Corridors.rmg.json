@@ -68,22 +68,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -162,22 +150,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -188,7 +164,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6875849,
+          "guardedContentValue": 6886667,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -265,22 +241,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -389,22 +353,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -415,7 +367,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6875849,
+          "guardedContentValue": 6886667,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -492,22 +444,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -616,22 +556,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -642,7 +570,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6875849,
+          "guardedContentValue": 6886667,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -719,22 +647,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -843,22 +759,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -869,7 +773,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6878303,
+          "guardedContentValue": 6887871,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -946,10 +850,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t3_base"
+            "content_pool_max8_guarded_neutral_high_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t3_base"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_rich"
@@ -1095,22 +999,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1121,7 +1013,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6876340,
+          "guardedContentValue": 6886908,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1198,22 +1090,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1322,22 +1202,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1348,7 +1216,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6876831,
+          "guardedContentValue": 6886168,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1425,22 +1293,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1549,22 +1405,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1575,7 +1419,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6877567,
+          "guardedContentValue": 6886529,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1652,22 +1496,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1776,22 +1608,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1802,7 +1622,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6877321,
+          "guardedContentValue": 6887635,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1879,22 +1699,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -2412,8 +2220,8 @@
       "content": [
         {
           "sid": "mine_wood",
-          "isMine": true,
           "isGuarded": true,
+          "isMine": true,
           "rules": [
             {
               "type": "Crossroads",
@@ -2426,8 +2234,8 @@
         },
         {
           "sid": "mine_ore",
-          "isMine": true,
           "isGuarded": true,
+          "isMine": true,
           "rules": [
             {
               "type": "Crossroads",
@@ -2459,7 +2267,7 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.05,
-              "targetMax": 0.1,
+              "targetMax": 0.15,
               "weight": 1
             }
           ]
@@ -2472,7 +2280,7 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.15,
-              "targetMax": 0.25,
+              "targetMax": 0.3,
               "weight": 1
             }
           ]
@@ -2484,8 +2292,8 @@
       "content": [
         {
           "sid": "mine_wood",
-          "isMine": true,
           "isGuarded": true,
+          "isMine": true,
           "rules": [
             {
               "type": "Crossroads",
@@ -2498,81 +2306,8 @@
         },
         {
           "sid": "mine_ore",
-          "isMine": true,
           "isGuarded": true,
-          "rules": [
-            {
-              "type": "Crossroads",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_gold",
           "isMine": true,
-          "rules": [
-            {
-              "type": "Crossroads",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_mercury",
-          "isMine": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.1,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mirage",
-          "soloEncounter": true,
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "mandatory_content_buffer_3",
-      "content": [
-        {
-          "sid": "mine_wood",
-          "isMine": true,
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Crossroads",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_ore",
-          "isMine": true,
-          "isGuarded": true,
           "rules": [
             {
               "type": "Crossroads",
@@ -2604,20 +2339,20 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.05,
-              "targetMax": 0.1,
+              "targetMax": 0.15,
               "weight": 1
             }
           ]
         },
         {
-          "sid": "dragon_utopia",
-          "variant": 2,
+          "sid": "mirage",
+          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
+              "targetMin": 0.15,
+              "targetMax": 0.3,
               "weight": 1
             }
           ]
@@ -2625,12 +2360,12 @@
       ]
     },
     {
-      "name": "mandatory_content_buffer_4",
+      "name": "mandatory_content_buffer_3",
       "content": [
         {
           "sid": "mine_wood",
-          "isMine": true,
           "isGuarded": true,
+          "isMine": true,
           "rules": [
             {
               "type": "Crossroads",
@@ -2643,8 +2378,8 @@
         },
         {
           "sid": "mine_ore",
-          "isMine": true,
           "isGuarded": true,
+          "isMine": true,
           "rules": [
             {
               "type": "Crossroads",
@@ -2669,26 +2404,98 @@
           ]
         },
         {
-          "sid": "alchemy_lab",
+          "sid": "mine_mercury",
           "isMine": true,
           "rules": [
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.25,
+              "targetMin": 0.05,
+              "targetMax": 0.15,
               "weight": 1
             }
           ]
         },
         {
-          "sid": "watchtower",
-          "isGuarded": true,
+          "sid": "tree_of_abundance",
+          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.2,
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_buffer_4",
+      "content": [
+        {
+          "sid": "mine_wood",
+          "isGuarded": true,
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_ore",
+          "isGuarded": true,
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_crystals",
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "twilight_bloom",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
               "targetMax": 0.3,
               "weight": 1
             }
@@ -2701,8 +2508,8 @@
       "content": [
         {
           "sid": "mine_wood",
-          "isMine": true,
           "isGuarded": true,
+          "isMine": true,
           "rules": [
             {
               "type": "Crossroads",
@@ -2715,225 +2522,8 @@
         },
         {
           "sid": "mine_ore",
-          "isMine": true,
           "isGuarded": true,
-          "rules": [
-            {
-              "type": "Crossroads",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_crystals",
           "isMine": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.1,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_mercury",
-          "isMine": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.1,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "sacrificial_shrine",
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "mandatory_content_buffer_6",
-      "content": [
-        {
-          "sid": "mine_wood",
-          "isMine": true,
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Crossroads",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_ore",
-          "isMine": true,
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Crossroads",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_gemstones",
-          "isMine": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.1,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_mercury",
-          "isMine": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.1,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mirage",
-          "soloEncounter": true,
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "mandatory_content_buffer_7",
-      "content": [
-        {
-          "sid": "mine_wood",
-          "isMine": true,
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Crossroads",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_ore",
-          "isMine": true,
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Crossroads",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_crystals",
-          "isMine": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.1,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_gemstones",
-          "isMine": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.1,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "twilight_bloom",
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "mandatory_content_buffer_8",
-      "content": [
-        {
-          "sid": "mine_wood",
-          "isMine": true,
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Crossroads",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_ore",
-          "isMine": true,
-          "isGuarded": true,
           "rules": [
             {
               "type": "Crossroads",
@@ -2958,8 +2548,322 @@
           ]
         },
         {
-          "sid": "alchemy_lab",
+          "sid": "mine_gemstones",
           "isMine": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "troglodyte_throne",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_buffer_6",
+      "content": [
+        {
+          "sid": "mine_wood",
+          "isGuarded": true,
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_ore",
+          "isGuarded": true,
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_mercury",
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "sacrificial_shrine",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_buffer_7",
+      "content": [
+        {
+          "sid": "mine_wood",
+          "isGuarded": true,
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_ore",
+          "isGuarded": true,
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_crystals",
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "wind_rose",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_buffer_8",
+      "content": [
+        {
+          "sid": "mine_wood",
+          "isGuarded": true,
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_ore",
+          "isGuarded": true,
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_gold",
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Crossroads",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_gemstones",
+          "isMine": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mirage",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_spawn",
+      "content": [
+        {
+          "sid": "watchtower",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "0"
+              ],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_wood",
+          "designatedEncounter": false,
+          "isMine": true,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_ore",
+          "designatedEncounter": false,
+          "isMine": true,
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
           "rules": [
             {
               "type": "Road",
@@ -2971,14 +2875,50 @@
           ]
         },
         {
-          "sid": "tree_of_abundance",
+          "includeLists": [
+            "content_list_building_random_hires_high_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "storage_wood",
           "isGuarded": false,
           "rules": [
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.2,
-              "targetMax": 0.3,
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mana_well",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "0"
+              ],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
               "weight": 1
             }
           ]
@@ -3060,19 +3000,23 @@
         },
         {
           "sid": "wise_owl",
-          "maxCount": 8
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "circus",
-          "maxCount": 6
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "infernal_cirque",
-          "maxCount": 6
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "university",
-          "maxCount": 6
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "tree_of_abundance",
@@ -3080,7 +3024,8 @@
         },
         {
           "sid": "fickle_shrine",
-          "maxCount": 3
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "insaras_eye",
@@ -3097,6 +3042,166 @@
         {
           "sid": "wind_rose",
           "maxCount": 3
+        },
+        {
+          "sid": "abandoned_corpse",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abandoned_mansion",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abnormal_structure",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "alvars_eye",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "black_tower",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "boreal_call",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "circle_of_life",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "crow_nest",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "cursed_old_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gardener",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gingerbread_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "goblin_cache",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "heros_crypt",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "iridescent_abbey",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "jousting_range",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "legions_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mereas_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "monty_hall",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "overgrown_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "peasant_cart",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "petrified_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "point_of_balance",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prismatic_lair",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "raiders_camp",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "ritual_pyre",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "shady_den",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "the_gorge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tree_of_knowledge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "uncanny_rite",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "unforgotten_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "village",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "windmill",
+          "variant": -1,
+          "maxCount": 1
         }
       ]
     },
@@ -3173,19 +3278,23 @@
         },
         {
           "sid": "wise_owl",
-          "maxCount": 8
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "circus",
-          "maxCount": 6
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "infernal_cirque",
-          "maxCount": 6
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "university",
-          "maxCount": 6
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "tree_of_abundance",
@@ -3193,7 +3302,8 @@
         },
         {
           "sid": "fickle_shrine",
-          "maxCount": 3
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "insaras_eye",
@@ -3210,6 +3320,481 @@
         {
           "sid": "wind_rose",
           "maxCount": 3
+        },
+        {
+          "sid": "abandoned_corpse",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abandoned_mansion",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abnormal_structure",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "alvars_eye",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "black_tower",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "boreal_call",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "circle_of_life",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "crow_nest",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "cursed_old_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gardener",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gingerbread_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "goblin_cache",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "heros_crypt",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "iridescent_abbey",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "jousting_range",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "legions_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mereas_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "monty_hall",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "overgrown_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "peasant_cart",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "petrified_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "point_of_balance",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prismatic_lair",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "raiders_camp",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "ritual_pyre",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "shady_den",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "the_gorge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tree_of_knowledge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "uncanny_rite",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "unforgotten_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "village",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "windmill",
+          "variant": -1,
+          "maxCount": 1
+        }
+      ]
+    },
+    {
+      "name": "content_limits_spawn",
+      "limits": [
+        {
+          "sid": "abandoned_corpse",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abandoned_mansion",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abnormal_structure",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "alvars_eye",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "black_tower",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "boreal_call",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "circle_of_life",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "circus",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "crow_nest",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "cursed_old_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "fickle_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gardener",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gingerbread_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "goblin_cache",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "heros_crypt",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "infernal_cirque",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "iridescent_abbey",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "jousting_range",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "legions_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mereas_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "monty_hall",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "overgrown_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "peasant_cart",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "petrified_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "point_of_balance",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prismatic_lair",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "raiders_camp",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "ritual_pyre",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "shady_den",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "the_gorge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tree_of_knowledge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "uncanny_rite",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "unforgotten_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "university",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "village",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "windmill",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "wise_owl",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_1",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_2",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_3",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_4",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_5",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_6",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_7",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_wood",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_ore",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gold",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gemstones",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_crystals",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_mercury",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_dust",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mana_well",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "fountain",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "stables",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "sacrificial_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "chimerologist",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "crystal_trail",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tear_of_truth",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "celestial_sphere",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "troglodyte_throne",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "twilight_bloom",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "watchtower",
+          "variant": -1,
+          "maxCount": 0
         }
       ]
     }

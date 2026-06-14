@@ -5,8 +5,17 @@
 variants. Built with the recipe in [`../../docs/oe/cookbook.md`](../../docs/oe/cookbook.md);
 economy scaled to 240 using flat `*Value` × `240/oldPx` and per-area × `(240/oldPx)²`,
 with spawn zones normalized to native 240×240 density (see `tools/max8_economy.py`).
-Regenerate: `python tools/rescale_max8_economy.py` (includes spawn pacing tweaks via
-`tools/apply_max8_pacing_tweaks.py`).
+Regenerate themed content and spawn discipline:
+
+```bash
+python tools/build_max8_neutral_packs.py   # themed location packs
+python tools/build_max8_bank_limits.py     # per-zone bank caps catalog
+python tools/apply_max8_pacing_tweaks.py   # spawn mandatory + limits + economy trim
+python tools/rewire_max8_pools.py          # lean max8 fill pools
+python tools/diversify_max8_neutrals.py    # biome-aware neutral pack assignment
+```
+
+Economy rescale (when map size changes): `python tools/rescale_max8_economy.py`.
 PNG previews are paired by basename via `python tools/render_preview.py`.
 
 All 12 **PASS** `python tools/validate_rmg.py templates/max8`.
@@ -37,13 +46,14 @@ diamond grid, Ikarus branches, spider legs, maelstrom fork, expanse web, octo hu
 corridor (linear + direct cross), co-op ladder (linear + buffered cross).
 
 **Neutral content:** each mid-map neutral zone (Treasure, Buffer, Connector, SuperTreasure leg) gets a
-unique mandatory-content pack from [`../../lib/max8_neutral_packs.json`](../../lib/max8_neutral_packs.json),
-with peer zones value-balanced via `tools/diversify_max8_neutrals.py`. Packs rotate premium objects
-(troglodyte throne, twilight bloom, unstable ruins, tree of abundance, sacrificial shrine, forge,
-mythic scroll, plus existing dragon utopia / wind rose / mirage / items). Center/hub zones get a themed
-refresh; **Octo Anarchy** uses the full official OctoJebus center grid via `centerOverrides`. Co-op and
-flavor rebuilds embed this automatically (`build_coop_corridor.py`, `rework_max8_variants.py`); standalone
-refresh: `python tools/diversify_max8_neutrals.py`.
+**themed location** mandatory pack from [`../../lib/max8_neutral_packs.json`](../../lib/max8_neutral_packs.json).
+Packs group objects into cohesive settings (ArcaneSanctuary, WarCamp, TradePost, MiningOutpost, HeroShrine)
+with biome-matched banks, altars, dwellings, mines, weekly storages, and power-ups. Assignment is
+biome-aware via `tools/diversify_max8_neutrals.py`; peer zones stay value-balanced. Procedural fill uses
+lean max8 pools ([`../../data/content_pools/template_max8_fill_pools.json`](../../data/content_pools/template_max8_fill_pools.json))
+so pools do not scatter duplicate banks/dwellings. **Per-zone bank caps** (`maxCount: 1` per bank type)
+come from [`../../lib/max8_bank_limits.json`](../../lib/max8_bank_limits.json). Center/hub zones get a themed
+refresh; **Octo Anarchy** uses the full official OctoJebus center grid via `centerOverrides`.
 
 **Co-op fairness:** see [`../../docs/oe/coop-fairness-review.md`](../../docs/oe/coop-fairness-review.md).
 
@@ -58,8 +68,14 @@ Player-feedback alignment (spawn-only trims + reward caps; topology unchanged):
 | **Competitive Dense** | Octo Anarchy, Spider Titan, Antares Maelstrom, Grand Nostalgia, Boomerang Crown | High macro; spawn economy trimmed ~15% where guarded ≥ 5M |
 | **Co-op Explore** | Hard Place Hoard Corridors, Ikarus Ladder Dominion | Hoard/corridor intent (×1.5 on Hard Place); capped spawn clutter |
 
-Spawn pacing rules (all 12): premium POI caps in `content_limits_spawn` match Spider Titan
-(maxCount 1 for shrines, trails, spheres, thrones). Octo Anarchy additionally drops mandatory
-spawn `dragon_utopia` and caps spawn bank limits (premium 1, unit banks 4).
+Spawn pacing rules (all 12), driven by [`../../lib/max8_spawn_profile.json`](../../lib/max8_spawn_profile.json):
+
+- **Mandatory per spawn:** watchtower, wood/ore mines, 1–2 low-tier dwellings (levels 1–3), at most 1
+  high-tier dwelling (4–7), weekly storage, and a power-up (mana well / stables).
+- **Slow Burn** family gets 1 low + 1 high dwelling; **Standard / Competitive** get 2 low + 1 high.
+- **Pool fill** excludes random hires and banks (mandatory owns those); caps prevent duplicate clutter.
+- Premium POI caps in `content_limits_spawn` (maxCount 1 for shrines, trails, spheres, thrones).
+- Each **bank type** capped at 1 per zone (spawn and neutral).
+- Octo Anarchy additionally drops mandatory spawn `dragon_utopia`.
 
 **Deploy:** [`../../docs/install.md`](../../docs/install.md). Smoke-test in-game after deploy.
