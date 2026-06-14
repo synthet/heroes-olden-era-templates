@@ -35,7 +35,7 @@
     "heroCountMax": 10,
     "heroCountIncrement": 1,
     "heroHireBan": false,
-    "encounterHoles": true,
+    "encounterHoles": false,
     "winConditions": {
       "classic": true,
       "desertion": true,
@@ -43,9 +43,10 @@
       "desertionValue": 3000,
       "heroLighting": true,
       "heroLightingDay": 1,
-      "lostStartCity": true,
+      "lostStartCity": false,
       "lostStartCityDay": 3,
-      "lostStartHero": false
+      "lostStartHero": false,
+      "cityHold": false
     }
   },
   "variants": [
@@ -487,7 +488,8 @@
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
             "twoHoleEncounters": 0.66
-          }
+          },
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-A",
@@ -641,7 +643,9 @@
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
             "twoHoleEncounters": 0.66
-          }
+          },
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-B",
@@ -795,7 +799,9 @@
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
             "twoHoleEncounters": 0.66
-          }
+          },
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-C",
@@ -953,7 +959,9 @@
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
             "twoHoleEncounters": 0.66
-          }
+          },
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-D",
@@ -1110,7 +1118,9 @@
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
             "twoHoleEncounters": 0.66
-          }
+          },
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-E",
@@ -1267,7 +1277,9 @@
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
             "twoHoleEncounters": 0.66
-          }
+          },
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-F",
@@ -1424,7 +1436,9 @@
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
             "twoHoleEncounters": 0.66
-          }
+          },
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-G",
@@ -1581,7 +1595,9 @@
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
             "twoHoleEncounters": 0.66
-          }
+          },
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-H",
@@ -1738,7 +1754,9 @@
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
             "twoHoleEncounters": 0.66
-          }
+          },
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         }
       ],
       "connections": [
@@ -3100,6 +3118,111 @@
           "maxCount": 0
         },
         {
+          "sid": "random_hire_1",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_2",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_3",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_4",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_5",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_6",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_7",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_wood",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_ore",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gold",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gemstones",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_crystals",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_mercury",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_dust",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mana_well",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "fountain",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "stables",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "tear_of_truth",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "celestial_sphere",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "troglodyte_throne",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "twilight_bloom",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
           "sid": "abandoned_corpse",
           "variant": -1,
           "maxCount": 1
@@ -3276,111 +3399,6 @@
         },
         {
           "sid": "wise_owl",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_1",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_2",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_3",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_4",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_5",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_6",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_7",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_wood",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_ore",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_gold",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_gemstones",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_crystals",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_mercury",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_dust",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "mana_well",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "fountain",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "stables",
-          "variant": -1,
-          "maxCount": 0
-        },
-        {
-          "sid": "tear_of_truth",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "celestial_sphere",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "troglodyte_throne",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "twilight_bloom",
           "variant": -1,
           "maxCount": 1
         }

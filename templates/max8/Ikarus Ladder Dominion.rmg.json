@@ -2,7 +2,7 @@
   "name": "Ikarus Ladder Dominion",
   "gameMode": "Classic",
   "description": "templates_description_ikarus",
-  "displayWinCondition": "win_condition_5",
+  "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
   "gameRules": {
@@ -21,8 +21,7 @@
       "lostStartHero": false,
       "lostStartCity": false,
       "lostStartCityDay": 3,
-      "cityHold": true,
-      "cityHoldDays": 6
+      "cityHold": false
     }
   },
   "valueOverrides": [
@@ -165,7 +164,9 @@
           "unguardedContentValue": 15000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 15000,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Buffer-P1-E1",
@@ -174,7 +175,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -250,9 +251,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1199454,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1486250,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -365,7 +366,9 @@
           "unguardedContentValue": 15000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 15000,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Buffer-E1-E2",
@@ -374,7 +377,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -450,9 +453,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1171204,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1443875,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -565,7 +568,9 @@
           "unguardedContentValue": 15000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 15000,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Buffer-E2-E3",
@@ -574,7 +579,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -650,9 +655,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1197454,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1483250,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -765,7 +770,9 @@
           "unguardedContentValue": 15000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 15000,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Buffer-E3-H",
@@ -774,7 +781,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -850,9 +857,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1199704,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1486625,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -876,13 +883,12 @@
           "diplomacyModifier": -0.5,
           "mainObjects": [
             {
-              "type": "City",
+              "type": "AbandonedOutpost",
               "guardChance": 1.0,
-              "guardValue": 20000,
+              "guardValue": 30000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "poor_buildings_construction",
-              "placement": "Center",
-              "holdCityWinCon": true
+              "buildingsConstructionSid": "siege_buildings_construction",
+              "placement": "Center"
             }
           ],
           "zoneBiome": {
@@ -973,7 +979,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -1049,9 +1055,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1197454,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1483250,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -1164,7 +1170,9 @@
           "unguardedContentValue": 15000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 15000,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Buffer-E4-E5",
@@ -1173,7 +1181,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -1249,9 +1257,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1197454,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1483250,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -1364,7 +1372,9 @@
           "unguardedContentValue": 15000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 15000,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Buffer-E5-E6",
@@ -1373,7 +1383,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -1449,9 +1459,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1197454,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1483250,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -1564,7 +1574,9 @@
           "unguardedContentValue": 15000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 15000,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Buffer-E6-P2",
@@ -1573,7 +1585,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -1649,9 +1661,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1197454,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1483250,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -1734,7 +1746,9 @@
           "unguardedContentValue": 15000,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 15000,
-          "resourcesValuePerArea": 0
+          "resourcesValuePerArea": 0,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
         },
         {
           "name": "Cross-Buffer-1",
@@ -1743,7 +1757,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -1819,9 +1833,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1171204,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1443875,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -1833,7 +1847,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -1909,9 +1923,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1199954,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1487000,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -1923,7 +1937,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.4,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -1999,9 +2013,9 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1171204,
-          "guardedContentValuePerArea": 12388,
-          "unguardedContentValue": 24776,
+          "guardedContentValue": 1443875,
+          "guardedContentValuePerArea": 15188,
+          "unguardedContentValue": 30375,
           "unguardedContentValuePerArea": 0,
           "resourcesValue": 0,
           "resourcesValuePerArea": 0
@@ -2934,6 +2948,106 @@
           "maxCount": 4
         },
         {
+          "sid": "random_hire_1",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_2",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_3",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_4",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_5",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_6",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_7",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_wood",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_ore",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gold",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gemstones",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_crystals",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_mercury",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_dust",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mana_well",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "fountain",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "sacrificial_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "chimerologist",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "troglodyte_throne",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "twilight_bloom",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
           "sid": "abandoned_corpse",
           "variant": -1,
           "maxCount": 1
@@ -3115,106 +3229,6 @@
         },
         {
           "sid": "wise_owl",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_1",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_2",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_3",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_4",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_5",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_6",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_7",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_wood",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_ore",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_gold",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_gemstones",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_crystals",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_mercury",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_dust",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "mana_well",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "fountain",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "sacrificial_shrine",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "chimerologist",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "troglodyte_throne",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "twilight_bloom",
           "variant": -1,
           "maxCount": 1
         }

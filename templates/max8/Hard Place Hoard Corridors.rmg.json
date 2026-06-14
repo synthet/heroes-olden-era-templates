@@ -21,8 +21,7 @@
       "lostStartCity": false,
       "lostStartCityDay": 3,
       "lostStartHero": false,
-      "cityHold": false,
-      "cityHoldDays": 3
+      "cityHold": false
     }
   },
   "variants": [
@@ -164,7 +163,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6886667,
+          "guardedContentValue": 6885542,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -367,7 +366,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6886667,
+          "guardedContentValue": 6885542,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -570,7 +569,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6886667,
+          "guardedContentValue": 6885542,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -773,7 +772,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6887871,
+          "guardedContentValue": 6885542,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1013,7 +1012,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6886908,
+          "guardedContentValue": 6885542,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1216,7 +1215,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6886168,
+          "guardedContentValue": 6884080,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1419,7 +1418,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6886529,
+          "guardedContentValue": 6884080,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -1622,7 +1621,7 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6887635,
+          "guardedContentValue": 6885909,
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 1373256,
           "unguardedContentValuePerArea": 0,
@@ -3487,6 +3486,131 @@
       "name": "content_limits_spawn",
       "limits": [
         {
+          "sid": "random_hire_1",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_2",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_3",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_4",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_5",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_6",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_7",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_wood",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_ore",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gold",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gemstones",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_crystals",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_mercury",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_dust",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mana_well",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "fountain",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "stables",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "sacrificial_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "chimerologist",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "crystal_trail",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tear_of_truth",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "celestial_sphere",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "troglodyte_throne",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "twilight_bloom",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "watchtower",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
           "sid": "abandoned_corpse",
           "variant": -1,
           "maxCount": 1
@@ -3670,131 +3794,6 @@
           "sid": "wise_owl",
           "variant": -1,
           "maxCount": 1
-        },
-        {
-          "sid": "random_hire_1",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_2",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_3",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "random_hire_4",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_5",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_6",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "random_hire_7",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_wood",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_ore",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_gold",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "storage_gemstones",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_crystals",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_mercury",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_dust",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "mana_well",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "fountain",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "stables",
-          "variant": -1,
-          "maxCount": 0
-        },
-        {
-          "sid": "sacrificial_shrine",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "chimerologist",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "crystal_trail",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "tear_of_truth",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "celestial_sphere",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "troglodyte_throne",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "twilight_bloom",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "watchtower",
-          "variant": -1,
-          "maxCount": 0
         }
       ]
     }
