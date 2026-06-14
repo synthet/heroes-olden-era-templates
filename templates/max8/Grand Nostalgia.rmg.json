@@ -184,11 +184,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 11649833,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1553342,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 2329966,
           "resourcesValuePerArea": 0
         },
         {
@@ -309,11 +309,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 11649833,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1553342,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 2329966,
           "resourcesValuePerArea": 0
         },
         {
@@ -408,11 +408,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 11649833,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1553342,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 2329966,
           "resourcesValuePerArea": 0
         },
         {
@@ -507,11 +507,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 11649833,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1553342,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 2329966,
           "resourcesValuePerArea": 0
         },
         {
@@ -606,11 +606,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 11649833,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1553342,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 2329966,
           "resourcesValuePerArea": 0
         },
         {
@@ -705,11 +705,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 11649833,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1553342,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 2329966,
           "resourcesValuePerArea": 0
         },
         {
@@ -804,11 +804,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 11649833,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1553342,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 2329966,
           "resourcesValuePerArea": 0
         },
         {
@@ -903,11 +903,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 11649833,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1553342,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 2329966,
           "resourcesValuePerArea": 0
         },
         {
@@ -986,7 +986,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1000000,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1069,7 +1069,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1000000,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1152,7 +1152,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1000000,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1235,7 +1235,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1000000,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1318,7 +1318,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1000000,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1401,7 +1401,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1000000,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1490,7 +1490,7 @@
           "to": "Spawn-C",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1499,7 +1499,7 @@
           "to": "Spawn-D",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1508,7 +1508,7 @@
           "to": "Spawn-E",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1517,7 +1517,7 @@
           "to": "Spawn-F",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1526,7 +1526,7 @@
           "to": "Spawn-G",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1535,7 +1535,7 @@
           "to": "Spawn-H",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1544,7 +1544,7 @@
           "to": "Treasure-1",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1553,7 +1553,7 @@
           "to": "Treasure-2",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1562,7 +1562,7 @@
           "to": "Treasure-3",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1571,7 +1571,7 @@
           "to": "Treasure-4",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1580,7 +1580,7 @@
           "to": "Treasure-5",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1589,7 +1589,7 @@
           "to": "Treasure-6",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1598,7 +1598,7 @@
           "to": "Center",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 194445,
+          "guardValue": 324075,
           "guardEscape": false,
           "simTurnSquad": true,
           "guardWeeklyIncrement": 0.2
@@ -1609,7 +1609,7 @@
           "to": "Center",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 194445,
+          "guardValue": 324075,
           "guardEscape": false,
           "simTurnSquad": true,
           "guardWeeklyIncrement": 0.2
@@ -1992,12 +1992,12 @@
         {
           "sid": "sacrificial_shrine",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "chimerologist",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "stables",
@@ -2012,17 +2012,17 @@
         {
           "sid": "crystal_trail",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "tear_of_truth",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "celestial_sphere",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         }
       ]
     },

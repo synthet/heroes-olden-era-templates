@@ -141,11 +141,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 9902358,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1320341,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 1980471,
           "resourcesValuePerArea": 0
         },
         {
@@ -221,11 +221,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 9902358,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1320341,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 1980471,
           "resourcesValuePerArea": 0
         },
         {
@@ -305,11 +305,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 9902358,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1320341,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 1980471,
           "resourcesValuePerArea": 0
         },
         {
@@ -389,11 +389,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 9902358,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1320341,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 1980471,
           "resourcesValuePerArea": 0
         },
         {
@@ -473,11 +473,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 9902358,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1320341,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 1980471,
           "resourcesValuePerArea": 0
         },
         {
@@ -557,11 +557,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 9902358,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1320341,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 1980471,
           "resourcesValuePerArea": 0
         },
         {
@@ -641,11 +641,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 9902358,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1320341,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 1980471,
           "resourcesValuePerArea": 0
         },
         {
@@ -725,11 +725,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 13705686,
+          "guardedContentValue": 9902358,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1827461,
+          "unguardedContentValue": 1320341,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 2741137,
+          "resourcesValue": 1980471,
           "resourcesValuePerArea": 0
         },
         {
@@ -838,7 +838,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1004057,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -936,7 +936,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1004057,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1034,7 +1034,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1004057,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1132,7 +1132,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1004057,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1230,7 +1230,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1004057,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1343,7 +1343,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1028399,
+          "guardedContentValue": 1004057,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1798,6 +1798,26 @@
       ]
     },
     {
+      "name": "mandatory_content_treasure",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary"
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        }
+      ]
+    },
+    {
       "name": "mandatory_content_treasure_1",
       "content": [
         {
@@ -2027,12 +2047,12 @@
         {
           "sid": "sacrificial_shrine",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "chimerologist",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "stables",
@@ -2047,17 +2067,17 @@
         {
           "sid": "crystal_trail",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "tear_of_truth",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "celestial_sphere",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         }
       ]
     },
