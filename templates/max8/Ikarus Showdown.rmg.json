@@ -141,13 +141,13 @@
           "crossroadsPosition": 0,
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_start_zone"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_start_zone"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_poor"
+            "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
             "mandatory_content_spawn"
@@ -219,13 +219,13 @@
           "crossroadsPosition": 0,
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_start_zone"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_start_zone"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_poor"
+            "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
             "mandatory_content_spawn"
@@ -302,13 +302,13 @@
           "crossroadsPosition": 0,
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_start_zone"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_start_zone"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_poor"
+            "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
             "mandatory_content_spawn"
@@ -385,13 +385,13 @@
           "crossroadsPosition": 0,
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_start_zone"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_start_zone"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_poor"
+            "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
             "mandatory_content_spawn"
@@ -468,13 +468,13 @@
           "crossroadsPosition": 0,
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_start_zone"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_start_zone"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_poor"
+            "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
             "mandatory_content_spawn"
@@ -551,13 +551,13 @@
           "crossroadsPosition": 0,
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_start_zone"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_start_zone"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_poor"
+            "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
             "mandatory_content_spawn"
@@ -634,13 +634,13 @@
           "crossroadsPosition": 0,
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_start_zone"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_start_zone"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_poor"
+            "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
             "mandatory_content_spawn"
@@ -717,13 +717,13 @@
           "crossroadsPosition": 0,
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_start_zone"
+            "content_pool_max8_guarded_spawn_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_start_zone"
+            "content_pool_max8_unguarded_spawn_fill"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_poor"
+            "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
             "mandatory_content_spawn"
@@ -785,10 +785,10 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_treasure_zone"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_treasure_zone"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -799,7 +799,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1050000,
+          "guardedContentValue": 1053269,
           "guardedContentValuePerArea": 11250,
           "unguardedContentValue": 22500,
           "unguardedContentValuePerArea": 0,
@@ -853,21 +853,21 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_treasure_zone"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_treasure_zone"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_2"
+            "mandatory_content_treasure_3"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1050000,
+          "guardedContentValue": 1067569,
           "guardedContentValuePerArea": 11250,
           "unguardedContentValue": 22500,
           "unguardedContentValuePerArea": 0,
@@ -921,21 +921,21 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_treasure_zone"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_treasure_zone"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_3"
+            "mandatory_content_treasure_6"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1050000,
+          "guardedContentValue": 1068795,
           "guardedContentValuePerArea": 11250,
           "unguardedContentValue": 22500,
           "unguardedContentValuePerArea": 0,
@@ -989,21 +989,21 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_treasure_zone"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_treasure_zone"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_4"
+            "mandatory_content_treasure_2"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1050000,
+          "guardedContentValue": 1067569,
           "guardedContentValuePerArea": 11250,
           "unguardedContentValue": 22500,
           "unguardedContentValuePerArea": 0,
@@ -1057,21 +1057,21 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_treasure_zone"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_treasure_zone"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_5"
+            "mandatory_content_treasure_2"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1050000,
+          "guardedContentValue": 1067569,
           "guardedContentValuePerArea": 11250,
           "unguardedContentValue": 22500,
           "unguardedContentValuePerArea": 0,
@@ -1125,21 +1125,21 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_treasure_zone"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_treasure_zone"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_6"
+            "mandatory_content_treasure_3"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1050000,
+          "guardedContentValue": 1067569,
           "guardedContentValuePerArea": 11250,
           "unguardedContentValue": 22500,
           "unguardedContentValuePerArea": 0,
@@ -1193,21 +1193,21 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_treasure_zone"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_treasure_zone"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_7"
+            "mandatory_content_treasure_3"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1050000,
+          "guardedContentValue": 1067569,
           "guardedContentValuePerArea": 11250,
           "unguardedContentValue": 22500,
           "unguardedContentValuePerArea": 0,
@@ -1261,21 +1261,21 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_treasure_zone"
+            "content_pool_max8_guarded_neutral_med_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_treasure_zone"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_8"
+            "mandatory_content_treasure_7"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1050000,
+          "guardedContentValue": 1068659,
           "guardedContentValuePerArea": 11250,
           "unguardedContentValue": 22500,
           "unguardedContentValuePerArea": 0,
@@ -1338,10 +1338,10 @@
           "crossroadsPosition": 0,
           "roads": [],
           "guardedContentPool": [
-            "content_pool_template_ikarus_guarded_supertreasure_zone"
+            "content_pool_max8_guarded_neutral_high_fill"
           ],
           "unguardedContentPool": [
-            "content_pool_template_ikarus_unguarded_supertreasure_zone"
+            "content_pool_max8_unguarded_neutral_fill"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_zero"
@@ -1644,11 +1644,12 @@
         },
         {
           "sid": "mine_wood",
+          "designatedEncounter": false,
           "isMine": true,
           "isGuarded": false,
           "rules": [
             {
-              "type": "Crossroads",
+              "type": "Road",
               "args": [],
               "targetMin": 0.1,
               "targetMax": 0.2,
@@ -1658,11 +1659,12 @@
         },
         {
           "sid": "mine_ore",
+          "designatedEncounter": false,
           "isMine": true,
           "isGuarded": false,
           "rules": [
             {
-              "type": "Crossroads",
+              "type": "Road",
               "args": [],
               "targetMin": 0.1,
               "targetMax": 0.2,
@@ -1673,16 +1675,55 @@
         {
           "includeLists": [
             "content_list_building_random_hires_low_tier"
-          ]
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
           ]
         },
         {
           "includeLists": [
             "content_list_building_random_hires_high_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "storage_ore",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "stables",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.2,
+              "weight": 1
+            }
           ]
         }
       ]
@@ -1733,8 +1774,57 @@
       "name": "mandatory_content_treasure_1",
       "content": [
         {
-          "sid": "dragon_utopia",
-          "variant": -1
+          "sid": "altar_of_magic_2",
+          "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mana_well",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mystical_tower",
+          "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
         },
         {
           "sid": "random_item_legendary",
@@ -1748,14 +1838,6 @@
         {
           "sid": "mythic_scroll_box",
           "variant": -1
-        },
-        {
-          "sid": "alchemy_lab",
-          "isMine": true
-        },
-        {
-          "sid": "mine_gemstones",
-          "isMine": true
         }
       ]
     },
@@ -1763,29 +1845,62 @@
       "name": "mandatory_content_treasure_2",
       "content": [
         {
-          "sid": "dragon_utopia",
-          "variant": -1
+          "sid": "jousting_range",
+          "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
         },
         {
-          "sid": "random_item_legendary",
+          "sid": "iridescent_abbey",
+          "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_item_epic",
           "designatedEncounter": false
-        },
-        {
-          "sid": "pandora_box",
-          "variant": 12,
-          "designatedEncounter": false
-        },
-        {
-          "sid": "mythic_scroll_box",
-          "variant": -1
-        },
-        {
-          "sid": "mine_mercury",
-          "isMine": true
-        },
-        {
-          "sid": "mine_gemstones",
-          "isMine": true
         }
       ]
     },
@@ -1793,28 +1908,62 @@
       "name": "mandatory_content_treasure_3",
       "content": [
         {
-          "sid": "dragon_utopia",
-          "variant": -1
+          "sid": "the_gorge",
+          "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
         },
         {
-          "sid": "random_item_legendary",
+          "sid": "circle_of_life",
+          "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_item_epic",
           "designatedEncounter": false
-        },
-        {
-          "sid": "pandora_box",
-          "variant": 12
-        },
-        {
-          "sid": "mythic_scroll_box",
-          "variant": -1
-        },
-        {
-          "sid": "mine_mercury",
-          "isMine": true
-        },
-        {
-          "sid": "mine_crystals",
-          "isMine": true
         }
       ]
     },
@@ -1882,29 +2031,61 @@
       "name": "mandatory_content_treasure_6",
       "content": [
         {
-          "sid": "dragon_utopia",
-          "variant": -1
+          "sid": "stables",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            }
+          ]
         },
         {
-          "sid": "random_item_legendary",
+          "sid": "crystal_trail",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mana_well",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_item_epic",
           "designatedEncounter": false
-        },
-        {
-          "sid": "pandora_box",
-          "variant": 12,
-          "designatedEncounter": false
-        },
-        {
-          "sid": "mythic_scroll_box",
-          "variant": -1
-        },
-        {
-          "sid": "mine_crystals",
-          "isMine": true
-        },
-        {
-          "sid": "mine_gemstones",
-          "isMine": true
         }
       ]
     },
@@ -1912,29 +2093,48 @@
       "name": "mandatory_content_treasure_7",
       "content": [
         {
-          "sid": "dragon_utopia",
-          "variant": -1
+          "sid": "boreal_call",
+          "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
         },
         {
-          "sid": "random_item_legendary",
+          "sid": "uncanny_rite",
+          "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_item_epic",
           "designatedEncounter": false
-        },
-        {
-          "sid": "pandora_box",
-          "variant": 11,
-          "designatedEncounter": false
-        },
-        {
-          "sid": "mythic_scroll_box",
-          "variant": -1
-        },
-        {
-          "sid": "alchemy_lab",
-          "isMine": true
-        },
-        {
-          "sid": "mine_gemstones",
-          "isMine": true
         }
       ]
     },
@@ -1976,7 +2176,7 @@
         {
           "sid": "stables",
           "variant": -1,
-          "maxCount": 0
+          "maxCount": 1
         },
         {
           "sid": "watchtower",
@@ -2002,6 +2202,291 @@
           "sid": "pile_of_books",
           "variant": -1,
           "maxCount": 4
+        },
+        {
+          "sid": "abandoned_corpse",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abandoned_mansion",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abnormal_structure",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "alvars_eye",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "black_tower",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "boreal_call",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "circle_of_life",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "circus",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "crow_nest",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "cursed_old_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "fickle_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gardener",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gingerbread_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "goblin_cache",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "heros_crypt",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "infernal_cirque",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "iridescent_abbey",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "jousting_range",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "legions_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mereas_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "monty_hall",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "overgrown_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "peasant_cart",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "petrified_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "point_of_balance",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prismatic_lair",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "raiders_camp",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "ritual_pyre",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "shady_den",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "the_gorge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tree_of_knowledge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "uncanny_rite",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "unforgotten_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "university",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "village",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "windmill",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "wise_owl",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_1",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_2",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_3",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "random_hire_4",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_5",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_6",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "random_hire_7",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_wood",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_ore",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gold",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "storage_gemstones",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_crystals",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_mercury",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "storage_dust",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mana_well",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "fountain",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "sacrificial_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "chimerologist",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "troglodyte_throne",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "twilight_bloom",
+          "variant": -1,
+          "maxCount": 1
         }
       ]
     },
@@ -2032,6 +2517,191 @@
           "sid": "celestial_sphere",
           "variant": -1,
           "maxCount": 2
+        },
+        {
+          "sid": "abandoned_corpse",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abandoned_mansion",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abnormal_structure",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "alvars_eye",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "black_tower",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "boreal_call",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "circle_of_life",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "circus",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "crow_nest",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "cursed_old_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "fickle_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gardener",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gingerbread_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "goblin_cache",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "heros_crypt",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "infernal_cirque",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "iridescent_abbey",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "jousting_range",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "legions_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mereas_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "monty_hall",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "overgrown_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "peasant_cart",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "petrified_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "point_of_balance",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prismatic_lair",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "raiders_camp",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "ritual_pyre",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "shady_den",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "the_gorge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tree_of_knowledge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "uncanny_rite",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "unforgotten_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "university",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "village",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "windmill",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "wise_owl",
+          "variant": -1,
+          "maxCount": 1
         }
       ]
     },
@@ -2057,6 +2727,191 @@
           "sid": "celestial_sphere",
           "variant": -1,
           "maxCount": 2
+        },
+        {
+          "sid": "abandoned_corpse",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abandoned_mansion",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "abnormal_structure",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "alvars_eye",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "black_tower",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "boreal_call",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "circle_of_life",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "circus",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "crow_nest",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "cursed_old_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "fickle_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gardener",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "gingerbread_house",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "goblin_cache",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "heros_crypt",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "infernal_cirque",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "iridescent_abbey",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "jousting_range",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "legions_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mereas_shrine",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "monty_hall",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "overgrown_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "peasant_cart",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "petrified_memorial",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "point_of_balance",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prismatic_lair",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "raiders_camp",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "ritual_pyre",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "shady_den",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "the_gorge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tree_of_knowledge",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "uncanny_rite",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "unforgotten_grave",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "university",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "village",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "windmill",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "wise_owl",
+          "variant": -1,
+          "maxCount": 1
         }
       ]
     }
