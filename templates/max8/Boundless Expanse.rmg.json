@@ -153,11 +153,11 @@
             "mandatory_content_spawn"
           ],
           "contentCountLimits": "content_limits_spawn",
-          "guardedContentValue": 8493120,
+          "guardedContentValue": 7219152,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1132416,
+          "unguardedContentValue": 962554,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1698624,
+          "resourcesValue": 1443830,
           "resourcesValuePerArea": 0
         },
         {
@@ -248,11 +248,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8493120,
+          "guardedContentValue": 7219152,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1132416,
+          "unguardedContentValue": 962554,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1698624,
+          "resourcesValue": 1443830,
           "resourcesValuePerArea": 0
         },
         {
@@ -347,11 +347,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8493120,
+          "guardedContentValue": 7219152,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1132416,
+          "unguardedContentValue": 962554,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1698624,
+          "resourcesValue": 1443830,
           "resourcesValuePerArea": 0
         },
         {
@@ -446,11 +446,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8493120,
+          "guardedContentValue": 7219152,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1132416,
+          "unguardedContentValue": 962554,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1698624,
+          "resourcesValue": 1443830,
           "resourcesValuePerArea": 0
         },
         {
@@ -545,11 +545,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8493120,
+          "guardedContentValue": 7219152,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1132416,
+          "unguardedContentValue": 962554,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1698624,
+          "resourcesValue": 1443830,
           "resourcesValuePerArea": 0
         },
         {
@@ -644,11 +644,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8493120,
+          "guardedContentValue": 7219152,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1132416,
+          "unguardedContentValue": 962554,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1698624,
+          "resourcesValue": 1443830,
           "resourcesValuePerArea": 0
         },
         {
@@ -743,11 +743,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8493120,
+          "guardedContentValue": 7219152,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1132416,
+          "unguardedContentValue": 962554,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1698624,
+          "resourcesValue": 1443830,
           "resourcesValuePerArea": 0
         },
         {
@@ -842,11 +842,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8493120,
+          "guardedContentValue": 7219152,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1132416,
+          "unguardedContentValue": 962554,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1698624,
+          "resourcesValue": 1443830,
           "resourcesValuePerArea": 0
         },
         {
@@ -960,7 +960,7 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 168926,
+          "guardedContentValue": 167581,
           "guardedContentValuePerArea": 2792,
           "unguardedContentValue": 22344,
           "unguardedContentValuePerArea": 279,
@@ -1078,7 +1078,7 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 168926,
+          "guardedContentValue": 167581,
           "guardedContentValuePerArea": 2792,
           "unguardedContentValue": 22344,
           "unguardedContentValuePerArea": 279,
@@ -1196,7 +1196,7 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 170347,
+          "guardedContentValue": 167581,
           "guardedContentValuePerArea": 2792,
           "unguardedContentValue": 22344,
           "unguardedContentValuePerArea": 279,
@@ -1314,7 +1314,7 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 170347,
+          "guardedContentValue": 167581,
           "guardedContentValuePerArea": 2792,
           "unguardedContentValue": 22344,
           "unguardedContentValuePerArea": 279,
@@ -1383,7 +1383,7 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 225426,
+          "guardedContentValue": 222487,
           "guardedContentValuePerArea": 2780,
           "unguardedContentValue": 22249,
           "unguardedContentValuePerArea": 278,
@@ -2339,7 +2339,7 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 1243250,
+          "guardedContentValue": 1250000,
           "guardedContentValuePerArea": 31250,
           "unguardedContentValue": 0,
           "unguardedContentValuePerArea": 0,
@@ -2354,7 +2354,7 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2363,7 +2363,7 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2372,7 +2372,7 @@
           "to": "Treasure-5",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2381,7 +2381,7 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2390,7 +2390,7 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2399,7 +2399,7 @@
           "to": "Treasure-4",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2409,7 +2409,7 @@
           "connectionType": "Default",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2418,7 +2418,7 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2428,7 +2428,7 @@
           "simTurnSquad": true,
           "connectionType": "Default",
           "road": false,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2438,7 +2438,7 @@
           "connectionType": "Default",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2447,7 +2447,7 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2456,7 +2456,7 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2466,7 +2466,7 @@
           "connectionType": "Default",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2476,7 +2476,7 @@
           "simTurnSquad": true,
           "connectionType": "Default",
           "road": false,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2485,7 +2485,7 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2495,7 +2495,7 @@
           "connectionType": "Default",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2504,7 +2504,7 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "simTurnSquad": true,
           "guardWeeklyIncrement": 0.2
         },
@@ -2515,7 +2515,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": false,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2525,7 +2525,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2535,7 +2535,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": false,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2544,7 +2544,7 @@
           "to": "Treasure-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2553,7 +2553,7 @@
           "to": "Treasure-6",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 4688,
+          "guardValue": 5860,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2562,7 +2562,7 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2571,7 +2571,7 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2580,7 +2580,7 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2589,7 +2589,7 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2598,7 +2598,7 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2608,7 +2608,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": false,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2617,7 +2617,7 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2627,7 +2627,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2636,7 +2636,7 @@
           "to": "Treasure-4",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2645,7 +2645,7 @@
           "to": "Treasure-6",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2655,7 +2655,7 @@
           "simTurnSquad": true,
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2665,7 +2665,7 @@
           "simTurnSquad": true,
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2675,7 +2675,7 @@
           "simTurnSquad": true,
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2684,7 +2684,7 @@
           "to": "Connector-Center",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9375,
+          "guardValue": 11719,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2694,7 +2694,7 @@
           "simTurnSquad": true,
           "connectionType": "Default",
           "road": false,
-          "guardValue": 14062,
+          "guardValue": 17578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2703,7 +2703,7 @@
           "to": "SuperTreasure-2",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 14062,
+          "guardValue": 17578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2712,7 +2712,7 @@
           "to": "SuperTreasure-3",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 14062,
+          "guardValue": 17578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2722,7 +2722,7 @@
           "simTurnSquad": true,
           "connectionType": "Default",
           "road": false,
-          "guardValue": 14062,
+          "guardValue": 17578,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2732,7 +2732,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": false,
-          "guardValue": -15625
+          "guardValue": -19531
         },
         {
           "name": "Connector-1-Connector-2 2",
@@ -2741,7 +2741,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": false,
-          "guardValue": -15625
+          "guardValue": -19531
         },
         {
           "name": "Connector-3-Connector-4 1",
@@ -2750,7 +2750,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": false,
-          "guardValue": -15625
+          "guardValue": -19531
         },
         {
           "name": "Connector-3-Connector-4 2",
@@ -2759,7 +2759,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": false,
-          "guardValue": -15625
+          "guardValue": -19531
         }
       ]
     }
@@ -3334,12 +3334,12 @@
         {
           "sid": "sacrificial_shrine",
           "variant": -1,
-          "maxCount": 2
+          "maxCount": 1
         },
         {
           "sid": "chimerologist",
           "variant": -1,
-          "maxCount": 2
+          "maxCount": 1
         },
         {
           "sid": "stables",
@@ -3354,17 +3354,17 @@
         {
           "sid": "crystal_trail",
           "variant": -1,
-          "maxCount": 2
+          "maxCount": 1
         },
         {
           "sid": "tear_of_truth",
           "variant": -1,
-          "maxCount": 2
+          "maxCount": 1
         },
         {
           "sid": "celestial_sphere",
           "variant": -1,
-          "maxCount": 2
+          "maxCount": 1
         }
       ]
     },

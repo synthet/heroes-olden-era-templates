@@ -5,7 +5,8 @@
 variants. Built with the recipe in [`../../docs/oe/cookbook.md`](../../docs/oe/cookbook.md);
 economy scaled to 240 using flat `*Value` × `240/oldPx` and per-area × `(240/oldPx)²`,
 with spawn zones normalized to native 240×240 density (see `tools/max8_economy.py`).
-Regenerate: `python tools/rescale_max8_economy.py`.
+Regenerate: `python tools/rescale_max8_economy.py` (includes spawn pacing tweaks via
+`tools/apply_max8_pacing_tweaks.py`).
 PNG previews are paired by basename via `python tools/render_preview.py`.
 
 All 12 **PASS** `python tools/validate_rmg.py templates/max8`.
@@ -45,5 +46,20 @@ flavor rebuilds embed this automatically (`build_coop_corridor.py`, `rework_max8
 refresh: `python tools/diversify_max8_neutrals.py`.
 
 **Co-op fairness:** see [`../../docs/oe/coop-fairness-review.md`](../../docs/oe/coop-fairness-review.md).
+
+## Pacing families
+
+Player-feedback alignment (spawn-only trims + reward caps; topology unchanged):
+
+| Family | Templates | Spawn character |
+|---|---|---|
+| **Slow Burn** | Diamond Ring, Ikarus Ascendant, Ikarus Showdown, Ikarus Ladder Dominion | Lean spawns, exploration-first |
+| **Standard** | Diamond Colossus, Boundless Expanse | Moderate spawn budgets |
+| **Competitive Dense** | Octo Anarchy, Spider Titan, Antares Maelstrom, Grand Nostalgia, Boomerang Crown | High macro; spawn economy trimmed ~15% where guarded ≥ 5M |
+| **Co-op Explore** | Hard Place Hoard Corridors, Ikarus Ladder Dominion | Hoard/corridor intent (×1.5 on Hard Place); capped spawn clutter |
+
+Spawn pacing rules (all 12): premium POI caps in `content_limits_spawn` match Spider Titan
+(maxCount 1 for shrines, trails, spheres, thrones). Octo Anarchy additionally drops mandatory
+spawn `dragon_utopia` and caps spawn bank limits (premium 1, unit banks 4).
 
 **Deploy:** [`../../docs/install.md`](../../docs/install.md). Smoke-test in-game after deploy.

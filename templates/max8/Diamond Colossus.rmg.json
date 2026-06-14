@@ -1238,7 +1238,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1395,7 +1395,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1552,7 +1552,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1709,7 +1709,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1866,7 +1866,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1416667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -2023,7 +2023,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -2180,7 +2180,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -2337,7 +2337,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -2352,7 +2352,7 @@
           "to": "Treasure-1",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2361,7 +2361,7 @@
           "to": "Treasure-2",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2370,7 +2370,7 @@
           "to": "Treasure-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2379,7 +2379,7 @@
           "to": "Treasure-4",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2388,7 +2388,7 @@
           "to": "Treasure-5",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2397,7 +2397,7 @@
           "to": "Treasure-6",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2406,7 +2406,7 @@
           "to": "Treasure-7",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2415,7 +2415,7 @@
           "to": "Treasure-8",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 8333,
+          "guardValue": 13888,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2425,7 +2425,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2435,7 +2435,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2445,7 +2445,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2455,7 +2455,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2465,7 +2465,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2475,7 +2475,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2485,7 +2485,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2495,7 +2495,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2505,7 +2505,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2515,7 +2515,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2525,7 +2525,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2535,7 +2535,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2545,7 +2545,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2555,7 +2555,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2565,7 +2565,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2574,7 +2574,7 @@
           "to": "Treasure-7",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2584,7 +2584,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2594,7 +2594,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2604,7 +2604,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2614,7 +2614,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2624,7 +2624,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2634,7 +2634,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2644,7 +2644,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -2654,7 +2654,7 @@
           "connectionType": "Default",
           "simTurnSquad": true,
           "road": true,
-          "guardValue": 16667,
+          "guardValue": 27778,
           "guardWeeklyIncrement": 0.2
         }
       ]
@@ -3051,27 +3051,17 @@
         {
           "sid": "crystal_trail",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "tear_of_truth",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "celestial_sphere",
           "variant": -1,
-          "maxCount": 3
-        },
-        {
-          "sid": "troglodyte_throne",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "twilight_bloom",
-          "variant": -1,
-          "maxCount": 2
+          "maxCount": 1
         }
       ]
     },

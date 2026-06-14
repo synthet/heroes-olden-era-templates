@@ -674,7 +674,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -755,7 +755,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -836,7 +836,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -917,7 +917,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -998,7 +998,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1416667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1079,7 +1079,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1160,7 +1160,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1241,7 +1241,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1674542,
+          "guardedContentValue": 1666667,
           "guardedContentValuePerArea": 13889,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1256,7 +1256,7 @@
           "to": "Treasure-1",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1267,7 +1267,7 @@
           "to": "Spawn-B",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1278,7 +1278,7 @@
           "to": "Treasure-2",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1289,7 +1289,7 @@
           "to": "Spawn-C",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1300,7 +1300,7 @@
           "to": "Treasure-3",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1311,7 +1311,7 @@
           "to": "Spawn-D",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1322,7 +1322,7 @@
           "to": "Treasure-4",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1333,7 +1333,7 @@
           "to": "Spawn-E",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1344,7 +1344,7 @@
           "to": "Treasure-5",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1355,7 +1355,7 @@
           "to": "Spawn-F",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1366,7 +1366,7 @@
           "to": "Treasure-6",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1377,7 +1377,7 @@
           "to": "Spawn-G",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1388,7 +1388,7 @@
           "to": "Treasure-7",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1399,7 +1399,7 @@
           "to": "Spawn-H",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1410,7 +1410,7 @@
           "to": "Treasure-8",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1421,7 +1421,7 @@
           "to": "Spawn-A",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 50000,
+          "guardValue": 83333,
           "guardWeeklyIncrement": 0.2,
           "guardEscape": false,
           "simTurnSquad": true
@@ -1820,27 +1820,17 @@
         {
           "sid": "crystal_trail",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "tear_of_truth",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 1
         },
         {
           "sid": "celestial_sphere",
           "variant": -1,
-          "maxCount": 3
-        },
-        {
-          "sid": "troglodyte_throne",
-          "variant": -1,
-          "maxCount": 2
-        },
-        {
-          "sid": "twilight_bloom",
-          "variant": -1,
-          "maxCount": 2
+          "maxCount": 1
         }
       ]
     },
