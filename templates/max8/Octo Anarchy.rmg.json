@@ -465,10 +465,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_high_fill"
+            "template_pool_octojebus_guarded_center_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "template_pool_octojebus_unguarded_center_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_rich_no_scrolls"
@@ -620,10 +620,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "template_pool_octojebus_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "template_pool_octojebus_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -776,10 +776,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "template_pool_octojebus_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "template_pool_octojebus_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -936,10 +936,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "template_pool_octojebus_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "template_pool_octojebus_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1095,10 +1095,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "template_pool_octojebus_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "template_pool_octojebus_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1254,10 +1254,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "template_pool_octojebus_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "template_pool_octojebus_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1413,10 +1413,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "template_pool_octojebus_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "template_pool_octojebus_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1572,10 +1572,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "template_pool_octojebus_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "template_pool_octojebus_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1731,10 +1731,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "template_pool_octojebus_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "template_pool_octojebus_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"

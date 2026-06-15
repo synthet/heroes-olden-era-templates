@@ -67,10 +67,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -149,10 +161,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -240,10 +264,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -352,10 +388,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -443,10 +491,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -555,10 +615,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -646,10 +718,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -758,10 +842,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -849,10 +945,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_high_fill"
+            "classic_template_pool_random_t3_base"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "classic_template_pool_random_unguarded_t3_base"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_rich"
@@ -998,10 +1094,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1089,10 +1197,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1201,10 +1321,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1292,10 +1424,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1404,10 +1548,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1495,10 +1651,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1607,10 +1775,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1698,10 +1878,22 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "classic_template_pool_random_t2_item",
+            "classic_template_pool_random_t2_pandora",
+            "classic_template_pool_random_t2_hire",
+            "classic_template_pool_random_t2_unit_bank",
+            "classic_template_pool_random_t2_res_bank",
+            "classic_template_pool_random_t2_stat",
+            "classic_template_pool_random_t2_magic"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "classic_template_pool_random_unguarded_t2_item",
+            "classic_template_pool_random_unguarded_t2_pandora",
+            "classic_template_pool_random_unguarded_t2_hire",
+            "classic_template_pool_random_unguarded_t2_unit_bank",
+            "classic_template_pool_random_unguarded_t2_res_bank",
+            "classic_template_pool_random_unguarded_t2_stat",
+            "classic_template_pool_random_unguarded_t2_magic"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
