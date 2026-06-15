@@ -171,10 +171,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_diamond_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_diamond_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -298,10 +298,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_diamond_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_diamond_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -429,10 +429,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_diamond_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_diamond_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -560,10 +560,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_diamond_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_diamond_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -691,10 +691,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_diamond_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_diamond_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -822,10 +822,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_diamond_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_diamond_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -953,10 +953,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_diamond_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_diamond_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1082,10 +1082,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_diamond_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_diamond_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1241,10 +1241,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_diamond_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_diamond_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1399,10 +1399,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_diamond_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_diamond_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1557,10 +1557,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_diamond_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_diamond_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1715,10 +1715,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_diamond_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_diamond_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1873,10 +1873,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_diamond_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_diamond_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -2031,10 +2031,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_diamond_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_diamond_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -2189,10 +2189,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_diamond_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_diamond_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -2347,10 +2347,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_diamond_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_diamond_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"

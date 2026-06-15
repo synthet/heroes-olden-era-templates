@@ -142,10 +142,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -237,10 +237,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -338,10 +338,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -439,10 +439,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -540,10 +540,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -641,10 +641,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -742,10 +742,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -843,10 +843,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -963,10 +963,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_low_fill"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1083,10 +1083,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_low_fill"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1203,10 +1203,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_low_fill"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1323,10 +1323,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_low_fill"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1394,10 +1394,10 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_low_fill"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1479,10 +1479,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1563,10 +1563,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1662,10 +1662,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1761,10 +1761,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1860,10 +1860,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1959,10 +1959,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -2043,10 +2043,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -2127,10 +2127,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -2186,10 +2186,10 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_high_fill"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_zero"
@@ -2245,10 +2245,10 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_high_fill"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_zero"
@@ -2304,10 +2304,10 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_high_fill"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_zero"
@@ -2363,10 +2363,10 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_max8_guarded_neutral_high_fill"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_zero"
