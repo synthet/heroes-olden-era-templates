@@ -6,6 +6,19 @@ Random Map Generator (RMG) template files for **Heroes of Might and Magic: Olden
 
 Copy template files into the game's `StreamingAssets\map_templates` folder. Full paths and copy tips: [`docs/install.md`](docs/install.md).
 
+## Docs
+
+Documentation is structured as an [OKF](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) bundle under [`docs/`](docs/index.md):
+
+| Doc | Description |
+|-----|-------------|
+| [`docs/index.md`](docs/index.md) | Bundle root — all concepts linked from here |
+| [`docs/install.md`](docs/install.md) | Deploy paths and copy instructions |
+| [`docs/templates/`](docs/templates/index.md) | Per-collection concept docs |
+| [`docs/h3/matrix.md`](docs/h3/matrix.md) | H3 HotA → OE template cross-reference |
+| [`docs/oe/cookbook.md`](docs/oe/cookbook.md) | Template authoring and economy rescaling recipe |
+| [`docs/oe/coop-fairness-review.md`](docs/oe/coop-fairness-review.md) | Co-op balance criteria for max8 maps |
+
 ```
 <Steam library>\steamapps\common\Heroes of Might and Magic Olden Era\HeroesOldenEra_Data\StreamingAssets\map_templates
 ```
