@@ -1,3 +1,11 @@
+---
+type: Runbook
+title: Installation
+description: How to deploy .rmg.json template files to the Heroes Olden Era game via Steam StreamingAssets.
+tags: [install, setup, deploy, steam]
+timestamp: 2026-06-16T00:00:00Z
+---
+
 # Installation and deploy paths
 
 Official templates in `templates/official/` trace to the community [Olden Era — Template Generator](https://github.com/KhanDevelopsGames/Olden-Era---Template-Generator) project.
