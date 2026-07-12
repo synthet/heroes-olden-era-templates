@@ -12,24 +12,6 @@
 		"randomAngleAmplitude": 360,
 		"randomAngleStep": 90
 	},
-	"border": {
-		"cornerRadius": 0.0,
-		"obstaclesWidth": 3,
-		"obstaclesNoise": [
-			{
-				"amp": 1,
-				"freq": 12
-			}
-		],
-		"waterWidth": 0,
-		"waterNoise": [
-			{
-				"amp": 1,
-				"freq": 12
-			}
-		],
-		"waterType": "water grass"
-	},
 	"gameRules": {
 		"heroCountMin": 5,
 		"heroCountMax": 10,
@@ -52,6 +34,24 @@
 		{
 			"orientation": {
 				"mode": "MinimalBoundingSquare"
+			},
+			"border": {
+				"cornerRadius": 0.0,
+				"obstaclesWidth": 3,
+				"obstaclesNoise": [
+					{
+						"amp": 1,
+						"freq": 12
+					}
+				],
+				"waterWidth": 0,
+				"waterNoise": [
+					{
+						"amp": 1,
+						"freq": 12
+					}
+				],
+				"waterType": "water grass"
 			},
 			"zones": [
 				{
@@ -1711,7 +1711,7 @@
 					"from": "Center",
 					"to": "Spawn-A",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"guardWeeklyIncrement": 0.2,
 					"simTurnSquad": true,
@@ -1721,7 +1721,7 @@
 					"from": "Center",
 					"to": "Spawn-A",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1730,7 +1730,7 @@
 					"from": "Center",
 					"to": "Spawn-A",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1739,7 +1739,7 @@
 					"from": "Center",
 					"to": "Spawn-A",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1748,7 +1748,7 @@
 					"from": "Center",
 					"to": "Spawn-A",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1758,7 +1758,7 @@
 					"from": "Center",
 					"to": "Spawn-B",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2,
@@ -1768,7 +1768,7 @@
 					"from": "Center",
 					"to": "Spawn-B",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1777,7 +1777,7 @@
 					"from": "Center",
 					"to": "Spawn-B",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"guardWeeklyIncrement": 0.2
 				},
@@ -1785,7 +1785,7 @@
 					"from": "Center",
 					"to": "Spawn-B",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1794,7 +1794,7 @@
 					"from": "Center",
 					"to": "Spawn-B",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1804,7 +1804,7 @@
 					"from": "Center",
 					"to": "Spawn-C",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2,
@@ -1814,7 +1814,7 @@
 					"from": "Center",
 					"to": "Spawn-C",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1823,7 +1823,7 @@
 					"from": "Center",
 					"to": "Spawn-C",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1832,7 +1832,7 @@
 					"from": "Center",
 					"to": "Spawn-C",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1841,7 +1841,7 @@
 					"from": "Center",
 					"to": "Spawn-C",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1851,7 +1851,7 @@
 					"from": "Center",
 					"to": "Spawn-D",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2,
@@ -1861,7 +1861,7 @@
 					"from": "Center",
 					"to": "Spawn-D",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"guardWeeklyIncrement": 0.2
 				},
@@ -1869,16 +1869,7 @@
 					"from": "Center",
 					"to": "Spawn-D",
 					"connectionType": "Direct",
-					"guardValue": 70000,
-					"guardEscape": false,
-					"simTurnSquad": true,
-					"guardWeeklyIncrement": 0.2
-				},
-				{
-					"from": "Center",
-					"to": "Spawn-D",
-					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1887,7 +1878,16 @@
 					"from": "Center",
 					"to": "Spawn-D",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
+					"guardEscape": false,
+					"simTurnSquad": true,
+					"guardWeeklyIncrement": 0.2
+				},
+				{
+					"from": "Center",
+					"to": "Spawn-D",
+					"connectionType": "Direct",
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1897,7 +1897,7 @@
 					"from": "Center",
 					"to": "Spawn-E",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2,
@@ -1907,7 +1907,7 @@
 					"from": "Center",
 					"to": "Spawn-E",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1916,7 +1916,7 @@
 					"from": "Center",
 					"to": "Spawn-E",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1925,7 +1925,7 @@
 					"from": "Center",
 					"to": "Spawn-E",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1934,7 +1934,7 @@
 					"from": "Center",
 					"to": "Spawn-E",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1944,7 +1944,7 @@
 					"from": "Center",
 					"to": "Spawn-F",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"guardWeeklyIncrement": 0.2,
 					"gatePlacement": "Center"
@@ -1953,7 +1953,7 @@
 					"from": "Center",
 					"to": "Spawn-F",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1962,7 +1962,7 @@
 					"from": "Center",
 					"to": "Spawn-F",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1971,7 +1971,7 @@
 					"from": "Center",
 					"to": "Spawn-F",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1980,7 +1980,7 @@
 					"from": "Center",
 					"to": "Spawn-F",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -1990,7 +1990,7 @@
 					"from": "Center",
 					"to": "Spawn-G",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2,
@@ -2000,7 +2000,7 @@
 					"from": "Center",
 					"to": "Spawn-G",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -2009,7 +2009,7 @@
 					"from": "Center",
 					"to": "Spawn-G",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"guardWeeklyIncrement": 0.2
 				},
@@ -2017,7 +2017,7 @@
 					"from": "Center",
 					"to": "Spawn-G",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -2026,7 +2026,7 @@
 					"from": "Center",
 					"to": "Spawn-G",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -2036,7 +2036,7 @@
 					"from": "Center",
 					"to": "Spawn-H",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2,
@@ -2046,7 +2046,7 @@
 					"from": "Center",
 					"to": "Spawn-H",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -2055,7 +2055,7 @@
 					"from": "Center",
 					"to": "Spawn-H",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -2064,7 +2064,7 @@
 					"from": "Center",
 					"to": "Spawn-H",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
@@ -2073,64 +2073,64 @@
 					"from": "Center",
 					"to": "Spawn-H",
 					"connectionType": "Direct",
-					"guardValue": 70000,
+					"guardValue": 45000,
 					"guardEscape": false,
 					"simTurnSquad": true,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
-					"name": "Pseudo-A-G",
+					"name": "Pseudo-A-B",
 					"from": "Spawn-A",
-					"to": "Spawn-G",
+					"to": "Spawn-B",
 					"connectionType": "Proximity",
 					"length": 0.94
 				},
 				{
-					"name": "Pseudo-A-E",
-					"from": "Spawn-A",
+					"name": "Pseudo-B-C",
+					"from": "Spawn-B",
+					"to": "Spawn-C",
+					"connectionType": "Proximity",
+					"length": 0.94
+				},
+				{
+					"name": "Pseudo-C-D",
+					"from": "Spawn-C",
+					"to": "Spawn-D",
+					"connectionType": "Proximity",
+					"length": 0.94
+				},
+				{
+					"name": "Pseudo-D-E",
+					"from": "Spawn-D",
 					"to": "Spawn-E",
 					"connectionType": "Proximity",
 					"length": 0.94
 				},
 				{
-					"name": "Pseudo-B-F",
-					"from": "Spawn-B",
+					"name": "Pseudo-E-F",
+					"from": "Spawn-E",
 					"to": "Spawn-F",
 					"connectionType": "Proximity",
 					"length": 0.94
 				},
 				{
-					"name": "Pseudo-B-H",
-					"from": "Spawn-B",
-					"to": "Spawn-H",
-					"connectionType": "Proximity",
-					"length": 0.94
-				},
-				{
-					"name": "Pseudo-C-E",
-					"from": "Spawn-C",
-					"to": "Spawn-E",
-					"connectionType": "Proximity",
-					"length": 0.94
-				},
-				{
-					"name": "Pseudo-C-H",
-					"from": "Spawn-C",
-					"to": "Spawn-H",
-					"connectionType": "Proximity",
-					"length": 0.94
-				},
-				{
-					"name": "Pseudo-D-F",
-					"from": "Spawn-D",
-					"to": "Spawn-F",
-					"connectionType": "Proximity",
-					"length": 0.94
-				},
-				{
-					"name": "Pseudo-D-G",
-					"from": "Spawn-D",
+					"name": "Pseudo-F-G",
+					"from": "Spawn-F",
 					"to": "Spawn-G",
+					"connectionType": "Proximity",
+					"length": 0.94
+				},
+				{
+					"name": "Pseudo-G-H",
+					"from": "Spawn-G",
+					"to": "Spawn-H",
+					"connectionType": "Proximity",
+					"length": 0.94
+				},
+				{
+					"name": "Pseudo-H-A",
+					"from": "Spawn-H",
+					"to": "Spawn-A",
 					"connectionType": "Proximity",
 					"length": 0.94
 				}

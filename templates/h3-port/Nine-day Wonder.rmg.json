@@ -69,6 +69,8 @@
 				]
 			}
 		],
+		"factionLawsExpModifier": 1.5,
+		"astrologyExpModifier": 2.0,
 		"winConditions": {
 			"classic": true,
 			"desertion": true,
@@ -83,8 +85,6 @@
 			"gladiatorArenaRegistrationStartFight": true,
 			"gladiatorArenaDaysDelayStart": 21,
 			"gladiatorArenaCountDay": 8,
-			"factionLawsExpModifier": 1.0,
-			"astrologyExpModifier": 1.0,
 			"tournament": true,
 			"tournamentPointsToWin": 2,
 			"tournamentSaveArmy": true,
@@ -123,6 +123,7 @@
 			"swamp_boots_artifact",
 			"magic_key_ring_artifact",
 			"seven_league_boots_artifact",
+			"fallen_angel_wings_artifact",
 			"magic_scroll_artifact_day_17_magic_clear_view",
 			"magic_scroll_artifact_day_18_magic_farsight",
 			"magic_scroll_artifact_night_18_magic_nairas_veil",
@@ -569,7 +570,7 @@
 							"guardChance": 1.0,
 							"guardValue": 10000,
 							"guardWeeklyIncrement": 0.1,
-							"buildingsConstructionSid": "rich_buildings_construction",
+							"buildingsConstructionSid": "sprint_orange_buildings_construction",
 							"placement": "Center",
 							"factions": []
 						}
@@ -669,7 +670,7 @@
 							"guardChance": 1.0,
 							"guardValue": 10000,
 							"guardWeeklyIncrement": 0.1,
-							"buildingsConstructionSid": "rich_buildings_construction",
+							"buildingsConstructionSid": "sprint_orange_buildings_construction",
 							"placement": "Center",
 							"factions": []
 						}
@@ -977,7 +978,7 @@
 							"guardChance": 1.0,
 							"guardValue": 30000,
 							"guardWeeklyIncrement": 0.1,
-							"buildingsConstructionSid": "ultra_rich_buildings_construction",
+							"buildingsConstructionSid": "sprint_green_buildings_construction",
 							"placement": "Center",
 							"factions": []
 						}
@@ -1077,7 +1078,7 @@
 							"guardChance": 1.0,
 							"guardValue": 30000,
 							"guardWeeklyIncrement": 0.1,
-							"buildingsConstructionSid": "ultra_rich_buildings_construction",
+							"buildingsConstructionSid": "sprint_green_buildings_construction",
 							"placement": "Center",
 							"factions": []
 						}
@@ -1578,7 +1579,7 @@
 					"to": "Orange-A",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 10000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.1
 				},
 				{
@@ -1587,7 +1588,7 @@
 					"to": "Yellow-A",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 18000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.1
 				},
 				{
@@ -1596,7 +1597,7 @@
 					"to": "Green-A",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 27000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.1
 				},
 				{
@@ -1605,7 +1606,7 @@
 					"to": "Blue-A",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 50000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.1
 				},
 				{
@@ -1614,7 +1615,7 @@
 					"to": "Violet-A",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 72000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.1
 				},
 				{
@@ -1632,7 +1633,7 @@
 					"to": "Orange-B",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 10000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.1
 				},
 				{
@@ -1641,7 +1642,7 @@
 					"to": "Yellow-B",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 18000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.1
 				},
 				{
@@ -1650,7 +1651,7 @@
 					"to": "Green-B",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 27000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.1
 				},
 				{
@@ -1659,7 +1660,7 @@
 					"to": "Blue-B",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 50000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.1
 				},
 				{
@@ -1668,8 +1669,18 @@
 					"to": "Violet-B",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 72000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.1
+				},
+				{
+					"from": "Spawn-A",
+					"to": "Violet-B",
+					"connectionType": "Proximity"
+				},
+				{
+					"from": "Spawn-B",
+					"to": "Violet-A",
+					"connectionType": "Proximity"
 				}
 			]
 		}
@@ -2206,13 +2217,25 @@
 					"variant": 3
 				},
 				{
-					"sid": "random_item_legendary"
+					"sid": "forge",
+					"rules": {
+						"type": "MainObject",
+						"args": [
+							"0"
+						],
+						"targetMin": 0.15,
+						"targetMax": 0.3,
+						"weight": 2
+					}
 				},
 				{
 					"sid": "random_item_legendary"
 				},
 				{
-					"sid": "arena",
+					"sid": "random_item_legendary"
+				},
+				{
+					"sid": "fickle_shrine",
 					"isGuarded": false,
 					"rules": [
 						{

@@ -1,7 +1,7 @@
 {
   "name": "Ring",
   "gameMode": "Classic",
-  "description": "templates_description_diamond",
+  "description": "v1 — Buffered spawn–treasure ring (16 zones, no shared center); P1/P2 antipodal. Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,

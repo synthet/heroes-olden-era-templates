@@ -1,7 +1,7 @@
 {
   "name": "Hub",
   "gameMode": "Classic",
-  "description": "templates_description_octojebus",
+  "description": "v1 — Isolated spawns → shared Center only (9 zones). Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,

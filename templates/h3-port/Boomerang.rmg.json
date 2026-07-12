@@ -119,7 +119,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-A-Spawn-C"
+									"Spawn-A-Treasure-1"
 								]
 							}
 						},
@@ -134,7 +134,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-A-Spawn-D"
+									"Spawn-A-Treasure-2"
 								]
 							}
 						},
@@ -149,22 +149,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-A-Spawn-E"
-								]
-							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
-								"type": "Connection",
-								"args": [
-									"Spawn-A-Center"
+									"Spawn-A-Treasure-3"
 								]
 							}
 						}
@@ -244,7 +229,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-B-Spawn-F"
+									"Spawn-B-Treasure-4"
 								]
 							}
 						},
@@ -259,7 +244,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-B-Spawn-G"
+									"Spawn-B-Treasure-5"
 								]
 							}
 						},
@@ -274,22 +259,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-B-Spawn-H"
-								]
-							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
-								"type": "Connection",
-								"args": [
-									"Spawn-B-Center"
+									"Spawn-B-Treasure-6"
 								]
 							}
 						}
@@ -373,7 +343,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-A-Spawn-C"
+									"Spawn-C-Treasure-1"
 								]
 							}
 						},
@@ -388,7 +358,37 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-C-Treasure-1"
+									"Spawn-C-Treasure-2"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-C-ST-A"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-C-ST-B"
 								]
 							}
 						}
@@ -472,7 +472,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-A-Spawn-D"
+									"Spawn-D-Treasure-1"
 								]
 							}
 						},
@@ -487,7 +487,37 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-D-Treasure-2"
+									"Spawn-D-Treasure-3"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-D-ST-A"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-D-ST-C"
 								]
 							}
 						}
@@ -571,7 +601,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-A-Spawn-E"
+									"Spawn-E-Treasure-2"
 								]
 							}
 						},
@@ -587,6 +617,36 @@
 								"type": "Connection",
 								"args": [
 									"Spawn-E-Treasure-3"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-E-ST-B"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-E-ST-C"
 								]
 							}
 						}
@@ -670,7 +730,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-B-Spawn-F"
+									"Spawn-F-Treasure-4"
 								]
 							}
 						},
@@ -685,7 +745,37 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-F-Treasure-4"
+									"Spawn-F-Treasure-5"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-F-ST-A"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-F-ST-B"
 								]
 							}
 						}
@@ -769,7 +859,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-B-Spawn-G"
+									"Spawn-G-Treasure-4"
 								]
 							}
 						},
@@ -784,7 +874,37 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-G-Treasure-5"
+									"Spawn-G-Treasure-6"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-G-ST-A"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-G-ST-C"
 								]
 							}
 						}
@@ -868,7 +988,7 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-B-Spawn-H"
+									"Spawn-H-Treasure-5"
 								]
 							}
 						},
@@ -884,6 +1004,36 @@
 								"type": "Connection",
 								"args": [
 									"Spawn-H-Treasure-6"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-H-ST-B"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-H-ST-C"
 								]
 							}
 						}
@@ -966,7 +1116,37 @@
 							"to": {
 								"type": "Connection",
 								"args": [
+									"Spawn-A-Treasure-1"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
 									"Spawn-C-Treasure-1"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-D-Treasure-1"
 								]
 							}
 						}
@@ -986,9 +1166,9 @@
 					"contentCountLimits": [
 						"content_limits_treasure"
 					],
-					"guardedContentValue": 600000,
-					"guardedContentValuePerArea": 12500,
-					"unguardedContentValue": 15000,
+					"guardedContentValue": 690000,
+					"guardedContentValuePerArea": 14375,
+					"unguardedContentValue": 17250,
 					"unguardedContentValuePerArea": 0,
 					"resourcesValue": 0,
 					"resourcesValuePerArea": 0
@@ -1049,7 +1229,37 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-D-Treasure-2"
+									"Spawn-A-Treasure-2"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-C-Treasure-2"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-E-Treasure-2"
 								]
 							}
 						}
@@ -1069,9 +1279,9 @@
 					"contentCountLimits": [
 						"content_limits_treasure"
 					],
-					"guardedContentValue": 600000,
-					"guardedContentValuePerArea": 12500,
-					"unguardedContentValue": 15000,
+					"guardedContentValue": 690000,
+					"guardedContentValuePerArea": 14375,
+					"unguardedContentValue": 17250,
 					"unguardedContentValuePerArea": 0,
 					"resourcesValue": 0,
 					"resourcesValuePerArea": 0
@@ -1132,6 +1342,36 @@
 							"to": {
 								"type": "Connection",
 								"args": [
+									"Spawn-A-Treasure-3"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-D-Treasure-3"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
 									"Spawn-E-Treasure-3"
 								]
 							}
@@ -1152,9 +1392,9 @@
 					"contentCountLimits": [
 						"content_limits_treasure"
 					],
-					"guardedContentValue": 600000,
-					"guardedContentValuePerArea": 12500,
-					"unguardedContentValue": 15000,
+					"guardedContentValue": 690000,
+					"guardedContentValuePerArea": 14375,
+					"unguardedContentValue": 17250,
 					"unguardedContentValuePerArea": 0,
 					"resourcesValue": 0,
 					"resourcesValuePerArea": 0
@@ -1215,7 +1455,37 @@
 							"to": {
 								"type": "Connection",
 								"args": [
+									"Spawn-B-Treasure-4"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
 									"Spawn-F-Treasure-4"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-G-Treasure-4"
 								]
 							}
 						}
@@ -1235,9 +1505,9 @@
 					"contentCountLimits": [
 						"content_limits_treasure"
 					],
-					"guardedContentValue": 600000,
-					"guardedContentValuePerArea": 12500,
-					"unguardedContentValue": 15000,
+					"guardedContentValue": 690000,
+					"guardedContentValuePerArea": 14375,
+					"unguardedContentValue": 17250,
 					"unguardedContentValuePerArea": 0,
 					"resourcesValue": 0,
 					"resourcesValuePerArea": 0
@@ -1298,7 +1568,37 @@
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-G-Treasure-5"
+									"Spawn-B-Treasure-5"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-F-Treasure-5"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-H-Treasure-5"
 								]
 							}
 						}
@@ -1318,9 +1618,9 @@
 					"contentCountLimits": [
 						"content_limits_treasure"
 					],
-					"guardedContentValue": 600000,
-					"guardedContentValuePerArea": 12500,
-					"unguardedContentValue": 15000,
+					"guardedContentValue": 690000,
+					"guardedContentValuePerArea": 14375,
+					"unguardedContentValue": 17250,
 					"unguardedContentValuePerArea": 0,
 					"resourcesValue": 0,
 					"resourcesValuePerArea": 0
@@ -1381,6 +1681,36 @@
 							"to": {
 								"type": "Connection",
 								"args": [
+									"Spawn-B-Treasure-6"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-G-Treasure-6"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
 									"Spawn-H-Treasure-6"
 								]
 							}
@@ -1401,16 +1731,16 @@
 					"contentCountLimits": [
 						"content_limits_treasure"
 					],
-					"guardedContentValue": 600000,
-					"guardedContentValuePerArea": 12500,
-					"unguardedContentValue": 15000,
+					"guardedContentValue": 690000,
+					"guardedContentValuePerArea": 14375,
+					"unguardedContentValue": 17250,
 					"unguardedContentValuePerArea": 0,
 					"resourcesValue": 0,
 					"resourcesValuePerArea": 0
 				},
 				{
-					"name": "Center",
-					"size": 1.0,
+					"name": "SuperTreasure-A",
+					"size": 1.1,
 					"layout": "zone_layout_center",
 					"guardCutoffValue": 1500,
 					"guardRandomization": 0.05,
@@ -1424,38 +1754,92 @@
 						0,
 						0
 					],
-					"mainObjects": [],
+					"mainObjects": [
+						{
+							"type": "City",
+							"guardChance": 0.5,
+							"guardValue": 3000,
+							"guardWeeklyIncrement": 0.2,
+							"buildingsConstructionSid": "poor_buildings_construction",
+							"placement": "Center"
+						}
+					],
 					"zoneBiome": {
-						"type": "FromList",
+						"type": "MatchMainObject",
 						"args": [
-							"Sand"
+							"0"
 						]
 					},
 					"contentBiome": {
-						"type": "FromList",
+						"type": "MatchMainObject",
 						"args": [
-							"Sand"
+							"0"
 						]
 					},
 					"metaObjectsBiome": {
-						"type": "FromList",
+						"type": "MatchMainObject",
 						"args": [
-							"Sand"
+							"0"
 						]
 					},
 					"roads": [
 						{
 							"type": "Stone",
 							"from": {
-								"type": "Connection",
+								"type": "MainObject",
 								"args": [
-									"Spawn-A-Center"
+									"0"
 								]
 							},
 							"to": {
 								"type": "Connection",
 								"args": [
-									"Spawn-B-Center"
+									"Spawn-C-ST-A"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-D-ST-A"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-F-ST-A"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-G-ST-A"
 								]
 							}
 						}
@@ -1467,7 +1851,7 @@
 						"content_pool_template_mini_nosta_unguarded_supertreasure_zone"
 					],
 					"resourcesContentPool": [
-						"content_pool_general_resources_treasure_zone_zero"
+						"content_pool_general_resources_start_zone_very_poor"
 					],
 					"mandatoryContent": [
 						"mandatory_content_treasure"
@@ -1475,9 +1859,265 @@
 					"contentCountLimits": [
 						"content_limits_treasure"
 					],
-					"guardedContentValue": 600000,
-					"guardedContentValuePerArea": 12500,
-					"unguardedContentValue": 15000,
+					"guardedContentValue": 810000,
+					"guardedContentValuePerArea": 16875,
+					"unguardedContentValue": 20250,
+					"unguardedContentValuePerArea": 0,
+					"resourcesValue": 0,
+					"resourcesValuePerArea": 0
+				},
+				{
+					"name": "SuperTreasure-B",
+					"size": 1.1,
+					"layout": "zone_layout_center",
+					"guardCutoffValue": 1500,
+					"guardRandomization": 0.05,
+					"guardMultiplier": 1.6,
+					"guardWeeklyIncrement": 0.1,
+					"guardReactionDistribution": [
+						3,
+						2,
+						0,
+						0,
+						0,
+						0
+					],
+					"mainObjects": [
+						{
+							"type": "City",
+							"guardChance": 0.5,
+							"guardValue": 3000,
+							"guardWeeklyIncrement": 0.2,
+							"buildingsConstructionSid": "poor_buildings_construction",
+							"placement": "Center"
+						}
+					],
+					"zoneBiome": {
+						"type": "MatchMainObject",
+						"args": [
+							"0"
+						]
+					},
+					"contentBiome": {
+						"type": "MatchMainObject",
+						"args": [
+							"0"
+						]
+					},
+					"metaObjectsBiome": {
+						"type": "MatchMainObject",
+						"args": [
+							"0"
+						]
+					},
+					"roads": [
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-C-ST-B"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-E-ST-B"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-F-ST-B"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-H-ST-B"
+								]
+							}
+						}
+					],
+					"guardedContentPool": [
+						"content_pool_template_mini_nosta_guarded_supertreasure_zone"
+					],
+					"unguardedContentPool": [
+						"content_pool_template_mini_nosta_unguarded_supertreasure_zone"
+					],
+					"resourcesContentPool": [
+						"content_pool_general_resources_start_zone_very_poor"
+					],
+					"mandatoryContent": [
+						"mandatory_content_treasure"
+					],
+					"contentCountLimits": [
+						"content_limits_treasure"
+					],
+					"guardedContentValue": 810000,
+					"guardedContentValuePerArea": 16875,
+					"unguardedContentValue": 20250,
+					"unguardedContentValuePerArea": 0,
+					"resourcesValue": 0,
+					"resourcesValuePerArea": 0
+				},
+				{
+					"name": "SuperTreasure-C",
+					"size": 1.1,
+					"layout": "zone_layout_center",
+					"guardCutoffValue": 1500,
+					"guardRandomization": 0.05,
+					"guardMultiplier": 1.6,
+					"guardWeeklyIncrement": 0.1,
+					"guardReactionDistribution": [
+						3,
+						2,
+						0,
+						0,
+						0,
+						0
+					],
+					"mainObjects": [
+						{
+							"type": "City",
+							"guardChance": 0.5,
+							"guardValue": 3000,
+							"guardWeeklyIncrement": 0.2,
+							"buildingsConstructionSid": "poor_buildings_construction",
+							"placement": "Center"
+						}
+					],
+					"zoneBiome": {
+						"type": "MatchMainObject",
+						"args": [
+							"0"
+						]
+					},
+					"contentBiome": {
+						"type": "MatchMainObject",
+						"args": [
+							"0"
+						]
+					},
+					"metaObjectsBiome": {
+						"type": "MatchMainObject",
+						"args": [
+							"0"
+						]
+					},
+					"roads": [
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-D-ST-C"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-E-ST-C"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-G-ST-C"
+								]
+							}
+						},
+						{
+							"type": "Stone",
+							"from": {
+								"type": "MainObject",
+								"args": [
+									"0"
+								]
+							},
+							"to": {
+								"type": "Connection",
+								"args": [
+									"Spawn-H-ST-C"
+								]
+							}
+						}
+					],
+					"guardedContentPool": [
+						"content_pool_template_mini_nosta_guarded_supertreasure_zone"
+					],
+					"unguardedContentPool": [
+						"content_pool_template_mini_nosta_unguarded_supertreasure_zone"
+					],
+					"resourcesContentPool": [
+						"content_pool_general_resources_start_zone_very_poor"
+					],
+					"mandatoryContent": [
+						"mandatory_content_treasure"
+					],
+					"contentCountLimits": [
+						"content_limits_treasure"
+					],
+					"guardedContentValue": 810000,
+					"guardedContentValuePerArea": 16875,
+					"unguardedContentValue": 20250,
 					"unguardedContentValuePerArea": 0,
 					"resourcesValue": 0,
 					"resourcesValuePerArea": 0
@@ -1485,58 +2125,64 @@
 			],
 			"connections": [
 				{
-					"name": "Spawn-A-Spawn-C",
+					"name": "Spawn-A-Treasure-1",
 					"from": "Spawn-A",
-					"to": "Spawn-C",
+					"to": "Treasure-1",
 					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 3000,
-					"guardWeeklyIncrement": 0.2
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
-					"name": "Spawn-A-Spawn-D",
+					"name": "Spawn-A-Treasure-2",
 					"from": "Spawn-A",
-					"to": "Spawn-D",
+					"to": "Treasure-2",
 					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 3000,
-					"guardWeeklyIncrement": 0.2
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
-					"name": "Spawn-A-Spawn-E",
+					"name": "Spawn-A-Treasure-3",
 					"from": "Spawn-A",
-					"to": "Spawn-E",
+					"to": "Treasure-3",
 					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 3000,
-					"guardWeeklyIncrement": 0.2
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
-					"name": "Spawn-B-Spawn-F",
+					"name": "Spawn-B-Treasure-4",
 					"from": "Spawn-B",
-					"to": "Spawn-F",
+					"to": "Treasure-4",
 					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 3000,
-					"guardWeeklyIncrement": 0.2
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
-					"name": "Spawn-B-Spawn-G",
+					"name": "Spawn-B-Treasure-5",
 					"from": "Spawn-B",
-					"to": "Spawn-G",
+					"to": "Treasure-5",
 					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 3000,
-					"guardWeeklyIncrement": 0.2
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
-					"name": "Spawn-B-Spawn-H",
+					"name": "Spawn-B-Treasure-6",
 					"from": "Spawn-B",
-					"to": "Spawn-H",
+					"to": "Treasure-6",
 					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 3000,
-					"guardWeeklyIncrement": 0.2
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
 					"name": "Spawn-C-Treasure-1",
@@ -1544,17 +2190,49 @@
 					"to": "Treasure-1",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 6000,
-					"guardWeeklyIncrement": 0.2
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
-					"name": "Spawn-D-Treasure-2",
-					"from": "Spawn-D",
+					"name": "Spawn-C-Treasure-2",
+					"from": "Spawn-C",
 					"to": "Treasure-2",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 6000,
-					"guardWeeklyIncrement": 0.2
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-D-Treasure-1",
+					"from": "Spawn-D",
+					"to": "Treasure-1",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-D-Treasure-3",
+					"from": "Spawn-D",
+					"to": "Treasure-3",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-E-Treasure-2",
+					"from": "Spawn-E",
+					"to": "Treasure-2",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
 					"name": "Spawn-E-Treasure-3",
@@ -1562,8 +2240,9 @@
 					"to": "Treasure-3",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 6000,
-					"guardWeeklyIncrement": 0.2
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
 					"name": "Spawn-F-Treasure-4",
@@ -1571,17 +2250,49 @@
 					"to": "Treasure-4",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 6000,
-					"guardWeeklyIncrement": 0.2
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
-					"name": "Spawn-G-Treasure-5",
-					"from": "Spawn-G",
+					"name": "Spawn-F-Treasure-5",
+					"from": "Spawn-F",
 					"to": "Treasure-5",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 6000,
-					"guardWeeklyIncrement": 0.2
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-G-Treasure-4",
+					"from": "Spawn-G",
+					"to": "Treasure-4",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-G-Treasure-6",
+					"from": "Spawn-G",
+					"to": "Treasure-6",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-H-Treasure-5",
+					"from": "Spawn-H",
+					"to": "Treasure-5",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
 					"name": "Spawn-H-Treasure-6",
@@ -1589,30 +2300,129 @@
 					"to": "Treasure-6",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 6000,
-					"guardWeeklyIncrement": 0.2
+					"guardValue": 3000,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
-					"name": "Spawn-A-Center",
-					"from": "Spawn-A",
-					"to": "Center",
+					"name": "Spawn-C-ST-A",
+					"from": "Spawn-C",
+					"to": "SuperTreasure-A",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 70000,
-					"guardEscape": false,
-					"simTurnSquad": true,
-					"guardWeeklyIncrement": 0.2
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				},
 				{
-					"name": "Spawn-B-Center",
-					"from": "Spawn-B",
-					"to": "Center",
+					"name": "Spawn-C-ST-B",
+					"from": "Spawn-C",
+					"to": "SuperTreasure-B",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 70000,
-					"guardEscape": false,
-					"simTurnSquad": true,
-					"guardWeeklyIncrement": 0.2
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-D-ST-A",
+					"from": "Spawn-D",
+					"to": "SuperTreasure-A",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-D-ST-C",
+					"from": "Spawn-D",
+					"to": "SuperTreasure-C",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-E-ST-B",
+					"from": "Spawn-E",
+					"to": "SuperTreasure-B",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-E-ST-C",
+					"from": "Spawn-E",
+					"to": "SuperTreasure-C",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-F-ST-A",
+					"from": "Spawn-F",
+					"to": "SuperTreasure-A",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-F-ST-B",
+					"from": "Spawn-F",
+					"to": "SuperTreasure-B",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-G-ST-A",
+					"from": "Spawn-G",
+					"to": "SuperTreasure-A",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-G-ST-C",
+					"from": "Spawn-G",
+					"to": "SuperTreasure-C",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-H-ST-B",
+					"from": "Spawn-H",
+					"to": "SuperTreasure-B",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
+				},
+				{
+					"name": "Spawn-H-ST-C",
+					"from": "Spawn-H",
+					"to": "SuperTreasure-C",
+					"connectionType": "Direct",
+					"road": true,
+					"guardValue": 12500,
+					"guardWeeklyIncrement": 0.2,
+					"guardEscape": false
 				}
 			]
 		}

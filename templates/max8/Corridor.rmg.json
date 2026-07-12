@@ -1,7 +1,7 @@
 {
   "name": "Corridor",
   "gameMode": "Classic",
-  "description": "templates_description_pve_hard_place",
+  "description": "v1 — Linear co-op spine + cross-AI rungs; ×1.5 hoard economy; seat Spawn-A/B. Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,

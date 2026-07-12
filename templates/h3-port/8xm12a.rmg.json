@@ -158,7 +158,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 15000,
+					"resourcesValue": 16500,
 					"resourcesValuePerArea": 0
 				},
 				{
@@ -253,7 +253,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 15000,
+					"resourcesValue": 16500,
 					"resourcesValuePerArea": 0
 				},
 				{
@@ -352,7 +352,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 15000,
+					"resourcesValue": 16500,
 					"resourcesValuePerArea": 0
 				},
 				{
@@ -451,7 +451,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 15000,
+					"resourcesValue": 16500,
 					"resourcesValuePerArea": 0
 				},
 				{
@@ -550,7 +550,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 15000,
+					"resourcesValue": 16500,
 					"resourcesValuePerArea": 0
 				},
 				{
@@ -649,7 +649,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 15000,
+					"resourcesValue": 16500,
 					"resourcesValuePerArea": 0
 				},
 				{
@@ -748,7 +748,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 15000,
+					"resourcesValue": 16500,
 					"resourcesValuePerArea": 0
 				},
 				{
@@ -847,7 +847,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 15000,
+					"resourcesValue": 16500,
 					"resourcesValuePerArea": 0
 				},
 				{
@@ -965,8 +965,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 100,
-					"resourcesValue": 15000,
-					"resourcesValuePerArea": 150
+					"resourcesValue": 16500,
+					"resourcesValuePerArea": 165
 				},
 				{
 					"name": "Connector-2",
@@ -1083,8 +1083,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 100,
-					"resourcesValue": 15000,
-					"resourcesValuePerArea": 150
+					"resourcesValue": 16500,
+					"resourcesValuePerArea": 165
 				},
 				{
 					"name": "Connector-3",
@@ -1201,8 +1201,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 100,
-					"resourcesValue": 15000,
-					"resourcesValuePerArea": 150
+					"resourcesValue": 16500,
+					"resourcesValuePerArea": 165
 				},
 				{
 					"name": "Connector-4",
@@ -1319,8 +1319,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 100,
-					"resourcesValue": 15000,
-					"resourcesValuePerArea": 150
+					"resourcesValue": 16500,
+					"resourcesValuePerArea": 165
 				},
 				{
 					"name": "Connector-Center",
@@ -1388,8 +1388,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 10000,
 					"unguardedContentValuePerArea": 100,
-					"resourcesValue": 15000,
-					"resourcesValuePerArea": 150
+					"resourcesValue": 16500,
+					"resourcesValuePerArea": 165
 				},
 				{
 					"name": "Treasure-1",

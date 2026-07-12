@@ -2535,7 +2535,7 @@
 					"to": "SuperTreasure-1",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2544,7 +2544,7 @@
 					"to": "SuperTreasure-1",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2553,7 +2553,7 @@
 					"to": "SuperTreasure-2",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2562,7 +2562,7 @@
 					"to": "SuperTreasure-2",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2571,7 +2571,7 @@
 					"to": "SuperTreasure-1",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2580,7 +2580,7 @@
 					"to": "SuperTreasure-1",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2589,7 +2589,7 @@
 					"to": "SuperTreasure-1",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2598,7 +2598,7 @@
 					"to": "SuperTreasure-1",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2607,7 +2607,7 @@
 					"to": "SuperTreasure-5",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2616,7 +2616,7 @@
 					"to": "SuperTreasure-5",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2625,7 +2625,7 @@
 					"to": "SuperTreasure-6",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2634,7 +2634,7 @@
 					"to": "SuperTreasure-6",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2643,7 +2643,7 @@
 					"to": "SuperTreasure-7",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2652,7 +2652,7 @@
 					"to": "SuperTreasure-7",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2661,7 +2661,7 @@
 					"to": "SuperTreasure-8",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -2670,7 +2670,7 @@
 					"to": "SuperTreasure-8",
 					"connectionType": "Default",
 					"road": false,
-					"guardValue": 9000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.2
 				}
 			]

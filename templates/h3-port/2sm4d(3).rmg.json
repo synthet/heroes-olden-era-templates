@@ -1867,7 +1867,7 @@
 					"contentCountLimits": [
 						"content_limits_treasure"
 					],
-					"guardedContentValue": 850000,
+					"guardedContentValue": 1000000,
 					"guardedContentValuePerArea": 5000,
 					"unguardedContentValue": 15000,
 					"unguardedContentValuePerArea": 0,

@@ -1,7 +1,7 @@
 {
   "name": "Boomerang",
   "gameMode": "Classic",
-  "description": "templates_description_boomerang",
+  "description": "v1 — Buffered arms → shared Center; tip arms heavier guarded (15 zones). Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,

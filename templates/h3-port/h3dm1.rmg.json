@@ -5,11 +5,31 @@
 	"displayWinCondition": "win_condition_1",
 	"sizeX": 144,
 	"sizeZ": 144,
+	"globalBans": {
+		"magics": [
+			"neutral_magic_pocket_dimension",
+			"neutral_magic_light_gate",
+			"neutral_magic_town_portal",
+			"neutral_magic_dimension_door",
+			"neutral_magic_shadow_form"
+		],
+		"items": [
+			"voodoosh_doll_artifact",
+			"flag_of_truce_artifact",
+			"wanderers_way_boots_of_travel_artifact",
+			"wanderers_way_backpack_artifact",
+			"pole_star_artifact",
+			"shackles_of_war_artifact",
+			"swamp_boots_artifact",
+			"magic_key_ring_artifact",
+			"seven_league_boots_artifact"
+		]
+	},
 	"gameRules": {
 		"heroCountMin": 1,
 		"heroCountMax": 1,
 		"heroCountIncrement": 1,
-		"heroHireBan": false,
+		"heroHireBan": true,
 		"encounterHoles": false,
 		"winConditions": {
 			"classic": true,
@@ -24,28 +44,7 @@
 			"gladiatorArenaRegistrationStartWork": false,
 			"gladiatorArenaRegistrationStartFight": true,
 			"gladiatorArenaDaysDelayStart": 30,
-			"gladiatorArenaCountDay": 3,
-			"championSelectRule": "StartHero"
-		},
-		"globalBans": {
-			"magics": [
-				"neutral_magic_pocket_dimension",
-				"neutral_magic_light_gate",
-				"neutral_magic_town_portal",
-				"neutral_magic_dimension_door",
-				"neutral_magic_shadow_form"
-			],
-			"items": [
-				"voodoosh_doll_artifact",
-				"flag_of_truce_artifact",
-				"wanderers_way_boots_of_travel_artifact",
-				"wanderers_way_backpack_artifact",
-				"pole_star_artifact",
-				"shackles_of_war_artifact",
-				"swamp_boots_artifact",
-				"magic_key_ring_artifact",
-				"seven_league_boots_artifact"
-			]
+			"gladiatorArenaCountDay": 3
 		}
 	},
 	"variants": [
@@ -696,39 +695,6 @@
 		}
 	],
 	"zoneLayouts": [
-		{
-			"name": "zone_layout_center",
-			"obstaclesFill": 0.5,
-			"obstaclesFillVoid": 0.5,
-			"lakesFill": 0.3,
-			"minLakeArea": 10,
-			"elevationClusterScale": 0.128,
-			"elevationModes": [
-				{
-					"weight": 1,
-					"minElevatedFraction": 0.0,
-					"maxElevatedFraction": 0.0
-				}
-			],
-			"roadClusterArea": 128,
-			"guardedEncounterResourceFractions": {
-				"countBounds": [],
-				"fractions": [
-					0.5
-				]
-			},
-			"ambientPickupDistribution": {
-				"repulsion": 1.0,
-				"noise": 0.3,
-				"roadAttraction": 0.25,
-				"obstacleAttraction": 0.0,
-				"groupSizeWeights": [
-					4,
-					1,
-					1
-				]
-			}
-		},
 		{
 			"name": "zone_layout_sides",
 			"obstaclesFill": 0.6,

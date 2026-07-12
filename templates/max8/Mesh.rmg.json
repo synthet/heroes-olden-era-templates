@@ -1,7 +1,7 @@
 {
   "name": "Mesh",
   "gameMode": "Classic",
-  "description": "templates_description_diamond",
+  "description": "v1 — Dense bipartite diamond grid (16 zones); +10% spawn macro vs Ring. Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,

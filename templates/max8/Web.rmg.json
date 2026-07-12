@@ -1,7 +1,7 @@
 {
   "name": "Web",
   "gameMode": "Classic",
-  "description": "templates_description_mini_nostalgia",
+  "description": "v1 — Dual-pole treasure web; heavy guards on direct spawn shortcuts (15 zones). Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,

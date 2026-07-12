@@ -1,7 +1,7 @@
 {
   "name": "Spokes",
   "gameMode": "Classic",
-  "description": "templates_description_ikarus",
+  "description": "v1 — Hub spokes: spawn → treasure → lean 1M Center siege prize (17 zones). Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,

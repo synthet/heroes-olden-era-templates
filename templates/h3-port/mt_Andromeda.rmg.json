@@ -113,7 +113,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 100000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 50000,
+					"resourcesValue": 52500,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [
 						{
@@ -300,7 +300,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 75000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 25000,
+					"resourcesValue": 26250,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [
 						{
@@ -450,7 +450,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 50000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 45000,
+					"resourcesValue": 47250,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [],
 					"zoneBiome": {
@@ -591,7 +591,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 75000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 25000,
+					"resourcesValue": 26250,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [
 						{
@@ -741,7 +741,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 50000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 45000,
+					"resourcesValue": 47250,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [],
 					"zoneBiome": {

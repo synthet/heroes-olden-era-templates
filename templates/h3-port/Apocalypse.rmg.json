@@ -187,8 +187,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 35000,
 					"unguardedContentValuePerArea": 1000,
-					"resourcesValue": 3000,
-					"resourcesValuePerArea": 100
+					"resourcesValue": 3150,
+					"resourcesValuePerArea": 105
 				},
 				{
 					"name": "Spawn-B",
@@ -312,8 +312,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 35000,
 					"unguardedContentValuePerArea": 1000,
-					"resourcesValue": 3000,
-					"resourcesValuePerArea": 100
+					"resourcesValue": 3150,
+					"resourcesValuePerArea": 105
 				},
 				{
 					"name": "Spawn-C",
@@ -441,8 +441,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 35000,
 					"unguardedContentValuePerArea": 1000,
-					"resourcesValue": 3000,
-					"resourcesValuePerArea": 100
+					"resourcesValue": 3150,
+					"resourcesValuePerArea": 105
 				},
 				{
 					"name": "Spawn-D",
@@ -570,8 +570,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 35000,
 					"unguardedContentValuePerArea": 1000,
-					"resourcesValue": 3000,
-					"resourcesValuePerArea": 100
+					"resourcesValue": 3150,
+					"resourcesValuePerArea": 105
 				},
 				{
 					"name": "Spawn-E",
@@ -699,8 +699,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 35000,
 					"unguardedContentValuePerArea": 1000,
-					"resourcesValue": 3000,
-					"resourcesValuePerArea": 100
+					"resourcesValue": 3150,
+					"resourcesValuePerArea": 105
 				},
 				{
 					"name": "Spawn-F",
@@ -828,8 +828,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 35000,
 					"unguardedContentValuePerArea": 1000,
-					"resourcesValue": 3000,
-					"resourcesValuePerArea": 100
+					"resourcesValue": 3150,
+					"resourcesValuePerArea": 105
 				},
 				{
 					"name": "Spawn-G",
@@ -957,8 +957,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 35000,
 					"unguardedContentValuePerArea": 1000,
-					"resourcesValue": 3000,
-					"resourcesValuePerArea": 100
+					"resourcesValue": 3150,
+					"resourcesValuePerArea": 105
 				},
 				{
 					"name": "Spawn-H",
@@ -1086,8 +1086,8 @@
 					"guardedContentValuePerArea": 1000,
 					"unguardedContentValue": 35000,
 					"unguardedContentValuePerArea": 1000,
-					"resourcesValue": 3000,
-					"resourcesValuePerArea": 100
+					"resourcesValue": 3150,
+					"resourcesValuePerArea": 105
 				},
 				{
 					"name": "Treasure-1",
@@ -1867,7 +1867,7 @@
 					"contentCountLimits": [
 						"content_limits_treasure"
 					],
-					"guardedContentValue": 850000,
+					"guardedContentValue": 1000000,
 					"guardedContentValuePerArea": 5000,
 					"unguardedContentValue": 15000,
 					"unguardedContentValuePerArea": 0,

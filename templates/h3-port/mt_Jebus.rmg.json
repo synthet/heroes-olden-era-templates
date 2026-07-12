@@ -1137,7 +1137,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 66666,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_main_guard",
 					"gatePlacement": "Center"
@@ -1149,7 +1149,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 66666,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_main_guard_1"
 				},
@@ -1160,7 +1160,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 66666,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_main_guard_2"
 				},
@@ -1171,7 +1171,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 66666,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_main_guard_3"
 				},
@@ -1182,7 +1182,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 66666,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_main_guard_4"
 				},
@@ -1194,7 +1194,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 66666,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_main_guard",
 					"gatePlacement": "Center"
@@ -1206,7 +1206,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 66666,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_main_guard_1"
 				},
@@ -1217,7 +1217,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 66666,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_main_guard_2"
 				},
@@ -1228,7 +1228,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 66666,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_main_guard_3"
 				},
@@ -1239,7 +1239,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 66666,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_main_guard_4"
 				},
@@ -1251,7 +1251,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 55555,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_side_guard",
 					"gatePlacement": "Center"
@@ -1263,7 +1263,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 55555,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_side_guard_1"
 				},
@@ -1274,7 +1274,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 55555,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_side_guard_2"
 				},
@@ -1285,7 +1285,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 55555,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_side_guard_3"
 				},
@@ -1296,7 +1296,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 55555,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_side_guard_4"
 				},
@@ -1308,7 +1308,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 55555,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_side_guard",
 					"gatePlacement": "Center"
@@ -1320,7 +1320,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 55555,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_side_guard_1"
 				},
@@ -1331,7 +1331,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 55555,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_side_guard_2"
 				},
@@ -1342,7 +1342,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 55555,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_side_guard_3"
 				},
@@ -1353,7 +1353,7 @@
 					"guardZone": "Center",
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 55555,
+					"guardValue": 45000,
 					"guardWeeklyIncrement": 0.2,
 					"guardMatchGroup": "spawn_side_guard_4"
 				},
@@ -5575,6 +5575,12 @@
 					"maxCount": 16
 				},
 				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
+				},
+				{
 					"sid": "prison",
 					"variant": -1,
 					"maxCount": 6
@@ -5748,6 +5754,12 @@
 						"basic_content_list_building_guarded_units_banks_no_biome_restriction"
 					],
 					"maxCount": 16
+				},
+				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
 				},
 				{
 					"sid": "prison",
@@ -5953,6 +5965,12 @@
 					"maxCount": 16
 				},
 				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
+				},
+				{
 					"sid": "prison",
 					"variant": -1,
 					"maxCount": 6
@@ -6154,6 +6172,12 @@
 						"basic_content_list_building_guarded_units_banks_no_biome_restriction"
 					],
 					"maxCount": 16
+				},
+				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
 				},
 				{
 					"sid": "prison",
@@ -6359,6 +6383,12 @@
 					"maxCount": 16
 				},
 				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
+				},
+				{
 					"sid": "prison",
 					"variant": -1,
 					"maxCount": 6
@@ -6560,6 +6590,12 @@
 						"basic_content_list_building_guarded_units_banks_no_biome_restriction"
 					],
 					"maxCount": 16
+				},
+				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
 				},
 				{
 					"sid": "prison",
@@ -6765,6 +6801,12 @@
 					"maxCount": 16
 				},
 				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
+				},
+				{
 					"sid": "prison",
 					"variant": -1,
 					"maxCount": 6
@@ -6966,6 +7008,12 @@
 						"basic_content_list_building_guarded_units_banks_no_biome_restriction"
 					],
 					"maxCount": 16
+				},
+				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
 				},
 				{
 					"sid": "prison",
@@ -7171,6 +7219,12 @@
 					"maxCount": 16
 				},
 				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
+				},
+				{
 					"sid": "prison",
 					"variant": -1,
 					"maxCount": 6
@@ -7372,6 +7426,12 @@
 						"basic_content_list_building_guarded_units_banks_no_biome_restriction"
 					],
 					"maxCount": 16
+				},
+				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
 				},
 				{
 					"sid": "prison",
@@ -7577,6 +7637,12 @@
 					"maxCount": 16
 				},
 				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
+				},
+				{
 					"sid": "prison",
 					"variant": -1,
 					"maxCount": 6
@@ -7778,6 +7844,12 @@
 						"basic_content_list_building_guarded_units_banks_no_biome_restriction"
 					],
 					"maxCount": 16
+				},
+				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
 				},
 				{
 					"sid": "prison",
@@ -7983,6 +8055,12 @@
 					"maxCount": 16
 				},
 				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
+				},
+				{
 					"sid": "prison",
 					"variant": -1,
 					"maxCount": 6
@@ -8184,6 +8262,12 @@
 						"basic_content_list_building_guarded_units_banks_no_biome_restriction"
 					],
 					"maxCount": 16
+				},
+				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
 				},
 				{
 					"sid": "prison",
@@ -8389,6 +8473,12 @@
 					"maxCount": 16
 				},
 				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
+				},
+				{
 					"sid": "prison",
 					"variant": -1,
 					"maxCount": 6
@@ -8592,6 +8682,12 @@
 					"maxCount": 16
 				},
 				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
+				},
+				{
 					"sid": "prison",
 					"variant": -1,
 					"maxCount": 6
@@ -8793,6 +8889,12 @@
 						"basic_content_list_building_guarded_units_banks_no_biome_restriction"
 					],
 					"maxCount": 16
+				},
+				{
+					"includeLists": [
+						"basic_content_list_pickup_pandora_box_magic"
+					],
+					"maxCount": 1
 				},
 				{
 					"sid": "prison",

@@ -321,7 +321,7 @@
 					"guardedContentValuePerArea": 2000,
 					"unguardedContentValue": 40000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 15000,
+					"resourcesValue": 15750,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [
 						{
@@ -405,7 +405,7 @@
 					"guardedContentValuePerArea": 2000,
 					"unguardedContentValue": 40000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 15000,
+					"resourcesValue": 15750,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [
 						{
@@ -489,7 +489,7 @@
 					"guardedContentValuePerArea": 2000,
 					"unguardedContentValue": 25000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 6000,
+					"resourcesValue": 6300,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [
 						{
@@ -610,7 +610,7 @@
 					"guardedContentValuePerArea": 2000,
 					"unguardedContentValue": 25000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 6000,
+					"resourcesValue": 6300,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [
 						{
@@ -731,7 +731,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 30000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 6000,
+					"resourcesValue": 6300,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [],
 					"zoneBiome": {
@@ -799,7 +799,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 30000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 6000,
+					"resourcesValue": 6300,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [],
 					"zoneBiome": {
@@ -868,7 +868,7 @@
 					"guardedContentValuePerArea": 0,
 					"unguardedContentValue": 50000,
 					"unguardedContentValuePerArea": 0,
-					"resourcesValue": 10000,
+					"resourcesValue": 10500,
 					"resourcesValuePerArea": 0,
 					"mainObjects": [],
 					"zoneBiome": {
@@ -926,7 +926,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 6000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.05
 				},
 				{
@@ -936,7 +936,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 24000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.05
 				},
 				{
@@ -946,7 +946,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 12000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.05
 				},
 				{
@@ -956,7 +956,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 6000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.05
 				},
 				{
@@ -966,7 +966,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 24000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.05
 				},
 				{
@@ -976,7 +976,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 12000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.05
 				},
 				{
@@ -987,7 +987,7 @@
 					"road": true,
 					"simTurnSquad": true,
 					"guardEscape": false,
-					"guardValue": 60000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.05
 				},
 				{
@@ -998,7 +998,7 @@
 					"road": true,
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 40000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.05
 				},
 				{
@@ -1009,7 +1009,7 @@
 					"road": true,
 					"guardEscape": false,
 					"simTurnSquad": true,
-					"guardValue": 40000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.05
 				},
 				{
@@ -1020,7 +1020,7 @@
 					"road": false,
 					"simTurnSquad": true,
 					"guardEscape": false,
-					"guardValue": 60000,
+					"guardValue": 12500,
 					"guardWeeklyIncrement": 0.05
 				},
 				{

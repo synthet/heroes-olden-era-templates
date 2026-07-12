@@ -1794,7 +1794,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 5500,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1804,7 +1804,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 5500,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1814,7 +1814,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 9500,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1842,7 +1842,7 @@
 					],
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 12500,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1852,7 +1852,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 16500,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1880,7 +1880,7 @@
 					],
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 20500,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1890,7 +1890,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 26500,
+					"guardValue": 16000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1900,7 +1900,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 9500,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1928,7 +1928,7 @@
 					],
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 12500,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1938,7 +1938,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 16500,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1966,7 +1966,7 @@
 					],
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 20500,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1976,7 +1976,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 26500,
+					"guardValue": 16000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1987,7 +1987,7 @@
 					"simTurnSquad": true,
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 25000,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -1998,7 +1998,7 @@
 					"simTurnSquad": true,
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 25000,
+					"guardValue": 11000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -2008,7 +2008,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 30000,
+					"guardValue": 16000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -2018,7 +2018,7 @@
 					"connectionType": "Direct",
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 30000,
+					"guardValue": 16000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -2029,7 +2029,7 @@
 					"simTurnSquad": true,
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 35000,
+					"guardValue": 16000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -2040,7 +2040,7 @@
 					"simTurnSquad": true,
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 35000,
+					"guardValue": 16000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -2051,7 +2051,7 @@
 					"simTurnSquad": true,
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 37500,
+					"guardValue": 16000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -2062,7 +2062,7 @@
 					"simTurnSquad": true,
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 37500,
+					"guardValue": 16000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -2073,7 +2073,7 @@
 					"simTurnSquad": true,
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 42500,
+					"guardValue": 16000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -2084,7 +2084,7 @@
 					"simTurnSquad": true,
 					"road": true,
 					"guardEscape": false,
-					"guardValue": 42500,
+					"guardValue": 16000,
 					"guardWeeklyIncrement": 0.15
 				},
 				{
@@ -3269,7 +3269,7 @@
 				},
 				{
 					"sid": "stables",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "crystal_trail",
@@ -3277,7 +3277,7 @@
 				},
 				{
 					"sid": "tear_of_truth",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "fountain",
@@ -3483,7 +3483,7 @@
 				},
 				{
 					"sid": "stables",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "crystal_trail",
@@ -3491,7 +3491,7 @@
 				},
 				{
 					"sid": "tear_of_truth",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "fountain",
@@ -3701,7 +3701,7 @@
 				},
 				{
 					"sid": "stables",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "crystal_trail",
@@ -3709,7 +3709,7 @@
 				},
 				{
 					"sid": "tear_of_truth",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "fountain",
@@ -3919,7 +3919,7 @@
 				},
 				{
 					"sid": "stables",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "crystal_trail",
@@ -3927,7 +3927,7 @@
 				},
 				{
 					"sid": "tear_of_truth",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "fountain",
@@ -4137,7 +4137,7 @@
 				},
 				{
 					"sid": "stables",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "crystal_trail",
@@ -4145,7 +4145,7 @@
 				},
 				{
 					"sid": "tear_of_truth",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "fountain",
@@ -4352,7 +4352,7 @@
 				},
 				{
 					"sid": "stables",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "crystal_trail",
@@ -4360,7 +4360,7 @@
 				},
 				{
 					"sid": "tear_of_truth",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "fountain",
@@ -4557,7 +4557,7 @@
 				},
 				{
 					"sid": "stables",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "crystal_trail",
@@ -4565,7 +4565,7 @@
 				},
 				{
 					"sid": "tear_of_truth",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "fountain",
@@ -4772,7 +4772,7 @@
 				},
 				{
 					"sid": "stables",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "crystal_trail",
@@ -4780,7 +4780,7 @@
 				},
 				{
 					"sid": "tear_of_truth",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "fountain",
@@ -4951,7 +4951,7 @@
 				},
 				{
 					"sid": "stables",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "crystal_trail",
@@ -4959,7 +4959,7 @@
 				},
 				{
 					"sid": "tear_of_truth",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "fountain",
@@ -5134,7 +5134,7 @@
 				},
 				{
 					"sid": "stables",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "crystal_trail",
@@ -5142,7 +5142,7 @@
 				},
 				{
 					"sid": "tear_of_truth",
-					"maxCount": 1
+					"maxCount": 0
 				},
 				{
 					"sid": "fountain",

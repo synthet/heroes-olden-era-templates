@@ -1,7 +1,7 @@
 {
   "name": "Wheel",
   "gameMode": "Classic",
-  "description": "templates_description_ikarus",
+  "description": "v1 — Hub + treasure mid-ring; rich 3M Center prize (17 zones). Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
