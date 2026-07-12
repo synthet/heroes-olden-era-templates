@@ -10,6 +10,6 @@ Deployable Olden Era `.rmg.json` files (plus matching `.png` previews when prese
 
 Copy needed files into the game's `StreamingAssets\map_templates\` — see [`../docs/install.md`](../docs/install.md).
 
-Descriptions: [`../docs/templates/index.md`](../docs/templates/index.md).
+Descriptions: [`../docs/template-catalog.md`](../docs/template-catalog.md).
 
-Validate: `python tools/validate_rmg.py templates/`
+Validate: `python tools/validate/validate_rmg.py content/templates/`

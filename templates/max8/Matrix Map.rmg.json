@@ -1,7 +1,7 @@
 {
   "name": "Matrix Map",
   "gameMode": "Classic",
-  "description": "5x5 max8 lattice: eight starts with full weekly mills and hire grades 1-7; A-N home expansions match Spawn-N biome/faction; B contested mid + Center; C-1..4 Nightshade/Daylight/Primal/Arcane magic schools. Yellow/orange Direct gates; red Portal hard gates. Co-op Classic shell.",
+  "description": "v1 — 5×5 max8 lattice: 8 starts (mills + hire 1–7); A-N homes; B mid+Center; C schools. Direct yellow/orange; Portal red. Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
@@ -141,12 +141,43 @@
               "0"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-1-Spawn-1"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-1-Spawn-1"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -161,7 +192,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 12000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0
         },
         {
@@ -216,12 +247,58 @@
               "Spawn-1"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-1-A-6"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-1-C-1"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-1-Spawn-1"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -236,7 +313,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 8000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0
         },
         {
@@ -291,12 +368,58 @@
               "Spawn-6"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-1-A-6"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-4-A-6"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-6-Spawn-6"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -311,7 +434,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 8000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0
         },
         {
@@ -366,12 +489,58 @@
               "Spawn-4"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-4-A-6"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-4-C-4"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-4-Spawn-4"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -386,7 +555,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 8000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0
         },
         {
@@ -445,12 +614,43 @@
               "0"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-4-Spawn-4"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-4-Spawn-4"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -465,7 +665,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 12000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0
         },
         {
@@ -517,12 +717,58 @@
               "Dirt"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-7-B-1"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-1-C-1"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-1-Spawn-1"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -537,7 +783,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 6000,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0
         },
         {
@@ -589,12 +835,73 @@
               "Deathland"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-1-C-1"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-1-C-1"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-1-Spawn-6"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-1-Spawn-7"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_high_fill"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -609,7 +916,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 20000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 5000,
+          "resourcesValue": 7500,
           "resourcesValuePerArea": 0
         },
         {
@@ -668,12 +975,58 @@
               "0"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-6-Spawn-6"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-1-Spawn-6"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-4-Spawn-6"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -688,7 +1041,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 12000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0
         },
         {
@@ -740,12 +1093,58 @@
               "Snow"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-4-C-4"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-4-C-4"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-4-Spawn-6"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_high_fill"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -760,7 +1159,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 20000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 5000,
+          "resourcesValue": 7500,
           "resourcesValuePerArea": 0
         },
         {
@@ -812,12 +1211,43 @@
               "Sand"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-4-C-4"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-4-Spawn-4"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -832,7 +1262,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 6000,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0
         },
         {
@@ -887,12 +1317,43 @@
               "Spawn-7"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-7-B-1"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-7-Spawn-7"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -907,7 +1368,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 8000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0
         },
         {
@@ -966,12 +1427,43 @@
               "0"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-7-Spawn-7"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-1-Spawn-7"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -986,7 +1478,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 12000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1040,10 +1532,10 @@
           },
           "roads": [],
           "guardedContentPool": [
-            "content_pool_max8_neutral_high_fill"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1058,7 +1550,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 20000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 4000,
+          "resourcesValue": 6000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1117,12 +1609,43 @@
               "0"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-8-Spawn-8"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-2-Spawn-8"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1137,7 +1660,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 12000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1192,12 +1715,43 @@
               "Spawn-8"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-8-B-2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-8-Spawn-8"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1212,7 +1766,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 8000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1264,12 +1818,43 @@
               "Dirt"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-3-C-3"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-3-Spawn-3"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1284,7 +1869,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 6000,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1336,12 +1921,58 @@
               "Autumn"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-3-C-3"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-3-C-3"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-3-Spawn-5"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_high_fill"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1356,7 +1987,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 20000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 5000,
+          "resourcesValue": 7500,
           "resourcesValuePerArea": 0
         },
         {
@@ -1415,12 +2046,58 @@
               "0"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-5-Spawn-5"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-2-Spawn-5"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-3-Spawn-5"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1435,7 +2112,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 12000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1487,12 +2164,73 @@
               "Grass"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-2-C-2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-2-C-2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-2-Spawn-5"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-C-2-Spawn-8"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_high_fill"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1507,7 +2245,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 20000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 5000,
+          "resourcesValue": 7500,
           "resourcesValuePerArea": 0
         },
         {
@@ -1559,12 +2297,58 @@
               "Sand"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-8-B-2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-2-C-2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-2-Spawn-2"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1579,7 +2363,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 6000,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1638,12 +2422,43 @@
               "0"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-3-Spawn-3"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-3-Spawn-3"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1658,7 +2473,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 12000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1713,12 +2528,58 @@
               "Spawn-3"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-3-A-5"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-3-C-3"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-3-Spawn-3"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1733,7 +2594,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 8000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1788,12 +2649,58 @@
               "Spawn-5"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-2-A-5"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-3-A-5"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-5-Spawn-5"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1808,7 +2715,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 8000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1863,12 +2770,58 @@
               "Spawn-2"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Orange-A-2-A-5"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-2-C-2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-2-Spawn-2"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_neutral_med_fill"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_neutral_fill"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1883,7 +2836,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 8000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0
         },
         {
@@ -1942,12 +2895,43 @@
               "0"
             ]
           },
-          "roads": [],
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-A-2-Spawn-2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Yellow-B-2-Spawn-2"
+                ]
+              }
+            }
+          ],
           "guardedContentPool": [
-            "content_pool_max8_guarded_spawn_fill"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_max8_unguarded_spawn_fill"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1962,7 +2946,7 @@
           "guardedContentValuePerArea": 0,
           "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 12000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0
         }
       ],
@@ -2771,7 +3755,7 @@
           ]
         },
         {
-          "sid": "windmill",
+          "sid": "market",
           "rules": [
             {
               "type": "Road",
@@ -2784,176 +3768,7 @@
           "isGuarded": false
         },
         {
-          "sid": "village",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "gardener",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "gingerbread_house",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "peasant_cart",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "crow_nest",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "goblin_cache",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "abandoned_corpse",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "storage_wood",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "storage_ore",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "storage_gold",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "storage_crystals",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "storage_gemstones",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "storage_mercury",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "storage_dust",
+          "sid": "tavern",
           "rules": [
             {
               "type": "Road",
@@ -2979,7 +3794,7 @@
           "isGuarded": false
         },
         {
-          "sid": "stables",
+          "sid": "storage_wood",
           "rules": [
             {
               "type": "Road",
@@ -2990,273 +3805,9 @@
             }
           ],
           "isGuarded": false
-        },
-        {
-          "sid": "beer_fountain",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "quixs_path",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "pile_of_books",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "mysterious_stone",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "crystal_trail",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "stinging_sword",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "armory_automaton",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "magic_wheel",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "knowledge_garden",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "fountain",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "fountain_2",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "learning_stone",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "black_tower",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "abandoned_mansion",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "mereas_shrine",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ]
         },
         {
           "sid": "random_item_common"
-        },
-        {
-          "sid": "random_item_common"
-        },
-        {
-          "sid": "random_item_rare"
-        },
-        {
-          "sid": "scroll_box"
-        },
-        {
-          "sid": "scroll_box"
-        },
-        {
-          "sid": "scroll_box"
-        },
-        {
-          "sid": "market",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "tavern",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
         }
       ]
     },
@@ -3391,6 +3942,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "black_tower",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "stinging_sword",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -3525,6 +4102,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "crow_nest",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "storage_crystals",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -3659,6 +4262,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "crystal_trail",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "storage_dust",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -3793,6 +4422,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "fountain",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "storage_gemstones",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -3927,6 +4582,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "fountain_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "storage_mercury",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -4059,6 +4740,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "gardener",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "storage_ore",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -4191,6 +4898,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "gingerbread_house",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "village",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -4323,6 +5056,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "goblin_cache",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "windmill",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -4430,6 +5189,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "abandoned_corpse",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "peasant_cart",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -4537,6 +5322,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "abandoned_mansion",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "pile_of_books",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -4644,6 +5455,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "armory_automaton",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "quixs_path",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -4751,6 +5588,32 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "beer_fountain",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "stables",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -4969,6 +5832,19 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "knowledge_garden",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -5000,6 +5876,19 @@
             }
           ],
           "isGuarded": true
+        },
+        {
+          "sid": "town_gate",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         },
         {
           "sid": "random_hire_5",
@@ -5051,19 +5940,6 @@
           "isGuarded": true
         },
         {
-          "sid": "town_gate",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
           "sid": "dragon_utopia",
           "variant": 1
         },
@@ -5080,12 +5956,7 @@
           "sid": "enchanted_scroll_box"
         },
         {
-          "sid": "enchanted_scroll_box"
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_high_tier"
-          ],
+          "sid": "learning_stone",
           "rules": [
             {
               "type": "Road",
@@ -5094,7 +5965,8 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -5126,6 +5998,19 @@
             }
           ],
           "isGuarded": true
+        },
+        {
+          "sid": "prison",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         },
         {
           "sid": "random_hire_5",
@@ -5177,19 +6062,6 @@
           "isGuarded": true
         },
         {
-          "sid": "prison",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
           "sid": "dragon_utopia",
           "variant": 2
         },
@@ -5206,12 +6078,7 @@
           "sid": "enchanted_scroll_box"
         },
         {
-          "sid": "enchanted_scroll_box"
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_high_tier"
-          ],
+          "sid": "magic_wheel",
           "rules": [
             {
               "type": "Road",
@@ -5220,7 +6087,8 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -5252,6 +6120,19 @@
             }
           ],
           "isGuarded": true
+        },
+        {
+          "sid": "tree_of_knowledge",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         },
         {
           "sid": "random_hire_5",
@@ -5303,19 +6184,6 @@
           "isGuarded": true
         },
         {
-          "sid": "tree_of_knowledge",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
           "sid": "dragon_utopia",
           "variant": 3
         },
@@ -5332,12 +6200,7 @@
           "sid": "enchanted_scroll_box"
         },
         {
-          "sid": "enchanted_scroll_box"
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_high_tier"
-          ],
+          "sid": "mereas_shrine",
           "rules": [
             {
               "type": "Road",
@@ -5346,7 +6209,8 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         }
       ]
     },
@@ -5378,6 +6242,19 @@
             }
           ],
           "isGuarded": true
+        },
+        {
+          "sid": "flattering_mirror",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         },
         {
           "sid": "random_hire_5",
@@ -5429,19 +6306,6 @@
           "isGuarded": true
         },
         {
-          "sid": "flattering_mirror",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
           "sid": "dragon_utopia",
           "variant": 0
         },
@@ -5458,12 +6322,7 @@
           "sid": "enchanted_scroll_box"
         },
         {
-          "sid": "enchanted_scroll_box"
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_high_tier"
-          ],
+          "sid": "mysterious_stone",
           "rules": [
             {
               "type": "Road",
@@ -5472,7 +6331,8 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         }
       ]
     }
@@ -5522,42 +6382,7 @@
           "maxCount": 1
         },
         {
-          "sid": "storage_ore",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_gold",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_gemstones",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_crystals",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_mercury",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "storage_dust",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
           "sid": "mana_well",
-          "variant": -1,
-          "maxCount": 1
-        },
-        {
-          "sid": "stables",
           "variant": -1,
           "maxCount": 1
         },

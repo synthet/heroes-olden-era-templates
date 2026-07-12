@@ -1,9 +1,11 @@
 ---
 type: Runbook
-title: Installation
-description: How to deploy .rmg.json template files to the Heroes Olden Era game via Steam StreamingAssets.
-tags: [install, setup, deploy, steam]
-timestamp: 2026-06-16T00:00:00Z
+title: Install (Publish)
+description: Publish-facing install notes.
+resource: install.publish.md
+tags: [install, publish, okf]
+timestamp: 2026-07-12T00:00:00Z
+okf_version: 0.1
 ---
 
 # Installation and deploy paths

@@ -1,5 +1,5 @@
 {
-  "name": "Hard Place Hoard Corridors",
+  "name": "Corridor",
   "gameMode": "Classic",
   "description": "templates_description_pve_hard_place",
   "displayWinCondition": "win_condition_1",
@@ -67,22 +67,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -161,22 +149,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -264,22 +240,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -388,22 +352,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -491,22 +443,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -615,22 +555,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -718,22 +646,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -842,22 +758,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -945,10 +849,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t3_base"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t3_base"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_rich"
@@ -1094,22 +998,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1197,22 +1089,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1321,22 +1201,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1424,22 +1292,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1548,22 +1404,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1651,22 +1495,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1775,22 +1607,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1878,22 +1698,10 @@
           ],
           "diplomacyModifier": -0.5,
           "guardedContentPool": [
-            "classic_template_pool_random_t2_item",
-            "classic_template_pool_random_t2_pandora",
-            "classic_template_pool_random_t2_hire",
-            "classic_template_pool_random_t2_unit_bank",
-            "classic_template_pool_random_t2_res_bank",
-            "classic_template_pool_random_t2_stat",
-            "classic_template_pool_random_t2_magic"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "classic_template_pool_random_unguarded_t2_item",
-            "classic_template_pool_random_unguarded_t2_pandora",
-            "classic_template_pool_random_unguarded_t2_hire",
-            "classic_template_pool_random_unguarded_t2_unit_bank",
-            "classic_template_pool_random_unguarded_t2_res_bank",
-            "classic_template_pool_random_unguarded_t2_stat",
-            "classic_template_pool_random_unguarded_t2_magic"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"

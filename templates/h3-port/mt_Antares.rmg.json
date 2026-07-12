@@ -2568,7 +2568,7 @@
 				{
 					"name": "Treasure-3-SuperTreasure-3",
 					"from": "Treasure-3",
-					"to": "SuperTreasure-3",
+					"to": "SuperTreasure-1",
 					"connectionType": "Default",
 					"road": false,
 					"guardValue": 9000,
@@ -2577,7 +2577,7 @@
 				{
 					"name": "Treasure-3-SuperTreasure-3 2",
 					"from": "Treasure-3",
-					"to": "SuperTreasure-3",
+					"to": "SuperTreasure-1",
 					"connectionType": "Default",
 					"road": false,
 					"guardValue": 9000,
@@ -2586,7 +2586,7 @@
 				{
 					"name": "Treasure-4-SuperTreasure-4",
 					"from": "Treasure-4",
-					"to": "SuperTreasure-4",
+					"to": "SuperTreasure-1",
 					"connectionType": "Default",
 					"road": false,
 					"guardValue": 9000,
@@ -2595,7 +2595,7 @@
 				{
 					"name": "Treasure-4-SuperTreasure-4 2",
 					"from": "Treasure-4",
-					"to": "SuperTreasure-4",
+					"to": "SuperTreasure-1",
 					"connectionType": "Default",
 					"road": false,
 					"guardValue": 9000,

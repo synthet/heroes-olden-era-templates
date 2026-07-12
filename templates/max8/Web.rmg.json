@@ -1,7 +1,7 @@
 {
-  "name": "Boomerang Crown",
+  "name": "Web",
   "gameMode": "Classic",
-  "description": "templates_description_boomerang",
+  "description": "templates_description_mini_nostalgia",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
@@ -85,7 +85,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player1",
+              "spawn": "Player3",
               "placement": "Uniform"
             }
           ],
@@ -120,16 +120,61 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-A-Treasure-1"
+                  "Spawn-A-Spawn-C"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-A-Spawn-D"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-A-Spawn-E"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-A-Center"
                 ]
               }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -140,11 +185,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8771639,
+          "guardedContentValue": 7017311,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1169575,
+          "unguardedContentValue": 935660,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1754328,
+          "resourcesValue": 1403462,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -167,7 +212,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player2",
+              "spawn": "Player4",
               "placement": "Uniform"
             }
           ],
@@ -202,16 +247,61 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-B-Treasure-6"
+                  "Spawn-B-Spawn-F"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-B-Spawn-G"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-B-Spawn-H"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-B-Center"
                 ]
               }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -222,11 +312,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8771639,
+          "guardedContentValue": 7017311,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1169575,
+          "unguardedContentValue": 935660,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1754328,
+          "resourcesValue": 1403462,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -249,7 +339,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player3",
+              "spawn": "Player1",
               "guardChance": 0.5,
               "guardValue": 3000,
               "guardWeeklyIncrement": 0.2,
@@ -277,6 +367,21 @@
           },
           "crossroadsPosition": 0,
           "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-A-Spawn-C"
+                ]
+              }
+            },
             {
               "type": "Stone",
               "from": {
@@ -294,10 +399,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -308,103 +413,17 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8771639,
+          "guardedContentValue": 7017311,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1169575,
+          "unguardedContentValue": 935660,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1754328,
+          "resourcesValue": 1403462,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
         },
         {
           "name": "Spawn-D",
-          "size": 1.25,
-          "layout": "zone_layout_spawns",
-          "guardCutoffValue": 1500,
-          "guardRandomization": 0.05,
-          "guardWeeklyIncrement": 0.2,
-          "guardReactionDistribution": [
-            2,
-            2,
-            1,
-            1,
-            0,
-            0
-          ],
-          "mainObjects": [
-            {
-              "type": "Spawn",
-              "spawn": "Player4",
-              "guardChance": 0.5,
-              "guardValue": 3000,
-              "guardWeeklyIncrement": 0.2,
-              "removeGuardIfHasOwner": true,
-              "placement": "Uniform"
-            }
-          ],
-          "zoneBiome": {
-            "type": "MatchMainObject",
-            "args": [
-              "0"
-            ]
-          },
-          "contentBiome": {
-            "type": "MatchMainObject",
-            "args": [
-              "0"
-            ]
-          },
-          "metaObjectsBiome": {
-            "type": "MatchMainObject",
-            "args": [
-              "0"
-            ]
-          },
-          "crossroadsPosition": 0,
-          "roads": [
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-D-Treasure-2"
-                ]
-              }
-            }
-          ],
-          "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_start_zone"
-          ],
-          "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_start_zone"
-          ],
-          "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_medium"
-          ],
-          "mandatoryContent": [
-            "mandatory_content_spawn"
-          ],
-          "contentCountLimits": [
-            "content_limits_spawn"
-          ],
-          "guardedContentValue": 8771639,
-          "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1169575,
-          "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1754328,
-          "resourcesValuePerArea": 0,
-          "guardMultiplier": 0.85,
-          "diplomacyModifier": -0.5
-        },
-        {
-          "name": "Spawn-E",
           "size": 1.25,
           "layout": "zone_layout_spawns",
           "guardCutoffValue": 1500,
@@ -460,16 +479,31 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-E-Treasure-3"
+                  "Spawn-A-Spawn-D"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-D-Treasure-2"
                 ]
               }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -480,17 +514,17 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8771639,
+          "guardedContentValue": 7017311,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1169575,
+          "unguardedContentValue": 935660,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1754328,
+          "resourcesValue": 1403462,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
         },
         {
-          "name": "Spawn-F",
+          "name": "Spawn-E",
           "size": 1.25,
           "layout": "zone_layout_spawns",
           "guardCutoffValue": 1500,
@@ -546,16 +580,31 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-F-Treasure-4"
+                  "Spawn-A-Spawn-E"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-E-Treasure-3"
                 ]
               }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -566,11 +615,112 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8771639,
+          "guardedContentValue": 7017311,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1169575,
+          "unguardedContentValue": 935660,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1754328,
+          "resourcesValue": 1403462,
+          "resourcesValuePerArea": 0,
+          "guardMultiplier": 0.85,
+          "diplomacyModifier": -0.5
+        },
+        {
+          "name": "Spawn-F",
+          "size": 1.25,
+          "layout": "zone_layout_spawns",
+          "guardCutoffValue": 1500,
+          "guardRandomization": 0.05,
+          "guardWeeklyIncrement": 0.2,
+          "guardReactionDistribution": [
+            2,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "mainObjects": [
+            {
+              "type": "Spawn",
+              "spawn": "Player2",
+              "guardChance": 0.5,
+              "guardValue": 3000,
+              "guardWeeklyIncrement": 0.2,
+              "removeGuardIfHasOwner": true,
+              "placement": "Uniform"
+            }
+          ],
+          "zoneBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "contentBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "metaObjectsBiome": {
+            "type": "MatchMainObject",
+            "args": [
+              "0"
+            ]
+          },
+          "crossroadsPosition": 0,
+          "roads": [
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-B-Spawn-F"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Spawn-F-Treasure-4"
+                ]
+              }
+            }
+          ],
+          "guardedContentPool": [
+            "content_pool_template_expanse_guarded_start_zone"
+          ],
+          "unguardedContentPool": [
+            "content_pool_template_expanse_unguarded_start_zone"
+          ],
+          "resourcesContentPool": [
+            "content_pool_general_resources_start_zone_medium"
+          ],
+          "mandatoryContent": [
+            "mandatory_content_spawn"
+          ],
+          "contentCountLimits": [
+            "content_limits_spawn"
+          ],
+          "guardedContentValue": 7017311,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 935660,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 1403462,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -632,16 +782,31 @@
               "to": {
                 "type": "Connection",
                 "args": [
+                  "Spawn-B-Spawn-G"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
                   "Spawn-G-Treasure-5"
                 ]
               }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -652,11 +817,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8771639,
+          "guardedContentValue": 7017311,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1169575,
+          "unguardedContentValue": 935660,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1754328,
+          "resourcesValue": 1403462,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -718,16 +883,31 @@
               "to": {
                 "type": "Connection",
                 "args": [
+                  "Spawn-B-Spawn-H"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
                   "Spawn-H-Treasure-6"
                 ]
               }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -738,11 +918,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 8771639,
+          "guardedContentValue": 7017311,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1169575,
+          "unguardedContentValue": 935660,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1754328,
+          "resourcesValue": 1403462,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -806,43 +986,13 @@
                   "Spawn-C-Treasure-1"
                 ]
               }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-A-Treasure-1"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Treasure-1-Center"
-                ]
-              }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_supertreasure_zone"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_supertreasure_zone"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -853,7 +1003,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1015362,
+          "guardedContentValue": 1002705,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -920,28 +1070,13 @@
                   "Spawn-D-Treasure-2"
                 ]
               }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Treasure-2-Center"
-                ]
-              }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_supertreasure_zone"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_supertreasure_zone"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -952,7 +1087,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1029863,
+          "guardedContentValue": 1014539,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1019,28 +1154,13 @@
                   "Spawn-E-Treasure-3"
                 ]
               }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Treasure-3-Center"
-                ]
-              }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_supertreasure_zone"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_supertreasure_zone"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1051,7 +1171,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1031106,
+          "guardedContentValue": 1015553,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1118,28 +1238,13 @@
                   "Spawn-F-Treasure-4"
                 ]
               }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Treasure-4-Center"
-                ]
-              }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_supertreasure_zone"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_supertreasure_zone"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1150,7 +1255,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1029863,
+          "guardedContentValue": 1014539,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1217,28 +1322,13 @@
                   "Spawn-G-Treasure-5"
                 ]
               }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Treasure-5-Center"
-                ]
-              }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_supertreasure_zone"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_supertreasure_zone"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1249,7 +1339,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1029863,
+          "guardedContentValue": 1014539,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1316,43 +1406,13 @@
                   "Spawn-H-Treasure-6"
                 ]
               }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-B-Treasure-6"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Treasure-6-Center"
-                ]
-              }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_supertreasure_zone"
+            "content_pool_template_expanse_guarded_treasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_supertreasure_zone"
+            "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_very_poor"
@@ -1363,7 +1423,7 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 1029863,
+          "guardedContentValue": 1014539,
           "guardedContentValuePerArea": 34722,
           "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
@@ -1418,7 +1478,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Treasure-1-Center"
+                  "Spawn-A-Center"
                 ]
               }
             },
@@ -1433,76 +1493,16 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Treasure-2-Center"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Treasure-3-Center"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Treasure-4-Center"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Treasure-5-Center"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Treasure-6-Center"
+                  "Spawn-B-Center"
                 ]
               }
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_mini_nosta_guarded_supertreasure_zone"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_mini_nosta_unguarded_supertreasure_zone"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_zero"
@@ -1524,12 +1524,78 @@
       ],
       "connections": [
         {
+          "name": "Spawn-A-Spawn-C",
+          "from": "Spawn-A",
+          "to": "Spawn-C",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 83333,
+          "guardWeeklyIncrement": 0.2,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Spawn-A-Spawn-D",
+          "from": "Spawn-A",
+          "to": "Spawn-D",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 83333,
+          "guardWeeklyIncrement": 0.2,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Spawn-A-Spawn-E",
+          "from": "Spawn-A",
+          "to": "Spawn-E",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 83333,
+          "guardWeeklyIncrement": 0.2,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Spawn-B-Spawn-F",
+          "from": "Spawn-B",
+          "to": "Spawn-F",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 83333,
+          "guardWeeklyIncrement": 0.2,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Spawn-B-Spawn-G",
+          "from": "Spawn-B",
+          "to": "Spawn-G",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 83333,
+          "guardWeeklyIncrement": 0.2,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Spawn-B-Spawn-H",
+          "from": "Spawn-B",
+          "to": "Spawn-H",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 83333,
+          "guardWeeklyIncrement": 0.2,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
           "name": "Spawn-C-Treasure-1",
           "from": "Spawn-C",
           "to": "Treasure-1",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 10000,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1538,7 +1604,7 @@
           "to": "Treasure-2",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 10000,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1547,7 +1613,7 @@
           "to": "Treasure-3",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 10000,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1556,7 +1622,7 @@
           "to": "Treasure-4",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 10000,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1565,7 +1631,7 @@
           "to": "Treasure-5",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 10000,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
@@ -1574,89 +1640,27 @@
           "to": "Treasure-6",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 10000,
+          "guardValue": 77162,
           "guardWeeklyIncrement": 0.2
         },
         {
-          "name": "Spawn-A-Treasure-1",
+          "name": "Spawn-A-Center",
           "from": "Spawn-A",
-          "to": "Treasure-1",
+          "to": "Center",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 10000,
+          "guardValue": 900208,
+          "guardEscape": false,
+          "simTurnSquad": true,
           "guardWeeklyIncrement": 0.2
         },
         {
-          "name": "Spawn-B-Treasure-6",
+          "name": "Spawn-B-Center",
           "from": "Spawn-B",
-          "to": "Treasure-6",
-          "connectionType": "Direct",
-          "road": true,
-          "guardValue": 10000,
-          "guardWeeklyIncrement": 0.2
-        },
-        {
-          "name": "Treasure-1-Center",
-          "from": "Treasure-1",
           "to": "Center",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 158333,
-          "guardEscape": false,
-          "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
-        },
-        {
-          "name": "Treasure-2-Center",
-          "from": "Treasure-2",
-          "to": "Center",
-          "connectionType": "Direct",
-          "road": true,
-          "guardValue": 116667,
-          "guardEscape": false,
-          "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
-        },
-        {
-          "name": "Treasure-3-Center",
-          "from": "Treasure-3",
-          "to": "Center",
-          "connectionType": "Direct",
-          "road": true,
-          "guardValue": 116667,
-          "guardEscape": false,
-          "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
-        },
-        {
-          "name": "Treasure-4-Center",
-          "from": "Treasure-4",
-          "to": "Center",
-          "connectionType": "Direct",
-          "road": true,
-          "guardValue": 116667,
-          "guardEscape": false,
-          "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
-        },
-        {
-          "name": "Treasure-5-Center",
-          "from": "Treasure-5",
-          "to": "Center",
-          "connectionType": "Direct",
-          "road": true,
-          "guardValue": 116667,
-          "guardEscape": false,
-          "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
-        },
-        {
-          "name": "Treasure-6-Center",
-          "from": "Treasure-6",
-          "to": "Center",
-          "connectionType": "Direct",
-          "road": true,
-          "guardValue": 158333,
+          "guardValue": 900208,
           "guardEscape": false,
           "simTurnSquad": true,
           "guardWeeklyIncrement": 0.2
@@ -2059,6 +2063,66 @@
         {
           "sid": "random_item_epic",
           "designatedEncounter": false
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_4",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary",
+          "designatedEncounter": false
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        },
+        {
+          "sid": "alchemy_lab",
+          "isMine": true
+        },
+        {
+          "sid": "mine_crystals",
+          "isMine": true
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_5",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "random_item_legendary",
+          "designatedEncounter": false
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mythic_scroll_box",
+          "variant": -1
+        },
+        {
+          "sid": "alchemy_lab",
+          "isMine": true
+        },
+        {
+          "sid": "mine_mercury",
+          "isMine": true
         }
       ]
     },

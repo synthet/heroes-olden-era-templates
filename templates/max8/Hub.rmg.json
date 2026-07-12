@@ -1,5 +1,5 @@
 {
-  "name": "Octo Anarchy",
+  "name": "Hub",
   "gameMode": "Classic",
   "description": "templates_description_octojebus",
   "displayWinCondition": "win_condition_1",
@@ -222,253 +222,12 @@
             ]
           },
           "crossroadsPosition": 0,
-          "roads": [
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-A-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-B-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-C-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-D-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-E-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-F-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-G-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-H-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "1"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-A-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "2"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-B-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "3"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-C-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "4"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-D-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "5"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-E-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "6"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-F-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "7"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-G-Main"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "8"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-H-Main"
-                ]
-              }
-            }
-          ],
+          "roads": [],
           "guardedContentPool": [
-            "template_pool_octojebus_guarded_center_zone"
+            "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
           "unguardedContentPool": [
-            "template_pool_octojebus_unguarded_center_zone"
+            "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_rich_no_scrolls"
@@ -575,55 +334,12 @@
             ]
           },
           "crossroadsPosition": 0,
-          "roads": [
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-A-Main"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "1"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "2"
-                ]
-              }
-            }
-          ],
+          "roads": [],
           "guardedContentPool": [
-            "template_pool_octojebus_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "template_pool_octojebus_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -731,55 +447,12 @@
             ]
           },
           "crossroadsPosition": 0,
-          "roads": [
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-B-Main"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "1"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "2"
-                ]
-              }
-            }
-          ],
+          "roads": [],
           "guardedContentPool": [
-            "template_pool_octojebus_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "template_pool_octojebus_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -891,55 +564,12 @@
             ]
           },
           "crossroadsPosition": 0,
-          "roads": [
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-C-Main"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "1"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "2"
-                ]
-              }
-            }
-          ],
+          "roads": [],
           "guardedContentPool": [
-            "template_pool_octojebus_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "template_pool_octojebus_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1050,55 +680,12 @@
             ]
           },
           "crossroadsPosition": 0,
-          "roads": [
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-D-Main"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "1"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "2"
-                ]
-              }
-            }
-          ],
+          "roads": [],
           "guardedContentPool": [
-            "template_pool_octojebus_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "template_pool_octojebus_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1209,55 +796,12 @@
             ]
           },
           "crossroadsPosition": 0,
-          "roads": [
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-E-Main"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "1"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "2"
-                ]
-              }
-            }
-          ],
+          "roads": [],
           "guardedContentPool": [
-            "template_pool_octojebus_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "template_pool_octojebus_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1368,55 +912,12 @@
             ]
           },
           "crossroadsPosition": 0,
-          "roads": [
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-F-Main"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "1"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "2"
-                ]
-              }
-            }
-          ],
+          "roads": [],
           "guardedContentPool": [
-            "template_pool_octojebus_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "template_pool_octojebus_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1527,55 +1028,12 @@
             ]
           },
           "crossroadsPosition": 0,
-          "roads": [
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-G-Main"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "1"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "2"
-                ]
-              }
-            }
-          ],
+          "roads": [],
           "guardedContentPool": [
-            "template_pool_octojebus_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "template_pool_octojebus_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
@@ -1686,55 +1144,12 @@
             ]
           },
           "crossroadsPosition": 0,
-          "roads": [
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Center-H-Main"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "1"
-                ]
-              }
-            },
-            {
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "MainObject",
-                "args": [
-                  "2"
-                ]
-              }
-            }
-          ],
+          "roads": [],
           "guardedContentPool": [
-            "template_pool_octojebus_guarded_start_zone"
+            "content_pool_template_expanse_guarded_start_zone"
           ],
           "unguardedContentPool": [
-            "template_pool_octojebus_unguarded_start_zone"
+            "content_pool_template_expanse_unguarded_start_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_start_zone_medium"
