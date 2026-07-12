@@ -1,6 +1,6 @@
 # Max-Size 8-Player Co-op Template Set
 
-12 templates, all **240×240** (max map size) and **8 players** (max), tuned for **2 human co-op +
+13 templates, all **240×240** (max map size) and **8 players** (max), tuned for **2 human co-op +
 6 FFA AI** with **classic win only** on every map. Seat humans on **Player1** and **Player2**
 (maximally separated spawns — **Spawn-A** / **Spawn-B** on corridor maps); Players 3–8 as AI.
 Each name reflects its **source template** (official or h3-port base) and/or **topology**.
@@ -27,7 +27,7 @@ Audit spawn/center economy bands: `python tools/analyze_economy_density.py --mat
 Economy rescale (when map size or base changes): `python tools/rescale_max8_economy.py` runs rewire,
 diversify, and pacing in order after rescaling. PNG previews: `python tools/render_preview.py templates/max8`.
 
-All 12 **PASS** `python tools/validate_rmg.py templates/max8`.
+All 13 **PASS** `python tools/validate_rmg.py templates/max8`.
 
 | Template | Base (size) | Name reflects | Topology |
 |---|---|---|---|
@@ -43,6 +43,7 @@ All 12 **PASS** `python tools/validate_rmg.py templates/max8`.
 | **Ikarus Ladder Dominion** | Ikarus (160, co-op) | source + **ladder** + **hold** | Co-op corridor — cross-AI via neutral rungs · hold city (20 zones) |
 | **Boomerang Crown** | Boomerang (144) | source + **hold win** | Buffered boomerang — spawn → arm treasure → `Center` hold (15 zones) |
 | **Hard Place Hoard Corridors** | Hard Place (144, co-op) | source + **hoard** + **corridors** | Co-op corridor — linear spine, direct cross-AI · economy ×1.5 (17 zones) |
+| **Matrix Map** | hand lattice (240) | **matrix** 5×5 | 5×5 lattice — A-N home↔Spawn-N; B mid + Center; C magic schools; red Portals |
 
 **Co-op corridor maps** (`Hard Place Hoard Corridors`, `Ikarus Ladder Dominion`) use the linear
 spine layout (P1 — buffers — AI — Center — AI — P2). All other maps keep distinct topologies but
@@ -52,9 +53,10 @@ multiplier 0.85, diplomacy −0.5, antipodal Player1/Player2 assignment).
 Regenerate corridor topology: `python tools/build_coop_corridor.py`. Flavor variants (Antares,
 Boomerang): `python tools/rework_max8_variants.py`.
 
-**Diversity:** **12 distinct zone graphs**. Topologies include ring, showdown hub, nostalgia web,
+**Diversity:** **13 distinct zone graphs**. Topologies include ring, showdown hub, nostalgia web,
 diamond grid, Ikarus branches, spider legs, maelstrom fork, expanse web, octo hub, boomerang, co-op
-corridor (linear + direct cross), co-op ladder (linear + buffered cross).
+corridor (linear + direct cross), co-op ladder (linear + buffered cross), and the **Matrix Map** 5×5
+lattice.
 
 **Neutral content:** each mid-map neutral zone (Treasure, Buffer, Connector, SuperTreasure leg) gets a
 **themed location** mandatory pack from [`../../lib/max8_neutral_packs.json`](../../lib/max8_neutral_packs.json).
@@ -65,6 +67,9 @@ lean max8 pools ([`../../data/content_pools/template_max8_fill_pools.json`](../.
 so pools do not scatter duplicate banks/dwellings. **Per-zone bank caps** (`maxCount: 1` per bank type)
 come from [`../../lib/max8_bank_limits.json`](../../lib/max8_bank_limits.json). Center/hub zones get a themed
 refresh; **Octo Anarchy** uses the full official OctoJebus center grid via `centerOverrides`.
+**Matrix Map** is hand-packaged (`tools/build_matrix_map.py`) — A-N packs match Spawn-N biome/faction;
+C-1..4 are Nightshade/Daylight/Primal/Arcane school packs. Do **not** run `diversify_max8_neutrals.py`
+on it (would overwrite school/home packs).
 
 **Co-op fairness:** see [`../../docs/oe/coop-fairness-review.md`](../../docs/oe/coop-fairness-review.md).
 
@@ -86,6 +91,7 @@ All maps: **classic win**, **co-op tier A**. Ally Player1 + Player2; seat six AI
 | **Octo Anarchy** | Standard | Hub-only | P1/P2 antipodal hub |
 | **Hard Place Hoard Corridors** | Ultra | Slow | **Spawn-A / Spawn-B** |
 | **Ikarus Ladder Dominion** | Lean | Slow | **Spawn-A / Spawn-B** |
+| **Matrix Map** | Standard | Medium | P1/P2 antipodal (Spawn-1 / Spawn-2) |
 
 Lobby: pick any max8 template → seat two humans on Player1/Player2 → ally them → six AI on 3–8.
 Optional simultaneous turns work best on corridor maps (~9–10 neutral hops between humans).
@@ -102,7 +108,7 @@ Player-feedback alignment (spawn-only trims + reward caps; topology unchanged):
 | Family | Templates | Spawn character |
 |---|---|---|
 | **Slow Burn** | Diamond Ring, Ikarus Ascendant, Ikarus Showdown, Ikarus Ladder Dominion | Lean spawns, exploration-first |
-| **Standard** | Diamond Colossus, Boundless Expanse | Moderate spawn budgets |
+| **Standard** | Diamond Colossus, Boundless Expanse, Matrix Map | Moderate spawn budgets |
 | **Competitive Dense** | Octo Anarchy, Spider Titan, Antares Maelstrom, Grand Nostalgia, Boomerang Crown | High macro; spawn trim ~15% when guarded ≥ 5M (Grand Nostalgia / Boomerang: ~20% when ≥ 4M) |
 | **Co-op Explore** | Hard Place Hoard Corridors, Ikarus Ladder Dominion | Hoard/corridor intent (×1.5 on Hard Place; ×1.35 buffer economy on Ladder); capped spawn clutter |
 
@@ -114,10 +120,14 @@ Design deltas (topology unchanged):
 - **Antares Maelstrom** — costly T3/T4→SuperTreasure forks (75K scaled); WarCamp packs on fork legs; global `encounterHoles` (Spider Titan stays clean).
 - **Boomerang Crown** — tip arms (Treasure-1/6→Center) higher guards than inner arms; classic center prize (no hold win).
 
-**Win conditions (all 12):** `classic` only — no hold-city, no lost-start-city, no encounter holes.
+**Win conditions (all 13):** `classic` only — no hold-city, no lost-start-city, no encounter holes.
 Applied by `tools/apply_max8_coop_classic.py`.
 
-Spawn pacing rules (all 12), driven by [`../../lib/max8_spawn_profile.json`](../../lib/max8_spawn_profile.json):
+- **Matrix Map** — 5×5 lattice (25 zones); yellow 15K / orange 35K Direct; red 85K Portals into Center
+  and marked mid edges; rich spawn mandatories (hire 1–7 + all weekly mills); regenerate with
+  `python tools/build_matrix_map.py` then `apply_max8_coop_classic`.
+
+Spawn pacing rules (all 13), driven by [`../../lib/max8_spawn_profile.json`](../../lib/max8_spawn_profile.json):
 
 - **Mandatory per spawn:** watchtower, wood/ore mines, 1–2 low-tier dwellings (levels 1–3), at most 1
   high-tier dwelling (4–7), weekly storage, and a power-up (mana well / stables).
