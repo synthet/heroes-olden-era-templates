@@ -1470,10 +1470,7 @@
             {
               "type": "Stone",
               "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
+                "type": "Crossroads"
               },
               "to": {
                 "type": "Connection",
@@ -1485,10 +1482,7 @@
             {
               "type": "Stone",
               "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
+                "type": "Crossroads"
               },
               "to": {
                 "type": "Connection",
