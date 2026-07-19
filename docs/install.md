@@ -10,7 +10,7 @@ okf_version: 0.1
 
 # Installation and deploy paths
 
-Official templates in `templates/official/` trace to the community [Olden Era — Template Generator](https://github.com/KhanDevelopsGames/Olden-Era---Template-Generator) project.
+This distribution includes community-authored templates (`max8/`, `h3-port/`). Stock/official OE templates are not redistributed here.
 
 ## Deploy OE templates to the game
 
@@ -28,8 +28,16 @@ D:\SteamLibrary\steamapps\common\Heroes of Might and Magic Olden Era\HeroesOlden
 
 Each shippable template is two files sharing a basename: `Name.rmg.json` and `Name.png` (preview image for the in-game picker).
 
-Subfolders in this repo (`official/`, `max8/`, `h3-port/`) are organizational only — flatten when copying to the game, or copy only the subset you need.
+Subfolders in this repo (`max8/`, `h3-port/`) are organizational only — flatten when copying to the game, or copy only the subset you need.
 
-## User override folder (optional)
+## User folders (optional)
 
-The game may also read user templates from a `my_map_templates` folder under the user's app data. Prefer StreamingAssets for copies that match this repo layout.
+Community-observed paths under
+`%LOCALAPPDATALOW%\Unfrozen\HeroesOldenEra\users\<Steam_…>\`:
+
+| Folder | UX |
+|--------|-----|
+| `downloads\map_templates` | Customs appear under **downloads** in custom game |
+| `my_map_templates` | Alternate user-side drop folder |
+
+Customs are generally not available via Quick Play without editing game files. Prefer StreamingAssets for copies that match this publish layout. Full notes: private-repo `docs/install.md` / `docs/external/garessta-text-editor-guide.md`.
