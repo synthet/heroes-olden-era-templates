@@ -1,7 +1,7 @@
 {
   "name": "Hub",
   "gameMode": "Classic",
-  "description": "v1 — Isolated spawns → shared Center only (9 zones). Co-op Classic.",
+  "description": "v1 — Isolated spawns → shared Center only (9 zones). Co-op Classic. · Matrix-balanced economy.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
@@ -64,10 +64,10 @@
           "guardMultiplier": 1.6,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
@@ -230,7 +230,7 @@
             "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_treasure_zone_rich_no_scrolls"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_center"
@@ -238,11 +238,11 @@
           "contentCountLimits": [
             "content_limits_center"
           ],
-          "guardedContentValue": 8000000,
-          "guardedContentValuePerArea": 20000,
-          "unguardedContentValue": 0,
+          "guardedContentValue": 1000000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 20000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 6000,
           "resourcesValuePerArea": 0,
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
@@ -258,7 +258,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -285,7 +285,7 @@
                 ]
               },
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform",
@@ -304,7 +304,7 @@
                 ]
               },
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform",
@@ -350,11 +350,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 750000,
-          "guardedContentValuePerArea": 10000,
-          "unguardedContentValue": 250000,
+          "guardedContentValue": 450000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 300000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
@@ -371,7 +371,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -398,7 +398,7 @@
                 ]
               },
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform",
@@ -417,7 +417,7 @@
                 ]
               },
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform",
@@ -463,11 +463,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 750000,
-          "guardedContentValuePerArea": 10000,
-          "unguardedContentValue": 250000,
+          "guardedContentValue": 450000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 300000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
@@ -484,7 +484,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -515,7 +515,7 @@
                 ]
               },
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform",
@@ -535,7 +535,7 @@
               },
               "placement": "Uniform",
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placementArgs": [
@@ -580,11 +580,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 750000,
-          "guardedContentValuePerArea": 10000,
-          "unguardedContentValue": 250000,
+          "guardedContentValue": 450000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 300000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
@@ -601,7 +601,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -631,7 +631,7 @@
                 ]
               },
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform",
@@ -651,7 +651,7 @@
               },
               "placement": "Uniform",
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placementArgs": [
@@ -696,11 +696,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 750000,
-          "guardedContentValuePerArea": 10000,
-          "unguardedContentValue": 250000,
+          "guardedContentValue": 450000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 300000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
@@ -717,7 +717,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -747,7 +747,7 @@
                 ]
               },
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform",
@@ -767,7 +767,7 @@
               },
               "placement": "Uniform",
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placementArgs": [
@@ -812,11 +812,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 750000,
-          "guardedContentValuePerArea": 10000,
-          "unguardedContentValue": 250000,
+          "guardedContentValue": 450000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 300000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
@@ -833,7 +833,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -863,7 +863,7 @@
                 ]
               },
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform",
@@ -883,7 +883,7 @@
               },
               "placement": "Uniform",
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placementArgs": [
@@ -928,11 +928,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 750000,
-          "guardedContentValuePerArea": 10000,
-          "unguardedContentValue": 250000,
+          "guardedContentValue": 450000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 300000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
@@ -949,7 +949,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -979,7 +979,7 @@
                 ]
               },
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform",
@@ -999,7 +999,7 @@
               },
               "placement": "Uniform",
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placementArgs": [
@@ -1044,11 +1044,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 750000,
-          "guardedContentValuePerArea": 10000,
-          "unguardedContentValue": 250000,
+          "guardedContentValue": 450000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 300000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
@@ -1063,7 +1063,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -1095,7 +1095,7 @@
                 ]
               },
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform",
@@ -1115,7 +1115,7 @@
               },
               "placement": "Uniform",
               "guardChance": 0.5,
-              "guardValue": 3000,
+              "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "poor_buildings_construction",
               "placementArgs": [
@@ -1160,11 +1160,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 750000,
-          "guardedContentValuePerArea": 10000,
-          "unguardedContentValue": 250000,
+          "guardedContentValue": 450000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 300000,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "encounterHolesSettings": {
             "affectedEncounters": 0.66,
@@ -1180,9 +1180,9 @@
           "from": "Center",
           "to": "Spawn-A",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
-          "guardWeeklyIncrement": 0.2,
+          "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "gatePlacement": "Center"
         },
@@ -1190,362 +1190,366 @@
           "from": "Center",
           "to": "Spawn-A",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-A",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-A",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-A",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "name": "Center-B-Main",
           "from": "Center",
           "to": "Spawn-B",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2,
+          "guardWeeklyIncrement": 0.15,
           "gatePlacement": "Center"
         },
         {
           "from": "Center",
           "to": "Spawn-B",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-B",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true
         },
         {
           "from": "Center",
           "to": "Spawn-B",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-B",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "name": "Center-C-Main",
           "from": "Center",
           "to": "Spawn-C",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2,
+          "guardWeeklyIncrement": 0.15,
           "gatePlacement": "Center"
         },
         {
           "from": "Center",
           "to": "Spawn-C",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-C",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-C",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-C",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "name": "Center-D-Main",
           "from": "Center",
           "to": "Spawn-D",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2,
+          "guardWeeklyIncrement": 0.15,
           "gatePlacement": "Center"
         },
         {
           "from": "Center",
           "to": "Spawn-D",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true
         },
         {
           "from": "Center",
           "to": "Spawn-D",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-D",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-D",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "name": "Center-E-Main",
           "from": "Center",
           "to": "Spawn-E",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2,
+          "guardWeeklyIncrement": 0.15,
           "gatePlacement": "Center"
         },
         {
           "from": "Center",
           "to": "Spawn-E",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-E",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-E",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-E",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "name": "Center-F-Main",
           "from": "Center",
           "to": "Spawn-F",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
-          "guardWeeklyIncrement": 0.2,
-          "gatePlacement": "Center"
+          "guardWeeklyIncrement": 0.15,
+          "gatePlacement": "Center",
+          "simTurnSquad": true
         },
         {
           "from": "Center",
           "to": "Spawn-F",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-F",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-F",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-F",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "name": "Center-G-Main",
           "from": "Center",
           "to": "Spawn-G",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2,
+          "guardWeeklyIncrement": 0.15,
           "gatePlacement": "Center"
         },
         {
           "from": "Center",
           "to": "Spawn-G",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-G",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true
         },
         {
           "from": "Center",
           "to": "Spawn-G",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-G",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "name": "Center-H-Main",
           "from": "Center",
           "to": "Spawn-H",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2,
+          "guardWeeklyIncrement": 0.15,
           "gatePlacement": "Center"
         },
         {
           "from": "Center",
           "to": "Spawn-H",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-H",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-H",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "from": "Center",
           "to": "Spawn-H",
           "connectionType": "Direct",
-          "guardValue": 70000,
+          "guardValue": 85000,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardWeeklyIncrement": 0.2
+          "guardWeeklyIncrement": 0.15
         },
         {
           "name": "Pseudo-A-G",
@@ -2123,8 +2127,8 @@
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.15,
+              "targetMin": 0.1,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
@@ -2139,7 +2143,7 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.1,
-              "targetMax": 0.2,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
@@ -2154,48 +2158,129 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
               "targetMax": 0.25,
               "weight": 1
             }
           ]
         },
         {
-          "includeLists": [
-            "content_list_building_random_hires_high_tier"
-          ],
+          "sid": "random_hire_1",
           "rules": [
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.15,
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_7",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "market",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "tavern",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mana_well",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
               "targetMax": 0.25,
               "weight": 1
             }
@@ -2209,32 +2294,13 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.1,
-              "targetMax": 0.2,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
         },
         {
-          "sid": "mana_well",
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "MainObject",
-              "args": [
-                "0"
-              ],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            },
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
+          "sid": "random_item_common"
         }
       ]
     }
@@ -2246,7 +2312,7 @@
         {
           "sid": "watchtower",
           "variant": -1,
-          "maxCount": 0
+          "maxCount": 1
         },
         {
           "includeLists": [
@@ -2460,6 +2526,51 @@
           "sid": "wise_owl",
           "variant": -1,
           "maxCount": 1
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": -1,
+          "maxCount": 4
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "research_laboratory",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "mirage",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "wind_rose",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "pandora_box",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "tree_of_abundance",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prison",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "flattering_mirror",
+          "variant": -1,
+          "maxCount": 1
         }
       ]
     },
@@ -2500,7 +2611,7 @@
         {
           "sid": "prison",
           "variant": -1,
-          "maxCount": 4
+          "maxCount": 0
         },
         {
           "sid": "arena",
@@ -2530,7 +2641,7 @@
         {
           "sid": "watchtower",
           "variant": -1,
-          "maxCount": 0
+          "maxCount": 1
         },
         {
           "sid": "random_hire_1",
@@ -2550,7 +2661,7 @@
         {
           "sid": "random_hire_4",
           "variant": -1,
-          "maxCount": 1
+          "maxCount": 2
         },
         {
           "sid": "random_hire_5",
@@ -2570,7 +2681,7 @@
         {
           "sid": "storage_wood",
           "variant": -1,
-          "maxCount": 2
+          "maxCount": 1
         },
         {
           "sid": "storage_ore",
@@ -2660,7 +2771,7 @@
         {
           "sid": "black_tower",
           "variant": -1,
-          "maxCount": 1
+          "maxCount": 0
         },
         {
           "sid": "boreal_call",
@@ -2816,6 +2927,56 @@
           "sid": "wise_owl",
           "variant": -1,
           "maxCount": 1
+        },
+        {
+          "sid": "market",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tavern",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "research_laboratory",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "mirage",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "wind_rose",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "pandora_box",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "tree_of_abundance",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "flattering_mirror",
+          "variant": -1,
+          "maxCount": 0
         }
       ]
     }

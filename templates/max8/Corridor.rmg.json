@@ -1,7 +1,7 @@
 {
   "name": "Corridor",
   "gameMode": "Classic",
-  "description": "v1 — Linear co-op spine + cross-AI rungs; ×1.5 hoard economy; seat Spawn-A/B. Co-op Classic.",
+  "description": "v1 — Linear co-op spine + cross-AI rungs; ×1.5 hoard economy; seat Spawn-A/B. Co-op Classic. · Matrix-balanced economy.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
@@ -53,16 +53,16 @@
           "name": "Spawn-A",
           "size": 1.0,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
+            3,
             2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -81,16 +81,30 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 9808972,
+          "guardedContentValue": 675000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1961794,
+          "unguardedContentValue": 60000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1961794,
+          "resourcesValue": 27000,
           "resourcesValuePerArea": 0,
           "mainObjects": [
             {
               "type": "Spawn",
               "spawn": "Player1",
+              "placement": "Uniform"
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform"
             }
           ],
@@ -135,16 +149,16 @@
           "name": "Buffer-P1-E1",
           "size": 0.7,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
             2,
+            2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -155,7 +169,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_medium"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_buffer_8"
@@ -163,11 +177,11 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6885542,
+          "guardedContentValue": 825000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1373256,
+          "unguardedContentValue": 37500,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1373256,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "mainObjects": [],
           "zoneBiome": {
@@ -220,16 +234,16 @@
           "name": "Spawn-C",
           "size": 1.0,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
+            3,
             2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -248,16 +262,30 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 9808972,
+          "guardedContentValue": 675000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1961794,
+          "unguardedContentValue": 60000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1961794,
+          "resourcesValue": 27000,
           "resourcesValuePerArea": 0,
           "mainObjects": [
             {
               "type": "Spawn",
               "spawn": "Player3",
+              "placement": "Uniform"
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform"
             }
           ],
@@ -332,16 +360,16 @@
           "name": "Buffer-E1-E2",
           "size": 0.7,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
             2,
+            2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -352,7 +380,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_medium"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_buffer_1"
@@ -360,11 +388,11 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6885542,
+          "guardedContentValue": 825000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1373256,
+          "unguardedContentValue": 37500,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1373256,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "mainObjects": [],
           "zoneBiome": {
@@ -417,16 +445,16 @@
           "name": "Spawn-D",
           "size": 1.0,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
+            3,
             2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -445,16 +473,30 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 9808972,
+          "guardedContentValue": 675000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1961794,
+          "unguardedContentValue": 60000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1961794,
+          "resourcesValue": 27000,
           "resourcesValuePerArea": 0,
           "mainObjects": [
             {
               "type": "Spawn",
               "spawn": "Player4",
+              "placement": "Uniform"
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform"
             }
           ],
@@ -529,16 +571,16 @@
           "name": "Buffer-E2-E3",
           "size": 0.7,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
             2,
+            2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -549,7 +591,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_medium"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_buffer_2"
@@ -557,11 +599,11 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6885542,
+          "guardedContentValue": 825000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1373256,
+          "unguardedContentValue": 37500,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1373256,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "mainObjects": [],
           "zoneBiome": {
@@ -614,16 +656,16 @@
           "name": "Spawn-E",
           "size": 1.0,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
+            3,
             2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -642,16 +684,30 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 9808972,
+          "guardedContentValue": 675000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1961794,
+          "unguardedContentValue": 60000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1961794,
+          "resourcesValue": 27000,
           "resourcesValuePerArea": 0,
           "mainObjects": [
             {
               "type": "Spawn",
               "spawn": "Player5",
+              "placement": "Uniform"
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform"
             }
           ],
@@ -726,16 +782,16 @@
           "name": "Buffer-E3-H",
           "size": 0.7,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
             2,
+            2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -746,7 +802,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_medium"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_buffer_3"
@@ -754,11 +810,11 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6885542,
+          "guardedContentValue": 825000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1373256,
+          "unguardedContentValue": 37500,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1373256,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "mainObjects": [],
           "zoneBiome": {
@@ -811,16 +867,16 @@
           "name": "Center",
           "size": 1.6,
           "layout": "zone_layout_center",
-          "guardCutoffValue": 3000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
-          "guardMultiplier": 1.0,
-          "guardWeeklyIncrement": 0.15,
+          "guardMultiplier": 1.6,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            40,
-            20,
-            10,
-            5,
             2,
+            2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -831,7 +887,7 @@
             "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_rich"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_center"
@@ -839,11 +895,11 @@
           "contentCountLimits": [
             "content_limits_center"
           ],
-          "guardedContentValue": 48844624,
+          "guardedContentValue": 1500000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 9768925,
+          "unguardedContentValue": 30000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 9768925,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0,
           "mainObjects": [
             {
@@ -960,16 +1016,16 @@
           "name": "Buffer-H-E4",
           "size": 0.7,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
             2,
+            2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -980,7 +1036,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_medium"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_buffer_7"
@@ -988,11 +1044,11 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6885542,
+          "guardedContentValue": 825000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1373256,
+          "unguardedContentValue": 37500,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1373256,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "mainObjects": [],
           "zoneBiome": {
@@ -1045,16 +1101,16 @@
           "name": "Spawn-F",
           "size": 1.0,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
+            3,
             2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -1073,16 +1129,30 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 9808972,
+          "guardedContentValue": 675000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1961794,
+          "unguardedContentValue": 60000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1961794,
+          "resourcesValue": 27000,
           "resourcesValuePerArea": 0,
           "mainObjects": [
             {
               "type": "Spawn",
               "spawn": "Player6",
+              "placement": "Uniform"
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform"
             }
           ],
@@ -1157,16 +1227,16 @@
           "name": "Buffer-E4-E5",
           "size": 0.7,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
             2,
+            2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -1177,7 +1247,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_medium"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_buffer_4"
@@ -1185,11 +1255,11 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6884080,
+          "guardedContentValue": 825000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1373256,
+          "unguardedContentValue": 37500,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1373256,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "mainObjects": [],
           "zoneBiome": {
@@ -1242,16 +1312,16 @@
           "name": "Spawn-G",
           "size": 1.0,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
+            3,
             2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -1270,16 +1340,30 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 9808972,
+          "guardedContentValue": 675000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1961794,
+          "unguardedContentValue": 60000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1961794,
+          "resourcesValue": 27000,
           "resourcesValuePerArea": 0,
           "mainObjects": [
             {
               "type": "Spawn",
               "spawn": "Player7",
+              "placement": "Uniform"
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform"
             }
           ],
@@ -1354,16 +1438,16 @@
           "name": "Buffer-E5-E6",
           "size": 0.7,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
             2,
+            2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -1374,7 +1458,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_medium"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_buffer_5"
@@ -1382,11 +1466,11 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6884080,
+          "guardedContentValue": 825000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1373256,
+          "unguardedContentValue": 37500,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1373256,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "mainObjects": [],
           "zoneBiome": {
@@ -1439,16 +1523,16 @@
           "name": "Spawn-H",
           "size": 1.0,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
+            3,
             2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -1467,16 +1551,30 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 9808972,
+          "guardedContentValue": 675000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1961794,
+          "unguardedContentValue": 60000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1961794,
+          "resourcesValue": 27000,
           "resourcesValuePerArea": 0,
           "mainObjects": [
             {
               "type": "Spawn",
               "spawn": "Player8",
+              "placement": "Uniform"
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform"
             }
           ],
@@ -1551,16 +1649,16 @@
           "name": "Buffer-E6-P2",
           "size": 0.7,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
             2,
+            2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -1571,7 +1669,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_medium"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_buffer_6"
@@ -1579,11 +1677,11 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 6885909,
+          "guardedContentValue": 825000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1373256,
+          "unguardedContentValue": 37500,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1373256,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "mainObjects": [],
           "zoneBiome": {
@@ -1636,16 +1734,16 @@
           "name": "Spawn-B",
           "size": 1.0,
           "layout": "zone_layout_spawns",
-          "guardCutoffValue": 2000,
+          "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.15,
+          "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            60,
-            20,
-            10,
-            10,
+            3,
             2,
+            1,
+            1,
+            0,
             0
           ],
           "diplomacyModifier": -0.5,
@@ -1664,16 +1762,30 @@
           "contentCountLimits": [
             "content_limits_side"
           ],
-          "guardedContentValue": 9808972,
+          "guardedContentValue": 675000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 1961794,
+          "unguardedContentValue": 60000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1961794,
+          "resourcesValue": 27000,
           "resourcesValuePerArea": 0,
           "mainObjects": [
             {
               "type": "Spawn",
               "spawn": "Player2",
+              "placement": "Uniform"
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Uniform"
             }
           ],
@@ -1722,8 +1834,10 @@
           "to": "Buffer-P1-E1",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Buffer-P1-E1-Spawn-C",
@@ -1731,8 +1845,10 @@
           "to": "Spawn-C",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Spawn-C-Buffer-E1-E2",
@@ -1740,8 +1856,10 @@
           "to": "Buffer-E1-E2",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Buffer-E1-E2-Spawn-D",
@@ -1749,8 +1867,10 @@
           "to": "Spawn-D",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Spawn-D-Buffer-E2-E3",
@@ -1758,8 +1878,10 @@
           "to": "Buffer-E2-E3",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Buffer-E2-E3-Spawn-E",
@@ -1767,8 +1889,10 @@
           "to": "Spawn-E",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Spawn-E-Buffer-E3-H",
@@ -1776,8 +1900,10 @@
           "to": "Buffer-E3-H",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Buffer-E3-H-Center",
@@ -1785,8 +1911,8 @@
           "to": "Center",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 175000,
-          "guardWeeklyIncrement": 0.2,
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
         },
@@ -1796,8 +1922,8 @@
           "to": "Buffer-H-E4",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 175000,
-          "guardWeeklyIncrement": 0.2,
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
         },
@@ -1807,8 +1933,10 @@
           "to": "Spawn-F",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Spawn-F-Buffer-E4-E5",
@@ -1816,8 +1944,10 @@
           "to": "Buffer-E4-E5",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Buffer-E4-E5-Spawn-G",
@@ -1825,8 +1955,10 @@
           "to": "Spawn-G",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Spawn-G-Buffer-E5-E6",
@@ -1834,8 +1966,10 @@
           "to": "Buffer-E5-E6",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Buffer-E5-E6-Spawn-H",
@@ -1843,8 +1977,10 @@
           "to": "Spawn-H",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Spawn-H-Buffer-E6-P2",
@@ -1852,8 +1988,10 @@
           "to": "Buffer-E6-P2",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spine-Buffer-E6-P2-Spawn-B",
@@ -1861,8 +1999,10 @@
           "to": "Spawn-B",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 37500,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Cross-Spawn-C-Spawn-F",
@@ -1870,8 +2010,10 @@
           "to": "Spawn-F",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 30000,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Cross-Spawn-D-Spawn-G",
@@ -1879,8 +2021,10 @@
           "to": "Spawn-G",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 30000,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Cross-Spawn-E-Spawn-H",
@@ -1888,8 +2032,10 @@
           "to": "Spawn-H",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 30000,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         }
       ]
     }
@@ -2761,8 +2907,8 @@
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.15,
+              "targetMin": 0.1,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
@@ -2777,7 +2923,7 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.1,
-              "targetMax": 0.2,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
@@ -2792,48 +2938,129 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
               "targetMax": 0.25,
               "weight": 1
             }
           ]
         },
         {
-          "includeLists": [
-            "content_list_building_random_hires_high_tier"
-          ],
+          "sid": "random_hire_1",
           "rules": [
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.15,
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_7",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "market",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "tavern",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mana_well",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
               "targetMax": 0.25,
               "weight": 1
             }
@@ -2847,32 +3074,13 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.1,
-              "targetMax": 0.2,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
         },
         {
-          "sid": "mana_well",
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "MainObject",
-              "args": [
-                "0"
-              ],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            },
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
+          "sid": "random_item_common"
         }
       ]
     }
@@ -2971,7 +3179,8 @@
         },
         {
           "sid": "tree_of_abundance",
-          "maxCount": 3
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "fickle_shrine",
@@ -2984,15 +3193,18 @@
         },
         {
           "sid": "watchtower",
-          "maxCount": 3
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "flattering_mirror",
-          "maxCount": 3
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "wind_rose",
-          "maxCount": 3
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "abandoned_corpse",
@@ -3151,6 +3363,36 @@
         },
         {
           "sid": "windmill",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": -1,
+          "maxCount": 4
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "research_laboratory",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "mirage",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "pandora_box",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "prison",
           "variant": -1,
           "maxCount": 1
         }
@@ -3249,7 +3491,8 @@
         },
         {
           "sid": "tree_of_abundance",
-          "maxCount": 3
+          "maxCount": 1,
+          "variant": -1
         },
         {
           "sid": "fickle_shrine",
@@ -3262,15 +3505,18 @@
         },
         {
           "sid": "watchtower",
-          "maxCount": 3
+          "maxCount": 0,
+          "variant": -1
         },
         {
           "sid": "flattering_mirror",
-          "maxCount": 3
+          "maxCount": 0,
+          "variant": -1
         },
         {
           "sid": "wind_rose",
-          "maxCount": 3
+          "maxCount": 0,
+          "variant": -1
         },
         {
           "sid": "abandoned_corpse",
@@ -3295,7 +3541,7 @@
         {
           "sid": "black_tower",
           "variant": -1,
-          "maxCount": 1
+          "maxCount": 0
         },
         {
           "sid": "boreal_call",
@@ -3431,6 +3677,36 @@
           "sid": "windmill",
           "variant": -1,
           "maxCount": 1
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "research_laboratory",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "mirage",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "pandora_box",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prison",
+          "variant": -1,
+          "maxCount": 0
         }
       ]
     },
@@ -3455,7 +3731,7 @@
         {
           "sid": "random_hire_4",
           "variant": -1,
-          "maxCount": 1
+          "maxCount": 2
         },
         {
           "sid": "random_hire_5",
@@ -3475,7 +3751,7 @@
         {
           "sid": "storage_wood",
           "variant": -1,
-          "maxCount": 2
+          "maxCount": 1
         },
         {
           "sid": "storage_ore",
@@ -3560,7 +3836,7 @@
         {
           "sid": "watchtower",
           "variant": -1,
-          "maxCount": 0
+          "maxCount": 1
         },
         {
           "sid": "abandoned_corpse",
@@ -3585,7 +3861,7 @@
         {
           "sid": "black_tower",
           "variant": -1,
-          "maxCount": 1
+          "maxCount": 0
         },
         {
           "sid": "boreal_call",
@@ -3746,10 +4022,102 @@
           "sid": "wise_owl",
           "variant": -1,
           "maxCount": 1
+        },
+        {
+          "sid": "market",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tavern",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "research_laboratory",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "mirage",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "wind_rose",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "pandora_box",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "tree_of_abundance",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "prison",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "flattering_mirror",
+          "variant": -1,
+          "maxCount": 0
         }
       ]
     }
   ],
   "contentPools": [],
-  "contentLists": []
+  "contentLists": [],
+  "valueOverrides": [
+    {
+      "sid": "boreal_call",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "jousting_range",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "petrified_memorial",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "point_of_balance",
+      "variant": -1,
+      "guardValue": 7500
+    },
+    {
+      "sid": "the_gorge",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "unforgotten_grave",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "ritual_pyre",
+      "variant": -1,
+      "guardValue": 6000
+    }
+  ]
 }

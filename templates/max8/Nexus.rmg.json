@@ -1,7 +1,7 @@
 {
   "name": "Nexus",
   "gameMode": "Classic",
-  "description": "v2 — Symmetric 4-hub nexus into shared center (25 zones); exploration and map control. Co-op Classic.",
+  "description": "v2 — Symmetric 4-hub nexus into shared center (25 zones); exploration and map control. Co-op Classic. · Matrix-balanced economy.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
@@ -75,7 +75,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -88,6 +88,20 @@
               "spawn": "Player1",
               "placement": "Center",
               "factions": []
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
+              "placement": "Uniform"
             }
           ],
           "zoneBiome": {
@@ -139,11 +153,11 @@
             "mandatory_content_spawn"
           ],
           "contentCountLimits": "content_limits_spawn",
-          "guardedContentValue": 5215837,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 695445,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1043168,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -156,7 +170,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -166,9 +180,23 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player2",
+              "spawn": "Player3",
               "placement": "Center",
               "factions": []
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
+              "placement": "Uniform"
             }
           ],
           "zoneBiome": {
@@ -221,11 +249,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 5215837,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 695445,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1043168,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -238,7 +266,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -248,13 +276,27 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player3",
+              "spawn": "Player2",
               "guardChance": 0.5,
               "guardValue": 2000,
               "guardWeeklyIncrement": 0.2,
               "removeGuardIfHasOwner": true,
               "placement": "Uniform",
               "factions": []
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
+              "placement": "Uniform"
             }
           ],
           "zoneBiome": {
@@ -307,11 +349,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 5215837,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 695445,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1043168,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -324,7 +366,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -341,6 +383,20 @@
               "removeGuardIfHasOwner": true,
               "placement": "Uniform",
               "factions": []
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
+              "placement": "Uniform"
             }
           ],
           "zoneBiome": {
@@ -393,11 +449,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 5215837,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 695445,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1043168,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -410,7 +466,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -427,6 +483,20 @@
               "removeGuardIfHasOwner": true,
               "placement": "Uniform",
               "factions": []
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
+              "placement": "Uniform"
             }
           ],
           "zoneBiome": {
@@ -479,11 +549,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 5215837,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 695445,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1043168,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -496,7 +566,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -513,6 +583,20 @@
               "removeGuardIfHasOwner": true,
               "placement": "Uniform",
               "factions": []
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
+              "placement": "Uniform"
             }
           ],
           "zoneBiome": {
@@ -565,11 +649,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 5215837,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 695445,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1043168,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -584,8 +668,8 @@
           "guardReactionDistribution": [
             3,
             2,
-            0,
-            0,
+            1,
+            1,
             0,
             0
           ],
@@ -599,6 +683,20 @@
               "removeGuardIfHasOwner": true,
               "placement": "Uniform",
               "factions": []
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
+              "placement": "Uniform"
             }
           ],
           "zoneBiome": {
@@ -651,11 +749,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 5215837,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 695445,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1043168,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -668,7 +766,7 @@
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            2,
+            3,
             2,
             1,
             1,
@@ -685,6 +783,20 @@
               "removeGuardIfHasOwner": true,
               "placement": "Uniform",
               "factions": []
+            },
+            {
+              "type": "City",
+              "faction": {
+                "type": "Match",
+                "args": [
+                  "0"
+                ]
+              },
+              "guardChance": 0.5,
+              "guardValue": 2000,
+              "guardWeeklyIncrement": 0.2,
+              "buildingsConstructionSid": "poor_buildings_construction",
+              "placement": "Uniform"
             }
           ],
           "zoneBiome": {
@@ -737,11 +849,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 5215837,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 695445,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 1043168,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -840,7 +952,7 @@
             "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_connector_1"
@@ -848,12 +960,12 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 166806,
-          "guardedContentValuePerArea": 2792,
-          "unguardedContentValue": 22344,
-          "unguardedContentValuePerArea": 279,
-          "resourcesValue": 33516,
-          "resourcesValuePerArea": 418,
+          "guardedContentValue": 650000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 9000,
+          "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
         },
@@ -951,7 +1063,7 @@
             "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_connector_2"
@@ -959,12 +1071,12 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 166806,
-          "guardedContentValuePerArea": 2792,
-          "unguardedContentValue": 22344,
-          "unguardedContentValuePerArea": 279,
-          "resourcesValue": 33516,
-          "resourcesValuePerArea": 418,
+          "guardedContentValue": 650000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 9000,
+          "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
         },
@@ -1062,7 +1174,7 @@
             "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_connector_3"
@@ -1070,12 +1182,12 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 166806,
-          "guardedContentValuePerArea": 2792,
-          "unguardedContentValue": 22344,
-          "unguardedContentValuePerArea": 279,
-          "resourcesValue": 33516,
-          "resourcesValuePerArea": 418,
+          "guardedContentValue": 650000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 9000,
+          "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
         },
@@ -1173,7 +1285,7 @@
             "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_connector_4"
@@ -1181,12 +1293,12 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 166806,
-          "guardedContentValuePerArea": 2792,
-          "unguardedContentValue": 22344,
-          "unguardedContentValuePerArea": 279,
-          "resourcesValue": 33516,
-          "resourcesValuePerArea": 418,
+          "guardedContentValue": 650000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 9000,
+          "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
         },
@@ -1244,7 +1356,7 @@
             "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_connector_5"
@@ -1252,12 +1364,12 @@
           "contentCountLimits": [
             "content_limits_connector"
           ],
-          "guardedContentValue": 222732,
-          "guardedContentValuePerArea": 2780,
-          "unguardedContentValue": 22249,
-          "unguardedContentValuePerArea": 278,
-          "resourcesValue": 33373,
-          "resourcesValuePerArea": 416,
+          "guardedContentValue": 650000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
+          "unguardedContentValuePerArea": 0,
+          "resourcesValue": 9000,
+          "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
         },
@@ -1270,20 +1382,24 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
           "mainObjects": [
             {
-              "type": "City",
-              "guardChance": 0.5,
-              "guardValue": 3000,
+              "type": "AbandonedOutpost",
+              "faction": {
+                "type": "FromList",
+                "args": []
+              },
+              "guardChance": 1.0,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "poor_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
@@ -1329,7 +1445,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_treasure_1"
@@ -1337,11 +1453,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 870100,
-          "guardedContentValuePerArea": 23438,
-          "unguardedContentValue": 18750,
+          "guardedContentValue": 550000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1354,18 +1470,22 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
           "mainObjects": [
             {
-              "type": "City",
-              "guardChance": 0.5,
-              "guardValue": 3000,
+              "type": "AbandonedOutpost",
+              "faction": {
+                "type": "FromList",
+                "args": []
+              },
+              "guardChance": 1.0,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
@@ -1413,7 +1533,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_treasure_1"
@@ -1421,11 +1541,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 870100,
-          "guardedContentValuePerArea": 23438,
-          "unguardedContentValue": 18750,
+          "guardedContentValue": 550000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1438,20 +1558,24 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
           "mainObjects": [
             {
-              "type": "City",
-              "guardChance": 0.5,
-              "guardValue": 3000,
+              "type": "AbandonedOutpost",
+              "faction": {
+                "type": "FromList",
+                "args": []
+              },
+              "guardChance": 1.0,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "siege_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
@@ -1512,7 +1636,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_treasure_2"
@@ -1520,11 +1644,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 870100,
-          "guardedContentValuePerArea": 23438,
-          "unguardedContentValue": 18750,
+          "guardedContentValue": 550000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1537,20 +1661,24 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
           "mainObjects": [
             {
-              "type": "City",
-              "guardChance": 0.5,
-              "guardValue": 3000,
+              "type": "AbandonedOutpost",
+              "faction": {
+                "type": "FromList",
+                "args": []
+              },
+              "guardChance": 1.0,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "poor_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
@@ -1611,7 +1739,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_treasure_1"
@@ -1619,11 +1747,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 870100,
-          "guardedContentValuePerArea": 23438,
-          "unguardedContentValue": 18750,
+          "guardedContentValue": 550000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1636,20 +1764,24 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
           "mainObjects": [
             {
-              "type": "City",
-              "guardChance": 0.5,
-              "guardValue": 3000,
+              "type": "AbandonedOutpost",
+              "faction": {
+                "type": "FromList",
+                "args": []
+              },
+              "guardChance": 1.0,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "poor_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
@@ -1710,7 +1842,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_treasure_3"
@@ -1718,11 +1850,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 870100,
-          "guardedContentValuePerArea": 23438,
-          "unguardedContentValue": 18750,
+          "guardedContentValue": 550000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1735,18 +1867,22 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
           "mainObjects": [
             {
-              "type": "City",
-              "guardChance": 0.5,
-              "guardValue": 3000,
+              "type": "AbandonedOutpost",
+              "faction": {
+                "type": "FromList",
+                "args": []
+              },
+              "guardChance": 1.0,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
@@ -1809,7 +1945,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_treasure_5"
@@ -1817,11 +1953,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 870100,
-          "guardedContentValuePerArea": 23438,
-          "unguardedContentValue": 18750,
+          "guardedContentValue": 550000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1834,20 +1970,24 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
           "mainObjects": [
             {
-              "type": "City",
-              "guardChance": 0.5,
-              "guardValue": 3000,
+              "type": "AbandonedOutpost",
+              "faction": {
+                "type": "FromList",
+                "args": []
+              },
+              "guardChance": 1.0,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "siege_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
@@ -1893,7 +2033,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_treasure_6"
@@ -1901,11 +2041,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 870100,
-          "guardedContentValuePerArea": 23438,
-          "unguardedContentValue": 18750,
+          "guardedContentValue": 550000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1918,20 +2058,24 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
           "mainObjects": [
             {
-              "type": "City",
-              "guardChance": 0.5,
-              "guardValue": 3000,
+              "type": "AbandonedOutpost",
+              "faction": {
+                "type": "FromList",
+                "args": []
+              },
+              "guardChance": 1.0,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "poor_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
@@ -1977,7 +2121,7 @@
             "content_pool_template_expanse_unguarded_treasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_start_zone_very_poor"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_treasure_7"
@@ -1985,11 +2129,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 870100,
-          "guardedContentValuePerArea": 23438,
-          "unguardedContentValue": 18750,
+          "guardedContentValue": 550000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -2002,10 +2146,10 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
@@ -2036,7 +2180,7 @@
             "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_treasure_zone_zero"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_supertreasure_1"
@@ -2044,11 +2188,11 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 1247750,
-          "guardedContentValuePerArea": 31250,
-          "unguardedContentValue": 0,
+          "guardedContentValue": 900000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 20000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 7500,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -2061,10 +2205,10 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
@@ -2095,7 +2239,7 @@
             "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_treasure_zone_zero"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_supertreasure_2"
@@ -2103,11 +2247,11 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 1247750,
-          "guardedContentValuePerArea": 31250,
-          "unguardedContentValue": 0,
+          "guardedContentValue": 900000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 20000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 7500,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -2120,10 +2264,10 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
@@ -2154,7 +2298,7 @@
             "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_treasure_zone_zero"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_supertreasure_3"
@@ -2162,11 +2306,11 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 1247750,
-          "guardedContentValuePerArea": 31250,
-          "unguardedContentValue": 0,
+          "guardedContentValue": 900000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 20000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 7500,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -2179,10 +2323,10 @@
           "guardMultiplier": 0.85,
           "guardWeeklyIncrement": 0.2,
           "guardReactionDistribution": [
-            3,
             2,
-            0,
-            0,
+            2,
+            1,
+            1,
             0,
             0
           ],
@@ -2213,7 +2357,7 @@
             "content_pool_template_expanse_unguarded_supertreasure_zone"
           ],
           "resourcesContentPool": [
-            "content_pool_general_resources_treasure_zone_zero"
+            "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
             "mandatory_content_supertreasure_4"
@@ -2221,11 +2365,11 @@
           "contentCountLimits": [
             "content_limits_supertreasure"
           ],
-          "guardedContentValue": 1247750,
-          "guardedContentValuePerArea": 31250,
-          "unguardedContentValue": 0,
+          "guardedContentValue": 900000,
+          "guardedContentValuePerArea": 0,
+          "unguardedContentValue": 20000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 0,
+          "resourcesValue": 7500,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         }
@@ -2237,8 +2381,10 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-C-Connector-1 no road",
@@ -2246,8 +2392,10 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-E-Connector-1",
@@ -2255,8 +2403,10 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-E-Connector-1 no road",
@@ -2264,8 +2414,10 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-B-Connector-2",
@@ -2273,8 +2425,10 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-B-Connector-2 no road",
@@ -2282,8 +2436,10 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-D-Connector-2",
@@ -2291,8 +2447,10 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-D-Connector-2 no road",
@@ -2300,8 +2458,10 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-A-Connector-3",
@@ -2309,8 +2469,10 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-A-Connector-3 no road",
@@ -2318,8 +2480,10 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-G-Connector-3",
@@ -2327,8 +2491,10 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-G-Connector-3 no road",
@@ -2336,8 +2502,10 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-F-Connector-4",
@@ -2345,8 +2513,10 @@
           "to": "Connector-4",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-F-Connector-4 no road",
@@ -2354,8 +2524,10 @@
           "to": "Connector-4",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-H-Connector-4",
@@ -2363,8 +2535,10 @@
           "to": "Connector-4",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Spawn-H-Connector-4 no road",
@@ -2372,8 +2546,10 @@
           "to": "Connector-4",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-1-Connector-Center",
@@ -2381,8 +2557,10 @@
           "to": "Connector-Center",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-1-Connector-2 1",
@@ -2390,7 +2568,10 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": false,
-          "guardValue": -30518
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-1-Connector-2 2",
@@ -2398,7 +2579,10 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": false,
-          "guardValue": -30518
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-1-Connector-1",
@@ -2406,8 +2590,10 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-3-Connector-1",
@@ -2415,8 +2601,10 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-3-Connector-Center",
@@ -2424,8 +2612,10 @@
           "to": "Connector-Center",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-3-Treasure-4",
@@ -2433,8 +2623,10 @@
           "to": "Treasure-4",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-1-SuperTreasure-1",
@@ -2442,8 +2634,10 @@
           "to": "SuperTreasure-1",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 27465,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-2-Connector-Center",
@@ -2451,8 +2645,10 @@
           "to": "Connector-Center",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-2-Connector-3 1",
@@ -2460,7 +2656,10 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": false,
-          "guardValue": -30518
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-2-Connector-3 2",
@@ -2468,7 +2667,10 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": false,
-          "guardValue": -30518
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-2-Connector-2",
@@ -2476,8 +2678,10 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-4-Connector-2",
@@ -2485,8 +2689,10 @@
           "to": "Connector-2",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-4-Connector-Center",
@@ -2494,8 +2700,10 @@
           "to": "Connector-Center",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-4-Treasure-5",
@@ -2503,8 +2711,10 @@
           "to": "Treasure-5",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-2-SuperTreasure-2",
@@ -2512,8 +2722,10 @@
           "to": "SuperTreasure-2",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 27465,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-3-Connector-Center",
@@ -2521,8 +2733,10 @@
           "to": "Connector-Center",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-3-Connector-4 1",
@@ -2530,7 +2744,10 @@
           "to": "Connector-4",
           "connectionType": "Default",
           "road": false,
-          "guardValue": -30518
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-3-Connector-4 2",
@@ -2538,7 +2755,10 @@
           "to": "Connector-4",
           "connectionType": "Default",
           "road": false,
-          "guardValue": -30518
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-7-Connector-3",
@@ -2546,8 +2766,10 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-5-Connector-3",
@@ -2555,8 +2777,10 @@
           "to": "Connector-3",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-5-Connector-Center",
@@ -2564,8 +2788,10 @@
           "to": "Connector-Center",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-5-Treasure-6",
@@ -2573,8 +2799,10 @@
           "to": "Treasure-6",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-3-SuperTreasure-3",
@@ -2582,8 +2810,10 @@
           "to": "SuperTreasure-3",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 27465,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-4-Connector-Center",
@@ -2591,8 +2821,10 @@
           "to": "Connector-Center",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 9156,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-4-Connector-1 1",
@@ -2600,7 +2832,10 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": false,
-          "guardValue": -30518
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-4-Connector-1 2",
@@ -2608,7 +2843,10 @@
           "to": "Connector-1",
           "connectionType": "Default",
           "road": false,
-          "guardValue": -30518
+          "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-8-Connector-4",
@@ -2616,8 +2854,10 @@
           "to": "Connector-4",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-6-Connector-4",
@@ -2625,8 +2865,10 @@
           "to": "Connector-4",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-6-Connector-Center",
@@ -2634,8 +2876,10 @@
           "to": "Connector-Center",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Treasure-6-Treasure-3",
@@ -2643,8 +2887,10 @@
           "to": "Treasure-3",
           "connectionType": "Default",
           "road": true,
-          "guardValue": 18311,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         },
         {
           "name": "Connector-4-SuperTreasure-4",
@@ -2652,8 +2898,10 @@
           "to": "SuperTreasure-4",
           "connectionType": "Default",
           "road": false,
-          "guardValue": 27465,
-          "guardWeeklyIncrement": 0.2
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
         }
       ]
     }
@@ -2791,8 +3039,8 @@
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.15,
+              "targetMin": 0.1,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
@@ -2807,7 +3055,7 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.1,
-              "targetMax": 0.2,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
@@ -2822,48 +3070,129 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
               "targetMax": 0.25,
               "weight": 1
             }
           ]
         },
         {
-          "includeLists": [
-            "content_list_building_random_hires_high_tier"
-          ],
+          "sid": "random_hire_1",
           "rules": [
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.15,
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_7",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "market",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "tavern",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mana_well",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
               "targetMax": 0.25,
               "weight": 1
             }
@@ -2877,32 +3206,13 @@
               "type": "Road",
               "args": [],
               "targetMin": 0.1,
-              "targetMax": 0.2,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
         },
         {
-          "sid": "mana_well",
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "MainObject",
-              "args": [
-                "0"
-              ],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            },
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.2,
-              "weight": 1
-            }
-          ]
+          "sid": "random_item_common"
         }
       ]
     },
@@ -3541,7 +3851,7 @@
         {
           "sid": "watchtower",
           "variant": -1,
-          "maxCount": 0
+          "maxCount": 1
         },
         {
           "sid": "crystal_trail",
@@ -3576,7 +3886,7 @@
         {
           "sid": "random_hire_4",
           "variant": -1,
-          "maxCount": 1
+          "maxCount": 2
         },
         {
           "sid": "random_hire_5",
@@ -3596,7 +3906,7 @@
         {
           "sid": "storage_wood",
           "variant": -1,
-          "maxCount": 2
+          "maxCount": 1
         },
         {
           "sid": "storage_ore",
@@ -3671,7 +3981,7 @@
         {
           "sid": "black_tower",
           "variant": -1,
-          "maxCount": 1
+          "maxCount": 0
         },
         {
           "sid": "boreal_call",
@@ -3832,6 +4142,61 @@
           "sid": "wise_owl",
           "variant": -1,
           "maxCount": 1
+        },
+        {
+          "sid": "market",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tavern",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "research_laboratory",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "mirage",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "wind_rose",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "pandora_box",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "tree_of_abundance",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "prison",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "flattering_mirror",
+          "variant": -1,
+          "maxCount": 0
         }
       ]
     },
@@ -3891,7 +4256,7 @@
         {
           "sid": "black_tower",
           "variant": -1,
-          "maxCount": 1
+          "maxCount": 0
         },
         {
           "sid": "boreal_call",
@@ -4052,6 +4417,51 @@
           "sid": "wise_owl",
           "variant": -1,
           "maxCount": 1
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "research_laboratory",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "mirage",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "wind_rose",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "pandora_box",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tree_of_abundance",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prison",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "flattering_mirror",
+          "variant": -1,
+          "maxCount": 0
         }
       ]
     },
@@ -4066,7 +4476,7 @@
         {
           "sid": "dragon_utopia",
           "variant": -1,
-          "maxCount": 3
+          "maxCount": 0
         },
         {
           "sid": "watchtower",
@@ -4111,7 +4521,7 @@
         {
           "sid": "black_tower",
           "variant": -1,
-          "maxCount": 1
+          "maxCount": 0
         },
         {
           "sid": "boreal_call",
@@ -4272,6 +4682,46 @@
           "sid": "wise_owl",
           "variant": -1,
           "maxCount": 1
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "research_laboratory",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "mirage",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "wind_rose",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "pandora_box",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "tree_of_abundance",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prison",
+          "variant": -1,
+          "maxCount": 0
+        },
+        {
+          "sid": "flattering_mirror",
+          "variant": -1,
+          "maxCount": 0
         }
       ]
     },
@@ -4480,6 +4930,51 @@
         },
         {
           "sid": "wise_owl",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "unstable_ruins",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "research_laboratory",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "mirage",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "wind_rose",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "pandora_box",
+          "variant": -1,
+          "maxCount": 2
+        },
+        {
+          "sid": "tree_of_abundance",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "prison",
+          "variant": -1,
+          "maxCount": 1
+        },
+        {
+          "sid": "flattering_mirror",
           "variant": -1,
           "maxCount": 1
         }
