@@ -202,7 +202,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player2",
+              "spawn": "Player3",
               "placement": "Uniform",
               "placementArgs": [
                 "true",
@@ -331,7 +331,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player3",
+              "spawn": "Player4",
               "placement": "Uniform",
               "placementArgs": [
                 "true",
@@ -460,7 +460,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player4",
+              "spawn": "Player5",
               "placement": "Uniform",
               "placementArgs": [
                 "true",
@@ -573,7 +573,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player5",
+              "spawn": "Player2",
               "placement": "Uniform",
               "placementArgs": [
                 "true",

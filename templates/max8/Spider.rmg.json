@@ -1,7 +1,7 @@
 {
   "name": "Spider",
   "gameMode": "Classic",
-  "description": "v3 — 8 radial legs + treasure mid-ring + SuperTreasure inner-ring (24 zones). Co-op Classic. · Matrix-balanced economy.",
+  "description": "v4 — 8 radial legs + treasure mid-ring; 4 SuperTreasure each shared by a blue pair (20 zones). Co-op Classic. · Matrix-balanced economy.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
@@ -2039,242 +2039,6 @@
           "resourcesValue": 9375,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
-        },
-        {
-          "name": "SuperTreasure-5",
-          "size": 0.65,
-          "layout": "zone_layout_center",
-          "guardCutoffValue": 1500,
-          "guardRandomization": 0.05,
-          "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.2,
-          "guardReactionDistribution": [
-            2,
-            2,
-            1,
-            1,
-            0,
-            0
-          ],
-          "mainObjects": [],
-          "zoneBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "contentBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "metaObjectsBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "roads": [],
-          "guardedContentPool": [
-            "content_pool_template_expanse_guarded_supertreasure_zone"
-          ],
-          "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_supertreasure_zone"
-          ],
-          "resourcesContentPool": [
-            "content_pool_general_resources_treasure_zone_poor"
-          ],
-          "mandatoryContent": [
-            "mandatory_content_supertreasure_5"
-          ],
-          "contentCountLimits": [
-            "content_limits_supertreasure"
-          ],
-          "guardedContentValue": 1125000,
-          "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 25000,
-          "unguardedContentValuePerArea": 0,
-          "resourcesValue": 9375,
-          "resourcesValuePerArea": 0,
-          "diplomacyModifier": -0.5
-        },
-        {
-          "name": "SuperTreasure-6",
-          "size": 0.65,
-          "layout": "zone_layout_center",
-          "guardCutoffValue": 1500,
-          "guardRandomization": 0.05,
-          "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.2,
-          "guardReactionDistribution": [
-            2,
-            2,
-            1,
-            1,
-            0,
-            0
-          ],
-          "mainObjects": [],
-          "zoneBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "contentBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "metaObjectsBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "roads": [],
-          "guardedContentPool": [
-            "content_pool_template_expanse_guarded_supertreasure_zone"
-          ],
-          "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_supertreasure_zone"
-          ],
-          "resourcesContentPool": [
-            "content_pool_general_resources_treasure_zone_poor"
-          ],
-          "mandatoryContent": [
-            "mandatory_content_supertreasure_6"
-          ],
-          "contentCountLimits": [
-            "content_limits_supertreasure"
-          ],
-          "guardedContentValue": 1125000,
-          "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 25000,
-          "unguardedContentValuePerArea": 0,
-          "resourcesValue": 9375,
-          "resourcesValuePerArea": 0,
-          "diplomacyModifier": -0.5
-        },
-        {
-          "name": "SuperTreasure-7",
-          "size": 0.65,
-          "layout": "zone_layout_center",
-          "guardCutoffValue": 1500,
-          "guardRandomization": 0.05,
-          "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.2,
-          "guardReactionDistribution": [
-            2,
-            2,
-            1,
-            1,
-            0,
-            0
-          ],
-          "mainObjects": [],
-          "zoneBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "contentBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "metaObjectsBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "roads": [],
-          "guardedContentPool": [
-            "content_pool_template_expanse_guarded_supertreasure_zone"
-          ],
-          "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_supertreasure_zone"
-          ],
-          "resourcesContentPool": [
-            "content_pool_general_resources_treasure_zone_poor"
-          ],
-          "mandatoryContent": [
-            "mandatory_content_supertreasure_7"
-          ],
-          "contentCountLimits": [
-            "content_limits_supertreasure"
-          ],
-          "guardedContentValue": 1125000,
-          "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 25000,
-          "unguardedContentValuePerArea": 0,
-          "resourcesValue": 9375,
-          "resourcesValuePerArea": 0,
-          "diplomacyModifier": -0.5
-        },
-        {
-          "name": "SuperTreasure-8",
-          "size": 0.65,
-          "layout": "zone_layout_center",
-          "guardCutoffValue": 1500,
-          "guardRandomization": 0.05,
-          "guardMultiplier": 0.85,
-          "guardWeeklyIncrement": 0.2,
-          "guardReactionDistribution": [
-            2,
-            2,
-            1,
-            1,
-            0,
-            0
-          ],
-          "mainObjects": [],
-          "zoneBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "contentBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "metaObjectsBiome": {
-            "type": "FromList",
-            "args": [
-              "Sand"
-            ]
-          },
-          "roads": [],
-          "guardedContentPool": [
-            "content_pool_template_expanse_guarded_supertreasure_zone"
-          ],
-          "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_supertreasure_zone"
-          ],
-          "resourcesContentPool": [
-            "content_pool_general_resources_treasure_zone_poor"
-          ],
-          "mandatoryContent": [
-            "mandatory_content_supertreasure_8"
-          ],
-          "contentCountLimits": [
-            "content_limits_supertreasure"
-          ],
-          "guardedContentValue": 1125000,
-          "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 25000,
-          "unguardedContentValuePerArea": 0,
-          "resourcesValue": 9375,
-          "resourcesValuePerArea": 0,
-          "diplomacyModifier": -0.5
         }
       ],
       "connections": [
@@ -2466,8 +2230,19 @@
           "guardEscape": false
         },
         {
-          "name": "Treasure-2-SuperTreasure-2",
+          "name": "Treasure-2-SuperTreasure-1",
           "from": "Treasure-2",
+          "to": "SuperTreasure-1",
+          "connectionType": "Direct",
+          "road": false,
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-3-SuperTreasure-2",
+          "from": "Treasure-3",
           "to": "SuperTreasure-2",
           "connectionType": "Direct",
           "road": false,
@@ -2477,8 +2252,19 @@
           "guardEscape": false
         },
         {
-          "name": "Treasure-3-SuperTreasure-3",
-          "from": "Treasure-3",
+          "name": "Treasure-4-SuperTreasure-2",
+          "from": "Treasure-4",
+          "to": "SuperTreasure-2",
+          "connectionType": "Direct",
+          "road": false,
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-5-SuperTreasure-3",
+          "from": "Treasure-5",
           "to": "SuperTreasure-3",
           "connectionType": "Direct",
           "road": false,
@@ -2488,8 +2274,19 @@
           "guardEscape": false
         },
         {
-          "name": "Treasure-4-SuperTreasure-4",
-          "from": "Treasure-4",
+          "name": "Treasure-6-SuperTreasure-3",
+          "from": "Treasure-6",
+          "to": "SuperTreasure-3",
+          "connectionType": "Direct",
+          "road": false,
+          "guardValue": 85000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-7-SuperTreasure-4",
+          "from": "Treasure-7",
           "to": "SuperTreasure-4",
           "connectionType": "Direct",
           "road": false,
@@ -2499,42 +2296,9 @@
           "guardEscape": false
         },
         {
-          "name": "Treasure-5-SuperTreasure-5",
-          "from": "Treasure-5",
-          "to": "SuperTreasure-5",
-          "connectionType": "Direct",
-          "road": false,
-          "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Treasure-6-SuperTreasure-6",
-          "from": "Treasure-6",
-          "to": "SuperTreasure-6",
-          "connectionType": "Direct",
-          "road": false,
-          "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Treasure-7-SuperTreasure-7",
-          "from": "Treasure-7",
-          "to": "SuperTreasure-7",
-          "connectionType": "Direct",
-          "road": false,
-          "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Treasure-8-SuperTreasure-8",
+          "name": "Treasure-8-SuperTreasure-4",
           "from": "Treasure-8",
-          "to": "SuperTreasure-8",
+          "to": "SuperTreasure-4",
           "connectionType": "Direct",
           "road": false,
           "guardValue": 85000,
@@ -2576,52 +2340,8 @@
           "guardEscape": false
         },
         {
-          "name": "SuperTreasure-4-SuperTreasure-5",
+          "name": "SuperTreasure-4-SuperTreasure-1",
           "from": "SuperTreasure-4",
-          "to": "SuperTreasure-5",
-          "connectionType": "Direct",
-          "road": false,
-          "guardValue": 35000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "SuperTreasure-5-SuperTreasure-6",
-          "from": "SuperTreasure-5",
-          "to": "SuperTreasure-6",
-          "connectionType": "Direct",
-          "road": false,
-          "guardValue": 35000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "SuperTreasure-6-SuperTreasure-7",
-          "from": "SuperTreasure-6",
-          "to": "SuperTreasure-7",
-          "connectionType": "Direct",
-          "road": false,
-          "guardValue": 35000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "SuperTreasure-7-SuperTreasure-8",
-          "from": "SuperTreasure-7",
-          "to": "SuperTreasure-8",
-          "connectionType": "Direct",
-          "road": false,
-          "guardValue": 35000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "SuperTreasure-8-SuperTreasure-1",
-          "from": "SuperTreasure-8",
           "to": "SuperTreasure-1",
           "connectionType": "Direct",
           "road": false,
@@ -3333,119 +3053,6 @@
         {
           "sid": "point_of_balance",
           "isGuarded": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "mandatory_content_supertreasure_5",
-      "content": [
-        {
-          "sid": "random_item_legendary"
-        },
-        {
-          "sid": "mythic_scroll_box",
-          "variant": -1
-        },
-        {
-          "sid": "ritual_pyre",
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "mandatory_content_supertreasure_6",
-      "content": [
-        {
-          "sid": "random_item_epic"
-        },
-        {
-          "sid": "alchemy_lab",
-          "isMine": true
-        },
-        {
-          "sid": "mine_crystals",
-          "isMine": true
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_high_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "mandatory_content_supertreasure_7",
-      "content": [
-        {
-          "sid": "random_item_epic"
-        },
-        {
-          "sid": "alchemy_lab",
-          "isMine": true
-        },
-        {
-          "sid": "mine_gemstones",
-          "isMine": true
-        },
-        {
-          "sid": "unforgotten_grave",
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "mandatory_content_supertreasure_8",
-      "content": [
-        {
-          "sid": "random_item_epic"
-        },
-        {
-          "sid": "mythic_scroll_box",
-          "variant": -1
-        },
-        {
-          "sid": "mine_mercury",
-          "isMine": true
-        },
-        {
-          "sid": "storage_gold",
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
