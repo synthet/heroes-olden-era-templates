@@ -33,14 +33,14 @@ All 11 **PASS** `python tools/validate/validate_rmg.py content/templates/max8`.
 
 | Template | Base (size) | Topology |
 |---|---|---|
-| **Ring** | Diamond (144, rewired) | Buffered ring + Matrix-style P1/P2 CW/CCW flank buffers; hard AI spawn exits (20 zones) |
+| **Ring** | Diamond (144, rewired) | Buffered ring — neutral between every spawn (16 zones, diameter 8) |
 | **Mesh** | Diamond (144) | Dense bipartite diamond grid (16 zones) |
 | **Spokes** | Ikarus (160, rewired) | Spawn → treasure → central `Center` prize (17 zones) |
 | **Wheel** | Ikarus (160) | Hub + treasure mid-ring (17 zones) |
-| **Web** | Mini-Nostalgia (144, rewired) | Equal-leaf dual-pole web; neutral Buffer-N/S gate Center (19 zones) |
+| **Web** | Mini-Nostalgia (144) | Dual-pole treasure web + spawn shortcuts (15 zones) |
 | **Boomerang** | Boomerang (144) | Buffered arms → shared `Center` (15 zones) |
 | **Spider** | Spider (208) | 8 radial legs + treasure mid-ring; 4 SuperTreasure each shared by a blue pair (20 zones) |
-| **Bracket** | Expanse (192) | Playoff tree 8→4→2→1 (15 zones); steeper round guards |
+| **Nexus** | Expanse (192) | Connector web (25 zones) |
 | **Hub** | OctoJebus (240) | Isolated spawns → `Center` only (9 zones) |
 | **Corridor** | Hard Place (144, co-op) | Linear spine + direct cross-AI · Ultra ×1.5 (17 zones) |
 | **Matrix Map** | hand lattice (240) | 5×5 lattice — A-N home↔Spawn-N; B mid + Center; C magic schools; red Portals |
@@ -54,7 +54,7 @@ Regenerate corridor topology: `python tools/max8/build_coop_corridor.py`. Flavor
 `python tools/max8/rework_max8_variants.py`.
 
 **Diversity:** **11 distinct zone graphs**. Topologies: ring, mesh, spokes, wheel, web, boomerang,
-spider, bracket, hub, corridor, and the **Matrix Map** 5×5 lattice.
+spider, nexus, hub, corridor, and the **Matrix Map** 5×5 lattice.
 
 **Neutral content:** each mid-map neutral zone (Treasure, Buffer, Connector, SuperTreasure leg) gets a
 **themed location** mandatory pack from [`../../content/catalogs/max8_neutral_packs.json`](../../content/catalogs/max8_neutral_packs.json).
@@ -85,7 +85,7 @@ All maps: **classic win**, **co-op tier A**. Ally Player1 + Player2; seat six AI
 | **Web** | Dense | Fast | P1/P2 antipodal (auto) |
 | **Boomerang** | Dense | Medium | P1/P2 antipodal (auto) |
 | **Spider** | Dense | Medium | P1/P2 antipodal (auto) |
-| **Bracket** | Standard | Medium | P1/P2 on Spawn-1 / Spawn-8 |
+| **Nexus** | Standard | Medium | P1/P2 antipodal (auto) |
 | **Hub** | Standard | Hub-only | P1/P2 antipodal hub |
 | **Corridor** | Ultra | Slow | **Spawn-A / Spawn-B** |
 | **Matrix Map** | Standard | Medium | P1/P2 antipodal (Spawn-1 / Spawn-2) |
@@ -105,7 +105,7 @@ Topology unchanged; economy uses Matrix role ladder × family factor (flat budge
 | Family | Templates | Factor | Spawn GCV target |
 |---|---|---:|---:|
 | **Lean** | Ring, Wheel, Spokes | 0.75× | ~338k |
-| **Standard** | Mesh, Bracket, Hub, Matrix Map | 1.0× | 450k |
+| **Standard** | Mesh, Nexus, Hub, Matrix Map | 1.0× | 450k |
 | **Dense** | Spider, Web, Boomerang | 1.25× | ~563k |
 | **Ultra** | Corridor | 1.5× | ~675k |
 
@@ -117,7 +117,6 @@ use `AbandonedOutpost` (not City); spawns carry City + Matrix spawn MC.
 Applied by `tools/max8/apply_max8_coop_classic.py`.
 
 - **Matrix Map** — 5×5 lattice (25 zones); yellow 15K / orange 35K Direct; red 85K Portals into Center
-- **Bracket** — playoff tree (15 zones); yellow 15K / orange 50K Direct; red 150K Portals into Final
   and marked mid edges; rich spawn mandatories (hire 1–7 + mills); regenerate with
   `python tools/max8/build_matrix_map.py` then `apply_max8_coop_classic`.
 
