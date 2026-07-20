@@ -1,7 +1,7 @@
 {
   "name": "Spider",
   "gameMode": "Classic",
-  "description": "v2 — Multi-leg spider web (24 zones, no outer forks). Co-op Classic. · Matrix-balanced economy.",
+  "description": "v3 — 8 radial legs + treasure mid-ring + SuperTreasure inner-ring (24 zones). Co-op Classic. · Matrix-balanced economy.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
@@ -138,36 +138,6 @@
                   "Spawn-A-Treasure-1"
                 ]
               }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-A-Treasure-4"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-A-Treasure-7"
-                ]
-              }
             }
           ],
           "guardedContentPool": [
@@ -261,37 +231,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-B-Treasure-2"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
                   "Spawn-B-Treasure-5"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-B-Treasure-8"
                 ]
               }
             }
@@ -391,37 +331,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-C-Treasure-1"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
                   "Spawn-C-Treasure-2"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-C-Treasure-3"
                 ]
               }
             }
@@ -524,36 +434,6 @@
                   "Spawn-D-Treasure-6"
                 ]
               }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-D-Treasure-7"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-D-Treasure-8"
-                ]
-              }
             }
           ],
           "guardedContentPool": [
@@ -651,37 +531,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-E-Treasure-1"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
                   "Spawn-E-Treasure-3"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-E-Treasure-4"
                 ]
               }
             }
@@ -770,36 +620,6 @@
             ]
           },
           "roads": [
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-F-Treasure-4"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-F-Treasure-6"
-                ]
-              }
-            },
             {
               "type": "Stone",
               "from": {
@@ -911,37 +731,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-G-Treasure-2"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-G-Treasure-3"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-G-Treasure-5"
+                  "Spawn-G-Treasure-4"
                 ]
               }
             }
@@ -1030,36 +820,6 @@
             ]
           },
           "roads": [
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-H-Treasure-5"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-H-Treasure-6"
-                ]
-              }
-            },
             {
               "type": "Stone",
               "from": {
@@ -1175,7 +935,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-C-Treasure-1"
+                  "Treasure-1-Treasure-2"
                 ]
               }
             },
@@ -1190,7 +950,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-E-Treasure-1"
+                  "Treasure-8-Treasure-1"
                 ]
               }
             }
@@ -1278,21 +1038,6 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-B-Treasure-2"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
                   "Spawn-C-Treasure-2"
                 ]
               }
@@ -1308,7 +1053,22 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-G-Treasure-2"
+                  "Treasure-1-Treasure-2"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Treasure-2-Treasure-3"
                 ]
               }
             }
@@ -1396,21 +1156,6 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-C-Treasure-3"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
                   "Spawn-E-Treasure-3"
                 ]
               }
@@ -1426,7 +1171,22 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-G-Treasure-3"
+                  "Treasure-2-Treasure-3"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Treasure-3-Treasure-4"
                 ]
               }
             }
@@ -1514,7 +1274,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-A-Treasure-4"
+                  "Spawn-G-Treasure-4"
                 ]
               }
             },
@@ -1529,7 +1289,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-E-Treasure-4"
+                  "Treasure-3-Treasure-4"
                 ]
               }
             },
@@ -1544,7 +1304,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-F-Treasure-4"
+                  "Treasure-4-Treasure-5"
                 ]
               }
             }
@@ -1647,7 +1407,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-G-Treasure-5"
+                  "Treasure-4-Treasure-5"
                 ]
               }
             },
@@ -1662,7 +1422,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-H-Treasure-5"
+                  "Treasure-5-Treasure-6"
                 ]
               }
             }
@@ -1765,7 +1525,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-F-Treasure-6"
+                  "Treasure-5-Treasure-6"
                 ]
               }
             },
@@ -1780,7 +1540,7 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-H-Treasure-6"
+                  "Treasure-6-Treasure-7"
                 ]
               }
             }
@@ -1868,37 +1628,37 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-A-Treasure-7"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-D-Treasure-7"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
                   "Spawn-F-Treasure-7"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Treasure-6-Treasure-7"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Treasure-7-Treasure-8"
                 ]
               }
             }
@@ -1986,37 +1746,37 @@
               "to": {
                 "type": "Connection",
                 "args": [
-                  "Spawn-B-Treasure-8"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Spawn-D-Treasure-8"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
                   "Spawn-H-Treasure-8"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Treasure-7-Treasure-8"
+                ]
+              }
+            },
+            {
+              "type": "Stone",
+              "from": {
+                "type": "MainObject",
+                "args": [
+                  "0"
+                ]
+              },
+              "to": {
+                "type": "Connection",
+                "args": [
+                  "Treasure-8-Treasure-1"
                 ]
               }
             }
@@ -2522,40 +2282,7 @@
           "name": "Spawn-A-Treasure-1",
           "from": "Spawn-A",
           "to": "Treasure-1",
-          "connectionType": "Default",
-          "road": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-A-Treasure-4",
-          "from": "Spawn-A",
-          "to": "Treasure-4",
-          "connectionType": "Default",
-          "road": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-A-Treasure-7",
-          "from": "Spawn-A",
-          "to": "Treasure-7",
-          "connectionType": "Default",
-          "road": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-B-Treasure-2",
-          "from": "Spawn-B",
-          "to": "Treasure-2",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": true,
           "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
@@ -2566,95 +2293,29 @@
           "name": "Spawn-B-Treasure-5",
           "from": "Spawn-B",
           "to": "Treasure-5",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": true,
           "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-B-Treasure-8",
-          "from": "Spawn-B",
-          "to": "Treasure-8",
-          "connectionType": "Default",
-          "road": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-C-Treasure-1",
-          "from": "Spawn-C",
-          "to": "Treasure-1",
-          "connectionType": "Default",
-          "road": true,
-          "simTurnSquad": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         },
         {
           "name": "Spawn-C-Treasure-2",
           "from": "Spawn-C",
           "to": "Treasure-2",
-          "connectionType": "Default",
-          "road": true,
-          "simTurnSquad": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-C-Treasure-3",
-          "from": "Spawn-C",
-          "to": "Treasure-3",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": true,
           "guardValue": 15000,
-          "simTurnSquad": true,
           "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
           "guardEscape": false
         },
         {
           "name": "Spawn-D-Treasure-6",
           "from": "Spawn-D",
           "to": "Treasure-6",
-          "connectionType": "Default",
-          "road": true,
-          "simTurnSquad": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-D-Treasure-7",
-          "from": "Spawn-D",
-          "to": "Treasure-7",
-          "connectionType": "Default",
-          "road": true,
-          "simTurnSquad": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-D-Treasure-8",
-          "from": "Spawn-D",
-          "to": "Treasure-8",
-          "connectionType": "Default",
-          "road": true,
-          "simTurnSquad": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-E-Treasure-1",
-          "from": "Spawn-E",
-          "to": "Treasure-1",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": true,
           "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
@@ -2665,51 +2326,18 @@
           "name": "Spawn-E-Treasure-3",
           "from": "Spawn-E",
           "to": "Treasure-3",
-          "connectionType": "Default",
-          "road": true,
-          "simTurnSquad": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-E-Treasure-4",
-          "from": "Spawn-E",
-          "to": "Treasure-4",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": true,
           "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-F-Treasure-4",
-          "from": "Spawn-F",
-          "to": "Treasure-4",
-          "connectionType": "Default",
-          "road": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-F-Treasure-6",
-          "from": "Spawn-F",
-          "to": "Treasure-6",
-          "connectionType": "Default",
-          "road": true,
-          "simTurnSquad": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         },
         {
           "name": "Spawn-F-Treasure-7",
           "from": "Spawn-F",
           "to": "Treasure-7",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": true,
           "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
@@ -2717,67 +2345,111 @@
           "guardEscape": false
         },
         {
-          "name": "Spawn-G-Treasure-2",
+          "name": "Spawn-G-Treasure-4",
           "from": "Spawn-G",
-          "to": "Treasure-2",
-          "connectionType": "Default",
+          "to": "Treasure-4",
+          "connectionType": "Direct",
           "road": true,
           "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-G-Treasure-3",
-          "from": "Spawn-G",
-          "to": "Treasure-3",
-          "connectionType": "Default",
-          "road": true,
-          "simTurnSquad": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-G-Treasure-5",
-          "from": "Spawn-G",
-          "to": "Treasure-5",
-          "connectionType": "Default",
-          "road": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-H-Treasure-5",
-          "from": "Spawn-H",
-          "to": "Treasure-5",
-          "connectionType": "Default",
-          "road": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Spawn-H-Treasure-6",
-          "from": "Spawn-H",
-          "to": "Treasure-6",
-          "connectionType": "Default",
-          "road": true,
-          "simTurnSquad": true,
-          "guardValue": 15000,
-          "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         },
         {
           "name": "Spawn-H-Treasure-8",
           "from": "Spawn-H",
           "to": "Treasure-8",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": true,
           "guardValue": 15000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-1-Treasure-2",
+          "from": "Treasure-1",
+          "to": "Treasure-2",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-2-Treasure-3",
+          "from": "Treasure-2",
+          "to": "Treasure-3",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-3-Treasure-4",
+          "from": "Treasure-3",
+          "to": "Treasure-4",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-4-Treasure-5",
+          "from": "Treasure-4",
+          "to": "Treasure-5",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-5-Treasure-6",
+          "from": "Treasure-5",
+          "to": "Treasure-6",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-6-Treasure-7",
+          "from": "Treasure-6",
+          "to": "Treasure-7",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-7-Treasure-8",
+          "from": "Treasure-7",
+          "to": "Treasure-8",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "Treasure-8-Treasure-1",
+          "from": "Treasure-8",
+          "to": "Treasure-1",
+          "connectionType": "Direct",
+          "road": true,
+          "guardValue": 35000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2786,20 +2458,9 @@
           "name": "Treasure-1-SuperTreasure-1",
           "from": "Treasure-1",
           "to": "SuperTreasure-1",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": false,
-          "guardValue": 35000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Treasure-1-SuperTreasure-1 2",
-          "from": "Treasure-1",
-          "to": "SuperTreasure-1",
-          "connectionType": "Default",
-          "road": false,
-          "guardValue": 35000,
+          "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2808,18 +2469,7 @@
           "name": "Treasure-2-SuperTreasure-2",
           "from": "Treasure-2",
           "to": "SuperTreasure-2",
-          "connectionType": "Default",
-          "road": false,
-          "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Treasure-2-SuperTreasure-2 2",
-          "from": "Treasure-2",
-          "to": "SuperTreasure-2",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": false,
           "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
@@ -2830,18 +2480,7 @@
           "name": "Treasure-3-SuperTreasure-3",
           "from": "Treasure-3",
           "to": "SuperTreasure-3",
-          "connectionType": "Default",
-          "road": false,
-          "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Treasure-3-SuperTreasure-3 2",
-          "from": "Treasure-3",
-          "to": "SuperTreasure-3",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": false,
           "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
@@ -2852,18 +2491,7 @@
           "name": "Treasure-4-SuperTreasure-4",
           "from": "Treasure-4",
           "to": "SuperTreasure-4",
-          "connectionType": "Default",
-          "road": false,
-          "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Treasure-4-SuperTreasure-4 2",
-          "from": "Treasure-4",
-          "to": "SuperTreasure-4",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": false,
           "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
@@ -2874,18 +2502,7 @@
           "name": "Treasure-5-SuperTreasure-5",
           "from": "Treasure-5",
           "to": "SuperTreasure-5",
-          "connectionType": "Default",
-          "road": false,
-          "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Treasure-5-SuperTreasure-5 2",
-          "from": "Treasure-5",
-          "to": "SuperTreasure-5",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": false,
           "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
@@ -2896,18 +2513,7 @@
           "name": "Treasure-6-SuperTreasure-6",
           "from": "Treasure-6",
           "to": "SuperTreasure-6",
-          "connectionType": "Default",
-          "road": false,
-          "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Treasure-6-SuperTreasure-6 2",
-          "from": "Treasure-6",
-          "to": "SuperTreasure-6",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": false,
           "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
@@ -2918,18 +2524,7 @@
           "name": "Treasure-7-SuperTreasure-7",
           "from": "Treasure-7",
           "to": "SuperTreasure-7",
-          "connectionType": "Default",
-          "road": false,
-          "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15,
-          "simTurnSquad": true,
-          "guardEscape": false
-        },
-        {
-          "name": "Treasure-7-SuperTreasure-7 2",
-          "from": "Treasure-7",
-          "to": "SuperTreasure-7",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": false,
           "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
@@ -2940,7 +2535,7 @@
           "name": "Treasure-8-SuperTreasure-8",
           "from": "Treasure-8",
           "to": "SuperTreasure-8",
-          "connectionType": "Default",
+          "connectionType": "Direct",
           "road": false,
           "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
@@ -2948,12 +2543,89 @@
           "guardEscape": false
         },
         {
-          "name": "Treasure-8-SuperTreasure-8 2",
-          "from": "Treasure-8",
-          "to": "SuperTreasure-8",
-          "connectionType": "Default",
+          "name": "SuperTreasure-1-SuperTreasure-2",
+          "from": "SuperTreasure-1",
+          "to": "SuperTreasure-2",
+          "connectionType": "Direct",
           "road": false,
-          "guardValue": 85000,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "SuperTreasure-2-SuperTreasure-3",
+          "from": "SuperTreasure-2",
+          "to": "SuperTreasure-3",
+          "connectionType": "Direct",
+          "road": false,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "SuperTreasure-3-SuperTreasure-4",
+          "from": "SuperTreasure-3",
+          "to": "SuperTreasure-4",
+          "connectionType": "Direct",
+          "road": false,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "SuperTreasure-4-SuperTreasure-5",
+          "from": "SuperTreasure-4",
+          "to": "SuperTreasure-5",
+          "connectionType": "Direct",
+          "road": false,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "SuperTreasure-5-SuperTreasure-6",
+          "from": "SuperTreasure-5",
+          "to": "SuperTreasure-6",
+          "connectionType": "Direct",
+          "road": false,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "SuperTreasure-6-SuperTreasure-7",
+          "from": "SuperTreasure-6",
+          "to": "SuperTreasure-7",
+          "connectionType": "Direct",
+          "road": false,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "SuperTreasure-7-SuperTreasure-8",
+          "from": "SuperTreasure-7",
+          "to": "SuperTreasure-8",
+          "connectionType": "Direct",
+          "road": false,
+          "guardValue": 35000,
+          "guardWeeklyIncrement": 0.15,
+          "simTurnSquad": true,
+          "guardEscape": false
+        },
+        {
+          "name": "SuperTreasure-8-SuperTreasure-1",
+          "from": "SuperTreasure-8",
+          "to": "SuperTreasure-1",
+          "connectionType": "Direct",
+          "road": false,
+          "guardValue": 35000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3102,9 +2774,6 @@
         },
         {
           "sid": "mine_wood",
-          "designatedEncounter": false,
-          "isMine": true,
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -3113,13 +2782,13 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false,
+          "isMine": true,
+          "designatedEncounter": false
         },
         {
           "sid": "mine_ore",
-          "designatedEncounter": false,
-          "isMine": true,
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -3128,7 +2797,10 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false,
+          "isMine": true,
+          "designatedEncounter": false
         },
         {
           "sid": "random_hire_1",
@@ -3216,7 +2888,6 @@
         },
         {
           "sid": "market",
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -3225,11 +2896,11 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         },
         {
           "sid": "tavern",
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -3238,11 +2909,11 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         },
         {
           "sid": "mana_well",
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -3251,11 +2922,11 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         },
         {
           "sid": "storage_wood",
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -3264,7 +2935,8 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         },
         {
           "sid": "random_item_common"

@@ -39,7 +39,7 @@ All 11 **PASS** `python tools/validate/validate_rmg.py content/templates/max8`.
 | **Wheel** | Ikarus (160) | Hub + treasure mid-ring (17 zones) |
 | **Web** | Mini-Nostalgia (144) | Dual-pole treasure web + spawn shortcuts (15 zones) |
 | **Boomerang** | Boomerang (144) | Buffered arms → shared `Center` (15 zones) |
-| **Spider** | Spider (208) | Multi-leg spider web (24 zones) |
+| **Spider** | Spider (208) | 8 radial legs + treasure mid-ring + SuperTreasure inner-ring (24 zones) |
 | **Nexus** | Expanse (192) | Connector web (25 zones) |
 | **Hub** | OctoJebus (240) | Isolated spawns → `Center` only (9 zones) |
 | **Corridor** | Hard Place (144, co-op) | Linear spine + direct cross-AI · Ultra ×1.5 (17 zones) |
