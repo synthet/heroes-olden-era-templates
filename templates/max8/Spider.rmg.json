@@ -2136,7 +2136,7 @@
           "to": "Treasure-2",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2147,7 +2147,7 @@
           "to": "Treasure-3",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2158,7 +2158,7 @@
           "to": "Treasure-4",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2169,7 +2169,7 @@
           "to": "Treasure-5",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2180,7 +2180,7 @@
           "to": "Treasure-6",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2191,7 +2191,7 @@
           "to": "Treasure-7",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2202,7 +2202,7 @@
           "to": "Treasure-8",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2213,7 +2213,7 @@
           "to": "Treasure-1",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 15000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false

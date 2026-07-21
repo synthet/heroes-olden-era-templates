@@ -2298,7 +2298,7 @@
           "connectionType": "Direct",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 85000,
+          "guardValue": 150000,
           "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         },
@@ -2309,7 +2309,7 @@
           "connectionType": "Direct",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 85000,
+          "guardValue": 150000,
           "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         },
@@ -2320,7 +2320,7 @@
           "connectionType": "Direct",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 85000,
+          "guardValue": 150000,
           "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         },
@@ -2331,7 +2331,7 @@
           "connectionType": "Direct",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 85000,
+          "guardValue": 150000,
           "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         },
@@ -2342,7 +2342,7 @@
           "connectionType": "Direct",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 85000,
+          "guardValue": 150000,
           "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         },
@@ -2353,7 +2353,7 @@
           "connectionType": "Direct",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 85000,
+          "guardValue": 150000,
           "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         },
@@ -2364,7 +2364,7 @@
           "connectionType": "Direct",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 85000,
+          "guardValue": 150000,
           "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         },
@@ -2375,7 +2375,7 @@
           "connectionType": "Direct",
           "road": true,
           "simTurnSquad": true,
-          "guardValue": 85000,
+          "guardValue": 150000,
           "guardWeeklyIncrement": 0.15,
           "guardEscape": false
         }
@@ -2486,9 +2486,6 @@
         },
         {
           "sid": "mine_wood",
-          "designatedEncounter": false,
-          "isMine": true,
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -2497,13 +2494,13 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false,
+          "isMine": true,
+          "designatedEncounter": false
         },
         {
           "sid": "mine_ore",
-          "designatedEncounter": false,
-          "isMine": true,
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -2512,7 +2509,10 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false,
+          "isMine": true,
+          "designatedEncounter": false
         },
         {
           "sid": "random_hire_1",
@@ -2600,7 +2600,6 @@
         },
         {
           "sid": "market",
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -2609,11 +2608,11 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         },
         {
           "sid": "tavern",
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -2622,11 +2621,11 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         },
         {
           "sid": "mana_well",
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -2635,11 +2634,11 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         },
         {
           "sid": "storage_wood",
-          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -2648,7 +2647,8 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": false
         },
         {
           "sid": "random_item_common"
