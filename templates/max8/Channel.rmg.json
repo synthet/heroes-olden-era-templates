@@ -1,7 +1,7 @@
 {
   "name": "Channel",
   "gameMode": "Classic",
-  "description": "v2 — Twin hourglasses: leaf pairs → N/S Buffer gates → Hub → deep prize; dual cross-half Portals N↔N / S↔S (150k each). Co-op Classic · Matrix Standard.",
+  "description": "v2 — Twin hourglasses: leaf pairs → N/S Buffer gates → Hub → deep prize; dual cross-half Portals N↔N / S↔S (150k each). Co-op Classic · Matrix Standard. · Matrix-balanced economy.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
@@ -57,6 +57,66 @@
     },
     {
       "sid": "ritual_pyre",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "raiders_camp",
+      "variant": -1,
+      "guardValue": 5000
+    },
+    {
+      "sid": "iridescent_abbey",
+      "variant": -1,
+      "guardValue": 5500
+    },
+    {
+      "sid": "uncanny_rite",
+      "variant": -1,
+      "guardValue": 5500
+    },
+    {
+      "sid": "circle_of_life",
+      "variant": -1,
+      "guardValue": 5500
+    },
+    {
+      "sid": "legions_memorial",
+      "variant": -1,
+      "guardValue": 5500
+    },
+    {
+      "sid": "alvars_eye",
+      "variant": -1,
+      "guardValue": 5500
+    },
+    {
+      "sid": "shady_den",
+      "variant": -1,
+      "guardValue": 4500
+    },
+    {
+      "sid": "monty_hall",
+      "variant": -1,
+      "guardValue": 4500
+    },
+    {
+      "sid": "heros_crypt",
+      "variant": -1,
+      "guardValue": 4500
+    },
+    {
+      "sid": "university",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "wise_owl",
+      "variant": -1,
+      "guardValue": 6000
+    },
+    {
+      "sid": "circus",
       "variant": -1,
       "guardValue": 6000
     }
@@ -158,11 +218,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 562500,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 50000,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 22500,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -258,11 +318,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 562500,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 50000,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 22500,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -358,11 +418,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 562500,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 50000,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 22500,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -458,11 +518,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 562500,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 50000,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 22500,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -485,7 +545,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player2",
+              "spawn": "Player7",
               "guardChance": 0.5,
               "guardValue": 3000,
               "guardWeeklyIncrement": 0.2,
@@ -558,11 +618,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 562500,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 50000,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 22500,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -658,11 +718,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 562500,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 50000,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 22500,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -685,7 +745,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player7",
+              "spawn": "Player2",
               "guardChance": 0.5,
               "guardValue": 3000,
               "guardWeeklyIncrement": 0.2,
@@ -758,11 +818,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 562500,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 50000,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 22500,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -858,11 +918,11 @@
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 562500,
+          "guardedContentValue": 450000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 50000,
+          "unguardedContentValue": 40000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 22500,
+          "resourcesValue": 18000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -898,21 +958,21 @@
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Snow"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Snow"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Snow"
             ]
           },
           "roads": [
@@ -962,11 +1022,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 737084,
+          "guardedContentValue": 590598,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -996,26 +1056,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "medium_buildings_construction",
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Snow"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Snow"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Snow"
             ]
           },
           "roads": [
@@ -1060,16 +1120,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_3"
+            "mandatory_content_treasure_1"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 757435,
+          "guardedContentValue": 546124,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1099,26 +1159,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "siege_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Sand"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Sand"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Sand"
             ]
           },
           "roads": [
@@ -1163,16 +1223,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_6"
+            "mandatory_content_treasure_1"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 759179,
+          "guardedContentValue": 546124,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1202,26 +1262,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "poor_buildings_construction",
+              "buildingsConstructionSid": "siege_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Sand"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Sand"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Sand"
             ]
           },
           "roads": [
@@ -1271,11 +1331,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 757435,
+          "guardedContentValue": 546124,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1305,26 +1365,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "medium_buildings_construction",
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Deathland"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Deathland"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Deathland"
             ]
           },
           "roads": [
@@ -1354,16 +1414,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_2"
+            "mandatory_content_treasure_3"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 757435,
+          "guardedContentValue": 546124,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1393,26 +1453,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "siege_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Autumn"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Autumn"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Autumn"
             ]
           },
           "roads": [
@@ -1457,16 +1517,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_3"
+            "mandatory_content_treasure_5"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 757435,
+          "guardedContentValue": 546124,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1496,26 +1556,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "poor_buildings_construction",
+              "buildingsConstructionSid": "siege_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Autumn"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Autumn"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Autumn"
             ]
           },
           "roads": [
@@ -1560,16 +1620,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_3"
+            "mandatory_content_treasure_6"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 757435,
+          "guardedContentValue": 546124,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1599,26 +1659,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "medium_buildings_construction",
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Dirt"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Dirt"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Dirt"
             ]
           },
           "roads": [
@@ -1668,11 +1728,11 @@
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 758985,
+          "guardedContentValue": 546124,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1702,26 +1762,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "siege_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Dirt"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Dirt"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Dirt"
             ]
           },
           "roads": [
@@ -1766,16 +1826,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_1"
+            "mandatory_content_treasure_3"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 737084,
+          "guardedContentValue": 610948,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1805,26 +1865,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "poor_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Lava"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Lava"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Lava"
             ]
           },
           "roads": [
@@ -1854,16 +1914,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_5"
+            "mandatory_content_treasure_8"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 759373,
+          "guardedContentValue": 546124,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -1893,26 +1953,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "siege_buildings_construction",
+              "buildingsConstructionSid": "poor_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Snow"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Snow"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Snow"
             ]
           },
           "roads": [
@@ -1972,16 +2032,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_6"
+            "mandatory_content_treasure_2"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 710021,
+          "guardedContentValue": 571052,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -2011,26 +2071,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "medium_buildings_construction",
+              "buildingsConstructionSid": "siege_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Sand"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Sand"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Sand"
             ]
           },
           "roads": [
@@ -2090,16 +2150,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_1"
+            "mandatory_content_treasure_3"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 691417,
+          "guardedContentValue": 571052,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -2129,26 +2189,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "medium_buildings_construction",
+              "buildingsConstructionSid": "siege_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Autumn"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Autumn"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Autumn"
             ]
           },
           "roads": [
@@ -2208,16 +2268,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_1"
+            "mandatory_content_treasure_6"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 691417,
+          "guardedContentValue": 572521,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -2247,26 +2307,26 @@
               "guardChance": 1.0,
               "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
-              "buildingsConstructionSid": "poor_buildings_construction",
+              "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center"
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Dirt"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Dirt"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Dirt"
             ]
           },
           "roads": [
@@ -2326,16 +2386,16 @@
             "content_pool_general_resources_treasure_zone_poor"
           ],
           "mandatoryContent": [
-            "mandatory_content_treasure_1"
+            "mandatory_content_treasure_2"
           ],
           "contentCountLimits": [
             "content_limits_treasure"
           ],
-          "guardedContentValue": 691417,
+          "guardedContentValue": 571052,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 31250,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 15000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "diplomacyModifier": -0.5
         },
@@ -2370,21 +2430,21 @@
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Grass"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Grass"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Grass"
             ]
           },
           "roads": [
@@ -2479,21 +2539,21 @@
             }
           ],
           "zoneBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Grass"
             ]
           },
           "contentBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Grass"
             ]
           },
           "metaObjectsBiome": {
-            "type": "MatchMainObject",
+            "type": "FromList",
             "args": [
-              "0"
+              "Grass"
             ]
           },
           "roads": [
@@ -2741,7 +2801,7 @@
           "to": "Hub-W",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2752,7 +2812,7 @@
           "to": "Hub-W",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2763,7 +2823,7 @@
           "to": "Treasure-E",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2774,7 +2834,7 @@
           "to": "Hub-E",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2785,7 +2845,7 @@
           "to": "Hub-E",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2796,7 +2856,7 @@
           "to": "Treasure-J",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 35000,
+          "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2809,7 +2869,7 @@
           "road": false,
           "simTurnSquad": true,
           "guardEscape": false,
-          "guardValue": 150000,
+          "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
           "portalPlacementRulesFrom": [
             {
@@ -2838,7 +2898,7 @@
           "road": false,
           "simTurnSquad": true,
           "guardEscape": false,
-          "guardValue": 150000,
+          "guardValue": 85000,
           "guardWeeklyIncrement": 0.15,
           "portalPlacementRulesFrom": [
             {
@@ -2956,6 +3016,9 @@
         },
         {
           "sid": "mine_wood",
+          "designatedEncounter": false,
+          "isMine": true,
+          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -2964,13 +3027,13 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
+          ]
         },
         {
           "sid": "mine_ore",
+          "designatedEncounter": false,
+          "isMine": true,
+          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -2979,10 +3042,7 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
+          ]
         },
         {
           "sid": "random_hire_1",
@@ -3070,6 +3130,7 @@
         },
         {
           "sid": "market",
+          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
@@ -3078,65 +3139,17 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ],
-          "isGuarded": false
+          ]
         },
         {
           "sid": "tavern",
+          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
               "args": [],
               "targetMin": 0.1,
               "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "mana_well",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "storage_wood",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "random_item_common"
-        }
-      ]
-    },
-    {
-      "name": "mandatory_content_treasure_1",
-      "content": [
-        {
-          "sid": "altar_of_magic_2",
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
               "weight": 1
             }
           ]
@@ -3148,57 +3161,41 @@
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.15,
+              "targetMin": 0.1,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
         },
         {
-          "sid": "mystical_tower",
-          "isGuarded": true,
+          "sid": "storage_wood",
+          "isGuarded": false,
           "rules": [
             {
               "type": "Road",
               "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
+              "targetMin": 0.1,
+              "targetMax": 0.25,
               "weight": 1
             }
           ]
         },
         {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "random_item_legendary",
-          "designatedEncounter": false
-        },
-        {
-          "sid": "pandora_box",
-          "variant": 12,
-          "designatedEncounter": false
-        },
-        {
-          "sid": "mythic_scroll_box",
-          "variant": -1
+          "sid": "random_item_common"
         }
       ]
     },
     {
-      "name": "mandatory_content_treasure_2",
+      "name": "mandatory_content_treasure_1",
       "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "mine_gemstones",
+          "isMine": true
+        },
         {
           "sid": "jousting_range",
           "isGuarded": true,
@@ -3213,19 +3210,6 @@
           ]
         },
         {
-          "sid": "iridescent_abbey",
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        },
-        {
           "includeLists": [
             "content_list_building_random_hires_low_tier"
           ],
@@ -3238,30 +3222,20 @@
               "weight": 1
             }
           ]
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "random_item_epic",
-          "designatedEncounter": false
         }
       ]
     },
     {
-      "name": "mandatory_content_treasure_3",
+      "name": "mandatory_content_treasure_2",
       "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "mine_crystals",
+          "isMine": true
+        },
         {
           "sid": "the_gorge",
           "isGuarded": true,
@@ -3276,7 +3250,34 @@
           ]
         },
         {
-          "sid": "circle_of_life",
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_3",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": -1
+        },
+        {
+          "sid": "mine_mercury",
+          "isMine": true
+        },
+        {
+          "sid": "boreal_call",
           "isGuarded": true,
           "rules": [
             {
@@ -3301,24 +3302,6 @@
               "weight": 1
             }
           ]
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_low_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "random_item_epic",
-          "designatedEncounter": false
         }
       ]
     },
@@ -3326,34 +3309,16 @@
       "name": "mandatory_content_treasure_6",
       "content": [
         {
-          "sid": "stables",
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.15,
-              "weight": 1
-            }
-          ]
+          "sid": "dragon_utopia",
+          "variant": 1
         },
         {
-          "sid": "crystal_trail",
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
+          "sid": "mine_crystals",
+          "isMine": true
         },
         {
-          "sid": "mana_well",
-          "isGuarded": false,
+          "sid": "ritual_pyre",
+          "isGuarded": true,
           "rules": [
             {
               "type": "Road",
@@ -3377,10 +3342,6 @@
               "weight": 1
             }
           ]
-        },
-        {
-          "sid": "random_item_epic",
-          "designatedEncounter": false
         }
       ]
     },
@@ -3430,20 +3391,15 @@
       "name": "mandatory_content_treasure_7",
       "content": [
         {
-          "sid": "boreal_call",
-          "isGuarded": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
+          "sid": "dragon_utopia",
+          "variant": 2
         },
         {
-          "sid": "uncanny_rite",
+          "sid": "mine_mercury",
+          "isMine": true
+        },
+        {
+          "sid": "unforgotten_grave",
           "isGuarded": true,
           "rules": [
             {
@@ -3468,10 +3424,6 @@
               "weight": 1
             }
           ]
-        },
-        {
-          "sid": "random_item_epic",
-          "designatedEncounter": false
         }
       ]
     },
@@ -3565,86 +3517,39 @@
       "name": "mandatory_content_treasure_5",
       "content": [
         {
-          "sid": "mine_wood",
-          "isMine": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "mine_ore",
-          "isMine": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
+          "sid": "dragon_utopia",
+          "variant": 0
         },
         {
           "sid": "mine_gemstones",
-          "isMine": true,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.05,
-              "targetMax": 0.15,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "storage_ore",
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "forge",
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "learning_stone",
-          "isGuarded": false,
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.15,
-              "targetMax": 0.3,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "alchemy_lab",
           "isMine": true
+        },
+        {
+          "sid": "petrified_memorial",
+          "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
         }
       ]
     },
@@ -3686,6 +3591,46 @@
         {
           "sid": "the_gorge",
           "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_treasure_8",
+      "content": [
+        {
+          "sid": "dragon_utopia",
+          "variant": 3
+        },
+        {
+          "sid": "mine_gemstones",
+          "isMine": true
+        },
+        {
+          "sid": "jousting_range",
+          "isGuarded": true,
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.15,
+              "targetMax": 0.3,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
           "rules": [
             {
               "type": "Road",

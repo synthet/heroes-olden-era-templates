@@ -1,7 +1,7 @@
 {
   "name": "Hourglass",
   "gameMode": "Classic",
-  "description": "v1 — Bilateral hourglass 5→4→3→2→1←2←3←4←5 (29 zones); 4 spawns + Rim gate per outer arc; random-pool Rim/Mid content; guards rise 15k/35k/50k/85k into Final. Co-op Classic. · Matrix-balanced economy.",
+  "description": "v2 — Bilateral hourglass 5→4→3→2→1←2←3←4←5 (29 zones); Matrix ladder Low=A homes / Mid=B connectors / Deep=C schools; Rim mid-arc gates stay random-pool; Final behind red Portals (85k). Direct 15k/35k/50k. Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
@@ -963,10 +963,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_expanse_guarded_treasure_zone"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_treasure_zone"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -1058,10 +1058,10 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_expanse_guarded_treasure_zone"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_treasure_zone"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
@@ -2126,7 +2126,7 @@
             {
               "type": "AbandonedOutpost",
               "guardChance": 1.0,
-              "guardValue": 11000,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center",
@@ -2202,23 +2202,25 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_expanse_guarded_treasure_zone"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_treasure_zone"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
-          "mandatoryContent": [],
+          "mandatoryContent": [
+            "mandatory_content_mid_w1"
+          ],
           "contentCountLimits": [
             "content_limits_mid_hourglass"
           ],
           "guardedContentValue": 650000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 22000,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 10000,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0
         },
         {
@@ -2242,7 +2244,7 @@
             {
               "type": "AbandonedOutpost",
               "guardChance": 1.0,
-              "guardValue": 11000,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center",
@@ -2333,23 +2335,25 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_expanse_guarded_treasure_zone"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_treasure_zone"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
-          "mandatoryContent": [],
+          "mandatoryContent": [
+            "mandatory_content_mid_w2"
+          ],
           "contentCountLimits": [
             "content_limits_mid_hourglass"
           ],
           "guardedContentValue": 650000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 22000,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 10000,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0
         },
         {
@@ -2373,7 +2377,7 @@
             {
               "type": "AbandonedOutpost",
               "guardChance": 1.0,
-              "guardValue": 11000,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center",
@@ -2386,19 +2390,19 @@
           "zoneBiome": {
             "type": "FromList",
             "args": [
-              "Grass"
+              "Dirt"
             ]
           },
           "contentBiome": {
             "type": "FromList",
             "args": [
-              "Grass"
+              "Dirt"
             ]
           },
           "metaObjectsBiome": {
             "type": "FromList",
             "args": [
-              "Grass"
+              "Dirt"
             ]
           },
           "roads": [
@@ -2449,23 +2453,25 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_expanse_guarded_treasure_zone"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_treasure_zone"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
-          "mandatoryContent": [],
+          "mandatoryContent": [
+            "mandatory_content_mid_w3"
+          ],
           "contentCountLimits": [
             "content_limits_mid_hourglass"
           ],
           "guardedContentValue": 650000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 22000,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 10000,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0
         },
         {
@@ -2489,7 +2495,7 @@
             {
               "type": "AbandonedOutpost",
               "guardChance": 1.0,
-              "guardValue": 11000,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center",
@@ -2502,19 +2508,19 @@
           "zoneBiome": {
             "type": "FromList",
             "args": [
-              "Snow"
+              "Sand"
             ]
           },
           "contentBiome": {
             "type": "FromList",
             "args": [
-              "Snow"
+              "Sand"
             ]
           },
           "metaObjectsBiome": {
             "type": "FromList",
             "args": [
-              "Snow"
+              "Sand"
             ]
           },
           "roads": [
@@ -2565,23 +2571,25 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_expanse_guarded_treasure_zone"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_treasure_zone"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
-          "mandatoryContent": [],
+          "mandatoryContent": [
+            "mandatory_content_mid_e1"
+          ],
           "contentCountLimits": [
             "content_limits_mid_hourglass"
           ],
           "guardedContentValue": 650000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 22000,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 10000,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0
         },
         {
@@ -2605,7 +2613,7 @@
             {
               "type": "AbandonedOutpost",
               "guardChance": 1.0,
-              "guardValue": 11000,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center",
@@ -2696,23 +2704,25 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_expanse_guarded_treasure_zone"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_treasure_zone"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
-          "mandatoryContent": [],
+          "mandatoryContent": [
+            "mandatory_content_mid_e2"
+          ],
           "contentCountLimits": [
             "content_limits_mid_hourglass"
           ],
           "guardedContentValue": 650000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 22000,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 10000,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0
         },
         {
@@ -2736,7 +2746,7 @@
             {
               "type": "AbandonedOutpost",
               "guardChance": 1.0,
-              "guardValue": 11000,
+              "guardValue": 10000,
               "guardWeeklyIncrement": 0.2,
               "buildingsConstructionSid": "medium_buildings_construction",
               "placement": "Center",
@@ -2812,23 +2822,25 @@
             }
           ],
           "guardedContentPool": [
-            "content_pool_template_expanse_guarded_treasure_zone"
+            "content_pool_template_expanse_guarded_connector_zone"
           ],
           "unguardedContentPool": [
-            "content_pool_template_expanse_unguarded_treasure_zone"
+            "content_pool_template_expanse_unguarded_connector_zone"
           ],
           "resourcesContentPool": [
             "content_pool_general_resources_treasure_zone_poor"
           ],
-          "mandatoryContent": [],
+          "mandatoryContent": [
+            "mandatory_content_mid_e3"
+          ],
           "contentCountLimits": [
             "content_limits_mid_hourglass"
           ],
           "guardedContentValue": 650000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 22000,
+          "unguardedContentValue": 25000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 10000,
+          "resourcesValue": 9000,
           "resourcesValuePerArea": 0
         },
         {
@@ -2838,7 +2850,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.0,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -2865,19 +2877,19 @@
           "zoneBiome": {
             "type": "FromList",
             "args": [
-              "Grass"
+              "Deathland"
             ]
           },
           "contentBiome": {
             "type": "FromList",
             "args": [
-              "Grass"
+              "Deathland"
             ]
           },
           "metaObjectsBiome": {
             "type": "FromList",
             "args": [
-              "Grass"
+              "Deathland"
             ]
           },
           "roads": [
@@ -2908,21 +2920,6 @@
                 "type": "Connection",
                 "args": [
                   "Scarlet-Deep-W1-Mid-W2"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Red-Deep-W1-Final"
                 ]
               }
             }
@@ -2956,7 +2953,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.0,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -2983,19 +2980,19 @@
           "zoneBiome": {
             "type": "FromList",
             "args": [
-              "Snow"
+              "Grass"
             ]
           },
           "contentBiome": {
             "type": "FromList",
             "args": [
-              "Snow"
+              "Grass"
             ]
           },
           "metaObjectsBiome": {
             "type": "FromList",
             "args": [
-              "Snow"
+              "Grass"
             ]
           },
           "roads": [
@@ -3026,21 +3023,6 @@
                 "type": "Connection",
                 "args": [
                   "Scarlet-Deep-W2-Mid-W3"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Red-Deep-W2-Final"
                 ]
               }
             }
@@ -3074,7 +3056,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.0,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -3101,19 +3083,19 @@
           "zoneBiome": {
             "type": "FromList",
             "args": [
-              "Sand"
+              "Autumn"
             ]
           },
           "contentBiome": {
             "type": "FromList",
             "args": [
-              "Sand"
+              "Autumn"
             ]
           },
           "metaObjectsBiome": {
             "type": "FromList",
             "args": [
-              "Sand"
+              "Autumn"
             ]
           },
           "roads": [
@@ -3144,21 +3126,6 @@
                 "type": "Connection",
                 "args": [
                   "Scarlet-Deep-E1-Mid-E2"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Red-Deep-E1-Final"
                 ]
               }
             }
@@ -3192,7 +3159,7 @@
           "guardCutoffValue": 1500,
           "guardRandomization": 0.05,
           "guardWeeklyIncrement": 0.2,
-          "guardMultiplier": 1.0,
+          "guardMultiplier": 0.85,
           "guardReactionDistribution": [
             2,
             2,
@@ -3219,19 +3186,19 @@
           "zoneBiome": {
             "type": "FromList",
             "args": [
-              "Dirt"
+              "Snow"
             ]
           },
           "contentBiome": {
             "type": "FromList",
             "args": [
-              "Dirt"
+              "Snow"
             ]
           },
           "metaObjectsBiome": {
             "type": "FromList",
             "args": [
-              "Dirt"
+              "Snow"
             ]
           },
           "roads": [
@@ -3262,21 +3229,6 @@
                 "type": "Connection",
                 "args": [
                   "Scarlet-Deep-E2-Mid-E3"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Red-Deep-E2-Final"
                 ]
               }
             }
@@ -3352,68 +3304,7 @@
               "Lava"
             ]
           },
-          "roads": [
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Red-Deep-W1-Final"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Red-Deep-W2-Final"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Red-Deep-E1-Final"
-                ]
-              }
-            },
-            {
-              "type": "Stone",
-              "from": {
-                "type": "MainObject",
-                "args": [
-                  "0"
-                ]
-              },
-              "to": {
-                "type": "Connection",
-                "args": [
-                  "Red-Deep-E2-Final"
-                ]
-              }
-            }
-          ],
+          "roads": [],
           "guardedContentPool": [
             "content_pool_template_expanse_guarded_supertreasure_zone"
           ],
@@ -3637,26 +3528,62 @@
           "guardWeeklyIncrement": 0.15
         },
         {
-          "name": "Red-Deep-W1-Final",
+          "name": "Portal-Deep-W1-Final",
           "from": "Deep-W1",
           "to": "Final",
-          "connectionType": "Direct",
-          "road": true,
-          "guardEscape": false,
+          "connectionType": "Portal",
+          "road": false,
           "simTurnSquad": true,
+          "guardEscape": false,
           "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15
+          "guardWeeklyIncrement": 0.15,
+          "portalPlacementRulesFrom": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "portalPlacementRulesTo": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
         },
         {
-          "name": "Red-Deep-W2-Final",
+          "name": "Portal-Deep-W2-Final",
           "from": "Deep-W2",
           "to": "Final",
-          "connectionType": "Direct",
-          "road": true,
-          "guardEscape": false,
+          "connectionType": "Portal",
+          "road": false,
           "simTurnSquad": true,
+          "guardEscape": false,
           "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15
+          "guardWeeklyIncrement": 0.15,
+          "portalPlacementRulesFrom": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "portalPlacementRulesTo": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
         },
         {
           "name": "Yellow-Low-E1-Spawn-5",
@@ -3857,26 +3784,62 @@
           "guardWeeklyIncrement": 0.15
         },
         {
-          "name": "Red-Deep-E1-Final",
+          "name": "Portal-Deep-E1-Final",
           "from": "Deep-E1",
           "to": "Final",
-          "connectionType": "Direct",
-          "road": true,
-          "guardEscape": false,
+          "connectionType": "Portal",
+          "road": false,
           "simTurnSquad": true,
+          "guardEscape": false,
           "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15
+          "guardWeeklyIncrement": 0.15,
+          "portalPlacementRulesFrom": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "portalPlacementRulesTo": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
         },
         {
-          "name": "Red-Deep-E2-Final",
+          "name": "Portal-Deep-E2-Final",
           "from": "Deep-E2",
           "to": "Final",
-          "connectionType": "Direct",
-          "road": true,
-          "guardEscape": false,
+          "connectionType": "Portal",
+          "road": false,
           "simTurnSquad": true,
+          "guardEscape": false,
           "guardValue": 85000,
-          "guardWeeklyIncrement": 0.15
+          "guardWeeklyIncrement": 0.15,
+          "portalPlacementRulesFrom": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "portalPlacementRulesTo": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
         }
       ],
       "border": {
@@ -4176,60 +4139,6 @@
       "name": "mandatory_content_low_w1",
       "content": [
         {
-          "sid": "jousting_range",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "iridescent_abbey",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "mercenary_guild",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "mine_crystals",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
-        },
-        {
           "sid": "random_hire_3",
           "rules": [
             {
@@ -4264,6 +4173,73 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "raiders_camp",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "jousting_range",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "mystical_tower",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "mercenary_guild",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "mine_crystals",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false,
+          "isMine": true,
+          "designatedEncounter": false
         },
         {
           "sid": "random_item_epic"
@@ -4297,60 +4273,6 @@
       "name": "mandatory_content_low_w2",
       "content": [
         {
-          "sid": "the_gorge",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "circle_of_life",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "arena",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "mine_gemstones",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
-        },
-        {
           "sid": "random_hire_3",
           "rules": [
             {
@@ -4385,6 +4307,73 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "iridescent_abbey",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "the_gorge",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "insaras_eye",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "arena",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "mine_gemstones",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false,
+          "isMine": true,
+          "designatedEncounter": false
         },
         {
           "sid": "random_item_epic"
@@ -4418,60 +4407,6 @@
       "name": "mandatory_content_low_w3",
       "content": [
         {
-          "sid": "boreal_call",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "uncanny_rite",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "chimerologist",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "mine_mercury",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
-        },
-        {
           "sid": "random_hire_3",
           "rules": [
             {
@@ -4506,6 +4441,73 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "uncanny_rite",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "boreal_call",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "tear_of_truth",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "chimerologist",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "mine_mercury",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false,
+          "isMine": true,
+          "designatedEncounter": false
         },
         {
           "sid": "random_item_epic"
@@ -4539,60 +4541,6 @@
       "name": "mandatory_content_low_w4",
       "content": [
         {
-          "sid": "petrified_memorial",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "raiders_camp",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "mystical_tower",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "mine_gold",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
-        },
-        {
           "sid": "random_hire_3",
           "rules": [
             {
@@ -4627,6 +4575,73 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "circle_of_life",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "petrified_memorial",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "fort",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "tree_of_abundance",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "mine_gold",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false,
+          "isMine": true,
+          "designatedEncounter": false
         },
         {
           "sid": "random_item_epic"
@@ -4660,60 +4675,6 @@
       "name": "mandatory_content_low_e1",
       "content": [
         {
-          "sid": "market",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "point_of_balance",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "storage_gold",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "mine_gold",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
-        },
-        {
           "sid": "random_hire_3",
           "rules": [
             {
@@ -4748,6 +4709,73 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "legions_memorial",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "unforgotten_grave",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "orb_observatory",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "sacrificial_shrine",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "alchemy_lab",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false,
+          "isMine": true,
+          "designatedEncounter": false
         },
         {
           "sid": "random_item_epic"
@@ -4781,62 +4809,6 @@
       "name": "mandatory_content_low_e2",
       "content": [
         {
-          "sid": "mine_wood",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
-        },
-        {
-          "sid": "mine_ore",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
-        },
-        {
-          "sid": "forge",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "learning_stone",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
           "sid": "random_hire_3",
           "rules": [
             {
@@ -4871,6 +4843,71 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "alvars_eye",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "ritual_pyre",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "maze",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "huntsmans_camp",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "forge",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         },
         {
           "sid": "random_item_epic"
@@ -4904,58 +4941,6 @@
       "name": "mandatory_content_low_e3",
       "content": [
         {
-          "sid": "stables",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "crystal_trail",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "mana_well",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "iridescent_abbey",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
           "sid": "random_hire_3",
           "rules": [
             {
@@ -4990,6 +4975,71 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "prismatic_lair",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "point_of_balance",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "trial_scales",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "lost_library",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "market",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         },
         {
           "sid": "random_item_epic"
@@ -5023,60 +5073,6 @@
       "name": "mandatory_content_low_e4",
       "content": [
         {
-          "sid": "jousting_range",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "tear_of_truth",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "fort",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "mine_gemstones",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
-        },
-        {
           "sid": "random_hire_3",
           "rules": [
             {
@@ -5113,6 +5109,71 @@
           ]
         },
         {
+          "sid": "overgrown_grave",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "cursed_old_house",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "college_of_wonder",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "remote_foothold",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "storage_gold",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
           "sid": "random_item_epic"
         },
         {
@@ -5141,10 +5202,10 @@
       ]
     },
     {
-      "name": "mandatory_content_deep_w1",
+      "name": "mandatory_content_mid_w1",
       "content": [
         {
-          "sid": "iridescent_abbey",
+          "sid": "random_hire_4",
           "rules": [
             {
               "type": "Road",
@@ -5153,38 +5214,7 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "altar_of_magic_2",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": true
-        },
-        {
-          "sid": "celestial_sphere",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ],
-          "isGuarded": false
-        },
-        {
-          "sid": "dragon_utopia",
-          "variant": 1
+          ]
         },
         {
           "sid": "random_hire_5",
@@ -5211,7 +5241,7 @@
           ]
         },
         {
-          "sid": "random_hire_7",
+          "sid": "shady_den",
           "rules": [
             {
               "type": "Road",
@@ -5220,16 +5250,40 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
+          ],
+          "isGuarded": true
         },
         {
-          "sid": "random_item_legendary"
+          "sid": "celestial_sphere",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "university",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
         },
         {
           "sid": "random_item_epic"
         },
         {
-          "sid": "mythic_scroll_box"
+          "sid": "random_item_epic"
         },
         {
           "sid": "enchanted_scroll_box"
@@ -5255,10 +5309,46 @@
       ]
     },
     {
-      "name": "mandatory_content_deep_w2",
+      "name": "mandatory_content_mid_w2",
       "content": [
         {
-          "sid": "troglodyte_throne",
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "monty_hall",
           "rules": [
             {
               "type": "Road",
@@ -5271,7 +5361,422 @@
           "isGuarded": true
         },
         {
-          "sid": "university",
+          "sid": "tree_of_knowledge",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "wise_owl",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "enchanted_scroll_box"
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_high_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_mid_w3",
+      "content": [
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "heros_crypt",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "wind_rose",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "circus",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "enchanted_scroll_box"
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_high_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_mid_e1",
+      "content": [
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "abnormal_structure",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "mirage",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "infernal_cirque",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "enchanted_scroll_box"
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_high_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_mid_e2",
+      "content": [
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "raiders_camp",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "flattering_mirror",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "town_gate",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "enchanted_scroll_box"
+        },
+        {
+          "sid": "pandora_box",
+          "variant": 12
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_high_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_mid_e3",
+      "content": [
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "iridescent_abbey",
           "rules": [
             {
               "type": "Road",
@@ -5299,11 +5804,7 @@
           "designatedEncounter": false
         },
         {
-          "sid": "dragon_utopia",
-          "variant": 2
-        },
-        {
-          "sid": "random_hire_5",
+          "sid": "prison",
           "rules": [
             {
               "type": "Road",
@@ -5312,40 +5813,14 @@
               "targetMax": 0.25,
               "weight": 1
             }
-          ]
-        },
-        {
-          "sid": "random_hire_6",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "random_hire_7",
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ]
-        },
-        {
-          "sid": "random_item_legendary"
+          ],
+          "isGuarded": true
         },
         {
           "sid": "random_item_epic"
         },
         {
-          "sid": "mythic_scroll_box"
+          "sid": "random_item_epic"
         },
         {
           "sid": "enchanted_scroll_box"
@@ -5371,10 +5846,10 @@
       ]
     },
     {
-      "name": "mandatory_content_deep_e1",
+      "name": "mandatory_content_deep_w1",
       "content": [
         {
-          "sid": "circle_of_life",
+          "sid": "altar_of_magic_1",
           "rules": [
             {
               "type": "Road",
@@ -5387,7 +5862,7 @@
           "isGuarded": true
         },
         {
-          "sid": "altar_of_magic_4",
+          "sid": "magic_amplifier_1",
           "rules": [
             {
               "type": "Road",
@@ -5400,7 +5875,7 @@
           "isGuarded": true
         },
         {
-          "sid": "tree_of_knowledge",
+          "sid": "sacrificial_shrine",
           "rules": [
             {
               "type": "Road",
@@ -5413,8 +5888,113 @@
           "isGuarded": false
         },
         {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_7",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "troglodyte_throne",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
           "sid": "dragon_utopia",
-          "variant": 3
+          "variant": 0
+        },
+        {
+          "sid": "random_item_legendary"
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "mythic_scroll_box"
+        },
+        {
+          "sid": "enchanted_scroll_box"
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_deep_w2",
+      "content": [
+        {
+          "sid": "altar_of_magic_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "magic_amplifier_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "lost_library",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         },
         {
           "sid": "random_hire_5",
@@ -5452,41 +6032,6 @@
             }
           ]
         },
-        {
-          "sid": "random_item_legendary"
-        },
-        {
-          "sid": "random_item_epic"
-        },
-        {
-          "sid": "mythic_scroll_box"
-        },
-        {
-          "sid": "enchanted_scroll_box"
-        },
-        {
-          "sid": "pandora_box",
-          "variant": 12
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_high_tier"
-          ],
-          "rules": [
-            {
-              "type": "Road",
-              "args": [],
-              "targetMin": 0.1,
-              "targetMax": 0.25,
-              "weight": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "mandatory_content_deep_e2",
-      "content": [
         {
           "sid": "twilight_bloom",
           "rules": [
@@ -5501,7 +6046,28 @@
           "isGuarded": true
         },
         {
-          "sid": "wise_owl",
+          "sid": "dragon_utopia",
+          "variant": 1
+        },
+        {
+          "sid": "random_item_legendary"
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "mythic_scroll_box"
+        },
+        {
+          "sid": "enchanted_scroll_box"
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_deep_e1",
+      "content": [
+        {
+          "sid": "altar_of_magic_4",
           "rules": [
             {
               "type": "Road",
@@ -5514,7 +6080,7 @@
           "isGuarded": true
         },
         {
-          "sid": "mine_crystals",
+          "sid": "magic_amplifier_4",
           "rules": [
             {
               "type": "Road",
@@ -5524,13 +6090,20 @@
               "weight": 1
             }
           ],
-          "isGuarded": false,
-          "isMine": true,
-          "designatedEncounter": false
+          "isGuarded": true
         },
         {
-          "sid": "dragon_utopia",
-          "variant": 0
+          "sid": "remote_foothold",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
         },
         {
           "sid": "random_hire_5",
@@ -5569,6 +6142,23 @@
           ]
         },
         {
+          "sid": "unstable_ruins",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": 2
+        },
+        {
           "sid": "random_item_legendary"
         },
         {
@@ -5579,15 +6169,53 @@
         },
         {
           "sid": "enchanted_scroll_box"
-        },
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_deep_e2",
+      "content": [
         {
-          "sid": "pandora_box",
-          "variant": 12
-        },
-        {
-          "includeLists": [
-            "content_list_building_random_hires_high_tier"
+          "sid": "altar_of_magic_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
           ],
+          "isGuarded": true
+        },
+        {
+          "sid": "magic_amplifier_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "huntsmans_camp",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "random_hire_5",
           "rules": [
             {
               "type": "Road",
@@ -5597,6 +6225,59 @@
               "weight": 1
             }
           ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_7",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "research_laboratory",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": true
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": 3
+        },
+        {
+          "sid": "random_item_legendary"
+        },
+        {
+          "sid": "random_item_epic"
+        },
+        {
+          "sid": "mythic_scroll_box"
+        },
+        {
+          "sid": "enchanted_scroll_box"
         }
       ]
     },
@@ -6647,6 +7328,11 @@
           "sid": "watchtower",
           "variant": -1,
           "maxCount": 0
+        },
+        {
+          "sid": "dragon_utopia",
+          "variant": -1,
+          "maxCount": 1
         },
         {
           "sid": "abandoned_corpse",
