@@ -343,16 +343,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_near"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 270000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 24000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 10800,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -458,16 +458,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_mid"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 300000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 26667,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -573,16 +573,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_far"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 360000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 32000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 14400,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -605,7 +605,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player7",
+              "spawn": "Player2",
               "guardChance": 0.5,
               "guardValue": 3000,
               "guardWeeklyIncrement": 0.2,
@@ -803,16 +803,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_near"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 270000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 24000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 10800,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -835,7 +835,7 @@
           "mainObjects": [
             {
               "type": "Spawn",
-              "spawn": "Player2",
+              "spawn": "Player7",
               "guardChance": 0.5,
               "guardValue": 3000,
               "guardWeeklyIncrement": 0.2,
@@ -918,16 +918,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_mid"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 300000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 26667,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 12000,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -1033,16 +1033,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_far"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 360000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 32000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 14400,
           "resourcesValuePerArea": 0,
           "guardMultiplier": 0.85,
           "diplomacyModifier": -0.5
@@ -2979,7 +2979,7 @@
           "to": "Treasure-A",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -2990,7 +2990,7 @@
           "to": "Treasure-B",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3001,7 +3001,7 @@
           "to": "Treasure-A",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3012,7 +3012,7 @@
           "to": "Treasure-C",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3023,7 +3023,7 @@
           "to": "Treasure-D",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3034,7 +3034,7 @@
           "to": "Treasure-F",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3045,7 +3045,7 @@
           "to": "Treasure-E",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3056,7 +3056,7 @@
           "to": "Treasure-F",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3067,7 +3067,7 @@
           "to": "Treasure-G",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3078,7 +3078,7 @@
           "to": "Treasure-H",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3089,7 +3089,7 @@
           "to": "Treasure-G",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3100,7 +3100,7 @@
           "to": "Treasure-I",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3111,7 +3111,7 @@
           "to": "Treasure-J",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3122,7 +3122,7 @@
           "to": "Treasure-L",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3133,7 +3133,7 @@
           "to": "Treasure-K",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3144,7 +3144,7 @@
           "to": "Treasure-L",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3155,7 +3155,7 @@
           "to": "Treasure-A",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3166,7 +3166,7 @@
           "to": "Treasure-B",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3177,7 +3177,7 @@
           "to": "Treasure-C",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3188,7 +3188,7 @@
           "to": "Treasure-D",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3199,7 +3199,7 @@
           "to": "Treasure-E",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3210,7 +3210,7 @@
           "to": "Treasure-G",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3221,7 +3221,7 @@
           "to": "Treasure-H",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3232,7 +3232,7 @@
           "to": "Treasure-I",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3243,7 +3243,7 @@
           "to": "Treasure-J",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3254,7 +3254,7 @@
           "to": "Treasure-K",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3265,7 +3265,7 @@
           "to": "Hub-W",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3276,7 +3276,7 @@
           "to": "Treasure-D",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3287,7 +3287,7 @@
           "to": "Treasure-E",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3298,7 +3298,7 @@
           "to": "Treasure-F",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3309,7 +3309,7 @@
           "to": "Hub-E",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3320,7 +3320,7 @@
           "to": "Treasure-J",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3331,7 +3331,7 @@
           "to": "Treasure-K",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3342,7 +3342,7 @@
           "to": "Treasure-L",
           "connectionType": "Direct",
           "road": true,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "simTurnSquad": true,
           "guardEscape": false
@@ -3355,7 +3355,7 @@
           "road": false,
           "simTurnSquad": true,
           "guardEscape": false,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "portalPlacementRulesFrom": [
             {
@@ -4136,6 +4136,461 @@
               "weight": 1
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_spawn_ai_near",
+      "content": [
+        {
+          "sid": "watchtower",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "0"
+              ],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_1",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_uncommon_interact"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "basic_content_list_building_hero_buff_tier_1"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_item_common"
+        },
+        {
+          "sid": "random_item_common"
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_spawn_ai_mid",
+      "content": [
+        {
+          "sid": "watchtower",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "0"
+              ],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_wood",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isMine": true,
+          "isGuarded": false,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "random_hire_1",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "tavern",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "mana_well",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "basic_content_list_building_hero_buff_tier_1"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_item_common"
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_spawn_ai_far",
+      "content": [
+        {
+          "sid": "watchtower",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "0"
+              ],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_wood",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isMine": true,
+          "isGuarded": false,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mine_ore",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isMine": true,
+          "isGuarded": false,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "random_hire_1",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "market",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "tavern",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "mana_well",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "includeLists": [
+            "content_list_building_uncommon_interact"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_item_common"
         }
       ]
     }

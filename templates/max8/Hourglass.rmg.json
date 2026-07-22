@@ -260,16 +260,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_near"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 270000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 24000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 10800,
           "resourcesValuePerArea": 0
         },
         {
@@ -370,16 +370,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_mid"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 330000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 29333,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 13200,
           "resourcesValuePerArea": 0
         },
         {
@@ -465,16 +465,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_far"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 360000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 32000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 14400,
           "resourcesValuePerArea": 0
         },
         {
@@ -560,16 +560,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_far"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 360000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 32000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 14400,
           "resourcesValuePerArea": 0
         },
         {
@@ -670,16 +670,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_mid"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 330000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 29333,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 13200,
           "resourcesValuePerArea": 0
         },
         {
@@ -780,16 +780,16 @@
             "content_pool_general_resources_start_zone_medium"
           ],
           "mandatoryContent": [
-            "mandatory_content_spawn"
+            "mandatory_content_spawn_ai_near"
           ],
           "contentCountLimits": [
             "content_limits_spawn"
           ],
-          "guardedContentValue": 450000,
+          "guardedContentValue": 270000,
           "guardedContentValuePerArea": 0,
-          "unguardedContentValue": 40000,
+          "unguardedContentValue": 24000,
           "unguardedContentValuePerArea": 0,
-          "resourcesValue": 18000,
+          "resourcesValue": 10800,
           "resourcesValuePerArea": 0
         },
         {
@@ -3337,7 +3337,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3348,7 +3348,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3359,7 +3359,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3370,7 +3370,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3381,7 +3381,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3392,7 +3392,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3403,7 +3403,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3414,7 +3414,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3425,7 +3425,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3436,7 +3436,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3447,7 +3447,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3458,7 +3458,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3469,7 +3469,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3480,7 +3480,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3491,7 +3491,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 50000,
+          "guardValue": 62500,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3502,7 +3502,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 50000,
+          "guardValue": 62500,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3513,7 +3513,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 50000,
+          "guardValue": 62500,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3524,7 +3524,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 50000,
+          "guardValue": 62500,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3535,7 +3535,7 @@
           "road": false,
           "simTurnSquad": true,
           "guardEscape": false,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "portalPlacementRulesFrom": [
             {
@@ -3564,7 +3564,7 @@
           "road": false,
           "simTurnSquad": true,
           "guardEscape": false,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "portalPlacementRulesFrom": [
             {
@@ -3593,7 +3593,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3604,7 +3604,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3615,7 +3615,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3626,7 +3626,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3637,7 +3637,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3648,7 +3648,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3659,7 +3659,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3670,7 +3670,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 15000,
+          "guardValue": 18750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3681,7 +3681,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3692,7 +3692,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3703,7 +3703,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3714,7 +3714,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3725,7 +3725,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3736,7 +3736,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 35000,
+          "guardValue": 43750,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3747,7 +3747,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 50000,
+          "guardValue": 62500,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3758,7 +3758,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 50000,
+          "guardValue": 62500,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3769,7 +3769,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 50000,
+          "guardValue": 62500,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3780,7 +3780,7 @@
           "road": true,
           "guardEscape": false,
           "simTurnSquad": true,
-          "guardValue": 50000,
+          "guardValue": 62500,
           "guardWeeklyIncrement": 0.15
         },
         {
@@ -3791,7 +3791,7 @@
           "road": false,
           "simTurnSquad": true,
           "guardEscape": false,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "portalPlacementRulesFrom": [
             {
@@ -3820,7 +3820,7 @@
           "road": false,
           "simTurnSquad": true,
           "guardEscape": false,
-          "guardValue": 85000,
+          "guardValue": 106250,
           "guardWeeklyIncrement": 0.15,
           "portalPlacementRulesFrom": [
             {
@@ -6496,6 +6496,461 @@
               "weight": 1
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_spawn_ai_near",
+      "content": [
+        {
+          "sid": "watchtower",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "0"
+              ],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_1",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "content_list_building_uncommon_interact"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "basic_content_list_building_hero_buff_tier_1"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_item_common"
+        },
+        {
+          "sid": "random_item_common"
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_spawn_ai_mid",
+      "content": [
+        {
+          "sid": "watchtower",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "0"
+              ],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_wood",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isMine": true,
+          "isGuarded": false,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "random_hire_1",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "tavern",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "mana_well",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "includeLists": [
+            "content_list_building_random_hires_low_tier"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "includeLists": [
+            "basic_content_list_building_hero_buff_tier_1"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_item_common"
+        }
+      ]
+    },
+    {
+      "name": "mandatory_content_spawn_ai_far",
+      "content": [
+        {
+          "sid": "watchtower",
+          "isGuarded": false,
+          "rules": [
+            {
+              "type": "MainObject",
+              "args": [
+                "0"
+              ],
+              "targetMin": 0.05,
+              "targetMax": 0.15,
+              "weight": 1
+            },
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "mine_wood",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isMine": true,
+          "isGuarded": false,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "mine_ore",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isMine": true,
+          "isGuarded": false,
+          "designatedEncounter": false
+        },
+        {
+          "sid": "random_hire_1",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_2",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_3",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_4",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_5",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_hire_6",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "market",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "tavern",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "sid": "mana_well",
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ],
+          "isGuarded": false
+        },
+        {
+          "includeLists": [
+            "content_list_building_uncommon_interact"
+          ],
+          "rules": [
+            {
+              "type": "Road",
+              "args": [],
+              "targetMin": 0.1,
+              "targetMax": 0.25,
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "sid": "random_item_common"
         }
       ]
     }

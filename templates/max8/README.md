@@ -15,7 +15,8 @@ python tools/max8/build_max8_neutral_packs.py   # themed location packs
 python tools/max8/build_max8_bank_limits.py     # per-zone bank caps catalog
 python tools/max8/normalize_max8_to_matrix.py   # Matrix economy + guards + spawn MC
 python tools/max8/apply_max8_pacing_tweaks.py   # spawn profile sync + wiki caps (no budget trim)
-python tools/max8/apply_max8_coop_classic.py    # classic win + co-op tuning (run last)
+python tools/max8/apply_max8_coop_classic.py    # classic win + co-op seats + PvE tuning
+python tools/max8/apply_max8_ai_coop_ease.py    # mild AI spawn nerf + gate ×1.25 (run last)
 # Full rebuild from official bases (includes normalize + Web/Ring custom topologies):
 python tools/max8/rescale_max8_economy.py
 # Ring fully-buffered flanks only:
@@ -60,7 +61,11 @@ All 17 **PASS** `python tools/validate/validate_rmg.py content/templates/max8`.
 | **Hourglass** | hand lattice (240) | Bilateral hourglass 5→4→3→2→1←2←3←4←5 — 4 spawns + Rim gate per arc; guards rise 15k/35k/50k/85k into Final (29 zones) |
 
 All maps share the same co-op rules shell via `tools/max8/apply_max8_coop_classic.py` (classic win,
-PvE guard multiplier 0.85, diplomacy −0.5, antipodal Player1/Player2 assignment).
+PvE guard multiplier 0.85, diplomacy −0.5, antipodal Player1/Player2 assignment), then
+`tools/max8/apply_max8_ai_coop_ease.py`: AI (P3–P8) spawn budgets at **60–80%** of human (closer hop
+to P1/P2 → leaner), near/mid/far AI mandatory kits (curios / low hires; fewer mines), and connection
+`guardValue` **×1.25** (15k→18750, 35k→43750, 85k→106250, 150k→187500). Re-run the ease pass after
+any HAND_PACKAGED rebuild.
 
 Twin-wing Wings: `python tools/max8/build_wings.py` (also via `rework_max8_variants.py`). Classic
 Boomerang: `python tools/max8/build_boomerang_classic.py`. Regenerate Hub dual spokes:
@@ -143,8 +148,10 @@ Topology unchanged; economy uses Matrix role ladder × family factor (flat budge
 | **Dense** | Spider, Web, Wings, Boomerang | 1.25× | ~563k |
 
 Matrix role ladder (× factor): Spawn 450k → mid/Treasure 550k → junction/Connector 650k →
-deep/SuperTreasure 900k → Center 1.0M. Guards banded **15k / 35k / 85k** (`wi` 0.15). Mid neutrals
-use `AbandonedOutpost` (not City); spawns carry City + Matrix spawn MC.
+deep/SuperTreasure 900k → Center 1.0M. Base guards banded **15k / 35k / 85k** (`wi` 0.15), then
+`apply_max8_ai_coop_ease.py` raises connection gates **×1.25**. Mid neutrals
+use `AbandonedOutpost` (not City); human spawns carry City + Matrix spawn MC; AI spawns use lean
+near/mid/far kits from `apply_max8_ai_coop_ease.py`.
 
 **Win conditions (all 17):** `classic` only — no hold-city, no lost-start-city, no encounter holes.
 Applied by `tools/max8/apply_max8_coop_classic.py`.
