@@ -2,10 +2,10 @@
 
 17 templates, all **240×240** (max map size) and **8 players** (max), tuned for **2 human co-op +
 6 FFA AI** with **classic win only** on every map. Seat humans on **Player1** and **Player2**
-(maximally separated spawns; **Spawn-A** / **Spawn-E** on Hub and Twin Isles; tip **Spawn-A** /
-**Spawn-B** on Boomerang); Players 3–8 as AI. Each name reflects its **topology**.
+(maximally separated spawns; **Spawn-A** / **Spawn-E** on Hub, Ring Ladder, Double Ring, and Twin Isles;
+**Spawn-1** / **Spawn-2** on Trident); Players 3–8 as AI. Each name reflects its **topology**.
 
-**Balance reference:** [Matrix Map](Matrix%20Map.rmg.json) — flat role budgets, yellow/orange/red
+**Balance reference:** [Matrix](Matrix.rmg.json) — flat role budgets, yellow/orange/red
 connection guards (15k / 35k / 85k), rich spawn mandatory (hire 1–7 + market/tavern), wiki fairness
 caps. Other templates keep their zone graphs but share that methodology via
 `tools/max8/normalize_max8_to_matrix.py` (family-scaled).
@@ -17,16 +17,18 @@ python tools/max8/normalize_max8_to_matrix.py   # Matrix economy + guards + spaw
 python tools/max8/apply_max8_pacing_tweaks.py   # spawn profile sync + wiki caps (no budget trim)
 python tools/max8/apply_max8_coop_classic.py    # classic win + co-op seats + PvE tuning
 python tools/max8/apply_max8_ai_coop_ease.py    # mild AI spawn nerf + gate ×1.25 (run last)
-# Full rebuild from official bases (includes normalize + Web/Ring custom topologies):
+# Full rebuild from official bases (includes normalize + Ring custom topology):
 python tools/max8/rescale_max8_economy.py
 # Ring fully-buffered flanks only:
 python tools/max8/build_ring_buffered.py
-# Classic Boomerang (H3 L+U arms → 3 ST hubs; HAND_PACKAGED):
-python tools/max8/build_boomerang_classic.py
-# Compressed H3 8XM8 lattice (HAND_PACKAGED):
-python tools/max8/build_citadel.py
 # Bilateral hourglass 5→4→3→2→1←2←3←4←5 (HAND_PACKAGED):
 python tools/max8/build_hourglass.py
+# Trident: co-op shaft + three AI tines; Portal@150k (HAND_PACKAGED):
+python tools/max8/build_trident.py
+# Ring Ladder: 32-zone 3-regular circular ladder (HAND_PACKAGED):
+python tools/max8/build_prism.py
+# Double Ring: 32-zone 4-regular K4 necklace (HAND_PACKAGED):
+python tools/max8/build_lattice.py
 ```
 
 Audit spawn/center economy bands: `python tools/max8/analyze_economy_density.py --matrix` (writes
@@ -43,40 +45,41 @@ All 17 **PASS** `python tools/validate/validate_rmg.py content/templates/max8`.
 | Template | Base (size) | Topology |
 |---|---|---|
 | **Ring** | Diamond (144, rewired) | Fully buffered ring — every spawn CW+CCW flanks; hard AI exits (32 zones) |
-| **Mesh** | Diamond (144) | Dense bipartite diamond grid (16 zones) |
-| **Spokes** | Ikarus (160, rewired) | Spawn → treasure → central `Center` prize (17 zones) |
-| **Wheel** | Ikarus (160) | Hub + treasure mid-ring (17 zones) |
-| **Web** | Mini-Nostalgia (144, rewired) | Equal-leaf dual-pole web; neutral Buffer-N/S gate Center (19 zones) |
-| **Wings** | Boomerang (144, rewired) | Mirrored twin wings; Elbow-W/E gate `Center` (19 zones) |
-| **Boomerang** | Boomerang (144, classic) | Classic L+U arms; tip A/B mid-treasure only; inner C–H gate 3 ST hubs (17 zones) |
-| **Spider** | Spider (208) | 8 radial legs + treasure mid-ring; 4 SuperTreasure each shared by a blue pair (20 zones) |
-| **Bracket** | Expanse (192) | Playoff tree 8→4→2→1 + unpredictable random-pool Leaf-1..8 farm pockets (23 zones); steeper round guards |
-| **Hub** | OctoJebus (240, rewired) | Dual Might/Magic spokes to `Center` (25 zones); private paths per spawn |
-| **Triad** | hand lattice (240) | Three identical 3×3 blocks (hub-adjacent P1/P2) + unpredictable random-pool Gate-W/M/E + four magic schools; triangle Portals Gate↔Gate @ 150k (30 zones) |
-| **Spine** | Wings (rewired) | Twin truss spines; 4 mirrored random-pool interior zones; Portal Treasure-A↔G (150k) (24 zones) |
-| **Domino** | Wings (rewired) | Twin 3×4 blocks; 4 mirrored random-pool interior zones; Portal Treasure-A↔G (150k) (24 zones) |
-| **Channel** | Wings (rewired) | Twin hourglasses with one random-pool deep prize per half; dual Portals @ 150k (24 zones) |
-| **Matrix Map** | hand lattice (240) | 5×5 lattice — A-N home↔Spawn-N; B mid + Center; C magic schools; red Portals |
-| **Citadel** | hand lattice (240) | Compressed H3 8XM8 — fully procedural mystery Treasuries, SuperTreasure wall, Might camps + Magic schools, 4 cardinal Hubs (29 zones) |
+| **Ring Ladder** | Ring (240, rewired) | Circular ladder Y16 — outer spawn/buffer + inner farm/treasure + spokes; every zone degree 3 (32 zones) |
+| **Double Ring** | Ring (240, rewired) | 4-regular K4 necklace — Ring Ladder + sector diagonals; every zone degree 4 (32 zones) |
+| **Mesh** | Diamond (144) | Dense bipartite mesh (16 zones) |
+| **Star** | Ikarus (160, rewired → hand) | Max-hop star: Spawn → Outer → Inner → `Center` (25 zones) |
+| **Web** | Ikarus (160, deepened) | Dual-rim web: Treasure + Inner axes (25 zones) |
+| **Twin Fans** | Boomerang (144, rewired) | Mirrored twin wings; Elbow-W/E gate `Center` (19 zones) |
+| **Target Core** | Spider (208) | Concentric bullseye: 8 radial legs + treasure mid-ring + 4 Buffer gates into 4 SuperTreasure; Buffer ring (24 zones) |
+| **Playoff Tree** | Expanse (192) | Playoff tree 8→4→2→1 + unpredictable random-pool Leaf-1..8 farm pockets (23 zones); steeper round guards |
+| **Hub** | OctoJebus (240, rewired) | Dense equal-ray star: 8 identical Spawn→Inner seats + 7 diverse filler rays → fat `Center` (31 zones) |
+| **Triple Hub** | hand lattice (240) | Three identical 3×3 blocks (hub-adjacent P1/P2) + unpredictable random-pool Gate-W/M/E + four magic schools; triangle Portals Gate↔Gate @ 150k (30 zones) |
+| **Twin Wings** | Twin Fans (rewired) | Twin butterfly lobes; 4 mirrored random-pool interior zones; Portal Treasure-A↔G (150k) (24 zones) |
+| **Twin Blocks** | Twin Fans (rewired) | Twin 4×4 blocks with typed mids (Might/Magic/Side/Outer/Connector); 4 random-pool interiors; Portal Treasure-A↔G (150k) (32 zones) |
+| **Twin Loop** | Twin Fans (rewired) | Twin Loop racetrack: N/S Buffer gates → Hub → deep prize; dual Portals close the central loop @ 150k (24 zones) |
+| **Matrix** | hand lattice (240) | 5×5 lattice — A-N home↔Spawn-N; B mid + Center; C magic schools; red Portals |
 | **Hourglass** | hand lattice (240) | Bilateral hourglass 5→4→3→2→1←2←3←4←5 — 4 spawns + Rim gate per arc; guards rise 15k/35k/50k/85k into Final (29 zones) |
+| **Trident** | hand lattice (240) | Co-op shaft Portal Gate-W↔E @150k; Buffer→Might→Magic spines; Deep shields meshed + Center; three AI tines on Might/Magic/Gate hosts (31 zones) |
 
 All maps share the same co-op rules shell via `tools/max8/apply_max8_coop_classic.py` (classic win,
 PvE guard multiplier 0.85, diplomacy −0.5, antipodal Player1/Player2 assignment), then
 `tools/max8/apply_max8_ai_coop_ease.py`: AI (P3–P8) spawn budgets at **60–80%** of human (closer hop
 to P1/P2 → leaner), near/mid/far AI mandatory kits (curios / low hires; fewer mines), and connection
-`guardValue` **×1.25** (15k→18750, 35k→43750, 85k→106250, 150k→187500). Re-run the ease pass after
+`guardValue` **×1.25** (15k→18750, 35k→43750, 50k→62500, 85k→106250, 150k→187500). Re-run the ease pass after
 any HAND_PACKAGED rebuild.
 
-Twin-wing Wings: `python tools/max8/build_wings.py` (also via `rework_max8_variants.py`). Classic
-Boomerang: `python tools/max8/build_boomerang_classic.py`. Regenerate Hub dual spokes:
-`python tools/max8/build_hub_arms.py`. Twin Isles set (Spine / Domino / Channel):
-`python tools/max8/build_twins_set.py`. Triad: `python tools/max8/build_triad.py`.
-Citadel: `python tools/max8/build_citadel.py`.
+Twin-wing Twin Fans: `python tools/max8/build_wings.py` (also via `rework_max8_variants.py`). Regenerate Hub max-hop star:
+`python tools/max8/build_hub_arms.py`. Star max-hop chains: `python tools/max8/build_star.py`. Web dual rims: `python tools/max8/build_web.py`. Twin Isles set (Twin Wings / Twin Blocks / Twin Loop):
+`python tools/max8/build_twins_set.py`. Triple Hub: `python tools/max8/build_triad.py`.
+Trident: `python tools/max8/build_trident.py`.
+Ring Ladder circular ladder: `python tools/max8/build_prism.py`.
+Double Ring 4-regular necklace: `python tools/max8/build_lattice.py`.
 
-**Diversity:** Distinct zone graphs across the max8 set. Topologies: ring, mesh, spokes, wheel, web,
-twin-wing wings, classic boomerang, spider, bracket, hub, triad,
-twin-isle spine/domino/channel, the **Matrix Map** 5×5 lattice, and **Citadel**
-(compressed 8XM8).
+**Diversity:** Distinct zone graphs across the max8 set. Topologies: ring, ring ladder (3-regular
+ladder), double ring (4-regular K4 necklace), mesh, star, web,
+twin fans, bullseye, playoff tree, spoke hub, triple hub,
+twin-isle twin wings/twin blocks/twin loop, and the **Matrix** 5×5 lattice.
 
 **Neutral content:** each mid-map neutral zone (Treasure, Buffer, Connector, SuperTreasure leg) gets a
 **themed location** mandatory pack from [`../../content/catalogs/max8_neutral_packs.json`](../../content/catalogs/max8_neutral_packs.json).
@@ -87,21 +90,26 @@ reuse **engine-known** pool SIDs (Expanse / official families) — never invent 
 (breaks MapGen; see `docs/LESSONS_LEARNED.md`). **Per-zone bank caps** (`maxCount: 1` per bank type)
 come from [`../../content/catalogs/max8_bank_limits.json`](../../content/catalogs/max8_bank_limits.json). Center/hub zones get a themed
 refresh; **Hub** uses the full official OctoJebus center grid via `centerOverrides`.
-**Matrix Map** is hand-packaged (`tools/max8/build_matrix_map.py`) — A-N packs match Spawn-N biome/faction;
-C-1..4 are Nightshade/Daylight/Primal/Arcane school packs. **Triad** is hand-packaged
+**Matrix** is hand-packaged (`tools/max8/build_matrix_map.py`) — A-N packs match Spawn-N biome/faction;
+C-1..4 are Nightshade/Daylight/Primal/Arcane school packs. **Triple Hub** is hand-packaged
 (`tools/max8/build_triad.py`) — three identical 3×3 blocks (30 zones); A-homes, Mid war camps,
 Nightshade/Daylight/Primal/Arcane schools; Hub-W/M/E behind procedural random-pool Gate-W/M/E; triangle Portals
-Gate↔Gate @ 150k. **Bracket** is hand-packaged
+Gate↔Gate @ 150k. **Playoff Tree** is hand-packaged
 (`tools/max8/build_bracket.py`) — playoff 8→4→2→1 plus unpredictable random-pool Leaf-1..8 farm pockets (23 zones). **Hub** is hand-packaged (`tools/max8/build_hub_arms.py`) —
-dual Might (WarCamp) / Magic (ArcaneSanctuary) private spokes. **Boomerang** is hand-packaged
-(`tools/max8/build_boomerang_classic.py`) — unique blue Treasure vs orange SuperTreasure packs.
-**Citadel** is hand-packaged (`tools/max8/build_citadel.py`) — compressed H3 8XM8 lattice with red
-Player3/4/7/8 routes into Center.
+dense equal-ray star (8 identical Spawn→Inner seats + 7 diverse Tip→Gate fillers → Center). **Star** is hand-packaged
+(`tools/max8/build_star.py`) — Spawn → Outer → Inner → Center (25 zones) with Yellow/Orange/Red guards.
+**Web** is hand-packaged (`tools/max8/build_web.py`) — Treasure-1..8 ring + Inner-1..8 axes rim; guards escalate inward Yellow/Orange/Scarlet/Red.
 **Hourglass** is hand-packaged (`tools/max8/build_hourglass.py`) — Rim and Mid payloads are fully
 procedural from official Expanse pools; WarCamp west / utility east Lows; ArcaneSanctuary Deeps;
 Final center prize.
+**Trident** is hand-packaged (`tools/max8/build_trident.py`) — co-op shaft with Portal@150k;
+three AI tines off a Deep-shield core; maximizes hop distance from P1/P2 to each AI.
+**Ring Ladder** is hand-packaged (`tools/max8/build_prism.py`) — 32-zone 3-regular circular ladder
+(outer spawn/buffer + inner farm/treasure + spokes); Ring economy payloads remapped.
+**Double Ring** is hand-packaged (`tools/max8/build_lattice.py`) — Ring Ladder + sector diagonals
+(Spawn↔Treasure, Buffer↔Farm); every zone degree 4 (64 Direct).
 Do **not** run `diversify_max8_neutrals.py`, `rewire_max8_pools.py`, or
-`normalize_max8_to_matrix.py` on Matrix Map / Bracket / Hub / Ring / Boomerang / Triad / Citadel / Hourglass (HAND_PACKAGED).
+`normalize_max8_to_matrix.py` on Matrix / Playoff Tree / Hub / Ring / Triple Hub / Hourglass / Trident / Star / Web / Ring Ladder / Double Ring (HAND_PACKAGED).
 Near-dupe check: `python tools/max8/topology_fingerprint.py content/templates/max8`.
 
 **Co-op fairness:** see [`../../docs/oe/coop-fairness-review.md`](../../docs/oe/coop-fairness-review.md).
@@ -113,22 +121,22 @@ All maps: **classic win**, **co-op tier A**. Ally Player1 + Player2; seat six AI
 | Template | Macro tier | Contact | Co-op seats |
 |---|---|---|---|
 | **Ring** | Lean | Slow | P1/P2 antipodal (auto) |
+| **Ring Ladder** | Lean | Slow | P1/P2 on Spawn-A / Spawn-E |
+| **Double Ring** | Lean | Medium | P1/P2 on Spawn-A / Spawn-E |
 | **Mesh** | Standard | Medium | P1/P2 antipodal (auto) |
-| **Spokes** | Lean | Slow | P1/P2 antipodal hub arms |
-| **Wheel** | Lean | Slow | P1/P2 antipodal (auto) |
-| **Web** | Dense | Fast | P1/P2 antipodal (auto) |
-| **Wings** | Dense | Medium | P1/P2 antipodal (auto) |
-| **Boomerang** | Dense | Medium | P1/P2 tip Spawn-A / Spawn-B |
-| **Spider** | Dense | Medium | P1/P2 antipodal (auto) |
-| **Bracket** | Standard | Medium | P1/P2 on Spawn-1 / Spawn-8 |
+| **Star** | Lean | Slow | P1/P2 on Spawn-A / Spawn-E |
+| **Web** | Lean | Slow | P1/P2 antipodal (auto) |
+| **Twin Fans** | Dense | Medium | P1/P2 antipodal (auto) |
+| **Target Core** | Dense | Medium | P1/P2 antipodal (auto) |
+| **Playoff Tree** | Standard | Medium | P1/P2 on Spawn-1 / Spawn-8 |
 | **Hub** | Standard | Slow | P1/P2 on Spawn-A / Spawn-E |
-| **Triad** | Standard | Slow | P1/P2 on W-S1 / E-S2 (triangle portals) |
-| **Spine** | Standard | Slow | P1/P2 on Spawn-A / Spawn-E (portal) |
-| **Domino** | Standard | Slow | P1/P2 on Spawn-A / Spawn-E (portal) |
-| **Channel** | Standard | Slow | P1/P2 on Spawn-A / Spawn-E (dual portal) |
-| **Matrix Map** | Standard | Medium | P1/P2 antipodal (Spawn-1 / Spawn-2) |
-| **Citadel** | Standard | Medium | P1/P2 antipodal (auto; Spawn-1 / Spawn-6) |
+| **Triple Hub** | Standard | Slow | P1/P2 on W-S1 / E-S2 (triangle portals) |
+| **Twin Wings** | Standard | Slow | P1/P2 on Spawn-A / Spawn-E (portal) |
+| **Twin Blocks** | Standard | Slow | P1/P2 on Spawn-A / Spawn-E (portal) |
+| **Twin Loop** | Standard | Slow | P1/P2 on Spawn-A / Spawn-E (dual portal) |
+| **Matrix** | Standard | Medium | P1/P2 antipodal (Spawn-1 / Spawn-2) |
 | **Hourglass** | Standard | Slow | P1/P2 on Spawn-1 / Spawn-8 (opposite arcs) |
+| **Trident** | Standard | Slow | P1/P2 on Spawn-1 / Spawn-2 (Portal@150k) |
 
 Lobby: pick any max8 template → seat two humans on Player1/Player2 → ally them → six AI on 3–8.
 
@@ -143,9 +151,9 @@ Topology unchanged; economy uses Matrix role ladder × family factor (flat budge
 
 | Family | Templates | Factor | Spawn GCV target |
 |---|---|---:|---:|
-| **Lean** | Ring, Wheel, Spokes | 0.75× | ~338k |
-| **Standard** | Mesh, Bracket, Hub, Triad, Spine, Domino, Channel, Matrix Map, Citadel, Hourglass | 1.0× | 450k |
-| **Dense** | Spider, Web, Wings, Boomerang | 1.25× | ~563k |
+| **Lean** | Ring, Ring Ladder, Double Ring, Web, Star | 0.75× | ~338k |
+| **Standard** | Mesh, Playoff Tree, Hub, Triple Hub, Twin Wings, Twin Blocks, Twin Loop, Matrix, Hourglass, Trident | 1.0× | 450k |
+| **Dense** | Target Core, Twin Fans | 1.25× | ~563k |
 
 Matrix role ladder (× factor): Spawn 450k → mid/Treasure 550k → junction/Connector 650k →
 deep/SuperTreasure 900k → Center 1.0M. Base guards banded **15k / 35k / 85k** (`wi` 0.15), then
@@ -156,19 +164,13 @@ near/mid/far kits from `apply_max8_ai_coop_ease.py`.
 **Win conditions (all 17):** `classic` only — no hold-city, no lost-start-city, no encounter holes.
 Applied by `tools/max8/apply_max8_coop_classic.py`.
 
-- **Matrix Map** — 5×5 lattice (25 zones); yellow 15K / orange 35K Direct; red 85K Portals into Center
-- **Citadel** — compressed H3 8XM8 (29 zones); Treasure-1/4/5/6 are fully procedural mystery
-  pockets (no mandatory pack, caps, fixed biome, or fixed faction); SuperTreasure wall ring;
-  the four Center approaches are themed Might war camps (P4/P8 side) and Magic schools
-  (altar + amplifier, P3/P7 side); one cardinal Hub per side docked to both mid-wall
-  SuperTreasures (orange); red approach↔Center routes.
-  Regenerate: `python tools/max8/build_citadel.py`.
-- **Triad** — three identical 3×3 blocks + Gate-W/M/E (30 zones); every block runs a
+- **Matrix** — 5×5 lattice (25 zones); yellow 15K / orange 35K Direct; red 85K Portals into Center
+- **Triple Hub** — three identical 3×3 blocks + Gate-W/M/E (30 zones); every block runs a
   school–Hub axis with corner spawns; co-op P1/P2 sit hub-adjacent on the south slot (Mid's south
   slot holds the Primal school); yellow 15K / orange 35K Direct inside blocks; triangle Portals
   Gate-W↔Gate-M↔Gate-E at **150k** (hubs one hop behind); Gate payloads are fully procedural from
   official connector pools. Regenerate: `python tools/max8/build_triad.py`.
-- **Bracket** — playoff tree 8→4→2→1 with unpredictable random-pool Leaf-1..8 farm pockets (23 zones); yellow 15K /
+- **Playoff Tree** — playoff tree 8→4→2→1 with unpredictable random-pool Leaf-1..8 farm pockets (23 zones); yellow 15K /
   orange 50K Direct; red 150K Portals into Final; rich spawn mandatories (hire 1–7 + mills);
   regenerate with `python tools/max8/build_bracket.py` then `apply_max8_coop_classic`.
 - **Hourglass** — bilateral hourglass 5→4→3→2→1←2←3←4←5 (29 zones); each outer arc holds 4 spawns +
@@ -176,8 +178,14 @@ Applied by `tools/max8/apply_max8_coop_classic.py`.
   Direct into Final; economy ladder
   Spawn 450k → Rim 500k → Low 550k → Mid 650k → Deep 900k → Final 1.0M. Regenerate with
   `python tools/max8/build_hourglass.py` then `apply_max8_coop_classic`.
-- **Twin Isles (Spine / Domino / Channel)** — two disconnected 4-player
-  figures (24 zones); yellow 15K leaves, orange 35K into Hub; West↔East only via Portal(s)
+- **Trident** — co-op shaft Spawn-1/2 (31 zones); Portal Gate-W↔Gate-E @ **150k**;
+  Buffer→Might→Magic spines into Center; Deep-1/2/3 shields mesh to each other and Center;
+  three AI tines on Might-1 / Magic-1 / Gate-S with Outer leaves. Regenerate: `python tools/max8/build_trident.py`.
+- **Ring Ladder** — circular ladder Y16 (32 zones); every zone path-degree 3 (48 Direct); outer
+  Spawn/Buffer ring + inner Farm/Treasure ring + spokes; AI red flanks toward P1/P2.
+  Regenerate: `python tools/max8/build_prism.py`.
+- **Twin Isles (Twin Wings / Twin Blocks / Twin Loop)** — two disconnected 4-player
+  figures (Twin Wings/Twin Loop 24 zones, Twin Blocks 32); yellow 15K leaves, orange 35K into Hub; West↔East only via Portal(s)
   at **150k**. Regenerate: `python tools/max8/build_twins_set.py`.
 
 Spawn content (all non-Matrix via normalize + spawn profile):

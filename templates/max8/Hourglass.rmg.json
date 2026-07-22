@@ -1,7 +1,7 @@
 {
   "name": "Hourglass",
   "gameMode": "Classic",
-  "description": "v2 — Bilateral hourglass 5→4→3→2→1←2←3←4←5 (29 zones); Matrix ladder Low=A homes / Mid=B connectors / Deep=C schools; Rim mid-arc gates stay random-pool; Final behind red Portals (85k). Direct 15k/35k/50k. Co-op Classic.",
+  "description": "v2 - Bilateral hourglass 5->4->3->2->1<-2<-3<-4<-5 (29 zones); Matrix ladder Low=A homes / Mid=B connectors / Deep=C schools; Rim mid-arc gates stay random-pool; Final behind red Portals (85k). Direct 15k/35k/50k. Co-op Classic.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,

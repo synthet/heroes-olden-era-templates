@@ -1,7 +1,7 @@
 {
   "name": "Mesh",
   "gameMode": "Classic",
-  "description": "v1 — Dense bipartite diamond grid (16 zones); +10% spawn macro vs Ring. Co-op Classic. · Matrix-balanced economy.",
+  "description": "v1 - Dense bipartite diamond grid (16 zones); +10% spawn macro vs Ring. Co-op Classic. - Matrix-balanced economy.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,

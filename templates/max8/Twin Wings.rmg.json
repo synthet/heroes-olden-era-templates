@@ -1,7 +1,7 @@
 {
-  "name": "Spine",
+  "name": "Twin Wings",
   "gameMode": "Classic",
-  "description": "v3 — Twin truss spines: triangulated beam (vertebrae + ribs), Buffer→Hub under center; 4 mirrored interior zones use unpredictable random-pool content; islands isolated except P1↔P2 Portal Treasure-A↔Treasure-G (150k). Co-op Classic · Matrix Standard. · Matrix-balanced economy.",
+  "description": "v3 - Twin butterfly lobes: triangulated beam (vertebrae + ribs), Buffer->Hub under center; 4 mirrored interior zones use unpredictable random-pool content; islands isolated except P1<->P2 Portal Treasure-A<->Treasure-G (150k). Co-op Classic - Matrix Standard. - Matrix-balanced economy.",
   "displayWinCondition": "win_condition_1",
   "sizeX": 240,
   "sizeZ": 240,
