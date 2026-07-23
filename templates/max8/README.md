@@ -29,6 +29,8 @@ python tools/max8/build_trident.py
 python tools/max8/build_prism.py
 # Double Ring: 32-zone 4-regular K4 necklace (HAND_PACKAGED):
 python tools/max8/build_lattice.py
+# Mesh typed mid prizes (HAND_PACKAGED):
+python tools/max8/ring_neutral_diversity.py
 ```
 
 Audit spawn/center economy bands: `python tools/max8/analyze_economy_density.py --matrix` (writes
@@ -44,10 +46,10 @@ All 17 **PASS** `python tools/validate/validate_rmg.py content/templates/max8`.
 
 | Template | Base (size) | Topology |
 |---|---|---|
-| **Ring** | Diamond (144, rewired) | Fully buffered ring — every spawn CW+CCW flanks; hard AI exits (32 zones) |
-| **Ring Ladder** | Ring (240, rewired) | Circular ladder Y16 — outer spawn/buffer + inner farm/treasure + spokes; every zone degree 3 (32 zones) |
+| **Ring** | Diamond (144, rewired) | Fully buffered ring — every spawn CW+CCW flanks; typed prizes (Magic/Connector/Deep); hard AI exits (32 zones) |
+| **Ring Ladder** | Ring (240, rewired) | Circular ladder Y16 — outer spawn/buffer + inner typed lean/rich ring (Might/Magic/Side/…) + spokes; every zone degree 3 (32 zones) |
 | **Double Ring** | Ring (240, rewired) | 4-regular K4 necklace — Ring Ladder + sector diagonals; every zone degree 4 (32 zones) |
-| **Mesh** | Diamond (144) | Dense bipartite mesh (16 zones) |
+| **Mesh** | Diamond (144) | Dense bipartite mesh; typed mid prizes (Magic/Connector/Deep) (16 zones) |
 | **Star** | Ikarus (160, rewired → hand) | Max-hop star: Spawn → Outer → Inner → `Center` (25 zones) |
 | **Web** | Ikarus (160, deepened) | Dual-rim web: Treasure + Inner axes (25 zones) |
 | **Twin Fans** | Boomerang (144, rewired) | Mirrored twin wings; Elbow-W/E gate `Center` (19 zones) |
@@ -75,6 +77,7 @@ Twin-wing Twin Fans: `python tools/max8/build_wings.py` (also via `rework_max8_v
 Trident: `python tools/max8/build_trident.py`.
 Ring Ladder circular ladder: `python tools/max8/build_prism.py`.
 Double Ring 4-regular necklace: `python tools/max8/build_lattice.py`.
+Mesh typed mid prizes: `python tools/max8/ring_neutral_diversity.py`.
 
 **Diversity:** Distinct zone graphs across the max8 set. Topologies: ring, ring ladder (3-regular
 ladder), double ring (4-regular K4 necklace), mesh, star, web,
@@ -105,11 +108,14 @@ Final center prize.
 **Trident** is hand-packaged (`tools/max8/build_trident.py`) — co-op shaft with Portal@150k;
 three AI tines off a Deep-shield core; maximizes hop distance from P1/P2 to each AI.
 **Ring Ladder** is hand-packaged (`tools/max8/build_prism.py`) — 32-zone 3-regular circular ladder
-(outer spawn/buffer + inner farm/treasure + spokes); Ring economy payloads remapped.
+(outer spawn/buffer + inner typed lean/rich ring + spokes); single `AbandonedOutpost` per neutral;
+unique themed packs via `ring_neutral_diversity.py`.
 **Double Ring** is hand-packaged (`tools/max8/build_lattice.py`) — Ring Ladder + sector diagonals
-(Spawn↔Treasure, Buffer↔Farm); every zone degree 4 (64 Direct).
+(Spawn↔rich typed, Buffer↔lean typed); every zone degree 4 (64 Direct).
+**Mesh** is hand-packaged (`tools/max8/ring_neutral_diversity.py`) — bipartite mesh with typed
+mid prizes and single outpost per neutral.
 Do **not** run `diversify_max8_neutrals.py`, `rewire_max8_pools.py`, or
-`normalize_max8_to_matrix.py` on Matrix / Playoff Tree / Hub / Ring / Triple Hub / Hourglass / Trident / Star / Web / Ring Ladder / Double Ring (HAND_PACKAGED).
+`normalize_max8_to_matrix.py` on Matrix / Playoff Tree / Hub / Ring / Triple Hub / Hourglass / Trident / Star / Web / Ring Ladder / Double Ring / Mesh (HAND_PACKAGED).
 Near-dupe check: `python tools/max8/topology_fingerprint.py content/templates/max8`.
 
 **Co-op fairness:** see [`../../docs/oe/coop-fairness-review.md`](../../docs/oe/coop-fairness-review.md).
@@ -182,8 +188,10 @@ Applied by `tools/max8/apply_max8_coop_classic.py`.
   Buffer→Might→Magic spines into Center; Deep-1/2/3 shields mesh to each other and Center;
   three AI tines on Might-1 / Magic-1 / Gate-S with Outer leaves. Regenerate: `python tools/max8/build_trident.py`.
 - **Ring Ladder** — circular ladder Y16 (32 zones); every zone path-degree 3 (48 Direct); outer
-  Spawn/Buffer ring + inner Farm/Treasure ring + spokes; AI red flanks toward P1/P2.
-  Regenerate: `python tools/max8/build_prism.py`.
+  Spawn/Buffer ring + inner typed lean/rich ring (Might/Magic/Side/Connector/Outer/Deep) + spokes;
+  AI red flanks toward P1/P2. Regenerate: `python tools/max8/build_prism.py`.
+- **Double Ring** — Ring Ladder + sector diagonals (32 zones / 64 Direct); every zone degree 4.
+  Regenerate: `python tools/max8/build_lattice.py`.
 - **Twin Isles (Twin Wings / Twin Blocks / Twin Loop)** — two disconnected 4-player
   figures (Twin Wings/Twin Loop 24 zones, Twin Blocks 32); yellow 15K leaves, orange 35K into Hub; West↔East only via Portal(s)
   at **150k**. Regenerate: `python tools/max8/build_twins_set.py`.
